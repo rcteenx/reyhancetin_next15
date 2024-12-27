@@ -2,20 +2,172 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Css Base for this project */
+@layer base {
+  body {
+    @apply text-sm md:text-base font-base text-indigo;
+  }
+  h1 {
+    @apply my-6 font-bold text-4xl md:text-5xl lg:text-6xl leading-tight tracking-normal;
+  }
+  h2 {
+    @apply my-4 font-bold text-3xl md:text-4xl lg:text-5xl text-center;
+  }
+  h3 {
+    @apply my-2 font-bold text-2xl md:text-3xl lg:text-4xl;
+  }
+  h4 {
+    @apply font-semibold;
+  }
+  h4,
+  h5,
+  h6 {
+    @apply my-1 text-base;
+  }
+  p {
+    @apply my-1 text-base;
+  }
+  #pgContent h2 {
+    @apply mx-auto py-1 inline-block  border-indigo border-b text-center text-2xl md:text-4xl;
+  }
+  #pgContent h3 {
+    @apply mx-auto py-1 font-semibold text-center text-xl md:text-2xl;
+  }
+
+  article h2 {
+    @apply text-blue-900;
+  }
+  article h3 {
+    @apply text-blue-800;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .gradientIndigo {
+    @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white-400;
+  }
+  .gradientPrimary {
+    @apply bg-gradient-to-br from-primary to-black text-white;
+  }
+  .gradientPrimaryToWhite {
+    @apply bg-gradient-to-b from-[#f7f7f7] to-primary;
+  }
+  .gradientAccent {
+    @apply bg-gradient-to-br from-accent to-black text-white;
+  }
+  .gradientPurpleToBlack {
+    @apply bg-gradient-to-r from-purple-300 to-purple-800 text-white;
+  }
+  .gradientAccentToWhite {
+    @apply bg-gradient-to-br from-accent to-white;
+  }
+  .gradientPurple {
+    @apply bg-gradient-to-br from-purple-300 to-white;
+  }
+  .gradientWhiteToIndigo {
+    @apply bg-gradient-to-br from-white to-indigo  text-black;
+  }
+  .gradientTransition {
+    @apply hover:scale-110 transition duration-300 ease-out
+      cursor-pointer;
+  }
+
+  .btn-hero {
+    @apply flex justify-center items-center gap-2 px-4 py-2 border border-indigo leading-none rounded-full;
+  }
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-indigo-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-indigo-gray max-sm:rounded-full;
+  }
+}
+
+@layer utilities {
+  .container-p {
+    @apply px-4 md:px-8 lg:px-12;
+  }
+
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .info-text {
+    @apply text-indigo-gray text-lg leading-8;
+  }
+  .bg-livechat {
+    background-image: url("/assets/images/bg-hero-1920-480.png");
+  }
+}
+
+.box-shadow {
+  @media screen and (min-width: 1024px) {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+      0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.containerSvg {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+.svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.redWave {
+  stroke: none;
+  fill: red;
+}
+
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333366;
+  opacity: 0.5;
+  z-index: 0;
+  transform: skewY(-8deg);
+  transform-origin: top left;
+}
+.curved {
+  position: relative;
+  background: #333366;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 30% 100%;
+}
+
+.curvedR {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.curvedR::after {
+  content: "";
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #333366;
+  opacity: 0.5;
 }
