@@ -50,6 +50,12 @@
 }
 
 @layer components {
+  .gradientInstagram {
+    @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
+  }
+  .gradientInstagramBlur {
+    @apply bg-gradient-to-r from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
+  }
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white-400;
   }
@@ -80,7 +86,7 @@
   }
 
   .btn-hero {
-    @apply flex justify-center items-center gap-2 px-4 py-2 border border-indigo leading-none rounded-full;
+    @apply flex justify-center items-center gap-2 px-4 py-2 leading-none rounded-full;
   }
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-indigo-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-indigo-gray max-sm:rounded-full;

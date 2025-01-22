@@ -2,17 +2,17 @@ export const contHero = {
   h2a: "Reyhan Çetin",
   h2b: "Bilinçli Farkındalık Çemberi",
   h1a: "ARKADAŞ ÇEMBERİMİZE",
-  h1b: "Hoş geldiniz",
-  desc: "Bilinç ve farkındalık sohbetleri, meditasyon ve grup çalışmalarımızla yolculuğu paylaşıyoruz.",
+  h1b: "hoş geldiniz",
+  desc: "Bilinç ve farkındalık sohbetleri, meditasyon ve grup çalışmalarıyla yollarımız birleşiyor. Merhaba demek için, sosyal medyaya bekliyoruz.",
   btn1: "Instagram",
-  btn2: "WhatsApp",
+  btn2: "Youtube",
+  // btn2: "WhatsApp",
   btn3: "Bilgi Al",
-  quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 
 export const barInfo = {
-  h2: "BİLİNÇ ve FARKINDALIK YOLCULUĞU",
-  desc: "Hayatın içinde pratik bir çalışma",
+  h2: "BİLİNÇ ve FARKINDALIK ÇALIŞMALARI",
+  desc: "Hayatın içinde kendini-gözlem ile bilinçli yolculuk",
   items: [
     {
       title: "Çalışma",
@@ -219,10 +219,12 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Davet",
-    link: "davet",
+    title: "Çember",
+    link: "cember",
     pages: [
-      { id: 1, title: "Giriş Atölyesi", link: "atolye" },
+      { id: 1, title: "Sosyal Medya", link: "sosyal" },
+      { id: 2, title: "Seminer", link: "seminer" },
+      { id: 3, title: "Grup Çalışmaları", link: "grup" },
       // {
       //   id: 2,
       //   title: "Tanıtım Semineri",
@@ -267,11 +269,11 @@ export const StaticPages = [
 export const socialMedia = [
   {
     id: 1,
-    svgIcon: "facebook",
-    name: "facebook",
-    alt: "facebook logo",
-    title: "facebook sayfamıza bekleriz",
-    link: "https://www.facebook.com/reyhancetinve",
+    svgIcon: "youtube",
+    name: "youtube",
+    alt: "youtube logo",
+    title: "youtube kanalımıza bekleriz",
+    link: "https://www.youtube.com/@reyhancetinx",
   },
   {
     id: 2,
@@ -279,7 +281,15 @@ export const socialMedia = [
     name: "instagram",
     alt: "instagram logo",
     title: "instagram sayfamıza bekleriz",
-    link: "https://www.instagram.com/reyhancetinve",
+    link: "https://www.instagram.com/reyhancetinx",
+  },
+  {
+    id: 3,
+    svgIcon: "facebook",
+    name: "facebook",
+    alt: "facebook logo",
+    title: "facebook sayfamıza bekleriz",
+    link: "https://www.facebook.com/reyhancetinx",
   },
 ];
 

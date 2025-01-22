@@ -3,6 +3,7 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaYoutube,
   FaArrowRight,
   FaRegFileAlt,
   FaInfoCircle,
@@ -22,6 +23,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const iconTypes = {
   facebook: FaFacebook,
   instagram: FaInstagram,
+  youtube: FaYoutube,
   github: FaGithub,
   linkedin: FaLinkedin,
   arrowright: FaArrowRight,

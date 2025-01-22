@@ -5,6 +5,9 @@ import "./globals.css";
 
 import smd from "@/content/data/siteMetaData";
 
+import Header from "@/components/ui/Header";
+import Footer from "@/components/ui/footer/0-index";
+
 const base = Poppins({
   subsets: ["latin"],
   display: "swap",
@@ -25,7 +28,9 @@ export default function RootLayout({ children }) {
     <html lang={smd.language}>
       <body className={`${base.variable} antialiased`}>
         {/* <GoogleAnalytics /> */}
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
