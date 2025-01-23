@@ -24,6 +24,7 @@ export const contHero = {
       icon: "youtube",
       link: "https://www.youtube.com/@reyhancetinx",
       gradiant: "gradientYoutube",
+      show: "hidden md:block",
       iconColor: "#CD201F",
     },
   ],

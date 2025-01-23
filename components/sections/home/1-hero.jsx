@@ -22,7 +22,7 @@ const Hero = ({ rVideo }) => {
             {contHero.h1a}
           </span>
           <br />
-          <span className="text-primary inline-block mt-2 xl:mt-6 font-thin">
+          <span className="text-primary inline-block mt-2 md:mt-4 xl:mt-6 font-thin">
             {contHero.h1b}
           </span>
         </h1>
@@ -33,17 +33,19 @@ const Hero = ({ rVideo }) => {
         </div>
         <div className="my-4 flex flex-row flex-wrap space-x-4 justify-center">
           {contHero.buttons.map((b, index) => (
-            <a
-              key={b.icon}
-              href={b.link}
-              title="Instagram Linki"
-              className={` relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
-              role="button"
-              target="_blank"
-            >
-              <IconComponent name={b.icon} size={24} color={b.iconColor} />
-              <span className="hidden md:block">{b.title}</span>
-            </a>
+            <div key={b.icon} className={b.show}>
+              <a
+                href={b.link}
+                title="Instagram Linki"
+                className={` relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
+                role="button"
+                target="_blank"
+              >
+                <IconComponent name={b.icon} size={24} color={b.iconColor} />
+                <span>{b.title}</span>
+                {/* <span className="hidden md:block">{b.title}</span> */}
+              </a>
+            </div>
           ))}
         </div>
       </div>
