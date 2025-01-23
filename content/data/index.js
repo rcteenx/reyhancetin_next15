@@ -19,13 +19,13 @@ export const contHero = {
       gradiant: "gradientWhatsapp",
       iconColor: "white",
     },
-    // {
-    //   title: "Youtube",
-    //   icon: "youtube",
-    //   link: "https://www.youtube.com/@reyhancetinx",
-    //   gradiant: "gradientYoutube",
-    //   iconColor: "#CD201F",
-    // },
+    {
+      title: "Youtube",
+      icon: "youtube",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "gradientYoutube",
+      iconColor: "#CD201F",
+    },
   ],
 };
 

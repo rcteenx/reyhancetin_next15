@@ -31,7 +31,7 @@ const Hero = ({ rVideo }) => {
             {contHero.desc}
           </p>
         </div>
-        <div className="my-4 flex flex-row flex-wrap space-x-2 lg:space-x-4 justify-center">
+        <div className="my-4 flex flex-row flex-wrap space-x-4 justify-center">
           {contHero.buttons.map((b, index) => (
             <a
               key={b.icon}
@@ -42,7 +42,7 @@ const Hero = ({ rVideo }) => {
               target="_blank"
             >
               <IconComponent name={b.icon} size={24} color={b.iconColor} />
-              {b.title}
+              <span className="hidden md:block">{b.title}</span>
             </a>
           ))}
         </div>
