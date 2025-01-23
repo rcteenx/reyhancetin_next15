@@ -8,7 +8,7 @@ const Hero = ({ rVideo }) => {
       className="md:container-p max-w-7xl mx-auto my-4 xl:my-8 flex flex-col xl:flex-row justify-center gap-0"
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left ">
-        <h2 className="mt-8 font-light text-center xl:text-left text-2xl lg:text-3xl text-primary leading-6">
+        <h2 className="mt-6 font-light text-center xl:text-left text-2xl lg:text-3xl text-primary leading-6">
           <span className="border-b border-indigo xl:border-primary">
             {contHero.h2a}
           </span>
@@ -17,17 +17,17 @@ const Hero = ({ rVideo }) => {
             {contHero.h2b}
           </span>
         </h2>
-        <h1 className="mt-8 mb-0 text-2xl md:text-5xl lg:text-6xl font-bold text-indigo">
+        <h1 className="mt-6 mb-0 text-2xl md:text-5xl lg:text-6xl font-bold text-indigo">
           <span className="px-4 xl:pr-8 xl:-ml-4 xl:bg-white xl:whitespace-nowrap relative z-10 rounded-full  xl:rounded-l-none shadow-lg ">
             {contHero.h1a}
           </span>
           <br />
-          <span className="text-primary inline-block mt-4 xl:mt-6 font-thin">
+          <span className="text-primary inline-block mt-2 xl:mt-6 font-thin">
             {contHero.h1b}
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-8 px-4 md:px-0 text-primary  text-xs md:text-sm">
+          <p className="my-6 px-4 md:px-0 text-primary  text-xs md:text-sm">
             {contHero.desc}
           </p>
         </div>
