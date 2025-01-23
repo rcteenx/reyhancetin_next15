@@ -22,52 +22,29 @@ const Hero = ({ rVideo }) => {
             {contHero.h1a}
           </span>
           <br />
-          <span className="text-primary inline-block mt-4 font-thin">
+          <span className="text-primary inline-block mt-4 xl:mt-6 font-thin">
             {contHero.h1b}
           </span>
         </h1>
-        <p className="my-8 mx-auto px-4 md:mx-0 md:px-0  text-primary font-light">
-          {contHero.desc}
-        </p>
-        <div className="flex my-2 flex-row space-x-4 justify-center md:justify-start">
-          {/* <div className="absolute transitiona-all duration-1000 opacity-80 -inset-px gradientInstagramBlur rounded-2xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div> */}
-          <a
-            href="https://www.instagram.com/reyhancetinx/"
-            title="Instagram Linki"
-            className="relative text-white transition-all duration-200 gradientInstagram gradientTransition btn-hero"
-            role="button"
-            target="_blank"
-          >
-            <IconComponent name="instagram" size={24} color="white" />
-            {contHero.btn1}
-          </a>
-          <a
-            href="https://wa.me/905443087402?text=at%C3%B6lye%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%0A"
-            title="WhatsApp Mesajı Gönderin"
-            className="relative text-white transition-all duration-200 gradientWhatsapp gradientTransition btn-hero"
-            role="button"
-          >
-            {contHero.btn2}
-            <IconComponent name="whatsapp" size={24} color="white" />
-          </a>
-          <a
-            href="https://www.youtube.com/@reyhancetinx"
-            title="Youtube Linki"
-            className="relative  transition-all duration-200 btn-hero bg-white text-black border gradientTransition "
-            role="button"
-            target="_blank"
-          >
-            <IconComponent name="youtube" size={24} color="#CD201F" />
-            {contHero.btn3}
-          </a>
-          {/* <a
-            href={
-              "/" + StaticPages[2].link + "/" + StaticPages[2].pages[0].link
-            }
-            className="btn-hero text-lg border-0 hover:text-indigo-light-3"
-          >
-            <span className="border-b">{contHero.btn4}</span>
-          </a> */}
+        <div className="mx-auto max-w-2xl">
+          <p className="my-8 px-4 md:px-0 text-primary  text-xs md:text-sm">
+            {contHero.desc}
+          </p>
+        </div>
+        <div className="flex my-4 flex-row space-x-2 lg:space-x-4 justify-center">
+          {contHero.buttons.map((b, index) => (
+            <a
+              key={b.icon}
+              href={b.link}
+              title="Instagram Linki"
+              className={` relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
+              role="button"
+              target="_blank"
+            >
+              <IconComponent name={b.icon} size={24} color={b.iconColor} />
+              {b.title}
+            </a>
+          ))}
         </div>
       </div>
       <div className="mx-auto px-4 md:py-0 flex flex-col justify-end">

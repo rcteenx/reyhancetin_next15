@@ -3,11 +3,30 @@ export const contHero = {
   h2b: "Bilinçli Farkındalık Çemberi",
   h1a: "ARKADAŞ ÇEMBERİMİZE",
   h1b: "hoş geldiniz",
-  desc: "Bilinç ve farkındalık sohbetleri, meditasyon ve grup çalışmalarıyla yollarımız birleşiyor ve Çember oluşuyor. Tanışmak için sizi de bekliyoruz.",
-  btn1: "Instagram",
-  btn2: "WhatsApp",
-  btn3: "Youtube",
-  btn4: "Bilgi Al",
+  desc: "Bilinçli farkındalık sohbetleri, kendini-gözlem seminerleri ve çeşitli meditasyonlarla yollarımız birleşiyor. Çember'de yerinizi almak için:",
+  buttons: [
+    {
+      title: "Instagram",
+      icon: "instagram",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientInstagram",
+      iconColor: "white",
+    },
+    {
+      title: "WhatsApp",
+      icon: "whatsapp",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientWhatsapp",
+      iconColor: "white",
+    },
+    {
+      title: "Youtube",
+      icon: "youtube",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "gradientYoutube",
+      iconColor: "#CD201F",
+    },
+  ],
 };
 
 export const barInfo = {
@@ -56,9 +75,9 @@ export const selfObservation = {
 };
 
 export const gozlemSemineri = {
-  h2: "KENDİNİ GÖZLEM SEMİNERİ",
-  h4: "Neden Kendimizi Yolculuğuna ve Kendimizi Çalışmaya İhtiyacımız var?",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  h2: "BİLİNÇ ve FARKINDALIK ÇALIŞMALARI",
+  h4: "Neden Yolculuğa ve Kendimizi Çalışmaya İhtiyacımız var?",
+  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor.",
   p2: 'Bu topluluk daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için. Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
 };
 
