@@ -53,6 +53,9 @@
   .gradientInstagram {
     @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
   }
+  .gradientWhatsapp {
+    @apply bg-gradient-to-br from-[#dcf8c6] via-[#25d366] to-[#128c7e] text-white;
+  }
   .gradientInstagramBlur {
     @apply bg-gradient-to-r from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
   }

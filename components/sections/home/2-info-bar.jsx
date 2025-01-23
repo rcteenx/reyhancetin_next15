@@ -8,7 +8,7 @@ export default function InfoBar({ info }) {
         <p className="my-1 text-indigo-light-5 text-sm md:text-xl lg:text-2xl">
           {info.desc}
         </p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:divide-x divide-indigo-light-1 lg:[&>*]:pl-14 mt-4 lg:mt-8 md:text-left bg-indigo-dark-1 mx-4 p-4 rounded-xl">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:divide-x divide-indigo-dark-3  lg:[&>*]:pl-14 mt-4 lg:mt-8 md:text-left bg-indigo-dark-1 mx-4 p-4 rounded-xl">
           {info.items.map((i, index) => (
             <div key={index} className="text-center lg:text-left ">
               <div className="text-lg lg:text-2xl text-indigo-light-3 ">
