@@ -31,8 +31,8 @@ export const contHero = {
 };
 
 export const barInfo = {
-  h2: "BİLİNÇ ve FARKINDALIK ÇALIŞMALARI",
-  desc: "Hayatın içinde kendini-gözlem ile bilinçli yolculuk",
+  h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
+  desc: "Hayatın içinde kendini-gözlem ile başlayan yolculuk",
   items: [
     {
       title: "Çalışma",
@@ -53,91 +53,111 @@ export const barInfo = {
   ],
 };
 
-export const selfObservation = {
-  h2: "KAYNAĞA YOLCULUK",
-  p1: "Pandemi sürecinde ara verdiğimiz bilinç çalışmaları, sessizlikte gelişen spritüel farkındalıkla olgunlaştı.",
-  p2: 'Bu yeni anlayışı, ihtiyaç duyanlara ulaştırmak ve "Kaynağa Yolculuğumuz"a devam etmek için çaba harcayan arkadaşlarla bir topluluğa dönüşüyoruz.',
-  h3: "Neden Çalışıyoruz?",
-  p3: "Kendi üzerimizdeki çalışmanın temel kazanımları:",
+export const backToSource = {
+  h2: "KAYNAĞA DÖNÜŞ",
+  p1: "Çokluk içinde birliği görmek, senaryosunu yazıp oynadığımız filmin aynı zamanda izleyicisi olduğumuzu hatırlamak için kendimize yolculuk yapıyoruz.",
+  // p2: "Tüm deneyim ve gözlemler, kendisinden yeni formlara yayıldığımız, ama bir an ayrı olmadağımız Saf Farkındalık'a doğru bir dönüş yolculuğumuzdur.",
+  h3: "Çalışmalar Ne Kazandırıyor?",
+  p3: "Bilinçli farkındalık çalışmalarının temel kazanımları:",
   items: [
     {
-      title: "Kendini Tanıma",
-      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ama bilincimizin farkında mıyız? Bilinç bir anlamda rastgele içimizde beliriyor. Bilincinizi fark etmeyi ve bunu farkındalıkla geliştirmeyi istemez misiniz?",
+      title: "Bilinç",
+      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ancak çoğu zaman bu potansiyelden uzaktayız. Genellikle, bilinç kendiliğinden olarak ortaya çıkıyor. Bilincimizi, kendinizi-gözlemleyerek fark ediyor ve geliştiriyoruz.",
     },
     {
       title: "Farkındalık",
-      info: "Saf farkındalık, tüm duyu, duygu ve düşüncelerin ötesinde asıl varlığımızın bulunduğu bir alan. Ancak bize yüklenen tanımlar ve programlar nedeniyle kendimizden oldukça uzakta yaşıyoruz.",
+      info: "Tüm duyu, duygu ve düşüncelerin ve hatta bilincin bile ötesinde, asıl varlığımızın bulunduğu bir tekillik alanı var. Ancak bize yüklenen bilgi ve programlar nedeniyle, saf farkındalığımızı unutmuş durumdayız.",
     },
     {
-      title: "Bilinç",
-      info: "Tüm arayış çalışmaları, insanın kendisini sorgulamaya başlamasına dayanıyor. Böyle bir sorgulama ateşi başladıysa, kendinizi bulana kadar devam edecek bir yangına dönüşüyor.",
+      title: "Kendini Tanıma",
+      info: "Tüm arayış çalışmaları, bir şeyleri fark etmek ve sorgulamaya başlamaya dayanıyor. Böyle bir sorgulama ateşi, kendinizi bulana ve hatta ateşle temizleyene kadar devam edecek bir yangın başlatıyor.",
     },
   ],
 };
 
-export const gozlemSemineri = {
-  h2: "BİLİNÇ ve FARKINDALIK ÇALIŞMALARI",
-  h4: "Neden Yolculuğa ve Kendimizi Çalışmaya İhtiyacımız var?",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor.",
-  p2: 'Bu topluluk daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için. Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
+export const whyWork = {
+  h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
+  h4: "Neden Kendimize Yolculuğa ve Kendimizi Çalışmaya İhtiyacımız Var?",
+  p1: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, bazılarımız, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor.",
+  p2: "Bu çalışma ve çember daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için.",
+  p3: 'Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
 };
 
-export const meetingTitle = {
-  h2: "HAFTALIK ÇALIŞMA PLANI",
-  p: 'Haftalık çalışmalarımız, temel niteliğinde olan "atölye"mize katılıp başarılı olan ve "bilinç yolu"nda ilerleyen arkadaşlar içindir.',
+export const selfObservation = {
+  h2: "KENDİNİ GÖZLEM",
+  p1: "Kendini gözlemleme, sanki bir güvenlik kamerası gibi, şimdi ve burada olanları kaydetmektir.",
+  h3: "Kendini-Gözlem Nedir?",
+  p3: "Hayatın içinde, kendimizi tanımaya ve dönüştürme.",
+  items: [
+    {
+      title: "O Şimdi Ne Yapıyor?",
+      info: "Gözlemin olması için, kişinin kendisini “ben - gözlemci” ve “makine - yani beden, duygu ve zihin”, olarak en az ikiye ayırmış olması gerekir. Gözlemci ve gözlenen ayrımı olmadan, tarafsız bir gözlem kolay olmaz.",
+    },
+    {
+      title: "Kendimizi Tanıma ve Değiştirme Aracı",
+      info: "Çoğumuz kendisini, objektif gerçeklerle değil, başta aile ve çevre olmak üzere, başkalarının bize yüklendiği kavramlarla, dolaylı olarak tanıyor. Kendimizi objektif ve tarafsız olarak gözlemlemeye başladığımızda, ne olup ne olmadığımızı kendi gözlerimizle görmeye başlıyoruz. Dahası, objektif ve tarafsız bir gözlemin başlaması, gözlemleneni - yani kendimizi - doğal olarak değiştirmeye başlıyor.",
+    },
+    {
+      title: "Kaynağa Dönüş",
+      info: 'Kendini gözlemleme, bir aşamada neyin ya da nelerin gerçekte "BEN" olmadığını anlamayı sağlıyor. Tıpkı iç içe girmiş Matruşka bebekleri gibi, ben olmayan katmanlardan ayrıldıkça, içerde kaynağa çok daha yakın "benlik" algılarına doğru yol alıyoruz.',
+    },
+  ],
 };
 
-export const meetingList = [
-  {
-    id: 1,
-    title: "Sohbet",
-    fulltitle: "Ezoterik Felsefe Araştırma ve Uygulama Sohbetleri",
-    time: "Pazartesi 21:30",
-    link: "sohbet",
-    bg: "gradientIndigo",
-    specs: [
-      "Yaratılış Işını",
-      "Bilinç, Farkındalık ve Ötesi",
-      "Bireysel Gözlem ve Deneyimler",
-      "Deneyime Dayalı Ezoterik Bilgiler",
-      "Spiritüel ve Metafizik Realiteler",
-      "Kendimizi Bulma",
-    ],
-  },
-  {
-    id: 2,
-    title: "Meditasyon",
-    fulltitle: "Bilinç ve Farkındalık Pratiği: Mindfulness Çalışmaları",
-    time: "Salı 21:30",
-    link: "meditasyon",
-    bg: "",
-    specs: [
-      "Bilinç ve Farkındalık Ayrımı",
-      "Duygu ve Düşüncenin Ötesinde",
-      "Farklı Katmanlarda Var Olmak",
-      "Farkındalığın Hayatımıza Katılımı",
-      "Bilinç ve Farkındalık Paylaşımı",
-      "Kendimiz Olma",
-    ],
-  },
-  {
-    id: 3,
-    title: "Grup Çalışması",
-    fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
-    time: "Çarşamba 21:30",
-    link: "grup",
-    bg: "gradientAccent",
-    specs: [
-      "Bizi Yöneten Benlikleri Fark Etmek",
-      "Kendimize bir Kahya Oluşturmak",
-      "Hayatın İçinde Farkındalık",
-      "Bireysel Gözlem Paylaşımı",
-      "Çember Desteği ve Açılımları",
-      "Kendimizi Çalışma",
-    ],
-  },
-];
-
+export const weeklyMeetings = {
+  h2: "ÇALIŞMALARA GİRİŞ",
+  p: "Çalışmaları tanımak ve bizimle birlikte yol almak için 3 farklı kapı açtık. İlki ücretsiz online sohbetlerimiz, diğeri haftalık seminerler ve son olarak çeşitli biçimlerde gerçekleştirdiğimiz meditasyonlar.",
+  meetingList: [
+    {
+      id: 1,
+      title: "Hafta Sonu Atölyeleri",
+      fulltitle: "Cumartesi-Pazar 11:00-15:00 / Ayda bir",
+      time: "1,200 TL",
+      link: "sohbet",
+      bg: "gradientIndigo",
+      specs: [
+        "Yaratılış Işını",
+        "Bilinç, Farkındalık ve Ötesi",
+        "Bireysel Gözlem ve Deneyimler",
+        "Deneyime Dayalı Ezoterik Bilgiler",
+        "Spiritüel ve Metafizik Realiteler",
+        "Kendimizi Bulma",
+      ],
+    },
+    {
+      id: 2,
+      title: "Seminerler",
+      fulltitle: "Kendini-Gözlem ve Ezoterik Felsefe Seminerleri",
+      time: "Pazartesi 21:00",
+      link: "seminer",
+      bg: "",
+      specs: [
+        "Yaratılış Işını",
+        "Bilinç, Farkındalık ve Ötesi",
+        "Bireysel Gözlem ve Deneyimler",
+        "Deneyime Dayalı Ezoterik Bilgiler",
+        "Spiritüel ve Metafizik Realiteler",
+        "Kendimizi Bulma",
+      ],
+    },
+    {
+      id: 3,
+      title: "Meditasyon",
+      fulltitle: "Bilinçli Farkındalık Pratikleri ve Oturmalar",
+      time: "Salı 21:00",
+      link: "meditasyon",
+      bg: "gradientAccent",
+      specs: [
+        "Bilinç ve Farkındalık Ayrımı",
+        "Duygu ve Düşüncenin Ötesinde",
+        "Farklı Katmanlarda Var Olmak",
+        "Farkındalığın Hayatımıza Katılımı",
+        "Bilinç ve Farkındalık Paylaşımı",
+        "Kendimiz Olma",
+      ],
+    },
+  ],
+};
 export const conditions = {
   h2: "ATÖLYE ÇALIŞMALARI",
   p: "Düzenli çalışmaların gerektirdiği donanımların kazanımı için yeni arkadaşları öncelikle atölye çalışmalarımıza bekliyoruz.",

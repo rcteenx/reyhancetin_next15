@@ -1,20 +1,45 @@
-import { rVideo, safFarkindalik } from "@/public/assets/images";
+import {
+  rVideo,
+  safFarkindalik,
+  kendiniGozlem,
+  grupCalismasi,
+} from "@/public/assets/images";
 
-import { barInfo, selfObservation, gozlemSemineri } from "@/content/data";
+import {
+  barInfo,
+  backToSource,
+  whyWork,
+  selfObservation,
+  weeklyMeetings,
+  conditions,
+} from "@/content/data";
 
 import Hero from "@/components/sections/home/1-hero";
 import InfoBar from "@/components/sections/home/2-info-bar";
 
-import SelfObservation from "@/components/sections/home/b-1-self-observation";
+import BackToSource from "@/components/sections/home/b-1-back-to-source";
 import WhyWeNeed from "@/components/sections/home/b-1-why-we-need";
+
+import SelfObservation from "@/components/sections/home/c-1-self-observation";
+import Seminer from "@/components/sections/home/c-2-seminer";
+
+import WeeklyMeetings from "@/components/sections/home/x-1-weekly-meetings";
+import AttendenceContitions from "@/components/sections/home/x-2-att-conditions";
 
 export default function Home() {
   return (
     <>
       <Hero rVideo={rVideo} />
       <InfoBar info={barInfo} />
-      <SelfObservation img={safFarkindalik} content={selfObservation} />
-      <WhyWeNeed need={gozlemSemineri} />
+
+      <BackToSource img={safFarkindalik} content={backToSource} />
+      <WhyWeNeed need={whyWork} />
+
+      <SelfObservation img={kendiniGozlem} content={selfObservation} />
+      <Seminer />
+
+      <WeeklyMeetings content={weeklyMeetings} />
+      <AttendenceContitions img={grupCalismasi} con={conditions} />
     </>
   );
 }
