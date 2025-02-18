@@ -27,7 +27,7 @@ const Hero = ({ rVideo }) => {
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-6 px-8 md:px-0 text-primary text-xs md:text-sm">
+          <p className="my-6 px-6 md:px-0 text-primary text-xs md:text-sm">
             {contHero.desc}
           </p>
         </div>

@@ -5,7 +5,7 @@ export default function InfoBar({ info }) {
         <h2 className="my-0 py-1 md:py-2 lg:py-4 text-base md:text-3xl lg:text-5xl border-b inline-block">
           {info.h2}
         </h2>
-        <p className="my-1 text-indigo-light-5 text-sm lg:text-2xl">
+        <p className="my-1 px-8 text-indigo-light-5 text-sm lg:text-2xl">
           {info.desc}
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:divide-x divide-indigo-dark-3 lg:[&>*]:pl-14 mt-4 lg:mt-8 md:text-left bg-indigo-dark-1 mx-4 p-4 rounded-xl">
