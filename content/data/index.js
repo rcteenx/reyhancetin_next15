@@ -3,7 +3,7 @@ export const contHero = {
   h2b: "Bilinçli Farkındalık Çemberi",
   h1a: "ÇEMBERİMİZE",
   h1b: "hoş geldiniz",
-  desc: "Bilinçli farkındalık sohbetleri, kendini-gözlem seminerleri ve çeşitli meditasyonlarla bilinç ve farkındalık çemberi oluşturuyoruz.",
+  desc: "Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli zoom meditasyonlarıyla, bilinçli farkındalık çemberi oluşturuyoruz.",
   buttons: [
     {
       title: "Instagram",
@@ -242,8 +242,8 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "Yol",
-    link: "yol",
+    title: "presence",
+    link: "presence",
     pages: [
       { id: 1, title: "Bilinç Yolu", link: "bilinc" },
       {

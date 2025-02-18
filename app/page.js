@@ -37,9 +37,6 @@ export default function Home() {
 
       <SelfObservation img={kendiniGozlem} content={selfObservation} />
       <Seminer />
-
-      <WeeklyMeetings content={weeklyMeetings} />
-      <AttendenceContitions img={grupCalismasi} con={conditions} />
     </>
   );
 }

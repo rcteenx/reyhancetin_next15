@@ -64,9 +64,7 @@ const Hero = ({ rVideo }) => {
                 href="https://www.youtube.com/watch?v=SeHM1y5p7WQ&t=2185s"
                 target="_blank"
               >
-                Youtube Sohbeti
-                <br />
-                Bilinçli Farkındalığa Nasıl Ulaşılır?
+                Youtube: Bilinçli Farkındalığa Nasıl Ulaşılır?
               </a>
             </h3>
           </div>
