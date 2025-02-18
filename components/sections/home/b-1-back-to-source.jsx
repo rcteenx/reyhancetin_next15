@@ -8,7 +8,10 @@ export default function BackToSource({ img, content }) {
           <h2 className="my-2 lg:my-4 text-4xl md:text-4xl lg:text-8xl">
             {content.h2}
           </h2>
-          <p className="my-2">{content.p1}</p>
+          <p className="my-2">
+            {content.p1}
+            <span className="hidden md:block"> {content.p2}</span>
+          </p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:mt-4 items-center">
           <div className="mx-auto max-w-2xl xl:mx-0 p-4 shadow-xl md:rounded-b-xl">

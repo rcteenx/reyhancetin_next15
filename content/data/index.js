@@ -55,7 +55,8 @@ export const barInfo = {
 
 export const backToSource = {
   h2: "KAYNAĞA DÖNÜŞ",
-  p1: "Çokluk içinde birliği görmek, senaryosunu yazıp oynadığımız filmin aynı zamanda izleyicisi olduğumuzu hatırlamak için kendimize yolculuk yapıyoruz.",
+  p1: "Çokluk içinde birliği görmek için aslımıza dönüyoruz.",
+  p2: "Senaryosunu yazıp oynadığımız bu filmin, aynı zamanda izleyicisi olduğumuzu hatırlayalım.",
   // p2: "Tüm deneyim ve gözlemler, kendisinden yeni formlara yayıldığımız, ama bir an ayrı olmadağımız Saf Farkındalık'a doğru bir dönüş yolculuğumuzdur.",
   h3: "Çalışmalar Ne Kazandırıyor?",
   p3: "Bilinçli farkındalık çalışmalarının temel kazanımları:",
