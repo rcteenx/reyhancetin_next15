@@ -1,7 +1,7 @@
 export const contHero = {
   h2a: "Reyhan Çetin",
   h2b: "Bilinçli Farkındalık Çemberi",
-  h1a: "YOLCULUĞUMUZA",
+  h1a: "ÇEMBERİMİZE",
   h1b: "hoş geldiniz",
   desc: "Bilinçli farkındalık sohbetleri, kendini-gözlem seminerleri ve çeşitli meditasyonlarla yollarımız birleşiyor. Çember'de yerinizi almak için:",
   buttons: [
