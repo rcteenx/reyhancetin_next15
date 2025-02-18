@@ -1,7 +1,7 @@
 export const contHero = {
   h2a: "Reyhan Çetin",
   h2b: "Bilinçli Farkındalık Çemberi",
-  h1a: "ARKADAŞ ÇEMBERİMİZE",
+  h1a: "YOLCULUĞUMUZA",
   h1b: "hoş geldiniz",
   desc: "Bilinçli farkındalık sohbetleri, kendini-gözlem seminerleri ve çeşitli meditasyonlarla yollarımız birleşiyor. Çember'de yerinizi almak için:",
   buttons: [
@@ -13,19 +13,19 @@ export const contHero = {
       iconColor: "white",
     },
     {
-      title: "WhatsApp",
-      icon: "whatsapp",
-      link: "https://wa.me/905443087402?text=Merhaba",
-      gradiant: "gradientWhatsapp",
-      iconColor: "white",
-    },
-    {
       title: "Youtube",
       icon: "youtube",
       link: "https://www.youtube.com/@reyhancetinx",
       gradiant: "gradientYoutube",
-      show: "hidden md:block",
       iconColor: "#CD201F",
+    },
+    {
+      title: "WhatsApp",
+      icon: "whatsapp",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientWhatsapp",
+      show: "hidden md:block",
+      iconColor: "white",
     },
   ],
 };
