@@ -8,7 +8,7 @@ const Hero = ({ rVideo }) => {
       className="md:container-p max-w-7xl mx-auto my-4 xl:my-8 flex flex-col xl:flex-row justify-center gap-0"
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left ">
-        <h2 className="mt-12 font-light text-center xl:text-left text-2xl lg:text-3xl text-primary leading-6">
+        <h2 className="mt-16 font-light text-center xl:text-left text-2xl lg:text-3xl text-primary leading-6">
           <span className="border-b border-indigo xl:border-primary">
             {contHero.h2a}
           </span>
@@ -27,7 +27,7 @@ const Hero = ({ rVideo }) => {
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-6 px-4 md:px-0 text-primary  text-xs md:text-sm">
+          <p className="my-6 px-8 md:px-0 text-primary text-xs md:text-sm">
             {contHero.desc}
           </p>
         </div>
