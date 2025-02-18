@@ -3,7 +3,7 @@ export const contHero = {
   h2b: "Bilinçli Farkındalık Çemberi",
   h1a: "ÇEMBERİMİZE",
   h1b: "hoş geldiniz",
-  desc: "Bilinçli farkındalık sohbetleri, kendini-gözlem seminerleri ve çeşitli meditasyonlarla bir çemberde buluşuyoruz. Çemberi tanımak için...",
+  desc: "Bilinçli farkındalık sohbetleri, kendini-gözlem seminerleri ve çeşitli meditasyonlarla bilinç ve farkındalık çemberi oluşturuyoruz.",
   buttons: [
     {
       title: "Instagram",
@@ -32,7 +32,7 @@ export const contHero = {
 
 export const barInfo = {
   h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
-  desc: "Hayatın içinde gözlem ve kendini tanıma çalışmaları",
+  desc: "Hayatın içinde gözlem ile kendini tanıma",
   items: [
     {
       title: "Çalışma",
