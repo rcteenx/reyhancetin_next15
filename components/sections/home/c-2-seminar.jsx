@@ -6,10 +6,10 @@ export default function Seminer() {
       <div className="container mx-auto">
         <div className="mx-auto max-w-2xl p-4 md:p-12 m-4 md:border md:rounded-2xl shadow-lg text-center text-black">
           <h3>Kendini-Gözlem Semineri</h3>
-          <p className="">B aşlangıç seminerimiz</p>
+          <p className="">Çalışmalara başlangıç seminerimiz</p>
           <div className="text-base">
             <div className=" my-4 ">
-              Haftada 2 saat, 4 hafta
+              Haftada 2 saat, toplam 4 hafta
               <ul className="my-4 flex items-center justify-center gap-4">
                 <li>
                   <a

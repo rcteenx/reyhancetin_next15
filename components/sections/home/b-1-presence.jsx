@@ -8,7 +8,7 @@ export default function Presence({ img, content }) {
           <h2 className="my-2 lg:my-4 text-4xl md:text-4xl lg:text-8xl">
             {content.h2}
           </h2>
-          <h3 className="my-2">{content.h3}</h3>
+          <h4 className="my-2">{content.h4}</h4>
           <p className="my-2 text-xs">{content.footnote}</p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:mt-4 items-center">
@@ -22,6 +22,7 @@ export default function Presence({ img, content }) {
             />
           </div>
           <div className="mx-auto px-4 max-w-2xl ">
+            <h3 className="border-b">{content.h3}</h3>
             <ul className="space-y-5">
               {content.items.map((i, index) => (
                 <li key={index} className="flex gap-2">

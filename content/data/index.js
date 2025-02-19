@@ -56,7 +56,8 @@ export const barInfo = {
 
 export const presence = {
   h2: "PRESENCE*",
-  h3: "Saf Farkındalığın Varlığı",
+  h4: "Saf Farkındalığın Varlığı",
+  h3: "Presence Nedir?",
   items: [
     {
       title: "Mevcut Olma Durumu",
@@ -76,7 +77,7 @@ export const presence = {
 };
 
 export const presenceMentor = {
-  h2: "Presence Mentor",
+  h2: "Presence Mentor ve Öğretmeni",
   h4: "Presence, bilincin anda olması değil, benlik sınırlarının ve zamanın ötesine var olmaktır.",
   p1: "Presence Mentor olarak, mindfulness temelli bilinç çalışmalarında bilinç kazanmış arkadaşların, sonraki aşamaya geçişlerine destek oluyorum.",
   p2: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, sadece gözlemleyen ve irade gösteren kahya bilincinin ötesindedir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
