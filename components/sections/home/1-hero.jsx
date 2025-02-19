@@ -29,6 +29,8 @@ const Hero = ({ rVideo }) => {
         <div className="mx-auto max-w-2xl">
           <p className="my-6 px-6 md:px-0 text-primary text-xs md:text-sm">
             {contHero.desc}
+            <br />
+            <span className="my-2 block text-indigo">{contHero.cta}</span>
           </p>
         </div>
         <div className="my-4 flex flex-row flex-wrap space-x-4 justify-center">

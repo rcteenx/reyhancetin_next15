@@ -7,8 +7,8 @@ import {
 
 import {
   barInfo,
-  backToSource,
-  whyWork,
+  presence,
+  presenceMentor,
   selfObservation,
   weeklyMeetings,
   conditions,
@@ -17,8 +17,8 @@ import {
 import Hero from "@/components/sections/home/1-hero";
 import InfoBar from "@/components/sections/home/2-info-bar";
 
-import BackToSource from "@/components/sections/home/b-1-back-to-source";
-import WhyWeNeed from "@/components/sections/home/b-1-why-we-need";
+import Presence from "@/components/sections/home/b-1-presence";
+import PresenceMentor from "@/components/sections/home/b-2-presence-mentor";
 
 import SelfObservation from "@/components/sections/home/c-1-self-observation";
 import Seminer from "@/components/sections/home/c-2-seminer";
@@ -32,8 +32,8 @@ export default function Home() {
       <Hero rVideo={rVideo} />
       <InfoBar info={barInfo} />
 
-      <BackToSource img={safFarkindalik} content={backToSource} />
-      <WhyWeNeed need={whyWork} />
+      <Presence img={safFarkindalik} content={presence} />
+      <PresenceMentor content={presenceMentor} />
 
       <SelfObservation img={kendiniGozlem} content={selfObservation} />
       <Seminer />

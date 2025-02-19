@@ -36,7 +36,8 @@ export default function SelfObservation({ img, content }) {
             >
               <img
                 src={img.src}
-                alt="img colletion"
+                alt="Kendini Gözlem - Instagram Paylaşımı Görseli"
+                title="Instagram Paylaşımı - Kendini Gözlem Kaydırmalı Postu"
                 width="w-full"
                 height={300}
                 className="rounded-xl "

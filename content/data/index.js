@@ -3,7 +3,8 @@ export const contHero = {
   h2b: "Bilinçli Farkındalık Çemberi",
   h1a: "ÇEMBERİMİZE",
   h1b: "hoş geldiniz",
-  desc: "Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli zoom meditasyonlarıyla, bilinçli farkındalık çemberi oluşturuyoruz.",
+  desc: "Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli zoom meditasyonlarıyla, bilinç ve farkındalık yolculuğunu hizmet ediyoruz.",
+  cta: "Bilinçli Farkındalık Çemberine Şimdi Katıl!",
   buttons: [
     {
       title: "Instagram",
@@ -53,35 +54,33 @@ export const barInfo = {
   ],
 };
 
-export const backToSource = {
-  h2: "KAYNAĞA DÖNÜŞ",
-  p1: "Çokluk içinde birliği görmek için aslımıza dönüyoruz.",
-  p2: "Senaryosunu yazıp oynadığımız bu filmin, aynı zamanda izleyicisi olduğumuzu hatırlayalım.",
-  // p2: "Tüm deneyim ve gözlemler, kendisinden yeni formlara yayıldığımız, ama bir an ayrı olmadağımız Saf Farkındalık'a doğru bir dönüş yolculuğumuzdur.",
-  h3: "Çalışmalar Ne Kazandırıyor?",
-  p3: "Bilinçli farkındalık çalışmalarının temel kazanımları:",
+export const presence = {
+  h2: "PRESENCE*",
+  h3: "Saf Farkındalığın Varlığı",
   items: [
     {
-      title: "Bilinç",
-      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ancak çoğu zaman bu potansiyelden uzaktayız. Genellikle, bilinç kendiliğinden olarak ortaya çıkıyor. Bilincimizi, kendinizi-gözlemleyerek fark ediyor ve geliştiriyoruz.",
+      title: "Mevcut Olma Durumu",
+      info: "Mevcut olma durumu, en basit haliyle, bir öğrencinin sınıfta bulunmasıdır. Ancak zihni başka yerlerde dolaşıyorsa, gerçekten mevcut olduğu söylenebilir mi? Daha derin anlamıyla presence, kişinin zihinsel ve ruhsal olarak şu anda ve burada olma halidir.",
     },
     {
-      title: "Farkındalık",
-      info: "Tüm duyu, duygu ve düşüncelerin ve hatta bilincin bile ötesinde, asıl varlığımızın bulunduğu bir tekillik alanı var. Ancak bize yüklenen bilgi ve programlar nedeniyle, saf farkındalığımızı unutmuş durumdayız.",
+      title: "Huzurunda Olma",
+      info: "Bir okul müdürünün huzurunda (presence) yapılan bir sunum veya gösteri düşünelim. Burada sadece o kişinin fiziksel varlığı değil, aynı zamanda ortama atfedilen özel anlam da vardır. Huzurunda olma, fiziki varlığının ötesinde bir etkiye sahip olmasını ifade eder.",
     },
     {
-      title: "Kendini Tanıma",
-      info: "Tüm arayış çalışmaları, bir şeyleri fark etmek ve sorgulamaya başlamaya dayanıyor. Böyle bir sorgulama ateşi, kendinizi bulana ve hatta ateşle temizleyene kadar devam edecek bir yangın başlatıyor.",
+      title: "Ruhani veya Enerjetik Mevcudiyet",
+      info: "Bu kullanımda presence, bilinen fiziksel gerçekliğin ötesinde bir anlam kazanır. Örneğin, meditasyon sırasında odada yayılan huzur ve kutsallık hissi gibi. Türkiye’de en güçlü örneklerden biri, Anıtkabir’de Atatürk’ün huzurunda gerçekleştirilen anma törenleri olabilir.",
     },
   ],
+  footnote:
+    "* Türkçe'de birebir karşılığı olmadığı için, İngilizce kullanıyoruz.",
 };
 
-export const whyWork = {
-  h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
-  h4: "Neden Kendimize Yolculuğa ve Kendimizi Çalışmaya İhtiyacımız Var?",
-  p1: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, bazılarımız, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor.",
-  p2: "Bu çalışma ve çember daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için.",
-  p3: 'Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
+export const presenceMentor = {
+  h2: "Presence Mentor",
+  h4: "Presence, bilincin anda olması değil, benlik sınırlarının ve zamanın ötesine var olmaktır.",
+  p1: "Presence Mentor olarak, mindfulness temelli bilinç çalışmalarında bilinç kazanmış arkadaşların, sonraki aşamaya geçişlerine destek oluyorum.",
+  p2: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, sadece gözlemleyen ve irade gösteren kahya bilincinin ötesindedir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
+  p3: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bunun için yardımcı olamam. Öncelikle kendinizi gözlem seminerleri başlayabilir ve sonrasında mindfulness koçluğu ile bilinç gelişmesine sağlam bir temel inşa etmelisiniz.",
 };
 
 export const selfObservation = {

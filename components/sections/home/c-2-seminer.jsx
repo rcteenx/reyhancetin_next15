@@ -1,37 +1,31 @@
-import { StaticPages } from "@/content/data";
+import IconComponent from "@/components/ui/IconComponent";
 
 export default function Seminer() {
   return (
     <section id="atolye" className="">
       <div className="container mx-auto">
-        <div className="gradientAccent p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
-          <h3>Temel Kendini-Gözlem Semineri</h3>
-          <p className="text-indigo-dark-5">
-            Her ay düzenlenen ve 4 hafta süren seminerimiz hakkında bilgi almak
-            için
-          </p>
-          <div className="text-indigo text-base">
+        <div className="mx-auto max-w-2xl p-12 m-4 md:border rounded-2xl shadow-lg text-center text-black">
+          <h3>Kendini-Gözlem Semineri</h3>
+          <p className="">Her ay açılan aşlangıç seminerimiz</p>
+          <div className="text-base">
             <div className="border p-4 my-4 rounded-md shadow-md bg-white">
-              Seminer her hafta 2 saat sürecek. Toplam 4 hafta - 8 saat olacak.
-              <ul className="my-4 flex items-center justify-center gap-4  ">
-                <li className="px-4 py-2 gradientAccent gradientTransition  rounded-xl cursor-pointer">
+              Haftada 2 saat, 4 hafta
+              <ul className="my-4 flex items-center justify-center gap-4">
+                <li>
                   <a
-                    href="https://wa.me/905443087402?text=seminer%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F
-"
+                    href="https://wa.me/905443087402?text=Kendini-G%C3%B6zlem%20seminerine%20kat%C4%B1lmak%20istiyorum"
+                    className="relative transition-all duration-200 gradientTransition btn-hero gradientWhatsapp"
                   >
-                    Whatsapp
+                    <IconComponent name="whatsapp" size={24} color="white" />
+                    <span>Katılmak İstiyorum</span>
                   </a>
                 </li>
-                <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
+                <li>
                   <a
-                    href={
-                      "/" +
-                      StaticPages[2].link +
-                      "/" +
-                      StaticPages[2].pages[0].link
-                    }
+                    href="https://wa.me/905443087402?text=Kendini-G%C3%B6zlem%20semineri%20hakkinda%20bilgi%20alabilir%20miyim"
+                    className="relative transition-all duration-200 gradientTransition btn-hero border"
                   >
-                    Bilgi
+                    <span>Bilgi Al</span>
                   </a>
                 </li>
               </ul>
