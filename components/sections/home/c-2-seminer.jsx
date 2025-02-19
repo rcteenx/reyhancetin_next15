@@ -4,11 +4,11 @@ export default function Seminer() {
   return (
     <section id="atolye" className="">
       <div className="container mx-auto">
-        <div className="mx-auto max-w-2xl p-12 m-4 md:border rounded-2xl shadow-lg text-center text-black">
+        <div className="mx-auto max-w-2xl p-4 md:p-12 m-4 md:border md:rounded-2xl shadow-lg text-center text-black">
           <h3>Kendini-Gözlem Semineri</h3>
-          <p className="">Her ay açılan aşlangıç seminerimiz</p>
+          <p className="">B aşlangıç seminerimiz</p>
           <div className="text-base">
-            <div className="border p-4 my-4 rounded-md shadow-md bg-white">
+            <div className=" my-4 ">
               Haftada 2 saat, 4 hafta
               <ul className="my-4 flex items-center justify-center gap-4">
                 <li>
