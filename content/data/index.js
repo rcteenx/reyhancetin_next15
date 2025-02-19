@@ -4,7 +4,7 @@ export const contHero = {
   h1a: "ÇEMBERİMİZE",
   h1b: "hoş geldiniz",
   desc: "Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli zoom meditasyonlarıyla, bilinç ve farkındalık yolculuğunu hizmet ediyoruz.",
-  cta: "Bilinçli Farkındalık Çemberine Şimdi Katıl!",
+  cta: "Bilinçli Farkındalık Çemberi'ni Takip Et!",
   buttons: [
     {
       title: "Instagram",
@@ -25,7 +25,7 @@ export const contHero = {
       icon: "whatsapp",
       link: "https://wa.me/905443087402?text=Merhaba",
       gradiant: "gradientWhatsapp",
-      show: "hidden md:block",
+      // show: "hidden md:block",
       iconColor: "white",
     },
   ],

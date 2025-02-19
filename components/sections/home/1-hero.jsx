@@ -27,7 +27,7 @@ const Hero = ({ rVideo }) => {
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-6 px-6 md:px-0 text-primary text-xs md:text-sm">
+          <p className="my-4 md:my-6 px-6 md:px-0 text-primary text-xs md:text-sm">
             {contHero.desc}
             <br />
             <span className="my-2 block text-indigo">{contHero.cta}</span>
@@ -44,7 +44,7 @@ const Hero = ({ rVideo }) => {
                 target="_blank"
               >
                 <IconComponent name={b.icon} size={24} color={b.iconColor} />
-                <span>{b.title}</span>
+                <span className="hidden md:block">{b.title}</span>
                 {/* <span className="hidden md:block">{b.title}</span> */}
               </a>
             </div>
@@ -61,14 +61,16 @@ const Hero = ({ rVideo }) => {
             className="rounded-xl"
           />
           <div className="absolute inset-0 flex items-end justify-center">
-            <h3 className="m-6 px-4 py-2 text-white text-center text-base font-normal bg-black opacity-60 rounded-xl hover:opacity-100">
+            <h4 className="m-6 px-4 py-2 text-white text-center font-normal bg-black opacity-60 rounded-xl hover:opacity-100">
               <a
                 href="https://www.youtube.com/watch?v=SeHM1y5p7WQ&t=2185s"
                 target="_blank"
               >
-                Youtube: Bilinçli Farkındalığa Nasıl Ulaşılır?
+                Youtube Sohbeti
+                <br />
+                Bilinçli Farkındalığa Nasıl Ulaşılır?
               </a>
-            </h3>
+            </h4>
           </div>
         </div>
       </div>
