@@ -56,8 +56,8 @@ export const barInfo = {
 
 export const presence = {
   h2: "PRESENCE*",
-  h4: "Saf Farkındalığın Varlığı",
-  h3: "Presence Nedir?",
+  h3: "Saf Farkındalığın Varlığı",
+  subTitle: "Presence Nedir?",
   items: [
     {
       title: "Mevcut Olma Durumu",
@@ -72,22 +72,22 @@ export const presence = {
       info: "Bu kullanımda presence, bilinen fiziksel gerçekliğin ötesinde bir anlam kazanır. Örneğin, meditasyon sırasında odada yayılan huzur ve kutsallık hissi gibi. Türkiye’de en güçlü örneklerden biri, Anıtkabir’de Atatürk’ün huzurunda gerçekleştirilen anma törenleri olabilir.",
     },
   ],
+  px: "Presence, bilincin anda olması değil, varlığın benlik sınırlarının ve zamanın ötesine genişlemesi ve alana yayılmasıdır.",
   footnote:
     "* Türkçe'de birebir karşılığı olmadığı için, İngilizce kullanıyoruz.",
 };
 
 export const presenceMentor = {
-  h2: "Presence Mentor ve Öğretmeni",
-  h4: "Presence, bilincin anda olması değil, benlik sınırlarının ve zamanın ötesine var olmaktır.",
-  p1: "Presence Mentor olarak, mindfulness temelli bilinç çalışmalarında bilinç kazanmış arkadaşların, sonraki aşamaya geçişlerine destek oluyorum.",
-  p2: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, sadece gözlemleyen ve irade gösteren kahya bilincinin ötesindedir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
-  p3: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bunun için yardımcı olamam. Öncelikle kendinizi gözlem seminerleri başlayabilir ve sonrasında mindfulness koçluğu ile bilinç gelişmesine sağlam bir temel inşa etmelisiniz.",
+  h2: "PRESENCE MENTOR",
+  px: "Presence Mentor ve Öğretmeni olarak, mindfulness temelli bilinç çalışmalarında varlık geliştirmiş arkadaşların, sonraki aşamaya geçişlerine bilgi ve deneyimlerimle rehber oluyorum.",
+  p1: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, gözlemcinin devamında gelişen ve irade sahibi olan bilincin, yani kahyanın, hizmet ettiği efendidir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
+  p2: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bu pek mümkün değil. Öncelikle dikkat meditasyonları ve hayatın içinde gözlem ile başlayabilirsiniz. Sonrasında mindfulness temelli bilinç çalışmalarıyla, presence'ı taşıyabilecek sağlam bir temel geliştirebilirsiniz.",
 };
 
 export const selfObservation = {
   h2: "KENDİNİ GÖZLEM",
-  p1: "Kendini gözlemleme, sanki bir güvenlik kamerası gibi, şimdi ve burada olanları kaydetmektir.",
-  h3: "Kendini-Gözlem Nedir?",
+  h3: "Şimdi ve burada olanları kaydetmek",
+  subTitle: "Kendini-Gözlem Nedir?",
   p3: "Hayatın içinde, kendimizi tanımaya ve dönüştürme.",
   items: [
     {
@@ -95,7 +95,7 @@ export const selfObservation = {
       info: "Gözlemin olması için, kişinin kendisini “ben - gözlemci” ve “makine - yani beden, duygu ve zihin”, olarak en az ikiye ayırmış olması gerekir. Gözlemci ve gözlenen ayrımı olmadan, tarafsız bir gözlem kolay olmaz.",
     },
     {
-      title: "Kendimizi Tanıma ve Değiştirme Aracı",
+      title: "Kendimizi Tanıma ve Değiştirme",
       info: "Çoğumuz kendisini, objektif gerçeklerle değil, başta aile ve çevre olmak üzere, başkalarının bize yüklendiği kavramlarla, dolaylı olarak tanıyor. Kendimizi objektif ve tarafsız olarak gözlemlemeye başladığımızda, ne olup ne olmadığımızı kendi gözlerimizle görmeye başlıyoruz. Dahası, objektif ve tarafsız bir gözlemin başlaması, gözlemleneni - yani kendimizi - doğal olarak değiştirmeye başlıyor.",
     },
     {

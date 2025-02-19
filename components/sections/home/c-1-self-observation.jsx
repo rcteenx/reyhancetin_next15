@@ -8,11 +8,11 @@ export default function SelfObservation({ img, content }) {
           <h2 className="my-2 lg:my-4 text-4xl md:text-4xl lg:text-8xl">
             {content.h2}
           </h2>
-          <p className="my-2">{content.p1}</p>
+          <h3 className="my-2">{content.h3}</h3>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:mt-4 items-center">
           <div className="mx-auto px-4 max-w-2xl ">
-            <h3>{content.h3}</h3>
+            <h3 className="border-b">{content.subTitle}</h3>
             <p>{content.p3}</p>
             <ul className="space-y-5">
               {content.items.map((i, index) => (
