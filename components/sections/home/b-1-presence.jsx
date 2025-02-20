@@ -25,7 +25,7 @@ export default function Presence({ img, content }) {
             </a>
           </div>
           <div className="mx-auto px-4 max-w-2xl ">
-            <h3 className="border-b">{content.subTitle}</h3>
+            <h3 className="border-b my-4">{content.subTitle}</h3>
             <p className="my-2">{content.px}</p>
             <ul className="space-y-5">
               {content.items.map((i, index) => (
