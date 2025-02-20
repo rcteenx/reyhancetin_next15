@@ -4,7 +4,7 @@ export default function Seminer() {
   return (
     <section id="atolye" className="">
       <div className="container mx-auto">
-        <div className="mx-auto max-w-2xl p-4 md:p-12 m-4 md:border md:rounded-2xl shadow-lg text-center text-black">
+        <div className="mx-auto max-w-2xl p-4 md:p-8 m-4 md:m-8 md:border md:rounded-2xl shadow-lg text-center text-black">
           <h3>Kendini-Gözlem Semineri</h3>
           <p className="">Çalışmalara başlangıç seminerimiz</p>
           <div className="text-base">
