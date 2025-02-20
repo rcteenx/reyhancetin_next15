@@ -11,7 +11,7 @@ export default function Presence({ img, content }) {
           <h3 className="my-2">{content.h3}</h3>
           <p className="my-2 text-xs">{content.footnote}</p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:mt-4 items-center">
+        <div className="grid grid-cols-1 md:p-4 xl:grid-cols-2 gap-4 lg:mt-4 items-center bg-[#ededed] md:rounded-xl">
           <div className="mx-auto max-w-2xl xl:mx-0 p-4 shadow-xl md:rounded-b-xl">
             <a href="https://www.instagram.com/p/DGRBFRxxZ2Y/" target="_blank">
               <img

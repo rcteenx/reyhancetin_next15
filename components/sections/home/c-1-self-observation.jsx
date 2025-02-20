@@ -2,7 +2,7 @@ import SvgCheck from "@/components/ui/svg/check";
 
 export default function SelfObservation({ img, content }) {
   return (
-    <div id="observation" className="bg-white py-8 md:py-16 my-8 lg:my-16">
+    <div id="observation" className="bg-white py-8 md:py-16 mt-8 lg:my-16">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-center">
           <h2 className="my-2 lg:my-4 text-4xl md:text-4xl lg:text-8xl">
@@ -10,7 +10,7 @@ export default function SelfObservation({ img, content }) {
           </h2>
           <h3 className="my-2 hidden md:block">{content.h3}</h3>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:mt-4 items-center">
+        <div className="grid grid-cols-1 md:p-4 xl:grid-cols-2 gap-4 lg:mt-4 items-center bg-[#ededed] md:rounded-xl">
           <div className="mx-auto px-4 my-4 max-w-2xl ">
             <h3 className="border-b">{content.subTitle}</h3>
             <p>{content.p3}</p>
