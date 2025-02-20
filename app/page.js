@@ -1,6 +1,6 @@
 import {
   rVideo,
-  safFarkindalik,
+  presenceInstagram,
   kendiniGozlem,
   grupCalismasi,
 } from "@/public/assets/images";
@@ -32,7 +32,7 @@ export default function Home() {
       <Hero rVideo={rVideo} />
       <InfoBar info={barInfo} />
 
-      <Presence img={safFarkindalik} content={presence} />
+      <Presence img={presenceInstagram} content={presence} />
       <PresenceMentor content={presenceMentor} />
 
       <SelfObservation img={kendiniGozlem} content={selfObservation} />

@@ -86,7 +86,7 @@ export const presenceMentor = {
 
 export const selfObservation = {
   h2: "KENDİNİ GÖZLEM",
-  h3: "Şimdi ve burada olanları kaydetmek",
+  h3: "Güvenlik Kamerası Kayıtları",
   subTitle: "Kendini-Gözlem Nedir?",
   p3: "Hayatın içinde, kendimizi tanımaya ve dönüştürme.",
   items: [

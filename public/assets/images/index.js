@@ -4,7 +4,7 @@ import footerReyhan from "./rcteenx.jpeg";
 import bOncesi from "./bilinc-oncesi.jpg";
 import bSonrasi from "./bilinc-sonrasi.jpg";
 
-import safFarkindalik from "./saf-farkindalik.jpg";
+import presenceInstagram from "./presence-instagram.png";
 import kendiniGozlem from "./kendini-gozlem.png";
 import varolussalDonusum from "./varolussal-donusum.jpg";
 import grupCalismasi from "./grup-calismasi.jpg";
@@ -16,7 +16,7 @@ export {
   footerReyhan,
   bOncesi,
   bSonrasi,
-  safFarkindalik,
+  presenceInstagram,
   kendiniGozlem,
   varolussalDonusum,
   grupCalismasi,
