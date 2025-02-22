@@ -25,8 +25,20 @@ const Hero = ({ rVideo }) => {
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-4 md:my-6 px-6 md:px-0 text-primary text-xs md:text-sm">
-            {contHero.desc}
+          <p className="my-4 md:my-6 px-6 md:px-0 text-primary text-xs md:text-sm leading-5 md:leading-6">
+            {/* {contHero.desc} */}
+            <a href="#" className="border-b">
+              Ücretsiz Youtube sohbetleri
+            </a>
+            , her ay açılan{" "}
+            <a href="#" className="border-b">
+              kendini-gözlem seminerleri
+            </a>{" "}
+            ve çeşitli{" "}
+            <a href="#" className="border-b">
+              Zoom meditasyonlarıyla
+            </a>
+            , "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.
           </p>
           <p className="my-2 block text-indigo text-center text-xs md:text-sm">
             {contHero.cta}
