@@ -35,7 +35,7 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
         >
           <div
             key="1"
-            className="carousel-item flex-shrink-0 w-full sm:px-12 pt-20 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
+            className="carousel-item flex-shrink-0 w-full p-2 sm:px-12 pt-20 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
           >
             <h3 className="">Reyhan Çetin</h3>
             <h5 className="my-0 text-base sm:text-xl leading-6">
@@ -63,13 +63,13 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
           </div>
           <div
             key="2"
-            className="carousel-item flex-shrink-0 w-full px-12 pt-16 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
+            className="carousel-item flex-shrink-0 w-full p-2 px-12 pt-16 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
           >
             2
           </div>
           <div
             key="3"
-            className="carousel-item flex-shrink-0 w-full px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
+            className="carousel-item flex-shrink-0 w-full p-2 px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
           >
             <h3>Klasik Tanıtım</h3>
             <p>
