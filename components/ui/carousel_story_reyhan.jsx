@@ -35,7 +35,7 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
         >
           <div
             key="1"
-            className="carousel-item flex-shrink-0 w-full p-2 sm:px-12 pt-20 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
+            className="carousel-item flex-shrink-0 w-full p-4 sm:px-12 pt-20 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
           >
             <h3 className="">Reyhan Çetin</h3>
             <h5 className="my-0 text-base sm:text-xl leading-6">
