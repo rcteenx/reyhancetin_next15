@@ -10,7 +10,7 @@ export default function ReyhanCarousel({}) {
         <h2 className="text-2xl lg:text-4xl text-center">
           Ben Kimim ya da Ne?
         </h2>
-        <div className=" max-w-xl mx-auto sm:p-4 bgStoryReyhan border-2 border-yellow-500 ">
+        <div className=" max-w-xl mx-auto p-2 sm:p-4 bgStoryReyhan border-2 border-yellow-500 ">
           <CarouselContent autoplayInterval={60000} />
         </div>
       </div>
