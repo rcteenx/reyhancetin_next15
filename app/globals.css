@@ -120,11 +120,14 @@
   .info-text {
     @apply text-indigo-gray text-lg leading-8;
   }
+  /* #example1 {
+    background: url(img_flwr.gif) right bottom no-repeat,
+      url(paper.gif) left top repeat;
+  } */
+
   .bgStoryReyhan {
-    background-image: url("/assets/images/bg-story-reyhan.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("/assets/images/bg-story-reyhan.png") top left no-repeat,
+      url("/assets/images/bg-story-star.png") top right no-repeat #000000;
   }
   .bg-livechat {
     background-image: url("/assets/images/bg-hero-1920-480.png");
