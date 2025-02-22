@@ -1,10 +1,10 @@
 export const contHero = {
   h2a: "Reyhan Çetin",
-  h2b: "Bilinçli Farkındalık Çemberi",
-  h1a: "ÇEMBERİMİZE",
+  h2b: "Bilinç ve Farkındalık Rehberi",
+  h1a: "YOLCULUĞUMUZA",
   h1b: "hoş geldiniz",
-  desc: "Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli zoom meditasyonlarıyla, bilinç ve farkındalık yolculuğunu hizmet ediyoruz.",
-  cta: "Bilinçli Farkındalık Çemberi'ni Takip Et!",
+  desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
+  cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
   buttons: [
     {
       title: "Instagram",
