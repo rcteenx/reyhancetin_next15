@@ -50,6 +50,12 @@
 }
 
 @layer components {
+  .gradientGold {
+    @apply bg-gradient-to-t from-[#B78628] via-[#DBA514] to-[#FCC201] text-white;
+  }
+  .gradientInstagramStory {
+    @apply bg-gradient-to-br from-[#000000] via-[#333333] to-[#000000] text-white;
+  }
   .gradientInstagram {
     @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
   }

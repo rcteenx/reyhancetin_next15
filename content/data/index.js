@@ -54,6 +54,25 @@ export const barInfo = {
   ],
 };
 
+export const reyhanBio = {
+  h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
+  desc: "Hayatın içinde gözlem ile kendini tanıma",
+  items: [
+    {
+      src: "/assets/images/reyhan/hos-geldiniz.png",
+      alt: "Image 1",
+    },
+    {
+      src: "/assets/images/reyhan/hos-geldiniz.png",
+      alt: "Image 2",
+    },
+    {
+      src: "/assets/images/reyhan/hos-geldiniz.png",
+      alt: "Image 3",
+    },
+  ],
+};
+
 export const presence = {
   h2: "PRESENCE*",
   h3: "Saf Farkındalığın Varlığı",

@@ -26,14 +26,19 @@ import Seminer from "@/components/sections/home/c-2-seminar";
 import WeeklyMeetings from "@/components/sections/home/x-1-weekly-meetings";
 import AttendenceContitions from "@/components/sections/home/x-2-att-conditions";
 
+import ReyhanCarousel from "@/components/sections/home/x-reyhan-carousel";
+
 export default function Home() {
   return (
     <>
       <Hero rVideo={rVideo} />
       <InfoBar info={barInfo} />
 
+      <ReyhanCarousel />
+
+      {/* 
       <Presence img={presenceInstagram} content={presence} />
-      <PresenceMentor content={presenceMentor} />
+      <PresenceMentor content={presenceMentor} /> */}
 
       <SelfObservation img={kendiniGozlem} content={selfObservation} />
       <Seminer />
