@@ -61,6 +61,7 @@ export const reyhanBio = {
     {
       src: "/assets/images/reyhan/hos-geldiniz.png",
       alt: "Image 1",
+      content: "Merhaba, Profilime Hoş geldiniz!",
     },
     {
       src: "/assets/images/reyhan/hos-geldiniz.png",

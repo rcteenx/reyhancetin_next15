@@ -54,7 +54,7 @@
     @apply bg-gradient-to-t from-[#B78628] via-[#DBA514] to-[#FCC201] text-white;
   }
   .gradientInstagramStory {
-    @apply bg-gradient-to-br from-[#000000] via-[#333333] to-[#000000] text-white;
+    @apply bg-gradient-to-r from-[#000000] via-[#333333] to-[#000000] text-white;
   }
   .gradientInstagram {
     @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
@@ -70,6 +70,9 @@
   }
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white-400;
+  }
+  .gradientIndigoToBlack {
+    @apply bg-gradient-to-br from-indigo-dark-3  to-black text-white-400;
   }
   .gradientPrimary {
     @apply bg-gradient-to-br from-primary to-black text-white;
@@ -116,6 +119,12 @@
 
   .info-text {
     @apply text-indigo-gray text-lg leading-8;
+  }
+  .bgStoryReyhan {
+    background-image: url("/assets/images/bg-story-reyhan.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .bg-livechat {
     background-image: url("/assets/images/bg-hero-1920-480.png");

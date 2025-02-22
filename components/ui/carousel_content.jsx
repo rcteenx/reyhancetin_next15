@@ -34,16 +34,17 @@ export default function CarouselContent({
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner  flex transition-transform duration-500"
+          className="carousel-inner h-[640px] flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {items.map((image, index) => (
             <div key={index} className="carousel-item flex-shrink-0 w-full">
-              <img
+              {/* <img
                 src={image.src}
                 alt={image.alt}
                 className="mx-auto border-2 border-yellow-600 h-[640px]"
-              />
+              /> */}
+              {items[index].content}
             </div>
           ))}
         </div>
