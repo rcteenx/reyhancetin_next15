@@ -106,7 +106,7 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
         </div>
       </div>
       <button
-        className="absolute left-0 top-1/2 -translate-y-1/2 bg-yellow-600 rounded-full p-2 hover:bg-yellow-500 transition-colors duration-300"
+        className="absolute left-0 top-1/2 -translate-y-1/2 bg-yellow-600 rounded-full p-1 sm:p-2 hover:bg-yellow-500 transition-colors duration-300"
         onClick={handlePrevClick}
       >
         <svg
@@ -125,7 +125,7 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
         </svg>
       </button>
       <button
-        className="absolute right-0 top-1/2 -translate-y-1/2 bg-yellow-600 rounded-full p-2 hover:bg-yellow-500 transition-colors duration-300"
+        className="absolute right-0 top-1/2 -translate-y-1/2 bg-yellow-600 rounded-full p-1 sm:p-2 hover:bg-yellow-500 transition-colors duration-300"
         onClick={handleNextClick}
       >
         <svg
