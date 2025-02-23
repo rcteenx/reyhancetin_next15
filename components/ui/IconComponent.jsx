@@ -19,9 +19,18 @@ import {
   FaAlignLeft,
 } from "react-icons/fa";
 
+import { SiDreamstime } from "react-icons/si";
+import { IoBodyOutline } from "react-icons/io5";
+import { PiSecurityCamera } from "react-icons/pi";
+import { MdDoNotDisturbOnTotalSilence } from "react-icons/md";
+
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const iconTypes = {
+  medImagination: SiDreamstime,
+  medBody: IoBodyOutline,
+  medObserve: PiSecurityCamera,
+  medSilence: MdDoNotDisturbOnTotalSilence,
   facebook: FaFacebook,
   instagram: FaInstagram,
   youtube: FaYoutube,

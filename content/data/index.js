@@ -74,6 +74,37 @@ export const reyhanBio = {
   ],
 };
 
+export const meditationInfo = {
+  h2: "MEDİTASYON",
+  desc: "Ben Algımızın Kaynağına Bilinçli Yolculuk",
+  items: [
+    {
+      title: "İmajinasyon Meditasyonu",
+      icon: "medImagination",
+      iconColor: "#ba68c8",
+      info: "Zihnin yaratıcı gücüyle, hayali yolculuklara çıkmanı mümkün kılar.",
+    },
+    {
+      title: "Bedende Kalma Meditasyonu",
+      icon: "medBody",
+      iconColor: "#ab47bc",
+      info: "Beden duyumlarına odaklanarak anda kalmayı destekler.",
+    },
+    {
+      title: "Gözlemci Meditasyonu",
+      icon: "medObserve",
+      iconColor: "#8e24aa",
+      info: "İç dünyanı yargılamadan gözlemleme farkındalığını derinleştirir.",
+    },
+    {
+      title: "Presence Meditasyonu",
+      icon: "medSilence",
+      iconColor: "#6a1b9a",
+      info: "Gerçek varlığınla buluşarak, bir olma halini deneyimlemeni sağlar.",
+    },
+  ],
+};
+
 export const presence = {
   h2: "PRESENCE*",
   h3: "Saf Farkındalığın Varlığı",

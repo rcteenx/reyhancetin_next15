@@ -71,6 +71,9 @@
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white-400;
   }
+  .gradientPurple {
+    @apply bg-gradient-to-b from-purple-800 to-purple-900 text-white-400;
+  }
   .gradientIndigoToBlack {
     @apply bg-gradient-to-br from-indigo-dark-3  to-black text-white-400;
   }
@@ -88,9 +91,6 @@
   }
   .gradientAccentToWhite {
     @apply bg-gradient-to-br from-accent to-white;
-  }
-  .gradientPurple {
-    @apply bg-gradient-to-br from-purple-300 to-white;
   }
   .gradientWhiteToIndigo {
     @apply bg-gradient-to-br from-white to-indigo  text-black;
