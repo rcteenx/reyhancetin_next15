@@ -30,11 +30,17 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner h-[440px] sm:h-[600px] text-[#ffde59] flex transition-transform duration-500 text-center"
+          className="carousel-inner h-[440px] sm:h-[600px] text-yellow-300 flex transition-transform duration-500 text-center"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           <div
-            key="1"
+            key="12"
+            className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-16 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
+          >
+            1
+          </div>
+          <div
+            key="2"
             className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-20 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
           >
             <h3 className="">Reyhan Çetin</h3>
@@ -61,12 +67,7 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
             </p>
             <p>Sevgilerle...</p>
           </div>
-          <div
-            key="2"
-            className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-16 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
-          >
-            2
-          </div>
+
           <div
             key="3"
             className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
@@ -148,7 +149,7 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
           <button
             key={index}
             className={`carousel-dot mx-1 w-3 h-3 rounded-full ${
-              index === currentIndex ? "bg-yellow-900" : "bg-yellow-200"
+              index === currentIndex ? "bg-yellow-700" : "bg-yellow-300"
             }`}
             onClick={() => handleDotClick(index)}
           />

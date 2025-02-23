@@ -3,11 +3,9 @@ import rVideo from "./reyhan-video.jpg";
 import footerReyhan from "./rcteenx.jpeg";
 import bOncesi from "./bilinc-oncesi.jpg";
 import bSonrasi from "./bilinc-sonrasi.jpg";
-
 import presenceInstagram from "./presence-instagram.png";
 import kendiniGozlem from "./kendini-gozlem.png";
 import varolussalDonusum from "./varolussal-donusum.jpg";
-import grupCalismasi from "./grup-calismasi.jpg";
 import profilePng from "./profile.png";
 
 export {
@@ -19,6 +17,5 @@ export {
   presenceInstagram,
   kendiniGozlem,
   varolussalDonusum,
-  grupCalismasi,
   profilePng,
 };

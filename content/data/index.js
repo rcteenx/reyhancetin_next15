@@ -106,9 +106,9 @@ export const presenceMentor = {
 
 export const selfObservation = {
   h2: "KENDİNİ GÖZLEM",
-  h3: "Güvenlik Kamerası Kayıtları",
+  h3: "Hayatı Objektif Bilinç ile İzlemek",
   subTitle: "Kendini-Gözlem Nedir?",
-  p3: "Hayatın içinde, kendimizi tanımaya ve dönüştürme.",
+  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek.",
   items: [
     {
       title: "O Şimdi Ne Yapıyor?",
@@ -262,8 +262,8 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "presence",
-    link: "presence",
+    title: "yol",
+    link: "yol",
     pages: [
       { id: 1, title: "Bilinç Yolu", link: "bilinc" },
       {

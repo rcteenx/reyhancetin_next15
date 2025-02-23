@@ -6,8 +6,8 @@ export default function ReyhanCarousel({}) {
       id="info"
       className="gradientInstagramStory pb-4 shadow-xl border-t-4 border-yellow-600"
     >
-      <div className=" mx-auto my-8 sm:my-16 sm:p-4 sm:container">
-        <h2 className="text-2xl lg:text-4xl text-center">
+      <div className=" mx-auto my-16 sm:p-4 sm:container">
+        <h2 className="text-2xl lg:text-4xl text-center text-yellow-500">
           Ben Kimim ya da Ne?
         </h2>
         <div className=" max-w-xl mx-auto p-4 sm:p-4 bgStoryReyhan border-2 border-yellow-500 ">
