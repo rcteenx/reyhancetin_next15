@@ -34,8 +34,8 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           <div key="1" className="carousel-item relative flex-shrink-0 w-full ">
-            <div className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
+            <div className="reyhanInfoPosition">
+              <div className="reyhanInfoContent">
                 <h3>Merhaba,</h3>
                 <h3>Sayfama hoş geldin! 🌟</h3>
                 <p>
@@ -61,21 +61,13 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
             </div>
           </div>
           <div key="2" className="carousel-item relative flex-shrink-0 w-full ">
-            <div
-              className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-"
-            >
-              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5">
-                2
-              </div>
+            <div className="reyhanInfoPosition">
+              <div className="reyhanInfoContent">2a</div>
             </div>
           </div>
           <div key="3" className="carousel-item relative flex-shrink-0 w-full ">
-            <div
-              className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-"
-            >
-              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 border">
+            <div className="reyhanInfoPosition">
+              <div className="reyhanInfoContent">
                 <h3 className="">Reyhan Çetin</h3>
                 <h5 className="my-0 text-base sm:text-xl leading-6">
                   Bilinçli Farkındalık Rehberi
@@ -104,11 +96,8 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
           </div>
 
           <div key="4" className="carousel-item relative flex-shrink-0 w-full ">
-            <div
-              className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-"
-            >
-              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 border">
+            <div className="reyhanInfoPosition">
+              <div className="reyhanInfoContent">
                 <h3>Klasik Tanıtım</h3>
                 <p>
                   1976 yılında Biga'da doğdu.
