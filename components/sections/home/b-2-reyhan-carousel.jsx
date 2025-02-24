@@ -41,16 +41,14 @@ export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
               <h3>Merhaba,</h3>
               <h3>Sayfama hoş geldin! 🌟</h3>
               <p>
-                Öncelikle, bu karşılaşmaya çok sevindim. Bu sayfada sana bir
-                davet sunuyor — kaynağa yolculuğa birlikte devam edelim.
+                Öncelikle, bu karşılaşmaya çok sevindim. Bu sayfa sana bir davet
+                sunuyor — kaynağa yolculuğa birlikte devam edelim.
               </p>
               <p>
-                Üniversite döneminde başlayan bu arayış, beni bilinç ve
-                farkındalık çalışmaları yoluna soktu. Kendi içgüdüleri ya da
-                toplumun kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
+                Üniversite döneminde başlayan arayış, beni bilinç ve farkındalık
+                çalışmaları yoluna soktu. Kendi içgüdüleri ya da toplumun
+                kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
               </p>
-              <p>Pek çok insanın içinde bir arayış yok ya da yola çıkmıyor.</p>
-              <p>
                 Eğer bir arayışın varsa ya da kendini yolda görüyorsan, bilinç
                 ve farkındalık çemberi, yeni yol arkadaşlarını bekliyor.
                 <br />
