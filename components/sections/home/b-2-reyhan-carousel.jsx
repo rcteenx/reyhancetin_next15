@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 export default function ReyhanInfo({ autoplayInterval = 300000 }) {
-  var items = [1, 2, 3];
+  var items = [1, 2, 3, 4];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,12 +30,12 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner h-[520px] sm:h-[600px] p-1 text-yellow-300 flex transition-transform duration-500 text-center"
+          className="carousel-inner h-[520px] sm:h-[600px]  text-yellow-300 flex transition-transform duration-500 text-center w-full "
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
-          <div key="1" className="carousel-item relative flex-shrink-0 w-full">
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-8 sm:px-12 ">
-              <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
+          <div key="1" className="carousel-item relative flex-shrink-0 w-full ">
+            <div className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
                 <h3>Merhaba,</h3>
                 <h3>Sayfama hoş geldin! 🌟</h3>
                 <p>
@@ -60,17 +60,55 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
               </div>
             </div>
           </div>
-
-          <div key="2" className="carousel-item relative flex-shrink-0 w-full">
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-8 sm:px-12 ">
-              <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
+          <div key="2" className="carousel-item relative flex-shrink-0 w-full ">
+            <div
+              className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+"
+            >
+              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5">
                 2
               </div>
             </div>
           </div>
-          <div key="3" className="carousel-item relative flex-shrink-0 w-full">
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-8 sm:px-12 ">
-              <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5">
+          <div key="3" className="carousel-item relative flex-shrink-0 w-full ">
+            <div
+              className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+"
+            >
+              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 border">
+                <h3 className="">Reyhan Çetin</h3>
+                <h5 className="my-0 text-base sm:text-xl leading-6">
+                  Bilinçli Farkındalık Rehberi
+                </h5>
+                <p>
+                  Bu “Reyhan Çetin” profili, <br />
+                  bilinçli farkındalık yolunda
+                  <br />
+                  bir arkadaş çemberinin ilk ağacı.
+                </p>
+                <p>
+                  Sosyal medyanın imkanlarını kullanarak,
+                  <br />
+                  bilgi paylaşmayı, bilinci geliştirmeyi
+                  <br />
+                  ve farkındalığı korumayı amaçlıyoruz.
+                </p>
+                <p>
+                  Eski dostlar ve yeni takipçiler hoş geldiniz.
+                  <br />
+                  Bu çemberi katkılarınızla geliştirelim!
+                </p>
+                <p>Sevgilerle...</p>
+              </div>
+            </div>
+          </div>
+
+          <div key="4" className="carousel-item relative flex-shrink-0 w-full ">
+            <div
+              className="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+"
+            >
+              <div className="px-8 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 border">
                 <h3>Klasik Tanıtım</h3>
                 <p>
                   1976 yılında Biga'da doğdu.
