@@ -30,7 +30,7 @@ export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner h-[520px] sm:h-[620px] p-1 text-yellow-300 flex transition-transform duration-500 text-center"
+          className="carousel-inner h-[520px] sm:h-[600px] p-1 text-yellow-300 flex transition-transform duration-500 text-center"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           <div
@@ -46,18 +46,13 @@ export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
               </p>
               <p>
                 Üniversite döneminde başlayan bu arayış, beni bilinç ve
-                farkındalık çalışmaları yoluna soktu. Hayatın akışının tersine
-                olan bu yola girince, kendi içgüdüleri ya da toplumun
-                kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
+                farkındalık çalışmaları yoluna soktu. Kendi içgüdüleri ya da
+                toplumun kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
               </p>
+              <p>Pek çok insanın içinde bir arayış yok ya da yola çıkmıyor.</p>
               <p>
-                Pek çok insanın içinde bir arayış yok ya da yola çıkmıyorlar.
-                İşte tam da bu yüzden, benim gibi bilinç ve farkındalık
-                yolcularını aradım... ve aramaya devam ediyorum.
-              </p>
-              <p>
-                Eğer bir arayışın varsa ya da sen de kendini yolda görüyorsan,
-                bu çember senin gibi yol arkadaşlarını bekliyor.
+                Eğer bir arayışın varsa ya da kendini yolda görüyorsan, bilinç
+                ve farkındalık çemberi, yeni yol arkadaşlarını bekliyor.
                 <br />
                 Şimdiden hoş geldin! 🌟
               </p>
