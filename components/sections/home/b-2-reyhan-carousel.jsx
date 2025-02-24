@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function ReyhanCarouselStories({ autoplayInterval = 300000 }) {
+export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
   var items = [1, 2, 3];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,14 +30,14 @@ export default function ReyhanCarouselStories({ autoplayInterval = 300000 }) {
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner h-[520px] sm:h-[600px] text-yellow-300 flex transition-transform duration-500 text-center"
+          className="carousel-inner h-[540px] sm:h-[620px] text-yellow-300 flex transition-transform duration-500 text-center"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           <div
             key="12"
-            className="carousel-item flex-shrink-0 w-full px-8 sm:px-16 pt-8"
+            className="carousel-item flex-shrink-0 w-full px-4 sm:px-8 pt-12"
           >
-            <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5">
+            <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 border">
               <h3>Merhaba,</h3>
               <h3>Sayfama hoş geldiniz!</h3>
               <p>

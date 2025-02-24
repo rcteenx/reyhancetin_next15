@@ -1,6 +1,6 @@
-import ReyhanCarouselStories from "@/components/sections/home/b-2-reyhan-carousel-story";
+import ReyhanCarousel from "@/components/sections/home/b-2-reyhan-carousel";
 
-export default function ReyhanCarousel({}) {
+export default function ReyhanInfo({}) {
   return (
     <div
       id="reyhan-info"
@@ -11,7 +11,7 @@ export default function ReyhanCarousel({}) {
           Reyhan Çetin: Kim ya da Ne?
         </h2>
         <div className=" max-w-xl mx-auto p-4 sm:p-4 bgStoryReyhan border-2 border-yellow-500 ">
-          <ReyhanCarouselStories autoplayInterval={600000} />
+          <ReyhanCarousel autoplayInterval={600000} />
         </div>
       </div>
     </div>

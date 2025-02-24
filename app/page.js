@@ -18,7 +18,7 @@ import {
 import Hero from "@/components/sections/home/1-hero";
 import InfoBar from "@/components/sections/home/2-info-bar";
 
-import ReyhanCarousel from "@/components/sections/home/b-1-reyhan-carousel";
+import ReyhanCarousel from "@/components/sections/home/b-1-reyhan-info";
 
 import Observation from "@/components/sections/home/c-1-observation";
 
