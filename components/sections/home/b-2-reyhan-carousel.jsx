@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
+export default function ReyhanInfo({ autoplayInterval = 300000 }) {
   var items = [1, 2, 3];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,94 +33,77 @@ export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
           className="carousel-inner h-[520px] sm:h-[600px] p-1 text-yellow-300 flex transition-transform duration-500 text-center"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
-          <div
-            key="12"
-            className="carousel-item flex-shrink-0 w-full px-4 sm:px-8 pt-12"
-          >
-            <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
-              <h3>Merhaba,</h3>
-              <h3>Sayfama hoş geldin! 🌟</h3>
-              <p>
-                Öncelikle, bu karşılaşmaya çok sevindim. Bu sayfa sana bir davet
-                sunuyor — kaynağa yolculuğa birlikte devam edelim.
-              </p>
-              <p>
-                Üniversite döneminde başlayan arayış, beni bilinç ve farkındalık
-                çalışmaları yoluna soktu. Kendi içgüdüleri ya da toplumun
-                kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
-              </p>
-                Eğer bir arayışın varsa ya da kendini yolda görüyorsan, bilinç
-                ve farkındalık çemberi, yeni yol arkadaşlarını bekliyor.
-                <br />
-                Şimdiden hoş geldin! 🌟
-              </p>
-              <p className="text-right">Sevgilerle... Reyhan X</p>
+          <div key="1" className="carousel-item relative flex-shrink-0 w-full">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-8 sm:px-12 ">
+              <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
+                <h3>Merhaba,</h3>
+                <h3>Sayfama hoş geldin! 🌟</h3>
+                <p>
+                  Öncelikle, bu karşılaşmaya çok sevindim. Bu sayfa sana bir
+                  davet sunuyor — kaynağa yolculuğa birlikte devam edelim.
+                </p>
+                <p>
+                  Üniversite döneminde başlayan arayış, beni bilinç ve
+                  farkındalık çalışmaları yoluna soktu. Kendi içgüdüleri ya da
+                  toplumun kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
+                </p>
+                <p>
+                  Pek çok insanın içinde bir arayış yok ya da yola çıkmıyor.
+                </p>
+                <p>
+                  Eğer bir arayışın varsa ya da kendini yolda görüyorsan, bilinç
+                  ve farkındalık çemberi, yeni yol arkadaşlarını bekliyor.
+                  <br />
+                  Şimdiden hoş geldin! 🌟
+                </p>
+                <p className="text-right">Sevgilerle... Reyhan X</p>
+              </div>
             </div>
           </div>
-          <div
-            key="2"
-            className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-20 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
-          >
-            <h3 className="">Reyhan Çetin</h3>
-            <h5 className="my-0 text-base sm:text-xl leading-6">
-              Bilinçli Farkındalık Rehberi
-            </h5>
-            <p>
-              Bu “Reyhan Çetin” profili, <br />
-              bilinçli farkındalık yolunda
-              <br />
-              bir arkadaş çemberinin ilk ağacı.
-            </p>
-            <p>
-              Sosyal medyanın imkanlarını kullanarak,
-              <br />
-              bilgi paylaşmayı, bilinci geliştirmeyi
-              <br />
-              ve farkındalığı korumayı amaçlıyoruz.
-            </p>
-            <p>
-              Eski dostlar ve yeni takipçiler hoş geldiniz.
-              <br />
-              Bu çemberi katkılarınızla geliştirelim!
-            </p>
-            <p>Sevgilerle...</p>
+
+          <div key="2" className="carousel-item relative flex-shrink-0 w-full">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-8 sm:px-12 ">
+              <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
+                2
+              </div>
+            </div>
           </div>
+          <div key="3" className="carousel-item relative flex-shrink-0 w-full">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-8 sm:px-12 ">
+              <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5">
+                <h3>Klasik Tanıtım</h3>
+                <p>
+                  1976 yılında Biga'da doğdu.
+                  <br />
+                  Baba kamyon şoförü, anne ev hanımı.
+                  <br />
+                  Bir erkek kardeş ve babaanne.
+                </p>
+                <p>
+                  Dumlupınar İlkokulu,
+                  <br />
+                  Çanakkale Anadolu Lisesi ve
+                  <br />
+                  Boğaziçi Üniversitesi İşletme.
+                </p>
+                <p>
+                  İşletme, satış-pazarlama ve dış ticaret ile başlayan çalışma
+                  hayatı yazılım ile devam etti.
+                </p>
+                <p>
+                  2000'de ezoterik felsefe çalışmalarına başladı.
+                  <br />
+                  2010’lu yıllarda moderatör olarak devam etti.
+                </p>
 
-          <div
-            key="3"
-            className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-16 [&>p]:my-2 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
-          >
-            <h3>Klasik Tanıtım</h3>
-            <p>
-              1976 yılında Biga'da doğdu.
-              <br />
-              Baba kamyon şoförü, anne ev hanımı.
-              <br />
-              Bir erkek kardeş ve babaanne.
-            </p>
-            <p>
-              Dumlupınar İlkokulu,
-              <br />
-              Çanakkale Anadolu Lisesi ve
-              <br />
-              Boğaziçi Üniversitesi İşletme.
-            </p>
-            <p>
-              İşletme, satış-pazarlama ve dış ticaret ile başlayan çalışma
-              hayatı yazılım ile devam etti.
-            </p>
-            <p>
-              2000'de ezoterik felsefe çalışmalarına başladı.
-              <br />
-              2010’lu yıllarda moderatör olarak devam etti.
-            </p>
+                <p>Pandemi (2020) çalışmalarını durdurdu.</p>
 
-            <p>Pandemi (2020) çalışmalarını durdurdu.</p>
-
-            <p>
-              Halen Çanakkale'nin Biga ilçesinde yaşıyor.
-              <br />2 kız ve bir erkek çocuk babası.
-            </p>
+                <p>
+                  Halen Çanakkale'nin Biga ilçesinde yaşıyor.
+                  <br />2 kız ve bir erkek çocuk babası.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
