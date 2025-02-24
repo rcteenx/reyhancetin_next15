@@ -30,7 +30,7 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner h-[480px] sm:h-[600px]  text-yellow-300 flex transition-transform duration-500 text-center w-full "
+          className="carousel-inner h-[520px] sm:h-[600px]  text-yellow-300 flex transition-transform duration-500 text-center w-full "
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           <div key="1" className="carousel-item relative flex-shrink-0 w-full ">
