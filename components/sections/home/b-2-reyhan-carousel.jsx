@@ -58,7 +58,9 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
           </div>
           <div key="2" className="carousel-item relative flex-shrink-0 w-full ">
             <div className="reyhanInfoPosition">
-              <div className="reyhanInfoContent">2a</div>
+              <div className="reyhanInfoContent">
+                <h3>Ben Kimim ya da NE?</h3>
+              </div>
             </div>
           </div>
 
