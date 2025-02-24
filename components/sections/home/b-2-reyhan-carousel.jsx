@@ -37,31 +37,30 @@ export default function ReyhanCarousel({ autoplayInterval = 300000 }) {
             key="12"
             className="carousel-item flex-shrink-0 w-full px-4 sm:px-8 pt-12"
           >
-            <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 border">
+            <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5 ">
               <h3>Merhaba,</h3>
-              <h3>Sayfama hoş geldiniz!</h3>
+              <h3>Sayfama hoş geldin! 🌟</h3>
               <p>
-                Öncelikle, bu karşılaşmaya çok sevindim. Bu aşamada kendimi
-                sunarak bir davet yapmaya çalışıyorum.
+                Öncelikle, bu karşılaşmaya çok sevindim. Bu sayfada bir davet
+                sunuyorum — kaynağa yolculuğa birlikte devam etmek için.
               </p>
               <p>
                 Üniversite döneminde başlayan bu arayış, beni bilinç ve
-                farkındalık çalışmaları yoluna soktu. Kendini tanımayla başlayan
-                yolculuk, kendini aşmaya dönüştü.
+                farkındalık çalışmaları yoluna soktu. Hayatın akışının tersine
+                olan bu yola girince, kendi içgüdüleri ya da toplumun
+                kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
               </p>
               <p>
-                Hayatın akışının tersine olan bu yola girince, kendi içgüdüleri
-                ya da toplumun kurallarıyla ilerleyen kişilerden uzaklaşmış
-                oldum.
+                Zamanla fark ettim ki, pek çok insan bu tür bir yola adım atmak
+                istemiyor — ya da hazır hissetmiyor. İşte tam da bu yüzden,
+                benim gibi bilinç ve farkındalık yolcularını aradım... Hâlâ da
+                aramaya devam ediyorum.
               </p>
               <p>
-                Pek çok kişinin böyle bir yola girmek istemediğini fark
-                ettiğimde, benim gibi bilinç/farkındalık yolcularını aradım,
-                hala da aramaya devam ediyorum.
-              </p>
-              <p>
-                Eğer bilinç ve farkındalık yolundaysan ve bu çember senin gibi
-                arkadaşlara ulaşmak için... <br />
+                Eğer sen de bu yolun bir yerinden geçiyorsan ya da geçmeyi
+                düşünüyorsan, bu çember tam da senin gibi yol arkadaşlarını
+                bekliyor.
+                <br />
                 Şimdiden hoş geldin! 🌟
               </p>
               <p className="text-right">Sevgilerle... Reyhan X</p>
