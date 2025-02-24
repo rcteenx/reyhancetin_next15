@@ -59,7 +59,7 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
           <div key="2" className="carousel-item relative flex-shrink-0 w-full ">
             <div className="reyhanInfoPosition">
               <div className="reyhanInfoContent">
-                <h3>Ben Kimim ya da NE?</h3>
+                <h3>Kimim ya da NE?</h3>
                 <p>Belki de en doğru soru şu: Ne değilim?</p>
                 <p>
                   Bir etiket ya da isim değilim. “Reyhan Çetin” bana işaret

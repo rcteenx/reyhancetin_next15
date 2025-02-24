@@ -1,19 +1,6 @@
-import {
-  rVideo,
-  presenceInstagram,
-  kendiniGozlem,
-  grupCalismasi,
-} from "@/public/assets/images";
+import { rVideo, kendiniGozlem } from "@/public/assets/images";
 
-import {
-  barInfo,
-  presence,
-  presenceMentor,
-  selfObservation,
-  meditationInfo,
-  weeklyMeetings,
-  conditions,
-} from "@/content/data";
+import { barInfo, selfObservation, meditationInfo } from "@/content/data";
 
 import Hero from "@/components/sections/home/1-hero";
 import InfoBar from "@/components/sections/home/2-info-bar";
