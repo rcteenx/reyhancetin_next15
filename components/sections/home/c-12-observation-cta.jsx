@@ -1,5 +1,3 @@
-import IconComponent from "@/components/ui/IconComponent";
-
 export default function ObservationCTA() {
   return (
     <div className="mx-auto max-w-2xl mt-8 md:mt-16 p-4 md:px-12 md:border md:rounded-2xl shadow-lg text-center ">

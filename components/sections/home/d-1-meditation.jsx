@@ -1,5 +1,4 @@
 import IconComponent from "@/components/ui/IconComponent";
-
 import MeditationCTA from "@/components/sections/home/d-12-meditation-cta";
 
 export default function Meditation({ info }) {

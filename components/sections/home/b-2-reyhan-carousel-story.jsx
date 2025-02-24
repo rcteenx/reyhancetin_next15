@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function CarouselContent({ autoplayInterval = 30000 }) {
+export default function ReyhanCarouselStories({ autoplayInterval = 300000 }) {
   var items = [1, 2, 3];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,14 +30,42 @@ export default function CarouselContent({ autoplayInterval = 30000 }) {
     <div className="relative">
       <div className="carousel overflow-hidden">
         <div
-          className="carousel-inner h-[440px] sm:h-[600px] text-yellow-300 flex transition-transform duration-500 text-center"
+          className="carousel-inner h-[520px] sm:h-[600px] text-yellow-300 flex transition-transform duration-500 text-center"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           <div
             key="12"
-            className="carousel-item flex-shrink-0 w-full px-4 sm:px-12 pt-16 [&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5"
+            className="carousel-item flex-shrink-0 w-full px-8 sm:px-16 pt-8"
           >
-            1
+            <div className="[&>p]:my-4 [&>p]:text-sm [&>p]:sm:text-base [&>p]:leading-5">
+              <h3>Merhaba,</h3>
+              <h3>Sayfama hoş geldiniz!</h3>
+              <p>
+                Öncelikle, bu karşılaşmaya çok sevindim. Bu aşamada kendimi
+                sunarak bir davet yapmaya çalışıyorum.
+              </p>
+              <p>
+                Üniversite döneminde başlayan bu arayış, beni bilinç ve
+                farkındalık çalışmaları yoluna soktu. Kendini tanımayla başlayan
+                yolculuk, kendini aşmaya dönüştü.
+              </p>
+              <p>
+                Hayatın akışının tersine olan bu yola girince, kendi içgüdüleri
+                ya da toplumun kurallarıyla ilerleyen kişilerden uzaklaşmış
+                oldum.
+              </p>
+              <p>
+                Pek çok kişinin böyle bir yola girmek istemediğini fark
+                ettiğimde, benim gibi bilinç/farkındalık yolcularını aradım,
+                hala da aramaya devam ediyorum.
+              </p>
+              <p>
+                Eğer bilinç ve farkındalık yolundaysan ve bu çember senin gibi
+                arkadaşlara ulaşmak için... <br />
+                Şimdiden hoş geldin! 🌟
+              </p>
+              <p className="text-right">Sevgilerle... Reyhan X</p>
+            </div>
           </div>
           <div
             key="2"

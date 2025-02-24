@@ -54,22 +54,23 @@ export const barInfo = {
   ],
 };
 
-export const reyhanBio = {
-  h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
-  desc: "Hayatın içinde gözlem ile kendini tanıma",
+export const selfObservation = {
+  h2: "KENDİNİ GÖZLEM",
+  h3: "Hayatı Objektif Bilinçle İzlemek",
+  subTitle: "Kendini-Gözlem Nedir?",
+  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek için uygulanan bilinçli bir farkındalık pratiğidir.",
   items: [
     {
-      src: "/assets/images/reyhan/hos-geldiniz.png",
-      alt: "Image 1",
-      content: "Merhaba, Profilime Hoş geldiniz!",
+      title: "O Şimdi Ne Yapıyor?",
+      info: 'Gerçek gözlem, kişinin kendisini ikiye ayırmasıyla başlar: "Ben" (Gözlemci) ve Makine (Beden, zihin ve duygular). Bu ayrımı yapmadan tarafsız gözlem mümkün değildir. Kendimizi dışarıdan izlemeye başladığımızda, alışkanlıklarımızı, otomatik tepkilerimizi ve bilinçsiz davranışlarımızı fark ederiz.',
     },
     {
-      src: "/assets/images/reyhan/hos-geldiniz.png",
-      alt: "Image 2",
+      title: "Kendini Tanıma ve Değiştirme",
+      info: "Kendimizi çoğunlukla başkalarının bize yansıttığı kimliklerle tanırız — ailemiz, çevremiz ve toplumun beklentileriyle şekilleniriz. Tarafsız bir gözlemle, bu maskeleri fark eder ve kim olduğumuza dair daha derin bir anlayışa ulaşırız. Objektif gözlem başladığında, dönüşüm de kendiliğinden başlar.",
     },
     {
-      src: "/assets/images/reyhan/hos-geldiniz.png",
-      alt: "Image 3",
+      title: "Kaynağa Dönüş",
+      info: "Katman katman soyundukça, içimizdeki saf varlığa yaklaşırız — tıpkı iç içe geçmiş Matruşka bebekleri gibi. Bu yolculukta, kendi içimizdeki saf farkındalığa (presence) ulaşabiliriz.",
     },
   ],
 };
@@ -101,57 +102,6 @@ export const meditationInfo = {
       icon: "medSilence",
       iconColor: "#6a1b9a",
       info: "Gerçek varlığınla buluşarak, bir olma halini deneyimlemeni sağlar.",
-    },
-  ],
-};
-
-export const presence = {
-  h2: "PRESENCE*",
-  h3: "Saf Farkındalığın Varlığı",
-  subTitle: "Presence Nedir?",
-  items: [
-    {
-      title: "Mevcut Olma Durumu",
-      info: "Mevcut olma durumu, en basit haliyle, bir öğrencinin sınıfta bulunmasıdır. Ancak zihni başka yerlerde dolaşıyorsa, gerçekten mevcut olduğu söylenebilir mi? Daha derin anlamıyla presence, kişinin zihinsel ve ruhsal olarak şu anda ve burada olma halidir.",
-    },
-    {
-      title: "Huzurunda Olma",
-      info: "Bir okul müdürünün huzurunda (presence) yapılan bir sunum veya gösteri düşünelim. Burada sadece o kişinin fiziksel varlığı değil, aynı zamanda ortama atfedilen özel anlam da vardır. Huzurunda olma, fiziki varlığının ötesinde bir etkiye sahip olmasını ifade eder.",
-    },
-    {
-      title: "Ruhani veya Enerjetik Mevcudiyet",
-      info: "Bu kullanımda presence, bilinen fiziksel gerçekliğin ötesinde bir anlam kazanır. Örneğin, meditasyon sırasında odada yayılan huzur ve kutsallık hissi gibi. Türkiye’de en güçlü örneklerden biri, Anıtkabir’de Atatürk’ün huzurunda gerçekleştirilen anma törenleri olabilir.",
-    },
-  ],
-  px: "Presence, bilincin anda olması değil, varlığın benlik sınırlarının ve zamanın ötesine genişlemesi ve alana yayılmasıdır.",
-  footnote:
-    "* Türkçe'de birebir karşılığı olmadığı için, İngilizce kullanıyoruz.",
-};
-
-export const presenceMentor = {
-  h2: "PRESENCE MENTOR",
-  px: "Presence Mentor ve Öğretmeni olarak, mindfulness temelli bilinç çalışmalarında varlık geliştirmiş arkadaşların, sonraki aşamaya geçişlerine bilgi ve deneyimlerimle rehber oluyorum.",
-  p1: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, gözlemcinin devamında gelişen ve irade sahibi olan bilincin, yani kahyanın, hizmet ettiği efendidir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
-  p2: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bu pek mümkün değil. Öncelikle dikkat meditasyonları ve hayatın içinde gözlem ile başlayabilirsiniz. Sonrasında mindfulness temelli bilinç çalışmalarıyla, presence'ı taşıyabilecek sağlam bir temel geliştirebilirsiniz.",
-};
-
-export const selfObservation = {
-  h2: "KENDİNİ GÖZLEM",
-  h3: "Hayatı Objektif Bilinçle İzlemek",
-  subTitle: "Kendini-Gözlem Nedir?",
-  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek için uygulanan bilinçli bir farkındalık pratiğidir.",
-  items: [
-    {
-      title: "O Şimdi Ne Yapıyor?",
-      info: 'Gerçek gözlem, kişinin kendisini ikiye ayırmasıyla başlar: "Ben" (Gözlemci) ve Makine (Beden, zihin ve duygular). Bu ayrımı yapmadan tarafsız gözlem mümkün değildir. Kendimizi dışarıdan izlemeye başladığımızda, alışkanlıklarımızı, otomatik tepkilerimizi ve bilinçsiz davranışlarımızı fark ederiz.',
-    },
-    {
-      title: "Kendini Tanıma ve Değiştirme",
-      info: "Kendimizi çoğunlukla başkalarının bize yansıttığı kimliklerle tanırız — ailemiz, çevremiz ve toplumun beklentileriyle şekilleniriz. Tarafsız bir gözlemle, bu maskeleri fark eder ve kim olduğumuza dair daha derin bir anlayışa ulaşırız. Objektif gözlem başladığında, dönüşüm de kendiliğinden başlar.",
-    },
-    {
-      title: "Kaynağa Dönüş",
-      info: "Katman katman soyundukça, içimizdeki saf varlığa yaklaşırız — tıpkı iç içe geçmiş Matruşka bebekleri gibi. Bu yolculukta, kendi içimizdeki saf farkındalığa (presence) ulaşabiliriz.",
     },
   ],
 };
@@ -210,6 +160,7 @@ export const weeklyMeetings = {
     },
   ],
 };
+
 export const conditions = {
   h2: "ATÖLYE ÇALIŞMALARI",
   p: "Düzenli çalışmaların gerektirdiği donanımların kazanımı için yeni arkadaşları öncelikle atölye çalışmalarımıza bekliyoruz.",
@@ -228,6 +179,36 @@ export const conditions = {
       info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve değerlendirilmesine dayanıyor. Katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
     },
   ],
+};
+
+export const presence = {
+  h2: "PRESENCE*",
+  h3: "Saf Farkındalığın Varlığı",
+  subTitle: "Presence Nedir?",
+  items: [
+    {
+      title: "Mevcut Olma Durumu",
+      info: "Mevcut olma durumu, en basit haliyle, bir öğrencinin sınıfta bulunmasıdır. Ancak zihni başka yerlerde dolaşıyorsa, gerçekten mevcut olduğu söylenebilir mi? Daha derin anlamıyla presence, kişinin zihinsel ve ruhsal olarak şu anda ve burada olma halidir.",
+    },
+    {
+      title: "Huzurunda Olma",
+      info: "Bir okul müdürünün huzurunda (presence) yapılan bir sunum veya gösteri düşünelim. Burada sadece o kişinin fiziksel varlığı değil, aynı zamanda ortama atfedilen özel anlam da vardır. Huzurunda olma, fiziki varlığının ötesinde bir etkiye sahip olmasını ifade eder.",
+    },
+    {
+      title: "Ruhani veya Enerjetik Mevcudiyet",
+      info: "Bu kullanımda presence, bilinen fiziksel gerçekliğin ötesinde bir anlam kazanır. Örneğin, meditasyon sırasında odada yayılan huzur ve kutsallık hissi gibi. Türkiye’de en güçlü örneklerden biri, Anıtkabir’de Atatürk’ün huzurunda gerçekleştirilen anma törenleri olabilir.",
+    },
+  ],
+  px: "Presence, bilincin anda olması değil, varlığın benlik sınırlarının ve zamanın ötesine genişlemesi ve alana yayılmasıdır.",
+  footnote:
+    "* Türkçe'de birebir karşılığı olmadığı için, İngilizce kullanıyoruz.",
+};
+
+export const presenceMentor = {
+  h2: "PRESENCE MENTOR",
+  px: "Presence Mentor ve Öğretmeni olarak, mindfulness temelli bilinç çalışmalarında varlık geliştirmiş arkadaşların, sonraki aşamaya geçişlerine bilgi ve deneyimlerimle rehber oluyorum.",
+  p1: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, gözlemcinin devamında gelişen ve irade sahibi olan bilincin, yani kahyanın, hizmet ettiği efendidir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
+  p2: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bu pek mümkün değil. Öncelikle dikkat meditasyonları ve hayatın içinde gözlem ile başlayabilirsiniz. Sonrasında mindfulness temelli bilinç çalışmalarıyla, presence'ı taşıyabilecek sağlam bir temel geliştirebilirsiniz.",
 };
 
 export const yollar = [

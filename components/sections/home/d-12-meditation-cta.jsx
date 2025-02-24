@@ -1,5 +1,3 @@
-import IconComponent from "@/components/ui/IconComponent";
-
 export default function MeditationCTA() {
   return (
     <div className="mx-auto max-w-2xl mt-4 md:mt-8 p-4 md:px-12 md:border border-purple-600 md:rounded-2xl shadow-lg text-center text-purple-300 ">
