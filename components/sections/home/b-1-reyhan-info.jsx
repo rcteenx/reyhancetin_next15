@@ -4,13 +4,13 @@ export default function ReyhanInfo({}) {
   return (
     <div
       id="reyhan-info"
-      className="gradientInstagramStory pb-4 shadow-xl border-t-4 border-yellow-600"
+      className="gradientInstagramStory pb-4 shadow-xl border-t-4 border-b-4 border-yellow-600"
     >
-      <div className=" mx-auto my-16 sm:p-4 sm:container">
-        <h2 className="text-2xl lg:text-4xl text-center text-yellow-500">
+      <div className=" mx-auto mt-8 sm:p-4 sm:container">
+        <h2 className="text-2xl lg:text-3xl text-center text-yellow-500">
           Reyhan Çetin: Kim ya da Ne?
         </h2>
-        <div className="mx-auto max-w-xl p-1 sm:p-2 bgStoryReyhan sm:border-2 border-yellow-500 ">
+        <div className="mx-auto max-w-md p-1 sm:p-2 bgStoryReyhan sm:border-2 border-yellow-500 ">
           <ReyhanCarousel autoplayInterval={600000} />
         </div>
       </div>

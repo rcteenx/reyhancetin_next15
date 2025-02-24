@@ -37,25 +37,21 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
             <div className="reyhanInfoPosition">
               <div className="reyhanInfoContent">
                 <h3>Merhaba,</h3>
-                <h3>Sayfama hoş geldin! 🌟</h3>
+                <h3>🌟 Tekrar hoş geldin! 🌟</h3>
                 <p>
-                  Öncelikle, bu karşılaşmaya çok sevindim. Bu sayfa sana bir
-                  davet sunuyor — kaynağa yolculuğa birlikte devam edelim.
+                  Öncelikle, bu karşılaşmaya çok sevindik. Burada bir davet var:
+                  Yolculuğa beraber devam edelim.
                 </p>
                 <p>
-                  Üniversite döneminde başlayan arayış, beni bilinç ve
-                  farkındalık çalışmaları yoluna soktu. Kendi içgüdüleri ya da
-                  toplumun kurallarıyla ilerleyen kişilerden uzaklaşmış oldum.
+                  İçimizde başlayan arayış, bizi kendimizi tanıma yoluna soktu.
+                  Yolculuk başladığında, ister istemez içgüdülere ya da toplumun
+                  kalıplarına hapsolmuş olandan uzaklaştık.
                 </p>
                 <p>
-                  Pek çok insanın içinde bir arayış yok ya da yola çıkmıyor.
+                  Eğer sen de bir arayış içindeysen ya da kendini bu yolda
+                  görüyorsan, bilinç ve farkındalık çemberi seni bekliyor.
                 </p>
-                <p>
-                  Eğer bir arayışın varsa ya da kendini yolda görüyorsan, bilinç
-                  ve farkındalık çemberi, yeni yol arkadaşlarını bekliyor.
-                  <br />
-                  Şimdiden hoş geldin! 🌟
-                </p>
+                <p>🌟 Şimdiden hoş geldin! 🌟</p>
                 <p className="text-right">Sevgilerle... Reyhan X</p>
               </div>
             </div>
@@ -65,7 +61,49 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
               <div className="reyhanInfoContent">2a</div>
             </div>
           </div>
+
           <div key="3" className="carousel-item relative flex-shrink-0 w-full ">
+            <div className="reyhanInfoPosition">
+              <div className="reyhanInfoContent  [&>p]:my-2 ">
+                <h3>Klasik Tanıtım</h3>
+                <p>
+                  1976 yılında Biga'da doğdu.
+                  <br />
+                  Baba kamyon şoförü, anne ev hanımı.
+                  <br />
+                  Bir erkek kardeş ve babaanne.
+                </p>
+                <p>
+                  Dumlupınar İlkokulu,
+                  <br />
+                  Çanakkale Anadolu Lisesi ve
+                  <br />
+                  Boğaziçi Üniversitesi İşletme.
+                </p>
+                <p>
+                  İşletme, satış-pazarlama ve dış ticaret ile başlayan çalışma
+                  hayatı IT ile devam etti.
+                </p>
+                <p>
+                  2000'de ezoterik çalışmaları başladı.
+                  <br />
+                  2010’lu yıllarda bilinçli farkındalık anlattı.
+                  <br />
+                  2020'de çalışmaları başarısızlıkla bitti.
+                </p>
+                <p>
+                  5 yıllık sessizlikten sonra, "saf farkındalık"a dayalı yeni
+                  çalışmaları tekrar başlatıyor.
+                </p>
+                <p>
+                  Halen Çanakkale'nin Biga ilçesinde yaşıyor.
+                  <br />2 kız ve bir erkek çocuk babası.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div key="4" className="carousel-item relative flex-shrink-0 w-full ">
             <div className="reyhanInfoPosition">
               <div className="reyhanInfoContent">
                 <h3 className="">Reyhan Çetin</h3>
@@ -91,44 +129,6 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
                   Bu çemberi katkılarınızla geliştirelim!
                 </p>
                 <p>Sevgilerle...</p>
-              </div>
-            </div>
-          </div>
-
-          <div key="4" className="carousel-item relative flex-shrink-0 w-full ">
-            <div className="reyhanInfoPosition">
-              <div className="reyhanInfoContent">
-                <h3>Klasik Tanıtım</h3>
-                <p>
-                  1976 yılında Biga'da doğdu.
-                  <br />
-                  Baba kamyon şoförü, anne ev hanımı.
-                  <br />
-                  Bir erkek kardeş ve babaanne.
-                </p>
-                <p>
-                  Dumlupınar İlkokulu,
-                  <br />
-                  Çanakkale Anadolu Lisesi ve
-                  <br />
-                  Boğaziçi Üniversitesi İşletme.
-                </p>
-                <p>
-                  İşletme, satış-pazarlama ve dış ticaret ile başlayan çalışma
-                  hayatı yazılım ile devam etti.
-                </p>
-                <p>
-                  2000'de ezoterik felsefe çalışmalarına başladı.
-                  <br />
-                  2010’lu yıllarda moderatör olarak devam etti.
-                </p>
-
-                <p>Pandemi (2020) çalışmalarını durdurdu.</p>
-
-                <p>
-                  Halen Çanakkale'nin Biga ilçesinde yaşıyor.
-                  <br />2 kız ve bir erkek çocuk babası.
-                </p>
               </div>
             </div>
           </div>
