@@ -4,6 +4,8 @@ export default function ObservationCTA() {
   return (
     <div className="mx-auto max-w-2xl mt-8 md:mt-16 p-4 md:px-12 md:border md:rounded-2xl shadow-lg text-center ">
       <h3>Kendini-Gözlem Semineri</h3>
+      <p>💫 Kendini gözlemlemeye başlamaya hazır mısın?</p>
+
       <ul>
         <li>Çalışmaları Tanıma ve Başlangıç</li>
         <li>Haftada 2 saat, toplam 4 hafta</li>
@@ -12,9 +14,8 @@ export default function ObservationCTA() {
         <li>
           <a
             href="https://wa.me/905443087402?text=Kendini-G%C3%B6zlem%20seminerine%20kat%C4%B1lmak%20istiyorum"
-            className="relative py-2 px-6 transition-all duration-200 gradientTransition btn-hero gradientWhatsapp"
+            className="relative py-3 px-6 transition-all duration-200 gradientTransition btn-hero gradientWhatsapp"
           >
-            <IconComponent name="whatsapp" size={24} color="white" />
             <span>👉 Katılmak İstiyorum</span>
           </a>
         </li>

@@ -137,21 +137,21 @@ export const presenceMentor = {
 
 export const selfObservation = {
   h2: "KENDİNİ GÖZLEM",
-  h3: "Hayatı Objektif Bilinç ile İzlemek",
+  h3: "Hayatı Objektif Bilinçle İzlemek",
   subTitle: "Kendini-Gözlem Nedir?",
-  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek.",
+  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek için uygulanan bilinçli bir farkındalık pratiğidir.",
   items: [
     {
       title: "O Şimdi Ne Yapıyor?",
-      info: "Gözlemin olması için, kişinin kendisini “ben - gözlemci” ve “makine - yani beden, duygu ve zihin”, olarak en az ikiye ayırmış olması gerekir. Gözlemci ve gözlenen ayrımı olmadan, tarafsız bir gözlem kolay olmaz.",
+      info: 'Gerçek gözlem, kişinin kendisini ikiye ayırmasıyla başlar: "Ben" (Gözlemci) ve Makine (Beden, zihin ve duygular). Bu ayrımı yapmadan tarafsız gözlem mümkün değildir. Kendimizi dışarıdan izlemeye başladığımızda, alışkanlıklarımızı, otomatik tepkilerimizi ve bilinçsiz davranışlarımızı fark ederiz.',
     },
     {
-      title: "Kendimizi Tanıma ve Değiştirme",
-      info: "Çoğumuz kendisini, objektif gerçeklerle değil, başta aile ve çevre olmak üzere, başkalarının bize yüklendiği kavramlarla, dolaylı olarak tanıyor. Kendimizi objektif ve tarafsız olarak gözlemlemeye başladığımızda, ne olup ne olmadığımızı kendi gözlerimizle görmeye başlıyoruz. Dahası, objektif ve tarafsız bir gözlemin başlaması, gözlemleneni - yani kendimizi - doğal olarak değiştirmeye başlıyor.",
+      title: "Kendini Tanıma ve Değiştirme",
+      info: "Kendimizi çoğunlukla başkalarının bize yansıttığı kimliklerle tanırız — ailemiz, çevremiz ve toplumun beklentileriyle şekilleniriz. Tarafsız bir gözlemle, bu maskeleri fark eder ve kim olduğumuza dair daha derin bir anlayışa ulaşırız. Objektif gözlem başladığında, dönüşüm de kendiliğinden başlar.",
     },
     {
       title: "Kaynağa Dönüş",
-      info: 'Kendini gözlemleme, bir aşamada neyin ya da nelerin gerçekte "BEN" olmadığını anlamayı sağlıyor. Tıpkı iç içe girmiş Matruşka bebekleri gibi, ben olmayan katmanlardan ayrıldıkça, içerde kaynağa çok daha yakın "benlik" algılarına doğru yol alıyoruz.',
+      info: "Katman katman soyundukça, içimizdeki saf varlığa yaklaşırız — tıpkı iç içe geçmiş Matruşka bebekleri gibi. Bu yolculukta, kendi içimizdeki saf farkındalığa (presence) ulaşabiliriz.",
     },
   ],
 };
