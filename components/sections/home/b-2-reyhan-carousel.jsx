@@ -60,6 +60,26 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
             <div className="reyhanInfoPosition">
               <div className="reyhanInfoContent">
                 <h3>Ben Kimim ya da NE?</h3>
+                <p>Belki de en doğru soru şu: Ne değilim?</p>
+                <p>
+                  Bir etiket ya da isim değilim. “Reyhan Çetin” bana işaret
+                  ediyor, ama tanımlamıyor.
+                </p>
+                <p>
+                  Mesleğim değilim. Ne yazılımcı, ne rehber, ne de bir koç…
+                  Bunlar sadece hayat içinde oynadığım roller. Tıpkı baba, eş,
+                  arkadaş ya da başka birçok kimlik gibi.
+                </p>
+                <p>Duygularım değilim. Düşüncelerim de… Onlar gelip geçiyor.</p>
+                <p>
+                  Uzun süre kendimi “bilinç” sanmıştım. Ama pandemi döneminde
+                  fark ettim: O da değil.
+                </p>
+                <p>
+                  Belki de gerçeğe en çok yaklaşan cevap: İçerdeki Sessiz Tanık.
+                  Ama kelimelerle anlatacak kadar iyi tanımıyorum. Sadece
+                  hissetmeye başladım.
+                </p>
               </div>
             </div>
           </div>
@@ -109,27 +129,24 @@ export default function ReyhanInfo({ autoplayInterval = 300000 }) {
             <div className="reyhanInfoPosition">
               <div className="reyhanInfoContent">
                 <h3 className="">Reyhan Çetin</h3>
-                <h5 className="my-0 text-base sm:text-xl leading-6">
-                  Bilinçli Farkındalık Rehberi
-                </h5>
+                <h4 className="my-0 text-base sm:text-xl leading-6">
+                  Bilinç ve Farkındalık Rehberi
+                </h4>
                 <p>
-                  Bu “Reyhan Çetin” profili, <br />
-                  bilinçli farkındalık yolunda
-                  <br />
-                  bir arkadaş çemberinin ilk ağacı.
+                  İnsanların yaşamı objektif bir gözle değerlendirebilmesi ve
+                  kendi bilinçlerinin farkına varabilmesi için seminerler,
+                  meditasyonlar, grup çalışmaları ve bireysel koçluk seansları
+                  düzenliyorum. Bu çalışmalar, daha çok pratik ve maddi
+                  hedeflere yönelik olup, ücretli olarak sunulmaktadır.
                 </p>
                 <p>
-                  Sosyal medyanın imkanlarını kullanarak,
-                  <br />
-                  bilgi paylaşmayı, bilinci geliştirmeyi
-                  <br />
-                  ve farkındalığı korumayı amaçlıyoruz.
+                  Bunun yanında, yolda olanlarla birlikte"
+                  <strong>Saf Farkındalık Çemberi</strong>" oluşturmak amacıyla
+                  ücretsiz YouTube sohbetleri, presence meditasyonları ve
+                  çeşitli paylaşımlar yapıyorum. Bu spiritüel hizmetler
+                  gönüllülük esasına dayanıyor ve bağışlarla destekleniyor.
                 </p>
-                <p>
-                  Eski dostlar ve yeni takipçiler hoş geldiniz.
-                  <br />
-                  Bu çemberi katkılarınızla geliştirelim!
-                </p>
+                <p></p>
                 <p>Sevgilerle...</p>
               </div>
             </div>
