@@ -8,7 +8,7 @@ export default function MeditationCTA() {
         Farklı varlık halleri ve ihtiyaçlara uygun rehberli meditasyonlarla,
         bilinçli olarak içsel yolculuğunu derinleştirmen için seni bekliyoruz.
       </p>
-      <ul className="my-4 flex items-center justify-center gap-4">
+      <ul className="my-4 flex flex-wrap items-center justify-center gap-4">
         <li>
           <a
             href="https://wa.me/905443087402?text=meditasyonlara%20kat%C4%B1lmak%20istiyorum"

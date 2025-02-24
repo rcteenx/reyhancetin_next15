@@ -8,7 +8,7 @@ export default function ObservationCTA() {
         <li>Çalışmaları Tanıma ve Başlangıç</li>
         <li>Haftada 2 saat, toplam 4 hafta</li>
       </ul>
-      <ul className="my-4 flex items-center justify-center gap-4">
+      <ul className="my-4 flex flex-wrap items-center justify-center gap-4">
         <li>
           <a
             href="https://wa.me/905443087402?text=Kendini-G%C3%B6zlem%20seminerine%20kat%C4%B1lmak%20istiyorum"
