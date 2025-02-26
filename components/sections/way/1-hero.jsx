@@ -1,9 +1,11 @@
 import { contWay } from "@/content/data";
 const WayHero = ({}) => {
   return (
-    <section id="hero" className="mx-auto xl:my-8 bg-slate-200 pb-16 ">
-      <div className=" container-p bg-red-300 w-full">
-        <h3 className="p-4 text-left">Kendini Tanıma Yolculuğu</h3>
+    <section id="hero" className="bg-slate-200 pb-16">
+      <div className="gradientIndigo">
+        <h3 className="mx-auto px-4 md:px-8 lg:px-12 py-2 max-w-7xl text-left">
+          Kendini Tanıma Yolculuğu
+        </h3>
       </div>
       <div className=" max-w-xl mx-auto text-center ">
         <h1 className="mt-8 sm:mt-16 mb-0 text-2xl md:text-4xl lg:text-6xl font-bold text-indigo ">

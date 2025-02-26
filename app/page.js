@@ -11,7 +11,7 @@ import Observation from "@/components/sections/home/c-1-observation";
 
 import Meditation from "@/components/sections/home/d-1-meditation";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Hero rVideo={rVideo} />

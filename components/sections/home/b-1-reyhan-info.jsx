@@ -4,7 +4,7 @@ export default function ReyhanInfo({}) {
   return (
     <div
       id="reyhan-info"
-      className="gradientInstagramStory pb-4 shadow-xl border-t-4 border-b-4 border-yellow-600"
+      className="gradientReyhanKim pb-4 shadow-xl border-t-4 border-b-4 border-yellow-600"
     >
       <div className=" mx-auto mt-8 sm:p-4 sm:container">
         <h2 className="text-2xl lg:text-3xl text-center text-yellow-500">
