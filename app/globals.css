@@ -71,29 +71,23 @@
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white-400;
   }
-  .gradientPurple {
+  .gradientTest {
     @apply bg-gradient-to-b from-purple-800 to-purple-900 text-white-400;
   }
-  .gradientIndigoToBlack {
-    @apply bg-gradient-to-br from-indigo-dark-3  to-black text-white-400;
-  }
-  .gradientPrimary {
-    @apply bg-gradient-to-br from-primary to-black text-white;
-  }
-  .gradientPrimaryToWhite {
+  .gradientTest2 {
     @apply bg-gradient-to-b from-[#f7f7f7] to-primary;
-  }
-  .gradientAccent {
-    @apply bg-gradient-to-br from-accent to-black text-white;
-  }
-  .gradientPurpleToBlack {
-    @apply bg-gradient-to-r from-purple-300 to-purple-800 text-white;
-  }
-  .gradientAccentToWhite {
-    @apply bg-gradient-to-br from-accent to-white;
   }
   .gradientWhiteToIndigo {
     @apply bg-gradient-to-br from-white to-indigo  text-black;
+  }
+  .gradientGreen {
+    @apply bg-gradient-to-br from-[#dcf8c6] via-[#25d366] to-[#128c7e] text-white;
+  }
+  .gradientBilinc {
+    @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
+  }
+  .bgWhite {
+    @apply bg-white border text-primary;
   }
   .gradientTransition {
     @apply hover:scale-110 transition duration-300 ease-out

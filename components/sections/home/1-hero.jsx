@@ -1,31 +1,31 @@
-import { contHero, StaticPages } from "@/content/data";
+import { contHero } from "@/content/data";
 
 import IconComponent from "@/components/ui/IconComponent";
 const Hero = ({ rVideo }) => {
   return (
     <section
       id="hero"
-      className="md:container-p max-w-7xl mx-auto my-4 xl:my-8 flex flex-col xl:flex-row justify-center gap-0"
+      className="md:container-p max-w-7xl mx-auto my-4 xl:my-8 flex flex-col xl:flex-row justify-center items-center gap-0"
     >
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left ">
-        <h2 className="mt-12 font-light text-center xl:text-left text-2xl md:text-3xl text-primary leading-6">
+        {/* <h2 className="mt-12 font-light text-center xl:text-left text-2xl md:text-3xl text-primary leading-6">
           <span className="border-b border-indigo xl:border-primary">
             {contHero.h2a}
           </span>
           <br />
           <span className="font-normal text-xs md:text-sm">{contHero.h2b}</span>
-        </h2>
+        </h2> */}
         <h1 className="mt-4 mb-0 text-3xl md:text-5xl lg:text-7xl font-bold text-indigo">
           <span className="px-4 xl:pr-8 xl:-ml-4 xl:bg-white xl:whitespace-nowrap relative z-10 rounded-full  xl:rounded-l-none shadow-lg ">
             {contHero.h1a}
           </span>
           <br />
-          <span className="text-primary inline-block mt-2 md:mt-4 xl:mt-6 font-thin">
+          <span className="text-primary inline-block mt-2 sm:mt-4 font-thin">
             {contHero.h1b}
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-4 md:my-6 px-6 md:px-0 text-primary text-xs md:text-sm leading-5 md:leading-6">
+          <p className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 ">
             {/* {contHero.desc} */}
             <a href="#" className="border-b">
               Ücretsiz Youtube sohbetleri

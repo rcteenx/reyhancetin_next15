@@ -8,7 +8,7 @@ const siteMetadata = {
     "Reyhan Çetin - Bilinçli Farkındalık Çemberi | Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
   language: "tr-TR",
   siteUrl: "https://reyhancetin.com.tr/",
-  siteLogo: "/logo-rc.png",
+  siteLogo: "/rcteenx-480-400.png",
   email: "rhan.cetinx@gmail.com",
 };
 

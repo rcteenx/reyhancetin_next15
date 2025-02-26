@@ -181,6 +181,39 @@ export const conditions = {
   ],
 };
 
+export const contWay = {
+  h1a: "YOLCULUĞUMUZA",
+  h1b: "hoş geldiniz",
+  desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
+  cta: "✨ Pek çok yol var: Önce kendi yolunu görmeli İnsan! ✨",
+  buttons: [
+    {
+      id: "1",
+      title: "Cehalet",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientInstagram",
+    },
+    {
+      id: "2",
+      title: "Bilgi",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "gradientTest",
+    },
+    {
+      id: "3",
+      title: "Bilinç",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientPurple",
+    },
+    {
+      id: "4",
+      title: "Hiçlik",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientWhiteToIndigo",
+    },
+  ],
+};
+
 export const presence = {
   h2: "PRESENCE*",
   h3: "Saf Farkındalığın Varlığı",
