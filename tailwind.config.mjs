@@ -28,7 +28,7 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: "#8c8c8c",
+          DEFAULT: "#737373",
         },
         indigo: {
           DEFAULT: "#333366",

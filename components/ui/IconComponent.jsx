@@ -1,4 +1,5 @@
 import {
+  FaCat,
   FaFacebook,
   FaGithub,
   FaInstagram,
@@ -27,6 +28,7 @@ import { MdDoNotDisturbOnTotalSilence } from "react-icons/md";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const iconTypes = {
+  cat: FaCat,
   medImagination: SiDreamstime,
   medBody: IoBodyOutline,
   medObserve: PiSecurityCamera,

@@ -184,8 +184,7 @@ export const conditions = {
 export const contWay = {
   h1a: "YOLCULUĞUMUZA",
   h1b: "hoş geldiniz",
-  desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
-  cta: "✨ Pek çok yol var: Önce halen bulunduğumuz yolu görmeliyiz! ✨",
+  cta: "✨ Bu farkındalıktan sonra, şimdi hangi yoldan ilerleyeceksiniz? ✨",
   buttons: [
     {
       id: "1",
