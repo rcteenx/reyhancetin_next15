@@ -24,7 +24,7 @@ const WayHero = ({}) => {
             size={64}
             color="purple"
           />
-          <blockquoteote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>
               <span className="font-bold text-gray-800">Alice:</span> "Lütfen
               bana buradan hangi yöne gitmem gerektiğini söyler misin?"
@@ -44,7 +44,7 @@ const WayHero = ({}) => {
             <p className="mx-4 sm:mx-8 mt-3 font-semibold text-right">
               <em>Alice Harikalar Diyarında, Lewis Carroll</em>
             </p>
-          </blockquoteote>
+          </blockquote>
         </div>
         <p className="my-4 text-xs md:text-sm">
           Önce kendimizi ve şu anki durumumuzu anlamalıyız. Bilinçli yolculuk,
