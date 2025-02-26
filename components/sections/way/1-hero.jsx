@@ -10,14 +10,14 @@ const WayHero = ({}) => {
         </h3>
       </div>
       <div className=" max-w-xl mx-auto text-center ">
-        <h1 className="mt-8 sm:mt-16 mb-0 text-3xl md:text-5xl lg:text-8xl font-bold text-indigo">
+        <h1 className="mt-4 sm:mt-8 mb-0 text-3xl md:text-5xl lg:text-8xl font-bold text-indigo">
           bilinçli
           <br />
           <span className="px-4 py-2 shadow-xl text-primary inline-block font-thin">
             YOLCULUK
           </span>
         </h1>
-        <div className="relative mt-8 p-4 bg-slate-100 sm:rounded-xl ">
+        <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl ">
           <IconComponent
             className="absolute bottom-2 left-2 z-1 opacity-40"
             name="cat"
@@ -51,7 +51,7 @@ const WayHero = ({}) => {
           ancak nereye gideceğimizin farkına vardığımızda başlar.
         </p>
         <p className="my-4 text-indigo text-xs md:text-sm">{contWay.cta}</p>
-        <div className="my-4 flex flex-row flex-wrap space-x-4 justify-center">
+        <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
           {contWay.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
               <a

@@ -1,5 +1,6 @@
 import {
   FaCat,
+  FaGlobeAfrica,
   FaFacebook,
   FaGithub,
   FaInstagram,
@@ -29,6 +30,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const iconTypes = {
   cat: FaCat,
+  africa: FaGlobeAfrica,
   medImagination: SiDreamstime,
   medBody: IoBodyOutline,
   medObserve: PiSecurityCamera,

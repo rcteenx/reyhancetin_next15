@@ -182,9 +182,9 @@ export const conditions = {
 };
 
 export const contWay = {
-  h1a: "YOLCULUĞUMUZA",
-  h1b: "hoş geldiniz",
-  cta: "✨ Bu farkındalıktan sonra, şimdi hangi yoldan ilerleyeceksiniz? ✨",
+  h1a: "bilinçli",
+  h1b: "YOLCULUK",
+  cta: "✨ Bu farkındalıktan sonra, hangi yoldan ilerleyeceksiniz? ✨",
   buttons: [
     {
       id: "1",
@@ -207,6 +207,38 @@ export const contWay = {
     {
       id: "4",
       title: "Hiçlik",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientGold",
+    },
+  ],
+};
+
+export const contCirc = {
+  h1a: "birlikte",
+  h1b: "YOLCULUK",
+  cta: "✨ Siz, bu çembere nereden dahil olmak istersiniz? ✨",
+  buttons: [
+    {
+      id: "1",
+      title: "Youtube Sohbetleri",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientReyhanKim",
+    },
+    {
+      id: "2",
+      title: "Instagram Paylaşımları",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "gradientIndigo",
+    },
+    {
+      id: "3",
+      title: "Bilinç Çalışmaları",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientPurple",
+    },
+    {
+      id: "4",
+      title: "Presence Meditasyonları",
       link: "https://wa.me/905443087402?text=Merhaba",
       gradiant: "gradientGold",
     },
