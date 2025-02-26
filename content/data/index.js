@@ -185,19 +185,19 @@ export const contWay = {
   h1a: "YOLCULUĞUMUZA",
   h1b: "hoş geldiniz",
   desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
-  cta: "✨ Pek çok yol var: Önce kendi yolunu görmeli İnsan! ✨",
+  cta: "✨ Pek çok yol var: Önce halen bulunduğumuz yolu görmeliyiz! ✨",
   buttons: [
     {
       id: "1",
       title: "Cehalet",
       link: "https://www.instagram.com/reyhancetinx/",
-      gradiant: "gradientInstagram",
+      gradiant: "gradientReyhanKim",
     },
     {
       id: "2",
       title: "Bilgi",
       link: "https://www.youtube.com/@reyhancetinx",
-      gradiant: "gradientTest",
+      gradiant: "gradientIndigo",
     },
     {
       id: "3",
@@ -209,7 +209,7 @@ export const contWay = {
       id: "4",
       title: "Hiçlik",
       link: "https://wa.me/905443087402?text=Merhaba",
-      gradiant: "gradientWhiteToIndigo",
+      gradiant: "gradientGold",
     },
   ],
 };

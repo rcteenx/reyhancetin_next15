@@ -3,7 +3,7 @@ const WayHero = ({}) => {
   return (
     <section id="hero" className="bg-slate-200 pb-16">
       <div className="gradientIndigo">
-        <h3 className="mx-auto px-4 md:px-8 lg:px-12 py-2 max-w-7xl text-left">
+        <h3 className="mx-auto px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-left">
           Kendini Tanıma Yolculuğu
         </h3>
       </div>
@@ -33,7 +33,7 @@ const WayHero = ({}) => {
                 role="button"
                 target="_blank"
               >
-                <span className="hidden md:block">{b.title}</span>
+                <span className="">{b.title}</span>
               </a>
             </div>
           ))}

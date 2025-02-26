@@ -65,7 +65,7 @@
   .gradientIndigo {
     @apply bg-gradient-to-br from-indigo-light-3 via-indigo to-indigo-dark-3 text-white-400;
   }
-  .gradientTest {
+  .gradientPurple {
     @apply bg-gradient-to-b from-purple-800 to-purple-900 text-white-400;
   }
   .gradientWhiteToIndigo {
