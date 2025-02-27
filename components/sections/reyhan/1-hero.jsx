@@ -36,7 +36,7 @@ const ReyhanHero = ({}) => {
               <br />
               İçindeki yolculuk, dışarıdaki tüm yolculuklardan daha gerçektir."
             </p>
-            <p className="mx-4 mt-3 pb-2 font-semibold text-right">
+            <p className="mx-4 mt-3 font-semibold text-right">
               <em>Rumi</em>
             </p>
           </blockquote>

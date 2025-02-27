@@ -41,7 +41,7 @@ const WayHero = ({}) => {
               <span className="font-bold text-gray-800">Cheshire Kedisi:</span>{" "}
               "O halde hangi yoldan gittiğinin de bir önemi yok."
             </p>
-            <p className="mx-4 mt-3 pb-2 font-semibold text-right">
+            <p className="mx-4 mt-3 font-semibold text-right">
               <em>Alice Harikalar Diyarında, Lewis Carroll</em>
             </p>
           </blockquote>
