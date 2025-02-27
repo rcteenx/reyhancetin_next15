@@ -27,8 +27,10 @@ import { PiSecurityCamera } from "react-icons/pi";
 import { MdDoNotDisturbOnTotalSilence } from "react-icons/md";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { ImSpinner9 } from "react-icons/im";
 
 const iconTypes = {
+  me: ImSpinner9,
   cat: FaCat,
   africa: FaGlobeAfrica,
   medImagination: SiDreamstime,

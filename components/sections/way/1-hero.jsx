@@ -17,11 +17,11 @@ const WayHero = ({}) => {
             YOLCULUK
           </span>
         </h1>
-        <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl ">
+        <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
           <IconComponent
             className="absolute bottom-2 left-2 z-1 opacity-40"
             name="cat"
-            size={64}
+            size={48}
             color="purple"
           />
           <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
@@ -41,7 +41,7 @@ const WayHero = ({}) => {
               <span className="font-bold text-gray-800">Cheshire Kedisi:</span>{" "}
               "O halde hangi yoldan gittiğinin de bir önemi yok."
             </p>
-            <p className="mx-4 sm:mx-8 mt-3 font-semibold text-right">
+            <p className="mx-4 mt-3 pb-2 font-semibold text-right">
               <em>Alice Harikalar Diyarında, Lewis Carroll</em>
             </p>
           </blockquote>

@@ -78,11 +78,18 @@
     @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
   }
   .gradientTransition {
+    @apply hover:scale-105 transition duration-300 ease-out
+      cursor-pointer;
+  }
+  .gradientTransition110 {
     @apply hover:scale-110 transition duration-300 ease-out
       cursor-pointer;
   }
   .bgWhite {
     @apply bg-white border text-primary;
+  }
+  .gradientSlate {
+    @apply bg-slate-100 bg-gradient-to-t from-slate-300 to-slate-100 shadow-sm;
   }
 
   .btn-hero {

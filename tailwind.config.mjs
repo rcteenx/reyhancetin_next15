@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  safelist: ["gradientInstagram", "gradientWhatsapp", "bgWhite"],
+  safelist: [
+    "gradientInstagram",
+    "gradientWhatsapp",
+    "bgWhite",
+    "gradientSlate",
+  ],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",

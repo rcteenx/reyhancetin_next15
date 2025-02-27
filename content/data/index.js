@@ -181,6 +181,50 @@ export const conditions = {
   ],
 };
 
+export const contReyhan = {
+  h1a: "içine",
+  h1b: "BAK",
+  cta: "✨ Şimdi, hangi reyhanı tanımak istersiniz? ✨",
+  buttons: [
+    {
+      id: "1",
+      title: "Öğretmen",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "2",
+      title: "Çocuk",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "3",
+      title: "Kaderci",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "4",
+      title: "Gözlemci",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "5",
+      title: "Sahit / Tanık",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "6",
+      title: "Saf Farkındalık",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientSlate",
+    },
+  ],
+};
+
 export const contWay = {
   h1a: "bilinçli",
   h1b: "YOLCULUK",
@@ -190,13 +234,13 @@ export const contWay = {
       id: "1",
       title: "Cehalet",
       link: "https://www.instagram.com/reyhancetinx/",
-      gradiant: "gradientReyhanKim",
+      gradiant: "gradientSlate",
     },
     {
       id: "2",
       title: "Bilgi",
       link: "https://www.youtube.com/@reyhancetinx",
-      gradiant: "gradientIndigo",
+      gradiant: "gradientSlate",
     },
     {
       id: "3",
@@ -222,13 +266,13 @@ export const contCirc = {
       id: "1",
       title: "Youtube Sohbetleri",
       link: "https://www.instagram.com/reyhancetinx/",
-      gradiant: "gradientReyhanKim",
+      gradiant: "gradientSlate",
     },
     {
       id: "2",
       title: "Instagram Paylaşımları",
       link: "https://www.youtube.com/@reyhancetinx",
-      gradiant: "gradientIndigo",
+      gradiant: "gradientSlate",
     },
     {
       id: "3",
