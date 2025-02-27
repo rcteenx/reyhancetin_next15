@@ -188,19 +188,19 @@ export const contReyhan = {
   buttons: [
     {
       id: "1",
-      title: "Öğretmen",
-      link: "https://www.instagram.com/reyhancetinx/",
-      gradiant: "gradientSlate",
-    },
-    {
-      id: "2",
       title: "Çocuk",
       link: "https://www.instagram.com/reyhancetinx/",
       gradiant: "gradientSlate",
     },
     {
+      id: "2",
+      title: "Öğretmen",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientSlate",
+    },
+    {
       id: "3",
-      title: "Kaderci",
+      title: "Yolcu",
       link: "https://www.instagram.com/reyhancetinx/",
       gradiant: "gradientSlate",
     },

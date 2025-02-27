@@ -17,9 +17,9 @@ const CircleHero = ({}) => {
             YOLCULUK
           </span>
         </h1>
-        <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
+        <div className="relative mt-4 p-8 gradientSlate sm:rounded-xl shodow-2xl">
           <IconComponent
-            className="absolute bottom-2 left-1/2 -translate-x-1/2 z-1 opacity-40"
+            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-1 opacity-40"
             name="africa"
             size={48}
             color="purple"
