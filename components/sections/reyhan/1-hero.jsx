@@ -10,22 +10,22 @@ const ReyhanHero = ({}) => {
         </h3>
       </div>
       <div className="mx-auto max-w-xl text-center ">
-        <h1 className="mt-4 sm:mt-8 mb-0 text-3xl md:text-5xl lg:text-8xl font-bold text-indigo">
+        <h1 className="mt-4 sm:mt-8 mb-0 text-3xl md:text-5xl lg:text-8xl font-bold">
           {contReyhan.h1a}
           <br />
           <span className="px-4 py-2 shadow-xl text-primary inline-block font-thin">
             {contReyhan.h1b}
           </span>
         </h1>
-        <div className="relative mt-4 p-8 gradientSlate sm:rounded-xl shodow-2xl">
+        <div className="relative mt-4 p-4 gradientSlate sm:rounded-xl shodow-2xl">
           <IconComponent
-            className="absolute bottom-4 left-1/4 -translate-x-1/4 z-1 opacity-40"
+            className="absolute -bottom-5 left-1/4 -translate-x-1/4 z-1 opacity-40"
             name="me"
             size={48}
             color="black"
           />
           <IconComponent
-            className="absolute bottom-4 left-3/4 -translate-x-3/4 z-1 opacity-40"
+            className="absolute -bottom-5 left-3/4 -translate-x-3/4 z-1 opacity-40"
             name="me"
             size={48}
             color="purple"
@@ -41,7 +41,7 @@ const ReyhanHero = ({}) => {
             </p>
           </blockquote>
         </div>
-        <p className="m-4 text-xs md:text-sm">
+        <p className="mx-4 mt-8 text-xs md:text-sm">
           Tek başına hızla ilerleyebilirsin, ama hedefe varman zorlaşır. Kendini
           tanıma yolculuğuna çıktığında, bilinç ve farkındalık yolunda ilerleyen
           bir çemberin parçası olman gerekir. Yoldaşların seni destekler, çember

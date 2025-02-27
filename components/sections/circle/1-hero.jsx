@@ -17,20 +17,20 @@ const CircleHero = ({}) => {
             YOLCULUK
           </span>
         </h1>
-        <div className="relative mt-4 p-8 gradientSlate sm:rounded-xl shodow-2xl">
+        <div className="relative mt-4 p-2 gradientSlate sm:rounded-xl shodow-2xl">
           <IconComponent
-            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-1 opacity-40"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-1 opacity-40"
             name="africa"
             size={48}
             color="purple"
           />
-          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+          <blockquote className=" [&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>
               Hızlı gitmek istiyorsan, yalnız git.
               <br />
               Uzağa gitmek istiyorsan, birlikte git.
             </p>
-            <p className="mx-4 mt-3 pb-2 font-semibold text-right">
+            <p className="mx-4 mt-3 font-semibold text-right">
               <em>Africa Atasözü</em>
             </p>
           </blockquote>
