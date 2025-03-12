@@ -150,7 +150,7 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "YOL",
+    title: "Yol",
     link: "yol",
     pages: [
       { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },

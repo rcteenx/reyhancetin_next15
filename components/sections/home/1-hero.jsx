@@ -49,7 +49,7 @@ const Hero = ({ rVideo }) => {
             <div key={b.icon} className={b.show}>
               <a
                 href={b.link}
-                title="Instagram Linki"
+                title={`${b.title} Linki`}
                 className={` relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
                 role="button"
                 target="_blank"

@@ -38,7 +38,10 @@
     @apply mx-auto py-1 inline-block  border-indigo border-b text-center text-2xl md:text-4xl;
   }
   #pgContent h3 {
-    @apply mx-auto py-1 font-semibold text-center text-xl md:text-2xl;
+    @apply mx-auto mt-4 mb-1 font-semibold text-left text-xl md:text-2xl;
+  }
+  #pgContent ul {
+    @apply list-disc list-inside;
   }
 
   article h2 {

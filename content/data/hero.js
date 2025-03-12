@@ -67,7 +67,7 @@ export const contWay = {
 export const contCirc = {
   h1: "Bilinç ve Farkındalık Çemberi",
   h3a: "birlik",
-  h3b: "Çemberi",
+  h3b: "ÇEMBERİ",
   cta: "✨ Siz, bu çembere nereden dahil olmak istersiniz? ✨",
   buttons: [
     {
@@ -89,6 +89,27 @@ export const contCirc = {
       title: "Presence",
       titleLong: "Presence Meditasyonları",
       link: "/cember/presence",
+      gradiant: "gradientGold",
+    },
+  ],
+};
+
+export const contContact = {
+  h1: "Reyhan Çetin X - İletişim",
+  h3a: "reyhan x",
+  h3b: "İLETİŞİM",
+  cta: "✨ Siz, bu çembere nereden dahil olmak istersiniz? ✨",
+  buttons: [
+    {
+      id: 1,
+      title: "rhan.cetinx@gmail.com",
+      link: "mailto:rhan.cetinx@gmail.com",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: 2,
+      title: "+90 (544) 308 74 02",
+      link: "tel:+905443087402",
       gradiant: "gradientGold",
     },
   ],
