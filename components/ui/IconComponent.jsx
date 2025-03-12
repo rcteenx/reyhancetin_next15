@@ -1,4 +1,5 @@
 import {
+  FaPhoneSquareAlt,
   FaCat,
   FaGlobeAfrica,
   FaFacebook,
@@ -24,12 +25,14 @@ import {
 import { SiDreamstime } from "react-icons/si";
 import { IoBodyOutline } from "react-icons/io5";
 import { PiSecurityCamera } from "react-icons/pi";
-import { MdDoNotDisturbOnTotalSilence } from "react-icons/md";
+import { MdEmail, MdDoNotDisturbOnTotalSilence } from "react-icons/md";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { ImSpinner9 } from "react-icons/im";
 
 const iconTypes = {
+  phone: FaPhoneSquareAlt,
+  email: MdEmail,
   me: ImSpinner9,
   cat: FaCat,
   africa: FaGlobeAfrica,

@@ -18,7 +18,7 @@ export default function ContactHero({}) {
           </span>
         </h3>
         <p className="my-4 text-indigo text-xs md:text-sm">{contContact.cta}</p>
-        <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <div className="m-4 grid grid-cols-1 gap-2">
           {contContact.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
               <a
@@ -27,6 +27,7 @@ export default function ContactHero({}) {
                 className={` relative transition-all duration-200 gradientTransition btn-hero px-6 py-3 ${b.gradiant}`}
                 role="button"
               >
+                <IconComponent name={b.icon} size={24} color={b.iconColor} />
                 <span className="">{b.title}</span>
               </a>
             </div>

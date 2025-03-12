@@ -169,8 +169,8 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "Çember",
-    link: "cember",
+    title: "Presence",
+    link: "presence",
     pages: [
       { id: 1, title: "Youtube Sohbetleri", link: "youtube" },
       { id: 2, title: "Instagram Paylaşımları", link: "instagram" },

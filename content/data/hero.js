@@ -33,9 +33,9 @@ export const contReyhan = {
 
 export const contWay = {
   h1: "Bilinçli Kendini Tanıma Yolculuğu",
-  h3a: "bilinçli",
-  h3b: "YOLCULUK",
-  cta: "✨ Bu mini farkındalıktan sonra, hangi yoldan başlamak istersiniz? ✨",
+  h3a: "hangi",
+  h3b: "YOL",
+  cta: "✨ Bu hatırlatmadan sonra, hangi yoldan ilerlemek istersiniz? ✨",
   buttons: [
     {
       id: "1",
@@ -64,7 +64,7 @@ export const contWay = {
   ],
 };
 
-export const contCirc = {
+export const contPresence = {
   h1: "Bilinç ve Farkındalık Çemberi",
   h3a: "birlik",
   h3b: "ÇEMBERİ",
@@ -98,19 +98,31 @@ export const contContact = {
   h1: "Reyhan Çetin X - İletişim",
   h3a: "reyhan x",
   h3b: "İLETİŞİM",
-  cta: "✨ Siz, bu çembere nereden dahil olmak istersiniz? ✨",
+  cta: "✨ Aşağıdaki kanallardan bize ulaşabilirsiniz ✨",
   buttons: [
     {
       id: 1,
       title: "rhan.cetinx@gmail.com",
+      icon: "email",
       link: "mailto:rhan.cetinx@gmail.com",
       gradiant: "gradientSlate",
+      iconColor: "black",
     },
     {
       id: 2,
       title: "+90 (544) 308 74 02",
+      icon: "phone",
       link: "tel:+905443087402",
       gradiant: "gradientGold",
+      iconColor: "white",
+    },
+    {
+      id: 3,
+      title: "+90 (544) 308 74 02",
+      icon: "whatsapp",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientWhatsapp",
+      iconColor: "white",
     },
   ],
 };
