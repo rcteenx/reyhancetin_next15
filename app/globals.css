@@ -50,6 +50,9 @@
   article h3 {
     @apply text-blue-800;
   }
+  #hero h1 {
+    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-sm sm:text-lg md:text-lg text-indigo-light-5;
+  }
 }
 
 @layer components {

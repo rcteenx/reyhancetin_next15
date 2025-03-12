@@ -8,18 +8,12 @@ import IconComponent from "@/components/ui/IconComponent";
 import { StaticPages } from "@/content/data";
 
 export default function Header() {
-  const [menuIcon, setIcon] = useState(false);
-
-  const handleSmallerScreensNavigationClose = () => {
-    setIcon(false);
-  };
   const menu = StaticPages.filter((m) => m.id < 4);
   return (
     <header className="mx-auto px-4 md:px-8 lg:px-12 pt-2 max-w-7xl">
       <div className="flex items-center justify-between">
         <Link
-          id="platform"
-          onClick={handleSmallerScreensNavigationClose}
+          id="home"
           href="/"
           className="gradientTransition z-50 text-indigo"
         >
@@ -50,6 +44,16 @@ export default function Header() {
             ))}
           </ul>
         </nav>
+
+        <Link
+          id="contact"
+          href="/iletisim"
+          className="gradientTransition z-50 text-indigo"
+        >
+          <h3 className="mt-2 px-2 py-1 font-bold text-left text-base md:text-3xl leading-6  rounded-xl">
+            <IconComponent name="menu" size={18} color="#333366" />
+          </h3>
+        </Link>
       </div>
     </header>
   );

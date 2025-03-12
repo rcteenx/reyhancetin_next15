@@ -5,15 +5,13 @@ export default function WayHero({}) {
   return (
     <section id="hero" className="bg-slate-200 pb-8 sm:pb-16">
       <div className="gradientIndigo">
-        <h1 className="mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-base sm:text-xl lg:text-3xl">
-          {contWay.h1}
-        </h1>
+        <h1>{contWay.h1}</h1>
       </div>
       <div className=" max-w-xl mx-auto text-center ">
         <h3 className="mt-4 sm:mt-8 mb-0 text-3xl md:text-5xl lg:text-8xl font-bold">
           {contWay.h3a}
           <br />
-          <span className="px-4 py-2 shadow-xl text-primary inline-block font-thin">
+          <span className="px-4 py-2 shadow-xl text-primary inline-block font-thin tracking-tighter">
             {contWay.h3b}
           </span>
         </h3>

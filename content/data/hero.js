@@ -1,3 +1,36 @@
+export const contHome = {
+  h2a: "Reyhan Çetin X",
+  h2b: "Bilinç ve Farkındalık Rehberi",
+  h1a: "YOLCULUĞUMUZA",
+  h1b: "hoş geldiniz",
+  desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
+  cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
+  buttons: [
+    {
+      title: "Instagram",
+      icon: "instagram",
+      link: "https://www.instagram.com/reyhancetinx/",
+      gradiant: "gradientInstagram",
+      iconColor: "white",
+    },
+    {
+      title: "Youtube",
+      icon: "youtube",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "bgWhite",
+      iconColor: "#CD201F",
+    },
+    {
+      title: "WhatsApp",
+      icon: "whatsapp",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientWhatsapp",
+      // show: "hidden md:block",
+      iconColor: "white",
+    },
+  ],
+};
+
 export const contReyhan = {
   h1: "Reyhan Çetin X - Bilinç ve Farkındalık Rehberi",
   h3a: "içine",
@@ -65,29 +98,36 @@ export const contWay = {
 };
 
 export const contPresence = {
-  h1: "Bilinç ve Farkındalık Çemberi",
-  h3a: "birlik",
-  h3b: "ÇEMBERİ",
-  cta: "✨ Siz, bu çembere nereden dahil olmak istersiniz? ✨",
+  h1: "Presence - Saf Farkındalığın Varlığı",
+  h3a: "farkındalık",
+  h3b: "ALANI",
+  cta: "✨ Siz, saf farkındalık alanına dahil olmak ister misiniz? ✨",
   buttons: [
     {
       id: "1",
       title: "Youtube",
       titleLong: "Youtube Sohbetleri",
-      link: "/cember/youtube",
-      gradiant: "gradientSlate",
+      icon: "youtube",
+      link: "https://www.youtube.com/@reyhancetinx",
+      // link: "/cember/youtube",
+      gradiant: "bgWhite",
+      iconColor: "#CD201F",
     },
     {
       id: "2",
       title: "Instagram",
       titleLong: "Instagram Paylaşımları",
-      link: "/cember/instagram",
-      gradiant: "gradientSlate",
+      icon: "instagram",
+      link: "https://www.instagram.com/reyhancetinx/",
+      // link: "/cember/instagram",
+      gradiant: "gradientInstagram",
+      iconColor: "white",
     },
     {
       id: "3",
       title: "Presence",
       titleLong: "Presence Meditasyonları",
+      icon: "presence",
       link: "/cember/presence",
       gradiant: "gradientGold",
     },
@@ -95,7 +135,7 @@ export const contPresence = {
 };
 
 export const contContact = {
-  h1: "Reyhan Çetin X - İletişim",
+  h1: "Reyhan Çetin X - İletişim Bilgileri",
   h3a: "reyhan x",
   h3b: "İLETİŞİM",
   cta: "✨ Aşağıdaki kanallardan bize ulaşabilirsiniz ✨",

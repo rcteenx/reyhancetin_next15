@@ -10,7 +10,7 @@ const Footer = () => {
       id="footer"
       className="xl:container mx-auto container-p mt-16 gradientIndigo xl:rounded-t-2xl text-indigo-light-3 z-50"
     >
-      <div className="py-8 flex flex-col md:flex-row justify-between md:items-start gap-8 text-center md:text-left">
+      <div className="pt-4 pb-8 flex flex-col md:flex-row justify-between md:items-center gap-8 text-center md:text-left">
         <FooterLinks />
         <FooterInfo />
       </div>

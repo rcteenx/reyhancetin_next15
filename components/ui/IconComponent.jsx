@@ -29,8 +29,11 @@ import { MdEmail, MdDoNotDisturbOnTotalSilence } from "react-icons/md";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { ImSpinner9 } from "react-icons/im";
+import { GiAwareness } from "react-icons/gi";
+import { BiSolidContact } from "react-icons/bi";
 
 const iconTypes = {
+  presence: GiAwareness,
   phone: FaPhoneSquareAlt,
   email: MdEmail,
   me: ImSpinner9,
@@ -52,6 +55,7 @@ const iconTypes = {
   wifi: FaWifi,
   star: FaStar,
   home: FaHome,
+  contact: BiSolidContact,
   blog: FaBlog,
   sitemap: FaSitemap,
   google: FaGoogle,

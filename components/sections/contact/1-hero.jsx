@@ -5,9 +5,7 @@ export default function ContactHero({}) {
   return (
     <section id="hero" className="bg-slate-200 pb-8 sm:pb-16">
       <div className="gradientIndigo">
-        <h1 className="mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-base sm:text-xl lg:text-3xl">
-          {contContact.h1}
-        </h1>
+        <h1>{contContact.h1}</h1>
       </div>
       <div className=" max-w-xl mx-auto text-center ">
         <h3 className="mt-4 sm:mt-8 mb-0 text-3xl md:text-5xl lg:text-8xl font-bold">

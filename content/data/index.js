@@ -1,36 +1,3 @@
-export const contHero = {
-  h2a: "Reyhan Çetin X",
-  h2b: "Bilinç ve Farkındalık Rehberi",
-  h1a: "YOLCULUĞUMUZA",
-  h1b: "hoş geldiniz",
-  desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
-  cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
-  buttons: [
-    {
-      title: "Instagram",
-      icon: "instagram",
-      link: "https://www.instagram.com/reyhancetinx/",
-      gradiant: "gradientInstagram",
-      iconColor: "white",
-    },
-    {
-      title: "Youtube",
-      icon: "youtube",
-      link: "https://www.youtube.com/@reyhancetinx",
-      gradiant: "bgWhite",
-      iconColor: "#CD201F",
-    },
-    {
-      title: "WhatsApp",
-      icon: "whatsapp",
-      link: "https://wa.me/905443087402?text=Merhaba",
-      gradiant: "gradientWhatsapp",
-      // show: "hidden md:block",
-      iconColor: "white",
-    },
-  ],
-};
-
 export const barInfo = {
   h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
   desc: "Hayatın içinde gözlem ile kendini tanıma",
@@ -106,8 +73,8 @@ export const meditationInfo = {
   ],
 };
 
-export const presence = {
-  h2: "PRESENCE*",
+export const contPresence = {
+  h2: "PRESENCE",
   h3: "Saf Farkındalığın Varlığı",
   subTitle: "Presence Nedir?",
   items: [

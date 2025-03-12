@@ -1,5 +1,4 @@
 import { StaticPages } from "@/content/data";
-import FooterInfo from "@/components/ui/footer/1-Info";
 
 const FooterLinks = () => {
   return (
