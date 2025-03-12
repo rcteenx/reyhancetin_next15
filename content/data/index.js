@@ -1,5 +1,5 @@
 export const contHero = {
-  h2a: "Reyhan Çetin",
+  h2a: "Reyhan Çetin X",
   h2b: "Bilinç ve Farkındalık Rehberi",
   h1a: "YOLCULUĞUMUZA",
   h1b: "hoş geldiniz",
@@ -141,19 +141,29 @@ export const StaticPages = [
     id: 1,
     title: "Reyhan",
     link: "reyhan",
-    pages: [{ id: 1, title: "reyhan kim?", link: "kimim" }],
+    pages: [
+      { id: 1, title: "Gözlemci", link: "gozlemci" },
+      { id: 2, title: "Sessiz Tanık", link: "sessiz-tanik" },
+      { id: 3, title: "Saf Farkındalık", link: "saf-farkindalik" },
+      { id: 4, title: "Presence", link: "presence" },
+    ],
   },
   {
     id: 2,
-    title: "yol",
+    title: "YOL",
     link: "yol",
     pages: [
-      { id: 1, title: "Cehalet Yolu", link: "cehalet" },
-      { id: 2, title: "Bilgi Yolu", link: "bilgi" },
+      { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },
+      { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
       {
         id: 3,
-        title: "Bilinç Yolu",
-        link: "bilinc",
+        title: "Kendini Gözlem",
+        link: "kendini-gozlem",
+      },
+      {
+        id: 4,
+        title: "Bilinçli Düşünmek",
+        link: "bilincli-dusunmek",
       },
     ],
   },

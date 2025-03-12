@@ -34,7 +34,7 @@ export default function ReyhanHero({}) {
             <p>
               Sakın dışarıya bakma, içeriye bak!
               <br />
-              İçindeki yolculuk, dışarıdaki tüm yolculuklardan daha gerçektir."
+              İçindeki yolculuk, dışarıdaki tüm yolculuklardan daha gerçektir.
             </p>
             <p className="mx-4 mt-3 mb-0 font-semibold text-right">
               <em>Rumi</em>
@@ -48,7 +48,7 @@ export default function ReyhanHero({}) {
           seni güçlendirir.
         </p>
         <p className="my-4 text-indigo text-xs md:text-sm">{contReyhan.cta}</p>
-        <div className="mx-8 my-4 grid grid-cols-1 sm:grid-cols-3 gap-2">
+        <div className="mx-8 my-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
           {contReyhan.buttons.map((b, index) => (
             <div key={b.id} className="grid-cols-1">
               <a

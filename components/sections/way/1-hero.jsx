@@ -19,7 +19,7 @@ export default function WayHero({}) {
         </h3>
         <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
           <IconComponent
-            className="absolute bottom-2 left-2 z-1 opacity-40"
+            className="absolute bottom-2 left-2 z-1 opacity-20 sm:opacity-40"
             name="cat"
             size={48}
             color="purple"
@@ -47,11 +47,13 @@ export default function WayHero({}) {
           </blockquote>
         </div>
         <p className="my-4 text-xs md:text-sm">
-          Önce kendimizi ve şu anki durumumuzu anlamalıyız. Bilinçli yolculuk,
-          ancak nereye gideceğimizin farkına vardığımızda başlar.
+          Önce kendimizi ve objektif gerçekliği anlamalıyız.
+          <br />
+          Bilinçli yolculuk, ancak nereye gideceğimizin farkına vardığımızda
+          başlar.
         </p>
         <p className="my-4 text-indigo text-xs md:text-sm">{contWay.cta}</p>
-        <div className="m-4 grid grid-cols-1 sm:grid-cols-3 gap-2">
+        <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
           {contWay.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
               <a

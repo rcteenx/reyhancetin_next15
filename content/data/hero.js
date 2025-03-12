@@ -1,5 +1,5 @@
 export const contReyhan = {
-  h1: "Reyhan Çetin - Bilinç ve Farkındalık Rehberi",
+  h1: "Reyhan Çetin X - Bilinç ve Farkındalık Rehberi",
   h3a: "içine",
   h3b: "BAK",
   cta: "✨ Şimdi, hangi reyhanı tanımak istersiniz? ✨",
@@ -12,13 +12,19 @@ export const contReyhan = {
     },
     {
       id: "2",
-      title: "Sahit / Tanık",
+      title: "Sessiz Tanık",
       link: "https://www.youtube.com/@reyhancetinx",
       gradiant: "gradientSlate",
     },
     {
       id: "3",
       title: "Saf Farkındalık",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "4",
+      title: "Presence",
       link: "https://wa.me/905443087402?text=Merhaba",
       gradiant: "gradientSlate",
     },
@@ -29,25 +35,31 @@ export const contWay = {
   h1: "Bilinçli Kendini Tanıma Yolculuğu",
   h3a: "bilinçli",
   h3b: "YOLCULUK",
-  cta: "✨ Bu farkındalıktan sonra, hangi yoldan ilerleyeceksiniz? ✨",
+  cta: "✨ Bu mini farkındalıktan sonra, hangi yoldan başlamak istersiniz? ✨",
   buttons: [
     {
       id: "1",
-      title: "Cehalet",
-      link: "https://www.instagram.com/reyhancetinx/",
+      title: "Şimdi ve Burada Olmak",
+      link: "/yol/anda-olmak",
       gradiant: "gradientSlate",
     },
     {
       id: "2",
-      title: "Bilgi",
-      link: "https://www.youtube.com/@reyhancetinx",
+      title: "Bölünmüş Dikkat",
+      link: "/yol/bolunmus-dikkat",
       gradiant: "gradientSlate",
     },
     {
       id: "3",
-      title: "Bilinç",
-      link: "https://wa.me/905443087402?text=Merhaba",
+      title: "Kendini Gözlem",
+      link: "/yol/kendini-gozlem",
       gradiant: "gradientPurple",
+    },
+    {
+      id: "4",
+      title: "Bilinçli Düşünmek",
+      link: "/yol/bilincli-dusunmek",
+      gradiant: "gradientSlate",
     },
   ],
 };
