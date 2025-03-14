@@ -6,10 +6,10 @@ export default function Observation({ img, content }) {
     <div id="observation" className="bg-white pt-8 md:pt-16 mt-8 lg:my-16">
       <div className="container mx-auto">
         <div className="p-4 lg:p-0 text-center">
-          <h2 className="my-0 lg:my-4 text-4xl md:text-4xl lg:text-8xl">
+          <h2 className="my-0 lg:my-4 text-4xl sm:text-6xl lg:text-8xl border-b inline-block">
             {content.h2}
           </h2>
-          <h4 className="my-0 text-xl md:text-5xl">{content.h3}</h4>
+          <h4 className="my-0 text-xl sm:text-3xl lg:text-5xl">{content.h3}</h4>
         </div>
         <div className="grid grid-cols-1 md:p-4 xl:grid-cols-2 gap-4 lg:mt-8 items-center bg-[#ededed] md:rounded-xl">
           <div className="mx-auto px-4 my-4 max-w-2xl ">
@@ -49,7 +49,7 @@ export default function Observation({ img, content }) {
           </div>
         </div>
 
-        <ObservationCTA />
+        {/* <ObservationCTA /> */}
       </div>
     </div>
   );

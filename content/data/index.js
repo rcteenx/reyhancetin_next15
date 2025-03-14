@@ -187,3 +187,32 @@ export const socialMedia = [
     link: "https://www.facebook.com/reyhancetinx",
   },
 ];
+
+export const whatwegain = {
+  h2: "KAYNAĞA YOLCULUK",
+  p1: "Pandemi sürecinde ara verdiğimiz bilinç çalışmaları, sessizlikte gelişen spritüel farkındalıkla olgunlaştı.",
+  p2: 'Bu yeni anlayışı, ihtiyaç duyanlara ulaştırmak ve "Kaynağa Yolculuğumuz"a devam etmek için çaba harcayan arkadaşlarla bir topluluğa dönüşüyoruz.',
+  h3: "Neden Çalışıyoruz?",
+  p3: "Kendi üzerimizdeki çalışmanın temel kazanımları:",
+  items: [
+    {
+      title: "Bilinç",
+      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ama bilincimizin farkında mıyız? Bilinç bir anlamda rastgele içimizde beliriyor. Bilincinizi fark etmeyi ve bunu farkındalıkla geliştirmeyi istemez misiniz?",
+    },
+    {
+      title: "Farkındalık",
+      info: "Saf farkındalık, tüm duyu, duygu ve düşüncelerin ötesinde asıl varlığımızın bulunduğu bir alan. Ancak bize yüklenen tanımlar ve programlar nedeniyle kendimizden oldukça uzakta yaşıyoruz.",
+    },
+    {
+      title: "Kendini Tanıma ve Kendin Olma",
+      info: "Tüm arayış çalışmaları, insanın kendisini sorgulamaya başlamasına dayanıyor. Böyle bir sorgulama ateşi başladıysa, kendinizi bulana kadar devam edecek bir yangına dönüşüyor.",
+    },
+  ],
+};
+
+export const whyweneed = {
+  h2: "KENDİNİ TANIMA",
+  h4: "Neden Kendimizi Yolculuğuna ve Kendimizi Çalışmaya İhtiyacımız var?",
+  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  p2: 'Bu topluluk daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için. Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
+};

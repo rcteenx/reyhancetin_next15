@@ -1,9 +1,9 @@
 export const contHome = {
   h2a: "Reyhan Çetin X",
   h2b: "Bilinç ve Farkındalık Rehberi",
-  h1a: "YOLCULUĞUMUZA",
-  h1b: "hoş geldiniz",
-  desc: 'Youtube sohbetleri, kendini-gözlem seminerleri ve çeşitli Zoom meditasyonlarıyla, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
+  h1a: "BİLİNÇLİ YOLCULUĞA",
+  h1b: "hazır mısınız?",
+  desc: 'Youtube sohbetleri, Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
   cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
   buttons: [
     {
@@ -23,7 +23,7 @@ export const contHome = {
     {
       title: "WhatsApp",
       icon: "whatsapp",
-      link: "https://wa.me/905443087402?text=Merhaba",
+      link: "https://wa.me/905443087402?text=Yolculuk",
       gradiant: "gradientWhatsapp",
       // show: "hidden md:block",
       iconColor: "white",
@@ -105,16 +105,6 @@ export const contPresence = {
   buttons: [
     {
       id: "1",
-      title: "Youtube",
-      titleLong: "Youtube Sohbetleri",
-      icon: "youtube",
-      link: "https://www.youtube.com/@reyhancetinx",
-      // link: "/cember/youtube",
-      gradiant: "bgWhite",
-      iconColor: "#CD201F",
-    },
-    {
-      id: "2",
       title: "Instagram",
       titleLong: "Instagram Paylaşımları",
       icon: "instagram",
@@ -124,13 +114,23 @@ export const contPresence = {
       iconColor: "white",
     },
     {
-      id: "3",
-      title: "Presence",
-      titleLong: "Presence Meditasyonları",
-      icon: "presence",
-      link: "/cember/presence",
-      gradiant: "gradientGold",
+      id: "2",
+      title: "Youtube",
+      titleLong: "Youtube Sohbetleri",
+      icon: "youtube",
+      link: "https://www.youtube.com/@reyhancetinx",
+      // link: "/cember/youtube",
+      gradiant: "bgWhite",
+      iconColor: "#CD201F",
     },
+    // {
+    //   id: "3",
+    //   title: "Presence",
+    //   titleLong: "Presence Meditasyonları",
+    //   icon: "presence",
+    //   link: "/cember/presence",
+    //   gradiant: "gradientGold",
+    // },
   ],
 };
 

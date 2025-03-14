@@ -59,6 +59,9 @@
   .gradientGold {
     @apply bg-gradient-to-t from-[#B78628] via-[#DBA514] to-[#FCC201] text-white;
   }
+  .gradientAccent {
+    @apply bg-gradient-to-br from-accent to-black text-white;
+  }
   .gradientReyhanKim {
     @apply bg-gradient-to-r from-[#000] via-[#222] to-[#111] text-white;
   }

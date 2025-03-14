@@ -42,7 +42,7 @@ export default function PresenceHero({}) {
         <p className="my-4 text-indigo text-xs md:text-sm">
           {contPresence.cta}
         </p>
-        <div className="mx-8 my-4 grid grid-cols-1 sm:grid-cols-3 gap-2">
+        <div className="mx-8 my-4 grid grid-cols-2 gap-2">
           {contPresence.buttons.map((b, index) => (
             <div key={b.icon}>
               <a

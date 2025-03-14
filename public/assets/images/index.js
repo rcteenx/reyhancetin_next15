@@ -7,6 +7,7 @@ import presenceInstagram from "./presence-instagram.png";
 import kendiniGozlem from "./kendini-gozlem.png";
 import varolussalDonusum from "./varolussal-donusum.jpg";
 import profilePng from "./profile.png";
+import safFarkindalik from "./saf-farkindalik.png";
 
 export {
   rcHero,
@@ -18,4 +19,5 @@ export {
   kendiniGozlem,
   varolussalDonusum,
   profilePng,
+  safFarkindalik,
 };

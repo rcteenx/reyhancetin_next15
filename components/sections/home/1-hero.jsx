@@ -21,17 +21,11 @@ const Hero = ({ rVideo }) => {
           <p className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 ">
             {/* {contHome.desc} */}
             <a href="#" className="border-b">
-              Ücretsiz Youtube sohbetleri
-            </a>
-            , her ay açılan{" "}
-            <a href="#" className="border-b">
-              kendini-gözlem seminerleri
+              Bilinç ve farkındalık çalışmalarına giriş atölyemizle,
             </a>{" "}
-            ve çeşitli{" "}
-            <a href="#" className="border-b">
-              Zoom meditasyonlarıyla
-            </a>
-            , "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.
+            "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz. Ayrıca,
+            Instagram paylaşımları ve YouTube sohbetleriyle bu yolculukta sizi
+            destekliyoruz.
           </p>
           <p className="my-2 block text-indigo text-center text-xs md:text-sm">
             {contHome.cta}
