@@ -20,7 +20,7 @@ export default function Header() {
           {/* <div className="w-10 md:w-16 xl:w-20">
           <img src={smd.siteLogo} alt={smd.title} className="p-0.5" />
         </div> */}
-          <h3 className="mt-2 px-2 py-1 font-bold text-left text-base md:text-3xl leading-6  rounded-xl border sm:hidden">
+          <h3 className="mt-2 px-2 py-1 font-bold text-left text-base md:text-3xl leading-6 rounded-xl border sm:hidden">
             <IconComponent name="home" size={18} color="#333366" />
           </h3>
           <div className="py-0 sm:py-1 hidden sm:block ">
@@ -50,7 +50,7 @@ export default function Header() {
           href="/iletisim"
           className="gradientTransition z-50 text-indigo"
         >
-          <h3 className="mt-2 px-2 py-1 font-bold text-left text-base md:text-3xl leading-6  rounded-xl">
+          <h3 className="mt-2 px-2 py-1 font-bold text-left text-base md:text-3xl leading-6 rounded-xl">
             <IconComponent name="menu" size={18} color="#333366" />
           </h3>
         </Link>

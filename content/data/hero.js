@@ -35,7 +35,7 @@ export const contReyhan = {
   h1: "Reyhan Çetin X - Bilinç ve Farkındalık Rehberi",
   h3a: "içine",
   h3b: "BAK",
-  cta: "✨ Şimdi, hangi reyhanı tanımak istersiniz? ✨",
+  cta: "✨ Şimdi, siz hangi reyhanı tanımak istersiniz? ✨",
   buttons: [
     {
       id: "1",

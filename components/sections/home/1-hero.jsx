@@ -24,8 +24,8 @@ const Hero = ({ rVideo }) => {
               Bilinç ve farkındalık çalışmalarına giriş atölyemizle,
             </a>{" "}
             "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz. Ayrıca,
-            Instagram paylaşımları ve YouTube sohbetleriyle bu yolculukta sizi
-            destekliyoruz.
+            Instagram paylaşımları ve YouTube sohbetleriyle bilinç ve
+            farkındalık yolculuğuna açık kaynak desteğimizi sunuyoruz.
           </p>
           <p className="my-2 block text-indigo text-center text-xs md:text-sm">
             {contHome.cta}

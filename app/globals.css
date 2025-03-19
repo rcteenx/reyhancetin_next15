@@ -63,7 +63,7 @@
     @apply bg-gradient-to-br from-accent to-black text-white;
   }
   .gradientReyhanKim {
-    @apply bg-gradient-to-r from-[#000] via-[#222] to-[#111] text-white;
+    @apply bg-gradient-to-br from-indigo-dark-3 via-indigo-dark-5 to-[#003] text-white;
   }
   .gradientInstagram {
     @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;

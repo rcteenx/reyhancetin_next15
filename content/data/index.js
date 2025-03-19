@@ -139,9 +139,9 @@ export const StaticPages = [
     title: "Presence",
     link: "presence",
     pages: [
-      { id: 1, title: "Youtube Sohbetleri", link: "youtube" },
-      { id: 2, title: "Instagram Paylaşımları", link: "instagram" },
-      { id: 3, title: "Presence Meditasyonları", link: "presence" },
+      { id: 1, title: "Sohbetler", link: "youtube" },
+      { id: 2, title: "Paylaşımlar", link: "instagram" },
+      { id: 3, title: "Meditasyonlar", link: "presence" },
     ],
   },
   {
