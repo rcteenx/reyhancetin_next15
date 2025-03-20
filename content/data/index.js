@@ -109,10 +109,10 @@ export const StaticPages = [
     title: "Reyhan",
     link: "reyhan",
     pages: [
-      { id: 1, title: "Gözlemci", link: "gozlemci" },
-      { id: 2, title: "Sessiz Tanık", link: "sessiz-tanik" },
-      { id: 3, title: "Saf Farkındalık", link: "saf-farkindalik" },
-      { id: 4, title: "Presence", link: "presence" },
+      { id: 1, title: "Merhaba", link: "merhaba" },
+      { id: 2, title: "Kimim ya da Ne?", link: "kimim" },
+      { id: 3, title: "Klasik Tanıtım", link: "ozgecmis" },
+      { id: 4, title: "Bilinç ve Farkındalık Rehberi", link: "rehber" },
     ],
   },
   {

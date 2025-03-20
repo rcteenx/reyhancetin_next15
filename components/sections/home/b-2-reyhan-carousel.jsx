@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function ReyhanInfo({ autoplayInterval = 300000 }) {
+export default function ReyhanInfo({ autoplayInterval = 10000 }) {
   var items = [1, 2, 3, 4];
 
   const [currentIndex, setCurrentIndex] = useState(0);

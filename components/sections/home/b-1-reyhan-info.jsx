@@ -11,7 +11,7 @@ export default function ReyhanInfo({}) {
           Reyhan Çetin X: Kim ya da Ne?
         </h2>
         <div className="mx-auto max-w-md p-1 sm:p-2 bgStoryReyhan sm:border-2 border-yellow-500 ">
-          <ReyhanCarousel autoplayInterval={600000} />
+          <ReyhanCarousel autoplayInterval={10000} />
         </div>
       </div>
     </div>

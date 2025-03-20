@@ -10,6 +10,7 @@ export default function Page() {
       <ReyhanCarousel />
 
       <PageContent h2Title="Uzun İnce bir Yol">
+        <p>Gözlemci, Sessiz Tanık, Saf Farkındalık, Presence</p>
         <p>
           Aşık Veysel'in sözleriyle, 'Uzun ince bir yolda' ilerliyoruz. Ancak,
           yol tek değil, birçok farklı yollar var. Üstelik, bir yol seçmeseniz

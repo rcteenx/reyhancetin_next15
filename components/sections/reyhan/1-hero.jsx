@@ -45,8 +45,6 @@ export default function ReyhanHero({}) {
           görmemiz zorlaşır. İçine bakmak, yüzeydeki yanılsamaları aşarak özüne
           yaklaşmak demektir. En derin ve en gerçek yolculuk, dışarıda değil,
           içimizde başlar.
-          <br />
-          İçeride, kendim diyebileceğim bir şeyler var.
         </p>
         <p className="my-4 text-indigo text-xs md:text-sm">{contReyhan.cta}</p>
         <div className="mx-8 my-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
