@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import SvgCheck from "@/components/ui/svg/check";
 import ObservationCTA from "@/components/sections/home/c-12-observation-cta";
 
@@ -33,7 +35,7 @@ export default function Observation({ img, content }) {
           </div>
 
           <div className="mx-auto max-w-2xl xl:mx-0 p-4 shadow-xl md:rounded-b-xl order-first xl:order-last">
-            <a
+            <Link
               href="https://www.instagram.com/reyhancetinx/p/DC_dvpdM1K_/"
               target="_blank"
             >
@@ -45,7 +47,7 @@ export default function Observation({ img, content }) {
                 height={300}
                 className="rounded-xl "
               />
-            </a>
+            </Link>
           </div>
         </div>
 

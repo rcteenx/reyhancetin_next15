@@ -1,5 +1,6 @@
+import Link from "next/link";
+
 import { socialMedia } from "@/content/data";
-import IconComponent from "@/components/ui/IconComponent";
 
 export default function FooterQuote() {
   return (
@@ -10,9 +11,9 @@ export default function FooterQuote() {
             className="flex justify-center items-center hover:text-white-400"
             key={icon.alt}
           >
-            <a href={icon.link} target="_blank" title={icon.title}>
+            <Link href={icon.link} target="_blank" title={icon.title}>
               {icon.name}
-            </a>
+            </Link>
           </div>
         ))}
       </div>

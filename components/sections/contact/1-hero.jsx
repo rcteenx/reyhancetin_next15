@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { contContact } from "@/content/data/hero";
 import IconComponent from "@/components/ui/IconComponent";
 
@@ -19,7 +21,7 @@ export default function ContactHero({}) {
         <div className="m-4 grid grid-cols-1 gap-2">
           {contContact.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
-              <a
+              <Link
                 href={b.link}
                 title={`${b.title} Linki`}
                 className={` relative transition-all duration-200 gradientTransition btn-hero px-6 py-3 ${b.gradiant}`}
@@ -27,7 +29,7 @@ export default function ContactHero({}) {
               >
                 <IconComponent name={b.icon} size={24} color={b.iconColor} />
                 <span className="">{b.title}</span>
-              </a>
+              </Link>
             </div>
           ))}
         </div>

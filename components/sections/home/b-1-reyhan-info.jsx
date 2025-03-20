@@ -10,7 +10,7 @@ export default function ReyhanInfo({}) {
         <h2 className="text-2xl lg:text-3xl text-center text-yellow-500">
           Reyhan Çetin X: Kim ya da Ne?
         </h2>
-        <div className="mx-auto max-w-md p-1 sm:p-2 bgStoryReyhan sm:border-2 border-yellow-500 ">
+        <div className="mx-auto sm:max-w-md p-1 sm:p-2 bgStoryReyhan sm:border-2 border-yellow-500 ">
           <ReyhanCarousel autoplayInterval={10000} />
         </div>
       </div>

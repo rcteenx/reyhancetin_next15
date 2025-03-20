@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { contPresence } from "@/content/data/hero";
 import IconComponent from "@/components/ui/IconComponent";
 
@@ -45,7 +47,7 @@ export default function PresenceHero({}) {
         <div className="mx-8 my-4 grid grid-cols-2 gap-2">
           {contPresence.buttons.map((b, index) => (
             <div key={b.icon}>
-              <a
+              <Link
                 href={b.link}
                 title={`${b.title} Linki`}
                 className={` m-auto max-w-48 relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
@@ -55,7 +57,7 @@ export default function PresenceHero({}) {
                 <IconComponent name={b.icon} size={24} color={b.iconColor} />
                 <span className="">{b.title}</span>
                 {/* <span className="hidden md:block">{b.title}</span> */}
-              </a>
+              </Link>
             </div>
           ))}
         </div>
