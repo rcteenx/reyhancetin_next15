@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-// import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 import smd from "@/content/data/siteMetaData";
 
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang={smd.language}>
       <body className={`${base.variable} antialiased`}>
-        {/* <GoogleAnalytics /> */}
+        <GoogleAnalytics />
         <Header />
         <main>{children}</main>
         <Footer />
