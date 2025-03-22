@@ -1,28 +1,33 @@
 import ReyhanRehber from "@/components/sections/reyhan/info/rehber";
 import ReyhanInfoContainer from "@/components/sections/reyhan/info/container";
-import ReyhanInfoLinks from "@/components/sections/reyhan/info/links";
 
 import PageContent from "@/components/templates/pageContent";
+import ContactMe from "@/components/ui/contact-me";
+
+export async function generateMetadata() {
+  return {
+    title: "Rehber ve Spritüel Öğretmen",
+  };
+}
 
 export default function Page() {
   return (
     <>
-      <ReyhanInfoContainer ReyhanInfo={ReyhanRehber} />
-      <ReyhanInfoLinks />
+      <ReyhanInfoContainer ReyhanInfo={ReyhanRehber} id="4" />
 
-      <PageContent h2Title="Uzun İnce bir Yol">
-        <p>Gözlemci, Sessiz Tanık, Saf Farkındalık, Presence</p>
-        <p>
-          Aşık Veysel'in sözleriyle, 'Uzun ince bir yolda' ilerliyoruz. Ancak,
-          yol tek değil, birçok farklı yollar var. Üstelik, bir yol seçmeseniz
-          bile, zaman akıyor ve olduğumuz yerde bile gidiyoruz gündüz gece!
-        </p>
-        <p>
-          Bazı yollar, mekanik bir şekilde sürünün, karanlığın ve hiçliğin
-          ortasında ilerlerken, bazıları ise kendimizi keşfetmeye, bilinçli ve
-          farkında bir yaşam sürmeye hatta ötesine doğru ilerliyor.
-        </p>
-        <p>Sevgilerle...</p>
+      <PageContent h2Title="İnsan Bir Hapishanedir">
+        <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+          <p>
+            "Sen hapishanedesin. Eğer bu hapishaneden çıkmak istiyorsan, önce
+            hapishanede olduğunu fark etmelisin. Özgür olduğunu düşünüyorsan,
+            asla kaçamazsın."
+          </p>
+          <p className="mx-4 mb-0 mt-3 font-semibold text-right">
+            <em>G.I. Gurdjieff</em>
+          </p>
+          <p>Birlikte kaçmak için, "Merhaba"nızı bekliyorum.</p>
+        </blockquote>
+        <ContactMe />
       </PageContent>
     </>
   );

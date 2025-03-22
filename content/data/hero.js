@@ -31,6 +31,18 @@ export const contHome = {
   ],
 };
 
+export const contactMe = {
+  buttons: [
+    {
+      title: "Merhaba",
+      icon: "whatsapp",
+      link: "https://wa.me/905443087402?text=Merhaba",
+      gradiant: "gradientWhatsapp",
+      iconColor: "white",
+    },
+  ],
+};
+
 export const contReyhan = {
   h1: "Reyhan Çetin X - Bilinç ve Farkındalık Rehberi",
   h3a: "içine",

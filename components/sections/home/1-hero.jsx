@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 import { contHome } from "@/content/data/hero";
-
 import IconComponent from "@/components/ui/IconComponent";
+
 const Hero = ({ rVideo }) => {
   return (
     <section
@@ -45,7 +45,6 @@ const Hero = ({ rVideo }) => {
               >
                 <IconComponent name={b.icon} size={24} color={b.iconColor} />
                 <span className="hidden md:block">{b.title}</span>
-                {/* <span className="hidden md:block">{b.title}</span> */}
               </Link>
             </div>
           ))}
