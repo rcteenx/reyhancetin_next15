@@ -120,18 +120,18 @@ export const StaticPages = [
     title: "Yol",
     link: "yol",
     pages: [
-      { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },
-      { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
-      {
-        id: 3,
-        title: "Kendini Gözlem",
-        link: "kendini-gozlem",
-      },
-      {
-        id: 4,
-        title: "Bilinçli Düşünmek",
-        link: "bilincli-dusunmek",
-      },
+      // { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },
+      // { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
+      // {
+      //   id: 3,
+      //   title: "Kendini Gözlem",
+      //   link: "kendini-gozlem",
+      // },
+      // {
+      //   id: 4,
+      //   title: "Bilinçli Düşünmek",
+      //   link: "bilincli-dusunmek",
+      // },
     ],
   },
   {
@@ -139,9 +139,9 @@ export const StaticPages = [
     title: "Presence",
     link: "presence",
     pages: [
-      { id: 1, title: "Sohbetler", link: "youtube" },
-      { id: 2, title: "Paylaşımlar", link: "instagram" },
-      { id: 3, title: "Meditasyonlar", link: "presence" },
+      // { id: 1, title: "Sohbetler", link: "youtube" },
+      // { id: 2, title: "Paylaşımlar", link: "instagram" },
+      // { id: 3, title: "Meditasyonlar", link: "presence" },
     ],
   },
   {

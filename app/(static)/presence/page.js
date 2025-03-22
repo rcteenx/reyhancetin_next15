@@ -3,9 +3,9 @@ import { contPresence, presenceMentor } from "@/content/data";
 
 import PresenceHero from "@/components/sections/presence/1-hero";
 import Presence from "@/components/sections/presence/b-1-presence";
-import PresenceMentor from "@/components/sections/presence/b-2-presence-mentor";
 
 import PageContent from "@/components/templates/pageContent";
+import ContactMe from "@/components/ui/contact-me";
 
 export default function Page() {
   return (
@@ -61,7 +61,8 @@ export default function Page() {
           Sonrasında mindfulness temelli bilinç çalışmalarıyla, presence'ı
           taşıyabilecek sağlam bir temel geliştirebilirsiniz.
         </p>
-        <p>Sevgilerle...</p>
+        <p>Birebir Mentorlük istiyorsanız, "Merhaba"nızı bekliyoruz.</p>
+        <ContactMe />
       </PageContent>
     </>
   );

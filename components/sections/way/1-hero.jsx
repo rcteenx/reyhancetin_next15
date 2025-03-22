@@ -52,7 +52,7 @@ export default function WayHero({}) {
           Bilinçli yolculuk, ancak nereye gideceğimizin farkına vardığımızda
           başlar.
         </p>
-        <p className="my-4 text-indigo text-xs md:text-sm">{contWay.cta}</p>
+        {/* <p className="my-4 text-indigo text-xs md:text-sm">{contWay.cta}</p>
         <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
           {contWay.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
@@ -66,7 +66,7 @@ export default function WayHero({}) {
               </Link>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

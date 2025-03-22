@@ -4,6 +4,7 @@ import WayHero from "@/components/sections/way/1-hero";
 import WhyWeNeed from "@/components/sections/way/b-1-why-we-need";
 
 import PageContent from "@/components/templates/pageContent";
+import ContactMe from "@/components/ui/contact-me";
 
 export default function Page() {
   return (
@@ -54,16 +55,12 @@ export default function Page() {
           Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
           farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.
         </p>
-        {/* <AdWorkshop /> */}
-        <p>
+        {/* <p>
           Giriş atölyemizi başarıyla tamamlayan arkadaşları, haftalık
           çalışmalarda aramızda görmeyi bekliyoruz.
-        </p>
-        {/* <p>
-          Ayrıca, belirli dönemlerde farklı şehirlerde hafta sonu buluşmaları ve
-          şehir dışında inziva kampları düzenlenmektedir.
         </p> */}
-        <p>Sevgilerle...</p>
+        <p>Çalışmalarla ilgileniyorsanız, "Merhaba"nızı bekliyoruz.</p>
+        <ContactMe />
       </PageContent>
     </>
   );
