@@ -4,7 +4,7 @@ export const contHome = {
   h1a: "BİLİNÇLİ YOLCULUĞA",
   h1b: "hazır mısınız?",
   desc: 'Youtube sohbetleri, Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
-  cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım! ✨",
+  cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
   buttons: [
     {
       title: "Instagram",
