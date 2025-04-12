@@ -21,6 +21,9 @@ export const metadata = {
     template: "%s | " + smd.title,
   },
   description: smd.description,
+  alternates: {
+    canonical: "https://reyhancetin.org.tr",
+  },
 };
 
 export default function RootLayout({ children }) {
