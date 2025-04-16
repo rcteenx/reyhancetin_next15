@@ -1,23 +1,55 @@
-import { presenceInstagram } from "@/public/assets/images";
-import { contPresence, presenceMentor } from "@/content/data";
-
-import PresenceHeroWorkshop from "@/components/sections/presence/workshop_hero";
-import Presence from "@/components/sections/presence/b-1-presence";
+import { contHeroPresenceWorkshop } from "@/content/data/hero";
 
 import PageContent from "@/components/templates/pageContent";
 import PresenceWeeks from "@/components/sections/presence/session_weeks";
-import PresenceFAQ from "@/components/sections/presence/faq";
+import FAQ from "@/components/templates/faq";
 import ContactMe from "@/components/ui/contact-me";
+
+import AdContent from "@/components/templates/adContent";
+
+const faqWorkshop = [
+  {
+    id: 1,
+    title: "Bu seminer için önceden bir deneyimim olması gerekir mi?",
+    content:
+      "Hayır, önceden herhangi bir deneyim gerekmiyor. Farkındalık ve içsel gözlem konularında yeni başlayanlar için de uygundur. Katılım için tek şart, bu yolculuğa açık bir zihinle başlamak istemenizdir.",
+  },
+  {
+    id: 2,
+    title: "Her hafta yapılan oturumlar kaydedilecek mi?",
+    content:
+      "Evet, her oturum kaydedilecek ve katılımcılarla paylaşılacaktır. Eğer bir oturumu kaçırırsanız, kaydı izleyebilirsiniz.",
+  },
+  {
+    id: 3,
+    title: "Seminer sadece çevrimiçi mi olacak?",
+    content:
+      "Evet, seminer çevrimiçi olarak gerçekleştirilecektir. Her hafta, Zoom üzerinden canlı katılım sağlayabilirsiniz.",
+  },
+  {
+    id: 4,
+    title: "Seminerin sonunda bir sertifika alacak mıyım?",
+    content:
+      "Bu seminerde odak noktamız, bilgi edinmekten çok içsel bir dönüşüm süreci yaşamaktır. Bu nedenle, seminer sonunda sertifika verilmeyecektir.",
+  },
+  {
+    id: 5,
+    title: "Katılım ücreti ne zaman ödenmelidir?",
+    content:
+      "Katılım ücreti, kayıt işlemi sırasında ödenmelidir. Ödeme bilgilerini size özel olarak ileteceğiz.",
+  },
+];
 
 export default function Page() {
   return (
     <>
-      <PresenceHeroWorkshop />
+      <section id="hero">
+        <div className="gradientIndigo">
+          <h1>Bilinç ve Farkındalık Çalışmalarına Giriş</h1>
+        </div>
+      </section>
 
-      <PageContent
-        h2Title="🌀 Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi
-"
-      >
+      <PageContent h2Title="🌀 Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi">
         <h4 className="my-2 lg:text-xl">
           Dikkatin Gücüyle Uyanışa Bir Yolculuk
         </h4>
@@ -32,6 +64,7 @@ export default function Page() {
           yolculuk, sizi kendi merkezinize doğru sade, derin ve uygulanabilir
           bir adım adım keşfe davet ediyor.
         </p>
+
         <h3>Atölyenin Amacı</h3>
         <p>
           Bu seminer, bireyin kendini gözlemleme ve bilinçli farkındalık
@@ -45,6 +78,9 @@ export default function Page() {
           ve modern dikkat temelli yaklaşımlardan beslenen bu atölye, teorik
           bilgi kadar pratik uygulamalara da odaklanır.
         </p>
+
+        <h3 className="px-4 py-2 rounded-xl bg-[#f2f2f2]">🔹 Atölye İçeriği</h3>
+        <PresenceWeeks />
         <h3>Kimler Katılabilir?</h3>
         <ul>
           <li>İçsel yolculuğuna başlamış ve dönüşüm arayışında olanlar.</li>
@@ -52,9 +88,6 @@ export default function Page() {
           <li>Zihin, beden ve ruh arasında denge kurmayı amaçlayanlar.</li>
           <li>Yaşamı bilinçli bir şekilde yaşamak isteyenler için.</li>
         </ul>
-
-        <h3 className="text-center">🔹 Atölye İçeriği</h3>
-        <PresenceWeeks />
 
         <h3>Eğitmen Hakkında</h3>
         <p>
@@ -81,8 +114,29 @@ export default function Page() {
         <ContactMe />
 
         <h3>💬 Sıkça Sorulan Sorular</h3>
-        <PresenceFAQ />
+        <FAQ faq={faqWorkshop} />
       </PageContent>
+
+      <AdContent contAd={contHeroPresenceWorkshop}>
+        <div className="relative mt-12 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
+          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+            <p>
+              İnsan, kendisini gözlemlemeye başladığı anda, uykusundan uyanmaya
+              başlar.
+            </p>
+            <p className="mx-4 mb-0 mt-3 font-semibold text-right">
+              <em>G. I. Gurdjieff</em>
+            </p>
+          </blockquote>
+        </div>
+        <p className="my-8 px-4 text-xs md:text-sm">
+          İçsel uyanış bir teori değil, doğrudan deneyimle anlaşılabilen bir
+          gerçektir. Gündelik yaşantımızın otomatik akışı içinde, kendimizi
+          gözlemlemeye başladığımız an, bilinç kıvılcımı yanmaya başlar. Bu
+          atölye, o kıvılcımı büyütmek ve sizi gerçek uyanışın eşiğine getirmek
+          için hazırlandı.
+        </p>
+      </AdContent>
     </>
   );
 }

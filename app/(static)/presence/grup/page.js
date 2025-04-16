@@ -1,18 +1,56 @@
-import { presenceInstagram } from "@/public/assets/images";
-import { contPresence, presenceMentor } from "@/content/data";
-
-import PresenceHeroSession from "@/components/sections/presence/group_hero";
-import Presence from "@/components/sections/presence/b-1-presence";
+import { contHeroPresenceGroup } from "@/content/data/hero";
 
 import PageContent from "@/components/templates/pageContent";
 import PresenceWeeks from "@/components/sections/presence/group_weeks";
-import PresenceFAQ from "@/components/sections/presence/group_faq";
+import FAQ from "@/components/templates/faq";
+
 import ContactMe from "@/components/ui/contact-me";
+
+import AdContent from "@/components/templates/adContent";
+
+const faqGroup = [
+  {
+    id: 1,
+    title:
+      "Daha önce bireysel çalışmalara katılmamış olsam da gelebilir miyim?",
+    content:
+      "Hayır, grup çalışmaları, temel atölyemize katılmış ve çalışma için uygun olan arkadaşlara açıktır. Ortak bir dil ve anlayış oluşturmak için, herkesin giriş aşamasını tamamlamış olması gerekiyor.",
+  },
+  {
+    id: 2,
+    title: "Katılım için belli bir yaş ya da mesleki koşul var mı?",
+    content:
+      "Hayır. Önemli olan, içsel olarak bu yola çağrılıyor olmanızdır. Bununla beraber, ezoterik bir yolculuğa başlamak için, genel olarak, 30 ve hatta 40'lı yaşların daha uygun olduğunu belirtmek isterim.",
+  },
+  {
+    id: 3,
+    title: "Grup çalışmaları ne kadar sürecek?",
+    content:
+      "Belirli aralıklarla, ortalama 3 aylık döngüler planlanıyor. Sonrasında devam grupları oluşturulabilir.",
+  },
+  {
+    id: 4,
+    title: "Katılamadığım oturumlar olursa ne olacak?",
+    content:
+      "Grubun bütünlüğünü gözetmek için düzenli katılım önemlidir. Ancak zorunlu durumlarda kayıt ya da telafi imkanı sağlanabilir.",
+  },
+  {
+    id: 5,
+    title: "Bu çalışmalar neye dayanıyor?",
+    content:
+      "Gurdjieff’in Dördüncü Yol öğretisi temelinde; fakat modern psikoloji, mindfulness, somatik farkındalık gibi alanlarla da temas halinde bir çerçeveyle yürütülür.",
+  },
+];
 
 export default function Page() {
   return (
     <>
-      <PresenceHeroSession />
+      <section id="hero">
+        <div className="gradientIndigo">
+          <h1>Bilinçli Farkındalık Gözlem Grup Çalışmaları</h1>
+        </div>
+      </section>
+
       <PageContent h2Title="🌀 Bilinçli Farkındalık Gözlem Grup Çalışmaları">
         <h4 className="my-2 lg:text-xl">Gözlemci Geliştirmek</h4>
         <p>
@@ -22,6 +60,7 @@ export default function Page() {
           sistemine dayanan bu yaklaşım, kişinin kendi üzerinde çalışabileceği
           gerçek, adım adım ilerleyen bir yapıyı sunar.
         </p>
+
         <h3>Neden Grup Çalışması?</h3>
         <p>
           Bireysel çaba esastır; ancak içsel gelişimin bazı eşiklerinde,
@@ -32,6 +71,12 @@ export default function Page() {
           görür; dikkat, gözlem, hatırlama ve samimi paylaşım için bir alan
           oluşturur.
         </p>
+
+        <h3 className="px-4 py-2 rounded-xl bg-[#f2f2f2]">
+          🔹 Çalışma Aşamaları
+        </h3>
+        <PresenceWeeks />
+
         <h3>Kimler Katılabilir?</h3>
         <ul>
           <li>
@@ -76,9 +121,6 @@ export default function Page() {
           </li>
         </ul>
 
-        <h3 className="text-center">🔹 Çalışma Aşamaları</h3>
-        <PresenceWeeks />
-
         <h3>Eğitmen Hakkında</h3>
         <p>
           Reyhan Çetin X, Bilinçli farkındalık, içsel gözlem, dikkat çalışmaları
@@ -105,8 +147,31 @@ export default function Page() {
         <ContactMe />
 
         <h3>💬 Sıkça Sorulan Sorular</h3>
-        <PresenceFAQ />
+        <FAQ faq={faqGroup} />
       </PageContent>
+
+      <AdContent contAd={contHeroPresenceGroup}>
+        <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
+          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+            <p>
+              İnsan ancak diğerleriyle birlikte çalışarak kendini tanıyabilir.
+            </p>
+            <p className="mx-4 mb-0 mt-3 font-semibold text-right">
+              <em>G. I. Gurdjieff</em>
+            </p>
+          </blockquote>
+        </div>
+        <p className="m-4 text-xs md:text-sm">
+          Gerçek gözlem, bir başkasının bakışıyla keskinleşir; dirençlerimiz,
+          tepkilerimiz ve kaçışlarımız, ancak grup içinde görünür olur.
+          Gurdjieff’in de belirttiği gibi, insan kendini ancak başkalarıyla
+          birlikte çalışarak tanıyabilir—çünkü başkaları bize kendimizden daha
+          çok şey gösterebilir.
+        </p>
+        <p className="m-4 text-xs md:text-sm">
+          Kendimizi yalnızca kendimizde aramak yeterli olmuyor.
+        </p>
+      </AdContent>
     </>
   );
 }

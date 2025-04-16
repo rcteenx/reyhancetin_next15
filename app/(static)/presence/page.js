@@ -1,16 +1,66 @@
-import { presenceInstagram } from "@/public/assets/images";
-import { contPresence, presenceMentor } from "@/content/data";
+import Link from "next/link";
+import { contPresence } from "@/content/data/hero";
+import { presenceInfo } from "@/content/data";
 
-import PresenceHero from "@/components/sections/presence/1-hero";
+import { presenceInstagram } from "@/public/assets/images";
+
+import HeroSingle from "@/components/templates/hero";
 import Presence from "@/components/sections/presence/b-1-presence";
 
 import PageContent from "@/components/templates/pageContent";
 import ContactMe from "@/components/ui/contact-me";
 
+import IconComponent from "@/components/ui/IconComponent";
+
 export default function Page() {
   return (
     <>
-      <PresenceHero />
+      <HeroSingle contHero={contPresence}>
+        <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
+          <IconComponent
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-1 opacity-40"
+            name="presence"
+            size={48}
+            color="purple"
+          />
+          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+            <p>
+              Saf farkındalık yalnızca bireyin iç dünyasında değil,
+              <br />
+              varlığının tüm çevresi üzerinde bir etki yaratır.
+            </p>
+            <p className="mx-4 mb-0 mt-3 font-semibold text-right">
+              <em>Ramana Maharshi</em>
+            </p>
+          </blockquote>
+        </div>
+        <p className="m-4 text-xs md:text-sm">
+          Saf farkındalık, kütle kazandığında, sadece bireyin içsel deneyimiyle
+          sınırlı kalmaz. Bulunduğu alanı ve kapsadığı insanları da
+          dönüştürebilir. Sessiz ama güçlü bir etkiyle, presence çevreye yayılır
+          ve bir dönüşüm alan yaratır.
+        </p>
+        <p className="my-4 text-indigo text-xs md:text-sm">
+          {contPresence.cta}
+        </p>
+        <div className="mx-8 my-4 grid grid-cols-2 gap-2">
+          {contPresence.buttons.map((b, index) => (
+            <div key={b.icon}>
+              <Link
+                href={b.link}
+                title={`${b.title} Linki`}
+                className={` m-auto max-w-48 relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
+                role="button"
+                target="_blank"
+              >
+                <IconComponent name={b.icon} size={24} color={b.iconColor} />
+                <span className="">{b.title}</span>
+                {/* <span className="hidden md:block">{b.title}</span> */}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </HeroSingle>
 
       <section className="bg-[#f7f7f7] px-4 py-8 md:py-12  text-center">
         <h2 className="mx-auto border-b-2 inline-block">İŞTE HİKAYEMİZ</h2>
@@ -39,7 +89,7 @@ export default function Page() {
         </p>
       </section>
 
-      <Presence img={presenceInstagram} content={contPresence} />
+      <Presence img={presenceInstagram} content={presenceInfo} />
       {/* <PresenceMentor content={presenceMentor} /> */}
 
       <PageContent h2Title="PRESENCE MENTOR">

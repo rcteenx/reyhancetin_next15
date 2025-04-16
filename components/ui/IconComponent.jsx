@@ -1,4 +1,5 @@
 import {
+  FaBlog,
   FaPhoneSquareAlt,
   FaCat,
   FaGlobeAfrica,
@@ -14,7 +15,6 @@ import {
   FaWifi,
   FaStar,
   FaHome,
-  FaBlog,
   FaSitemap,
   FaGoogle,
   FaMobileAlt,
@@ -33,6 +33,7 @@ import { GiAwareness } from "react-icons/gi";
 import { BiSolidContact } from "react-icons/bi";
 
 const iconTypes = {
+  blog: FaBlog,
   presence: GiAwareness,
   phone: FaPhoneSquareAlt,
   email: MdEmail,
@@ -56,7 +57,6 @@ const iconTypes = {
   star: FaStar,
   home: FaHome,
   contact: BiSolidContact,
-  blog: FaBlog,
   sitemap: FaSitemap,
   google: FaGoogle,
   mobilealt: FaMobileAlt,

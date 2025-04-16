@@ -8,17 +8,23 @@ export default function FooterQuote() {
       <div className="flex items-center gap-2 mt-4">
         {socialMedia.map((icon) => (
           <div
-            className="flex justify-center items-center hover:text-white-400"
+            className={`flex justify-center items-center hover:text-white-400 ${
+              icon.id == 5 ? "md:hidden" : ""
+            }`}
             key={icon.alt}
           >
-            <Link href={icon.link} target="_blank" title={icon.title}>
+            <Link
+              href={icon.link}
+              target={`${icon.id == 5 ? "" : "_blank"}`}
+              title={icon.title}
+            >
               {icon.name}
             </Link>
           </div>
         ))}
       </div>
       <p className="hidden md:block text-right text-sm">
-        Kendimizi olabileceğimiz bilinçli farkındalık çemberine davetlisiniz.
+        <Link href="/blog">Reyhan Çetin X - Blog: Kaptan'ın Seyir Defteri</Link>
       </p>
     </div>
   );

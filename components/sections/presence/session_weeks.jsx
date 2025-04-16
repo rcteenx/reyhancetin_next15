@@ -14,12 +14,12 @@ export default function PresenceWeeks({}) {
 
   return (
     <div className="">
-      <div className="flex justify-center space-x-2 ">
+      <div className="flex justify-center space-x-1 ">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`px-4 py-1 text-sm font-semibold rounded-t-xl transition-all duration-300 ${
+            className={`px-2 py-1 text-sm font-semibold rounded-t-lg transition-all duration-300 ${
               activeTab === tab.id
                 ? "bg-[#f2f2f2] "
                 : "text-gray-600 hover:text-blue-600"

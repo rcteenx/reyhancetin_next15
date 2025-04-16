@@ -73,7 +73,7 @@ export const meditationInfo = {
   ],
 };
 
-export const contPresence = {
+export const presenceInfo = {
   h2: "PRESENCE",
   h3: "Saf Farkındalığın Varlığı",
   subTitle: "Presence Nedir?",
@@ -163,7 +163,7 @@ export const StaticPages = [
 
 export const socialMedia = [
   {
-    id: 1,
+    id: 2,
     svgIcon: "youtube",
     name: "youtube",
     alt: "youtube logo",
@@ -171,7 +171,7 @@ export const socialMedia = [
     link: "https://www.youtube.com/@reyhancetinx",
   },
   {
-    id: 2,
+    id: 3,
     svgIcon: "instagram",
     name: "instagram",
     alt: "instagram logo",
@@ -179,12 +179,20 @@ export const socialMedia = [
     link: "https://www.instagram.com/reyhancetinx",
   },
   {
-    id: 3,
+    id: 4,
     svgIcon: "facebook",
     name: "facebook",
     alt: "facebook logo",
     title: "facebook sayfamıza bekleriz",
     link: "https://www.facebook.com/reyhancetinx",
+  },
+  {
+    id: 5,
+    svgIcon: "blog",
+    name: "blog yazılarım",
+    alt: "blog icon",
+    title: "Blog: Kaptan'ın Seyir Defteri",
+    link: "/blog",
   },
 ];
 

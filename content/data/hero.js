@@ -342,7 +342,37 @@ export const contContact = {
       gradiant: "gradientWhatsapp",
       iconColor: "white",
     },
+    {
+      id: 4,
+      title: "Blog: Kaptan'ın Seyir Defteri",
+      icon: "blog",
+      link: "/blog",
+      gradiant: "gradientSlate",
+      iconColor: "black",
+    },
   ],
+};
+
+export const contHeroBlog = {
+  h1: "Reyhan Çetin X - Blog: Kaptan'ın Seyir Defteri",
+  h3a: "görene",
+  h3b: "BAK",
+};
+
+export const cont404 = {
+  h1: "Reyhan Çetin X - 404: Aradığınız Sayfa Bulunamadı",
+  h3a: "üzgünüz",
+  h3b: "404",
+  p: "Sayfa bulunamadı",
+  cta: "✨ ANA SAYFAYA DÖN ✨",
+};
+
+export const cont500 = {
+  h1: "Reyhan Çetin X - 500: Sunucu Hatası",
+  h3a: "üzgünüz",
+  h3b: "500",
+  p: "Sunucu Hatası",
+  cta: "✨ ANA SAYFAYA DÖN ✨",
 };
 
 // Sub Çember

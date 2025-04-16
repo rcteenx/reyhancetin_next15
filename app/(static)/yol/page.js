@@ -1,15 +1,72 @@
-import { whyweneed } from "@/content/data";
+import Link from "next/link";
 
-import WayHero from "@/components/sections/way/1-hero";
+import { whyweneed } from "@/content/data";
+import { contContact } from "@/content/data/hero";
+
+import HeroSingle from "@/components/templates/hero";
 import WhyWeNeed from "@/components/sections/way/b-1-why-we-need";
 
 import PageContent from "@/components/templates/pageContent";
 import ContactMe from "@/components/ui/contact-me";
 
+import IconComponent from "@/components/ui/IconComponent";
+
 export default function Page() {
   return (
     <>
-      <WayHero />
+      <HeroSingle contHero={contContact}>
+        <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
+          <IconComponent
+            className="absolute bottom-2 left-2 z-1 opacity-20 sm:opacity-40"
+            name="cat"
+            size={48}
+            color="purple"
+          />
+          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+            <p>
+              <span className="font-bold text-gray-800">Alice:</span> "Lütfen
+              bana buradan hangi yöne gitmem gerektiğini söyler misin?"
+            </p>
+            <p>
+              <span className="font-bold text-gray-800">Cheshire Kedisi:</span>{" "}
+              "Bu, büyük ölçüde nereye gitmek istediğine bağlı."
+            </p>
+            <p>
+              <span className="font-bold text-gray-800">Alice:</span> "Aslında
+              nereye gittiğim pek de umurumda değil..."
+            </p>
+            <p>
+              <span className="font-bold text-gray-800">Cheshire Kedisi:</span>{" "}
+              "O halde hangi yoldan gittiğinin de bir önemi yok."
+            </p>
+            <p className="mx-4 mb-0 mt-3 font-semibold text-right">
+              <em>Alice Harikalar Diyarında, Lewis Carroll</em>
+            </p>
+          </blockquote>
+        </div>
+        <p className="my-4 text-xs md:text-sm">
+          Önce kendimizi ve objektif gerçekliği anlamalıyız.
+          <br />
+          Bilinçli yolculuk, ancak nereye gideceğimizin farkına vardığımızda
+          başlar.
+        </p>
+        {/* <p className="my-4 text-indigo text-xs md:text-sm">{contWay.cta}</p>
+        <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
+          {contWay.buttons.map((b, index) => (
+            <div key={b.id} className={b.show}>
+              <Link
+                href={b.link}
+                title={`${b.title} Linki`}
+                className={` relative transition-all duration-200 gradientTransition btn-hero px-6 py-3 ${b.gradiant}`}
+                role="button"
+              >
+                <span className="">{b.title}</span>
+              </Link>
+            </div>
+          ))}
+        </div> */}
+      </HeroSingle>
+
       <WhyWeNeed need={whyweneed} />
 
       <PageContent h2Title="UZUN İNCE BİR YOL">

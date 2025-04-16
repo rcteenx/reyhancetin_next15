@@ -1,18 +1,53 @@
-import { presenceInstagram } from "@/public/assets/images";
-import { contPresence, presenceMentor } from "@/content/data";
-
-import PresenceHeroSession from "@/components/sections/presence/session_hero";
-import Presence from "@/components/sections/presence/b-1-presence";
+import { contHeroPresenceSession } from "@/content/data/hero";
 
 import PageContent from "@/components/templates/pageContent";
 import PresenceWeeks from "@/components/sections/presence/workshop_weeks";
-import PresenceFAQ from "@/components/sections/presence/faq";
+import FAQ from "@/components/templates/faq";
 import ContactMe from "@/components/ui/contact-me";
+
+import AdContent from "@/components/templates/adContent";
+
+const faqWorkshop = [
+  {
+    id: 1,
+    title: "Bu seminer için önceden bir deneyimim olması gerekir mi?",
+    content:
+      "Hayır, önceden herhangi bir deneyim gerekmiyor. Farkındalık ve içsel gözlem konularında yeni başlayanlar için de uygundur. Katılım için tek şart, bu yolculuğa açık bir zihinle başlamak istemenizdir.",
+  },
+  {
+    id: 2,
+    title: "Her hafta yapılan oturumlar kaydedilecek mi?",
+    content:
+      "Evet, her oturum kaydedilecek ve katılımcılarla paylaşılacaktır. Eğer bir oturumu kaçırırsanız, kaydı izleyebilirsiniz.",
+  },
+  {
+    id: 3,
+    title: "Seminer sadece çevrimiçi mi olacak?",
+    content:
+      "Evet, seminer çevrimiçi olarak gerçekleştirilecektir. Her hafta, Zoom üzerinden canlı katılım sağlayabilirsiniz.",
+  },
+  {
+    id: 4,
+    title: "Seminerin sonunda bir sertifika alacak mıyım?",
+    content:
+      "Bu seminerde odak noktamız, bilgi edinmekten çok içsel bir dönüşüm süreci yaşamaktır. Bu nedenle, seminer sonunda sertifika verilmeyecektir.",
+  },
+  {
+    id: 5,
+    title: "Katılım ücreti ne zaman ödenmelidir?",
+    content:
+      "Katılım ücreti, kayıt işlemi sırasında ödenmelidir. Ödeme bilgilerini size özel olarak ileteceğiz.",
+  },
+];
 
 export default function Page() {
   return (
     <>
-      <PresenceHeroSession />
+      <section id="hero">
+        <div className="gradientIndigo">
+          <h1>Bilinçli Farkındalık Bireysel Rehberlik Seanları</h1>
+        </div>
+      </section>
 
       <PageContent h2Title="🌀 Bilinçli Farkındalık Bireysel Rehberlik Seanları">
         <h4 className="my-2 lg:text-xl">Gözlemci Geliştirmek</h4>
@@ -68,9 +103,29 @@ export default function Page() {
         </ul>
         <ContactMe />
 
-        <h3>💬 Sıkça Sorulan Sorular</h3>
-        <PresenceFAQ />
+        <h3>💬 Sıkça Sorulan Sorular a</h3>
+        <FAQ faq={faqWorkshop} />
       </PageContent>
+
+      <AdContent contAd={contHeroPresenceSession}>
+        <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
+          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
+            <p>
+              Burada sadece yönlendirebilir ve koşullar oluşturabiliriz; ama
+              yardım edemeyiz!
+            </p>
+            <p className="mx-4 mb-0 mt-3 font-semibold text-right">
+              <em>G. I. Gurdjieff</em>
+            </p>
+          </blockquote>
+        </div>
+        <p className="m-4 text-xs md:text-sm">
+          Hiç kimse bir başkasının yerine çalışamaz. Yardım, sadece doğru
+          koşulların yaratılmasıyla mümkündür; bu da çoğu zaman, yön
+          göstermekten ve sınır çizmeyi bilmekten ibarettir. Hakiki bilgiye
+          ulaşmak isteyen, önce kendi iç çabasını başlatmak zorundadır.
+        </p>
+      </AdContent>
     </>
   );
 }

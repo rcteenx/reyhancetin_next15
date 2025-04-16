@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 
 import IconComponent from "@/components/ui/IconComponent";
