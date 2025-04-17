@@ -1,7 +1,8 @@
-import { contHeroPresenceWorkshop } from "@/content/data/hero";
+import { heroPresenceWorkshop } from "@/content/data/hero";
+import { weeksWorkshop } from "@/content/data/weeks";
 
 import PageContent from "@/components/templates/pageContent";
-import PresenceWeeks from "@/components/sections/presence/session_weeks";
+import Weeks from "@/components/templates/weeks";
 import FAQ from "@/components/templates/faq";
 import ContactMe from "@/components/ui/contact-me";
 
@@ -80,7 +81,7 @@ export default function Page() {
         </p>
 
         <h3 className="px-4 py-2 rounded-xl bg-[#f2f2f2]">🔹 Atölye İçeriği</h3>
-        <PresenceWeeks />
+        <Weeks weeks={weeksWorkshop} />
         <h3>Kimler Katılabilir?</h3>
         <ul>
           <li>İçsel yolculuğuna başlamış ve dönüşüm arayışında olanlar.</li>
@@ -108,7 +109,7 @@ export default function Page() {
             <strong>Saat:</strong> 21:00 - 23:00
           </li>
           <li>
-            <strong>Katılım Ücreti:</strong> 1.500 TL
+            <strong>Katılım Ücreti:</strong> 1.500 TL + KDV
           </li>
         </ul>
         <ContactMe />
@@ -117,7 +118,7 @@ export default function Page() {
         <FAQ faq={faqWorkshop} />
       </PageContent>
 
-      <AdContent contAd={contHeroPresenceWorkshop}>
+      <AdContent contAd={heroPresenceWorkshop}>
         <div className="relative mt-12 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>

@@ -1,11 +1,11 @@
-import { contactMe } from "@/content/data/hero";
+import { buttonContactMe } from "@/content/data/buttons";
 import IconComponent from "@/components/ui/IconComponent";
 var messagex = "Hello";
 
 export default function ContactMe() {
   return (
     <div className="my-4 flex flex-row flex-wrap space-x-4 justify-center">
-      {contactMe.buttons.map((b, index) => (
+      {buttonContactMe.buttons.map((b, index) => (
         <div key={b.id} className={b.show}>
           <a
             href={`${b.link}`}

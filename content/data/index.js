@@ -98,9 +98,10 @@ export const presenceInfo = {
 
 export const presenceMentor = {
   h2: "PRESENCE MENTOR",
-  px: "Presence Mentor ve Öğretmeni olarak, mindfulness temelli bilinç çalışmalarında varlık geliştirmiş arkadaşların, sonraki aşamaya geçişlerine bilgi ve deneyimlerimle rehber oluyorum.",
-  p1: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, gözlemcinin devamında gelişen ve irade sahibi olan bilincin, yani kahyanın, hizmet ettiği efendidir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir.",
-  p2: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bu pek mümkün değil. Öncelikle dikkat meditasyonları ve hayatın içinde gözlem ile başlayabilirsiniz. Sonrasında mindfulness temelli bilinç çalışmalarıyla, presence'ı taşıyabilecek sağlam bir temel geliştirebilirsiniz.",
+  px: "Presence Mentor ve Öğretmeni olarak, mindfulness temelli bilinç çalışmalarında varlık geliştirmiş arkadaşların, sonraki aşamaya geçişlerine bilgi ve deneyimlerimle rehber oluyorum",
+  p1: "Presence, Gurdjieff’in öğretmediği dördüncü bilinç halidir. Bu varoluş seviyesi, gözlemcinin devamında gelişen ve irade sahibi olan bilincin, yani kahyanın, hizmet ettiği efendidir. Kendi varlığını hisseden ve alana aktaran en yüksek ve saf farkındalık seviyesidir",
+  p2: "Saf farkındalığınızı, yani kendinizi, hemen/şimdi keşfetmeyi istiyor olabilirsiniz. Ancak, bu pek mümkün değil. Öncelikle dikkat meditasyonları ve hayatın içinde gözlem ile başlayabilirsiniz. Sonrasında mindfulness temelli bilinç çalışmalarıyla, presence'ı taşıyabilecek sağlam bir temel geliştirebilirsiniz",
+  p3: "Birebir Mentorlük istiyorsanız, 'Merhaba'nızı bekliyoruz",
 };
 
 export const StaticPages = [

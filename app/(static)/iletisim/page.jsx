@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { contContact } from "@/content/data/hero";
+import { heroContact } from "@/content/data/hero";
 
 import HeroSingle from "@/components/templates/hero";
 
@@ -8,10 +8,10 @@ import IconComponent from "@/components/ui/IconComponent";
 export default function StaticPage() {
   return (
     <>
-      <HeroSingle contHero={contContact}>
-        <p className="my-4 text-indigo text-xs md:text-sm">{contContact.cta}</p>
+      <HeroSingle contHero={heroContact}>
+        <p className="my-4 text-indigo text-xs md:text-sm">{heroContact.cta}</p>
         <div className="m-4 grid grid-cols-1 gap-2">
-          {contContact.buttons.map((b, index) => (
+          {heroContact.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
               <Link
                 href={b.link}

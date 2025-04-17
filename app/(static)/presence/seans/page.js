@@ -1,7 +1,8 @@
-import { contHeroPresenceSession } from "@/content/data/hero";
+import { heroPresenceSession } from "@/content/data/hero";
+import { weeksSession } from "@/content/data/weeks";
 
 import PageContent from "@/components/templates/pageContent";
-import PresenceWeeks from "@/components/sections/presence/workshop_weeks";
+import Weeks from "@/components/templates/weeks";
 import FAQ from "@/components/templates/faq";
 import ContactMe from "@/components/ui/contact-me";
 
@@ -76,7 +77,7 @@ export default function Page() {
         </ul>
 
         <h3 className="text-center">🔹 Atölye İçeriği</h3>
-        <PresenceWeeks />
+        <Weeks weeks={weeksSession} />
 
         <h3>Eğitmen Hakkında</h3>
         <p>
@@ -96,7 +97,7 @@ export default function Page() {
             toplam 90 dakika
           </li>
           <li>Platform: Zoom üzerinden görüntülü görüşme</li>
-          <li>Ücret: 10.000 TL (5 seans toplamı)</li>
+          <li>Ücret: 10.000 TL + KDV (5 seans toplamı)</li>
           <li>
             Kayıt: Tüm seanslar kayda alınacak ve katılımcıyla paylaşılacaktır
           </li>
@@ -107,7 +108,7 @@ export default function Page() {
         <FAQ faq={faqWorkshop} />
       </PageContent>
 
-      <AdContent contAd={contHeroPresenceSession}>
+      <AdContent contAd={heroPresenceSession}>
         <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>

@@ -1,7 +1,8 @@
-import { contHeroPresenceGroup } from "@/content/data/hero";
+import { heroPresenceGroup } from "@/content/data/hero";
+import { weeksGroup } from "@/content/data/weeks";
 
 import PageContent from "@/components/templates/pageContent";
-import PresenceWeeks from "@/components/sections/presence/group_weeks";
+import Weeks from "@/components/templates/weeks";
 import FAQ from "@/components/templates/faq";
 
 import ContactMe from "@/components/ui/contact-me";
@@ -75,7 +76,7 @@ export default function Page() {
         <h3 className="px-4 py-2 rounded-xl bg-[#f2f2f2]">
           🔹 Çalışma Aşamaları
         </h3>
-        <PresenceWeeks />
+        <Weeks weeks={weeksGroup} />
 
         <h3>Kimler Katılabilir?</h3>
         <ul>
@@ -133,15 +134,13 @@ export default function Page() {
         <h3>Uygulama Bilgileri</h3>
         <p>Giriş atölyemiz, her ay yeni adaylar için tekrar başlatılacaktır.</p>
         <ul>
-          <li>Toplam Süre: 4+1 hafta</li>
-          <li>
-            Seanslar: Her biri 40+40 dakikalık iki bölüm, 10 dakika ara ile
-            toplam 90 dakika
-          </li>
           <li>Platform: Zoom üzerinden görüntülü görüşme</li>
-          <li>Ücret: 10.000 TL (5 seans toplamı)</li>
           <li>
-            Kayıt: Tüm seanslar kayda alınacak ve katılımcıyla paylaşılacaktır
+            <strong>Katılım Ücreti (aylık):</strong> 1.500 TL + KDV
+          </li>
+          <li>
+            Kayıt: Kişisel gözlem ve konuşmaların olduğu bölümler kayıt altına
+            alınmaz.
           </li>
         </ul>
         <ContactMe />
@@ -150,7 +149,7 @@ export default function Page() {
         <FAQ faq={faqGroup} />
       </PageContent>
 
-      <AdContent contAd={contHeroPresenceGroup}>
+      <AdContent contAd={heroPresenceGroup}>
         <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>

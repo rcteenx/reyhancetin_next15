@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-import { contReyhan } from "@/content/data/hero";
+import { heroReyhan } from "@/content/data/hero";
 
 export default function ReyhanInfoLinks({ id }) {
   return (
     <div className="mx-auto max-w-3xl text-center ">
       <div className="mx-8 my-8 grid grid-cols-1 sm:grid-cols-3 gap-2">
-        {contReyhan.buttons.map((b, index) => (
+        {heroReyhan.buttons.map((b, index) => (
           <div
             key={b.id}
             className={`grid-cols-1 ${id == b.id ? "hidden" : ""}`}

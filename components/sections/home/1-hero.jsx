@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { contHome } from "@/content/data/hero";
+import { heroHome } from "@/content/data/hero";
 import IconComponent from "@/components/ui/IconComponent";
 
 const Hero = ({ rVideo }) => {
@@ -12,16 +12,16 @@ const Hero = ({ rVideo }) => {
       <div className="xl:w-1/2 xl:pr-2 text-center xl:text-left ">
         <h1 className="mt-4 mb-0 text-3xl md:text-5xl lg:text-7xl font-bold text-indigo">
           <span className="px-4 xl:pr-8 xl:-ml-4 xl:bg-white xl:whitespace-nowrap relative z-10 rounded-full  xl:rounded-l-none shadow-lg ">
-            {contHome.h1a}
+            {heroHome.h1a}
           </span>
           <br />
           <span className="text-primary inline-block mt-2 sm:mt-4 font-thin tracking-tighter">
-            {contHome.h1b}
+            {heroHome.h1b}
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
           <p className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 ">
-            {/* {contHome.desc} */}
+            {/* {heroHome.desc} */}
             <Link href="#" className="border-b">
               Bilinç ve farkındalık çalışmalarına giriş atölyemizle,
             </Link>{" "}
@@ -30,11 +30,11 @@ const Hero = ({ rVideo }) => {
             farkındalık yolculuğuna açık kaynak desteğimizi sunuyoruz.
           </p>
           <p className="my-2 block text-indigo text-center text-xs md:text-sm">
-            {contHome.cta}
+            {heroHome.cta}
           </p>
         </div>
         <div className="my-4 flex flex-row flex-wrap space-x-4 justify-center">
-          {contHome.buttons.map((b, index) => (
+          {heroHome.buttons.map((b, index) => (
             <div key={b.icon} className={b.show}>
               <Link
                 href={b.link}

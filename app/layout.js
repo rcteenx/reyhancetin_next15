@@ -18,7 +18,7 @@ const base = Inter({
 export const metadata = {
   title: {
     default: smd.title,
-    template: `%s ${smd.title}`,
+    template: `%s | ${smd.title}`,
   },
   description: smd.description,
   alternates: {

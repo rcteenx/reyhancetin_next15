@@ -1,4 +1,4 @@
-export const contHome = {
+export const heroHome = {
   h2a: "Reyhan Çetin X",
   h2b: "Bilinç ve Farkındalık Rehberi",
   h1a: "BİLİNÇLİ YOLCULUĞA",
@@ -31,20 +31,7 @@ export const contHome = {
   ],
 };
 
-export const contactMe = {
-  buttons: [
-    {
-      id: 1,
-      title: "Merhaba",
-      icon: "whatsapp",
-      link: "https://wa.me/905443087402?text=Merhaba",
-      gradiant: "gradientWhatsapp",
-      iconColor: "white",
-    },
-  ],
-};
-
-export const contReyhan = {
+export const heroReyhan = {
   h1: "Reyhan Çetin X - Bilinç ve Farkındalık Rehberi",
   h3a: "içine",
   h3b: "BAK",
@@ -77,7 +64,7 @@ export const contReyhan = {
   ],
 };
 
-export const contWay = {
+export const heroWay = {
   h1: "Bilinçli Kendini Tanıma Yolculuğu",
   h3a: "hangi",
   h3b: "YOL",
@@ -110,7 +97,7 @@ export const contWay = {
   ],
 };
 
-export const contPresence = {
+export const heroPresence = {
   h1: "Presence - Saf Farkındalığın Varlığı",
   h3a: "farkındalık",
   h3b: "ALANI",
@@ -147,7 +134,7 @@ export const contPresence = {
   ],
 };
 
-export const contHeroPresenceWorkshop = {
+export const heroPresenceWorkshop = {
   h1: "Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi",
   h3a: "uyanmaya",
   h3b: "BAŞLA",
@@ -202,7 +189,7 @@ export const contHeroPresenceWorkshop = {
   ],
 };
 
-export const contHeroPresenceSession = {
+export const heroPresenceSession = {
   h1: "Bilinçli Farkındalık Bireysel Rehberlik Seanları",
   h3a: "çalışmaya",
   h3b: "BAŞLA",
@@ -257,7 +244,7 @@ export const contHeroPresenceSession = {
   ],
 };
 
-export const contHeroPresenceGroup = {
+export const heroPresenceGroup = {
   h1: "Bilinçli Farkındalık Gözlem Grup Çalışmaları",
   h3a: "birlikte",
   h3b: "UYAN",
@@ -312,7 +299,7 @@ export const contHeroPresenceGroup = {
   ],
 };
 
-export const contContact = {
+export const heroContact = {
   h1: "Reyhan Çetin X - İletişim Bilgileri",
   h3a: "reyhan x",
   h3b: "İLETİŞİM",
@@ -353,13 +340,13 @@ export const contContact = {
   ],
 };
 
-export const contHeroBlog = {
+export const heroBlog = {
   h1: "Reyhan Çetin X - Blog: Kaptan'ın Seyir Defteri",
   h3a: "görene",
   h3b: "BAK",
 };
 
-export const cont404 = {
+export const hero404 = {
   h1: "Reyhan Çetin X - 404: Aradığınız Sayfa Bulunamadı",
   h3a: "üzgünüz",
   h3b: "404",
@@ -367,42 +354,10 @@ export const cont404 = {
   cta: "✨ ANA SAYFAYA DÖN ✨",
 };
 
-export const cont500 = {
+export const hero500 = {
   h1: "Reyhan Çetin X - 500: Sunucu Hatası",
   h3a: "üzgünüz",
   h3b: "500",
   p: "Sunucu Hatası",
   cta: "✨ ANA SAYFAYA DÖN ✨",
-};
-
-// Sub Çember
-
-export const contCircleYoutube = {
-  h1: "Bilinç ve Farkındalık Çemberi - Youtube Sohbetleri",
-  h3a: "misafirimiz",
-  h3b: "Ol",
-  cta: "✨ Siz, bu çembere nereden dahil olmak istersiniz? ✨",
-  buttons: [
-    {
-      id: "1",
-      title: "Youtube",
-      titleLong: "Youtube Sohbetleri",
-      link: "/cember/youtube",
-      gradiant: "gradientSlate",
-    },
-    {
-      id: "2",
-      title: "Instagram",
-      titleLong: "Instagram Paylaşımları",
-      link: "/cember/instagram",
-      gradiant: "gradientSlate",
-    },
-    {
-      id: "3",
-      title: "Presence",
-      titleLong: "Presence Meditasyonları",
-      link: "/cember/presence",
-      gradiant: "gradientGold",
-    },
-  ],
 };

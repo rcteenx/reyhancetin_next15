@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { contPresence } from "@/content/data/hero";
-import { presenceInfo } from "@/content/data";
+import { heroPresence } from "@/content/data/hero";
+import { presenceInfo, presenceMentor } from "@/content/data";
 
 import { presenceInstagram } from "@/public/assets/images";
 
@@ -8,14 +8,15 @@ import HeroSingle from "@/components/templates/hero";
 import Presence from "@/components/sections/presence/b-1-presence";
 
 import PageContent from "@/components/templates/pageContent";
-import ContactMe from "@/components/ui/contact-me";
 
 import IconComponent from "@/components/ui/IconComponent";
+
+import PresenceMentor from "@/components/sections/presence/b-2-presence-mentor";
 
 export default function Page() {
   return (
     <>
-      <HeroSingle contHero={contPresence}>
+      <HeroSingle contHero={heroPresence}>
         <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <IconComponent
             className="absolute left-4 top-1/2 -translate-y-1/2 z-1 opacity-40"
@@ -41,10 +42,10 @@ export default function Page() {
           ve bir dönüşüm alan yaratır.
         </p>
         <p className="my-4 text-indigo text-xs md:text-sm">
-          {contPresence.cta}
+          {heroPresence.cta}
         </p>
         <div className="mx-8 my-4 grid grid-cols-2 gap-2">
-          {contPresence.buttons.map((b, index) => (
+          {heroPresence.buttons.map((b, index) => (
             <div key={b.icon}>
               <Link
                 href={b.link}
@@ -90,7 +91,7 @@ export default function Page() {
       </section>
 
       <Presence img={presenceInstagram} content={presenceInfo} />
-      {/* <PresenceMentor content={presenceMentor} /> */}
+      <PresenceMentor content={presenceMentor} />
 
       <PageContent h2Title="PRESENCE MENTOR">
         <h4 className="my-2 lg:text-xl">
@@ -112,7 +113,6 @@ export default function Page() {
           taşıyabilecek sağlam bir temel geliştirebilirsiniz.
         </p>
         <p>Birebir Mentorlük istiyorsanız, "Merhaba"nızı bekliyoruz.</p>
-        <ContactMe />
       </PageContent>
     </>
   );

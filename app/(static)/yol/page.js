@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { whyweneed } from "@/content/data";
-import { contContact } from "@/content/data/hero";
+import { heroContact } from "@/content/data/hero";
 
 import HeroSingle from "@/components/templates/hero";
 import WhyWeNeed from "@/components/sections/way/b-1-why-we-need";
@@ -14,7 +14,7 @@ import IconComponent from "@/components/ui/IconComponent";
 export default function Page() {
   return (
     <>
-      <HeroSingle contHero={contContact}>
+      <HeroSingle contHero={heroContact}>
         <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
           <IconComponent
             className="absolute bottom-2 left-2 z-1 opacity-20 sm:opacity-40"
@@ -50,9 +50,9 @@ export default function Page() {
           Bilinçli yolculuk, ancak nereye gideceğimizin farkına vardığımızda
           başlar.
         </p>
-        {/* <p className="my-4 text-indigo text-xs md:text-sm">{contWay.cta}</p>
+        {/* <p className="my-4 text-indigo text-xs md:text-sm">{heroWay.cta}</p>
         <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {contWay.buttons.map((b, index) => (
+          {heroWay.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
               <Link
                 href={b.link}
