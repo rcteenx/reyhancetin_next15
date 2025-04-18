@@ -1,7 +1,5 @@
-import Link from "next/link";
-
 import { whyweneed } from "@/content/data";
-import { heroContact } from "@/content/data/hero";
+import { heroWay } from "@/content/data/hero";
 
 import HeroSingle from "@/components/templates/hero";
 import WhyWeNeed from "@/components/sections/way/b-1-why-we-need";
@@ -14,7 +12,7 @@ import IconComponent from "@/components/ui/IconComponent";
 export default function Page() {
   return (
     <>
-      <HeroSingle contHero={heroContact}>
+      <HeroSingle contHero={heroWay}>
         <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
           <IconComponent
             className="absolute bottom-2 left-2 z-1 opacity-20 sm:opacity-40"

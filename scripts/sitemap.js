@@ -40,3 +40,6 @@ fs.writeFile("out/sitemap.xml", sitemap, (err) => {
 });
 
 // Google analytics kapalı.. Build öncesi açman lazım!
+// IP Filtresi: 159.146.81.96
+
+// Web config'de url redirect yapmamız lazım presence/atolye için..
