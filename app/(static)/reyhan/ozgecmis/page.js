@@ -6,7 +6,7 @@ import ContactMe from "@/components/ui/contact-me";
 
 export async function generateMetadata() {
   return {
-    title: "Klasik Tanıtım",
+    title: "Klasik Özgeçmiş",
   };
 }
 

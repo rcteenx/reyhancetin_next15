@@ -3,7 +3,7 @@ export default function ReyhanOzgecmis({}) {
     <div className="carousel-item relative flex-shrink-0 w-full ">
       <div className="reyhanInfoPosition">
         <div className="reyhanInfoContent  [&>p]:my-2 ">
-          <h3>Klasik Tanıtım</h3>
+          <h3>Klasik Özgeçmiş</h3>
           <p>
             1976 yılında Biga'da doğdu.
             <br />

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { heroReyhan } from "@/content/data/hero";
+import { heroReyhan as hero } from "@/content/data/hero";
 
 import HeroSingle from "@/components/templates/hero";
 import ReyhanCarousel from "@/components/sections/home/b-1-reyhan-info";
@@ -9,10 +9,16 @@ import ContactMe from "@/components/ui/contact-me";
 
 import IconComponent from "@/components/ui/IconComponent";
 
+export const metadata = {
+  title: {
+    absolute: hero.h1,
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <HeroSingle contHero={heroReyhan}>
+      <HeroSingle contHero={hero}>
         <div className="relative mt-4 p-4 gradientSlate sm:rounded-xl shodow-2xl">
           <IconComponent
             className="absolute -bottom-5 left-1/4 -translate-x-1/4 z-1"
@@ -44,9 +50,9 @@ export default function Page() {
           yaklaşmak demektir. En derin ve en gerçek yolculuk, dışarıda değil,
           içimizde başlar.
         </p>
-        <p className="my-4 text-indigo text-xs md:text-sm">{heroReyhan.cta}</p>
+        <p className="my-4 text-indigo text-xs md:text-sm">{hero.cta}</p>
         <div className="mx-8 my-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {heroReyhan.buttons.map((b, index) => (
+          {hero.buttons.map((b, index) => (
             <div key={b.id} className="grid-cols-1">
               <Link
                 href={b.link}

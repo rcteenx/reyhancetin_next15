@@ -1,11 +1,22 @@
 import Link from "next/link";
 import { heroContact } from "@/content/data/hero";
+import { StaticPages } from "@/content/data";
 
 import HeroSingle from "@/components/templates/hero";
+import PageContent2 from "@/components/templates/pageContent2";
 
 import IconComponent from "@/components/ui/IconComponent";
 
 export default function StaticPage() {
+  const colorMap = [
+    "border-l-blue-500 border-b-blue-500",
+    "border-l-green-500 border-b-green-500",
+    "border-l-red-500 border-b-red-500",
+    "border-l-purple-500 border-b-purple-500",
+    "border-l-yellow-500 border-b-yellow-500",
+    "border-l-pink-500",
+    "border-l-orange-500",
+  ];
   return (
     <>
       <HeroSingle contHero={heroContact}>
@@ -28,6 +39,62 @@ export default function StaticPage() {
           ))}
         </div>
       </HeroSingle>
+
+      <PageContent2 h2Title="SİTE HARİTASI" add="text-left">
+        <ul className="my-0 py-0 flex flex-col items-start gap-4 text-left">
+          {StaticPages.map((category, catIndex) => {
+            const borderColor = colorMap[catIndex % colorMap.length];
+
+            return (
+              <li
+                key={category.id}
+                className={`my-2 pb-4 w-full border-l-8 shadow-xl ${borderColor}`}
+              >
+                <h4 className=" py-0 ">
+                  <a
+                    href={`/${category.link}`}
+                    className={`hover:text-primary pl-2 pb-1 border-b-4 shadow-xl ${borderColor}`}
+                  >
+                    {category.titleLong}
+                  </a>
+                </h4>
+                <ul className={`ml-4 mt-4 pl-4 list-disc`}>
+                  {category.pages.map((page) => (
+                    <li key={page.id}>
+                      <a
+                        href={
+                          category.id == 9 && page.id < 3
+                            ? page.link
+                            : "/" + category.link + "/" + page.link
+                        }
+                        className="hover:text-blue-600 hover:underline"
+                      >
+                        {page.title}
+                      </a>
+
+                      {/* 3. seviye varsa */}
+                      {page.pages && (
+                        <ul className="ml-6 mt-1 space-y-1 list-[circle] text-sm text-gray-600">
+                          {page.pages.map((subPage) => (
+                            <li key={subPage.id}>
+                              <a
+                                href={`/${category.link}/${page.link}/${subPage.link}`}
+                                className="hover:text-blue-600 hover:underline"
+                              >
+                                {subPage.title}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            );
+          })}
+        </ul>
+      </PageContent2>
     </>
   );
 }

@@ -1,5 +1,5 @@
-import { heroPresenceSession } from "@/content/data/hero";
-import { weeksSession } from "@/content/data/weeks";
+import { heroWorkshop as hero } from "@/content/data/hero";
+import { weeksWorkshop } from "@/content/data/weeks";
 
 import PageContent from "@/components/templates/pageContent";
 import Weeks from "@/components/templates/weeks";
@@ -41,43 +41,58 @@ const faqWorkshop = [
   },
 ];
 
+export const metadata = {
+  title: hero.h1,
+};
+
 export default function Page() {
   return (
     <>
       <section id="hero">
         <div className="gradientIndigo">
-          <h1>Bilinçli Farkındalık Bireysel Rehberlik Seanları</h1>
+          <h1>Bilinç ve Farkındalık Çalışmalarına Giriş</h1>
         </div>
       </section>
 
-      <PageContent h2Title="🌀 Bilinçli Farkındalık Bireysel Rehberlik Seanları">
-        <h4 className="my-2 lg:text-xl">Gözlemci Geliştirmek</h4>
+      <PageContent h2Title="🌀 Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi">
+        <h4 className="my-2 lg:text-xl">
+          Dikkatin Gücüyle Uyanışa Bir Yolculuk
+        </h4>
         <p>
-          Bu bireysel çalışma, kişinin zihinsel, duygusal ve fiziksel
-          merkezleriyle temasa geçmesini, gözlemci bir benlik geliştirmesini ve
-          bilinçli yaşama adım atmasını amaçlar. Doğu öğretileri ve Gurdjieff
-          sistemine dayanan bu yaklaşım, kişinin kendi üzerinde çalışabileceği
-          gerçek, adım adım ilerleyen bir yapıyı sunar.
+          Günlük yaşamın karmaşası içinde çoğu zaman kim olduğumuzu, ne
+          hissettiğimizi ve nasıl düşündüğümüzü fark etmeden yaşıyoruz. Bu
+          seminer, otomatikliğin ötesine geçerek bilinçli farkındalığı bir yaşam
+          biçimine dönüştürmek isteyenler için tasarlandı.
         </p>
-        <h3>Çalışmaların Amacı</h3>
         <p>
-          Bu çalışmanın amacı, kişinin kendi iç işleyişini doğrudan
-          gözlemleyerek “şimdi ve burada” yaşama yetisini geliştirmesi, bir
-          gözlemci benlik inşa etmesi ve bilinçli farkındalık kapasitesini
-          artırmasıdır. Katılımcı, ilk aşamanın sonunda kendisini, düşünce ve
-          duygularından ayırarak, dikkatini yönlendirme, bölme ve bilinçli
-          kullanma becerisi kazanacaktır.
+          Doğu öğretileriyle Batı’nın iç gözlem yöntemlerini birleştiren bu
+          yolculuk, sizi kendi merkezinize doğru sade, derin ve uygulanabilir
+          bir adım adım keşfe davet ediyor.
         </p>
+
+        <h3>Atölyenin Amacı</h3>
+        <p>
+          Bu seminer, bireyin kendini gözlemleme ve bilinçli farkındalık
+          becerilerini geliştirmesini hedefleyen 4 haftalık bir içsel çalışma
+          programıdır. Gündelik yaşamın akışında kaybolmak yerine, anda kalmayı,
+          dikkat ve gözlem gücünü artırmayı ve zihinsel süreçlere bilinçli bir
+          yön verme becerisini kazandırmayı amaçlar.
+        </p>
+        <p>
+          Gurdjieff'in Dördüncü Yol öğretisinden, Doğu’nun kadim pratiklerinden
+          ve modern dikkat temelli yaklaşımlardan beslenen bu atölye, teorik
+          bilgi kadar pratik uygulamalara da odaklanır.
+        </p>
+
+        <h3 className="px-4 py-2 rounded-xl bg-[#f2f2f2]">🔹 Atölye İçeriği</h3>
+        <Weeks weeks={weeksWorkshop} />
         <h3>Kimler Katılabilir?</h3>
         <ul>
           <li>İçsel yolculuğuna başlamış ve dönüşüm arayışında olanlar.</li>
           <li>Kendini daha derin bir farkındalıkla tanımak isteyenler.</li>
           <li>Zihin, beden ve ruh arasında denge kurmayı amaçlayanlar.</li>
-          <li>Yaşamı bilinçli bir şekilde yaşamak isteyenler.</li>
+          <li>Yaşamı bilinçli bir şekilde yaşamak isteyenler için.</li>
         </ul>
-
-        <h3 className="text-center">🔹 Atölye İçeriği</h3>
-        <Weeks weeks={weeksSession} />
 
         <h3>Eğitmen Hakkında</h3>
         <p>
@@ -88,43 +103,43 @@ export default function Page() {
           katılımcılara kalıcı dönüşüm yolları sunar.
         </p>
         <hr />
-        <h3>Uygulama Bilgileri</h3>
+        <h3>Katılım ve Kayıt</h3>
         <p>Giriş atölyemiz, her ay yeni adaylar için tekrar başlatılacaktır.</p>
         <ul>
-          <li>Toplam Süre: 4+1 hafta</li>
           <li>
-            Seanslar: Her biri 40+40 dakikalık iki bölüm, 10 dakika ara ile
-            toplam 90 dakika
+            <strong>Toplam Süre:</strong> 4 Hafta (Haftada 1 oturum)
           </li>
-          <li>Platform: Zoom üzerinden görüntülü görüşme</li>
-          <li>Ücret: 10.000 TL + KDV (5 seans toplamı)</li>
           <li>
-            Kayıt: Tüm seanslar kayda alınacak ve katılımcıyla paylaşılacaktır
+            <strong>Saat:</strong> 21:00 - 23:00
+          </li>
+          <li>
+            <strong>Katılım Ücreti:</strong> 1.500 TL + KDV
           </li>
         </ul>
         <ContactMe />
 
-        <h3>💬 Sıkça Sorulan Sorular a</h3>
+        <h3>💬 Sıkça Sorulan Sorular</h3>
         <FAQ faq={faqWorkshop} />
       </PageContent>
 
-      <AdContent contAd={heroPresenceSession}>
-        <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
+      <AdContent contAd={hero}>
+        <div className="relative mt-12 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>
-              Burada sadece yönlendirebilir ve koşullar oluşturabiliriz; ama
-              yardım edemeyiz!
+              İnsan, kendisini gözlemlemeye başladığı anda, uykusundan uyanmaya
+              başlar.
             </p>
             <p className="mx-4 mb-0 mt-3 font-semibold text-right">
               <em>G. I. Gurdjieff</em>
             </p>
           </blockquote>
         </div>
-        <p className="m-4 text-xs md:text-sm">
-          Hiç kimse bir başkasının yerine çalışamaz. Yardım, sadece doğru
-          koşulların yaratılmasıyla mümkündür; bu da çoğu zaman, yön
-          göstermekten ve sınır çizmeyi bilmekten ibarettir. Hakiki bilgiye
-          ulaşmak isteyen, önce kendi iç çabasını başlatmak zorundadır.
+        <p className="my-8 px-4 text-xs md:text-sm">
+          İçsel uyanış bir teori değil, doğrudan deneyimle anlaşılabilen bir
+          gerçektir. Gündelik yaşantımızın otomatik akışı içinde, kendimizi
+          gözlemlemeye başladığımız an, bilinç kıvılcımı yanmaya başlar. Bu
+          atölye, o kıvılcımı büyütmek ve sizi gerçek uyanışın eşiğine getirmek
+          için hazırlandı.
         </p>
       </AdContent>
     </>

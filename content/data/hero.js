@@ -51,7 +51,7 @@ export const heroReyhan = {
     },
     {
       id: "3",
-      title: "Klasik Tanıtım",
+      title: "Klasik Özgeçmiş",
       link: "/reyhan/ozgecmis",
       gradiant: "gradientSlate",
     },
@@ -60,6 +60,45 @@ export const heroReyhan = {
       title: "Rehber ve Öğretmen",
       link: "/reyhan/rehber",
       gradiant: "gradientSlate",
+    },
+  ],
+};
+
+export const heroPresence = {
+  h1: "Presence - Saf Farkındalığın Varlığı",
+  h3a: "farkındalık",
+  h3b: "ALANI",
+  cta: "✨ Siz, saf farkındalık alanına dahil olmak ister misiniz? ✨",
+  buttons: [
+    {
+      id: "1",
+      title: "Instagram",
+      titleLong: "Instagram Paylaşımları",
+      icon: "instagram",
+      link: "https://www.instagram.com/reyhancetinx/",
+      // link: "/cember/instagram",
+      gradiant: "gradientInstagram",
+      iconColor: "white",
+      target: "1",
+    },
+    {
+      id: "2",
+      title: "Yol",
+      icon: "path",
+      link: "/presence/yol",
+      gradiant: "bgWhite",
+      iconColor: "#0000ff",
+      target: "0",
+    },
+    {
+      id: "3",
+      title: "Youtube",
+      titleLong: "Youtube Sohbetleri",
+      icon: "youtube",
+      link: "https://www.youtube.com/@reyhancetinx",
+      gradiant: "bgWhite",
+      iconColor: "#CD201F",
+      target: "1",
     },
   ],
 };
@@ -97,44 +136,34 @@ export const heroWay = {
   ],
 };
 
-export const heroPresence = {
-  h1: "Presence - Saf Farkındalığın Varlığı",
-  h3a: "farkındalık",
-  h3b: "ALANI",
-  cta: "✨ Siz, saf farkındalık alanına dahil olmak ister misiniz? ✨",
+export const heroWork = {
+  h1: "Bilinç ve Farkındalık Çalışmaları",
+  h3a: "çalışmayı",
+  h3b: "SEV",
+  cta: "✨ Çalışma Seni Çağırıyor! ✨",
   buttons: [
     {
       id: "1",
-      title: "Instagram",
-      titleLong: "Instagram Paylaşımları",
-      icon: "instagram",
-      link: "https://www.instagram.com/reyhancetinx/",
-      // link: "/cember/instagram",
-      gradiant: "gradientInstagram",
-      iconColor: "white",
+      title: "Giriş Atölyesi",
+      link: "/calisma/atolye",
+      gradiant: "gradientPurple",
     },
     {
       id: "2",
-      title: "Youtube",
-      titleLong: "Youtube Sohbetleri",
-      icon: "youtube",
-      link: "https://www.youtube.com/@reyhancetinx",
-      // link: "/cember/youtube",
-      gradiant: "bgWhite",
-      iconColor: "#CD201F",
+      title: "Bireysel Seans",
+      link: "/calisma/seans",
+      gradiant: "gradientSlate",
     },
-    // {
-    //   id: "3",
-    //   title: "Presence",
-    //   titleLong: "Presence Meditasyonları",
-    //   icon: "presence",
-    //   link: "/cember/presence",
-    //   gradiant: "gradientGold",
-    // },
+    {
+      id: "3",
+      title: "Grup Çalışması",
+      link: "/calisma/grup",
+      gradiant: "gradientSlate",
+    },
   ],
 };
 
-export const heroPresenceWorkshop = {
+export const heroWorkshop = {
   h1: "Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi",
   h3a: "uyanmaya",
   h3b: "BAŞLA",
@@ -189,7 +218,7 @@ export const heroPresenceWorkshop = {
   ],
 };
 
-export const heroPresenceSession = {
+export const heroSession = {
   h1: "Bilinçli Farkındalık Bireysel Rehberlik Seanları",
   h3a: "çalışmaya",
   h3b: "BAŞLA",
@@ -244,7 +273,7 @@ export const heroPresenceSession = {
   ],
 };
 
-export const heroPresenceGroup = {
+export const heroGroup = {
   h1: "Bilinçli Farkındalık Gözlem Grup Çalışmaları",
   h3a: "birlikte",
   h3b: "UYAN",

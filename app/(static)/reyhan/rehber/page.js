@@ -6,7 +6,9 @@ import ContactMe from "@/components/ui/contact-me";
 
 export async function generateMetadata() {
   return {
-    title: "Rehber ve Spritüel Öğretmen",
+    title: {
+      absolute: "Bilinç ve Farkındalık Rehberi ve Öğretmen - Reyhan Çetin X",
+    },
   };
 }
 

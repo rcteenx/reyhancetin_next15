@@ -26,13 +26,16 @@ import { SiDreamstime } from "react-icons/si";
 import { IoBodyOutline } from "react-icons/io5";
 import { PiSecurityCamera } from "react-icons/pi";
 import { MdEmail, MdDoNotDisturbOnTotalSilence } from "react-icons/md";
+import { BsPersonWorkspace } from "react-icons/bs";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { ImSpinner9 } from "react-icons/im";
-import { GiAwareness } from "react-icons/gi";
+import { GiInterstellarPath, GiAwareness } from "react-icons/gi";
 import { BiSolidContact } from "react-icons/bi";
 
 const iconTypes = {
+  path: GiInterstellarPath,
+  work: BsPersonWorkspace,
   blog: FaBlog,
   presence: GiAwareness,
   phone: FaPhoneSquareAlt,

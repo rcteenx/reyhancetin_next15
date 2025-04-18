@@ -1,5 +1,5 @@
 import { whyweneed } from "@/content/data";
-import { heroWay } from "@/content/data/hero";
+import { heroWay as hero } from "@/content/data/hero";
 
 import HeroSingle from "@/components/templates/hero";
 import WhyWeNeed from "@/components/sections/way/b-1-why-we-need";
@@ -9,10 +9,16 @@ import ContactMe from "@/components/ui/contact-me";
 
 import IconComponent from "@/components/ui/IconComponent";
 
+export async function generateMetadata() {
+  return {
+    title: hero.h1,
+  };
+}
+
 export default function Page() {
   return (
     <>
-      <HeroSingle contHero={heroWay}>
+      <HeroSingle contHero={hero}>
         <div className="relative mt-4 p-4 bg-slate-100 sm:rounded-xl shodow-2xl">
           <IconComponent
             className="absolute bottom-2 left-2 z-1 opacity-20 sm:opacity-40"
@@ -48,9 +54,9 @@ export default function Page() {
           Bilinçli yolculuk, ancak nereye gideceğimizin farkına vardığımızda
           başlar.
         </p>
-        {/* <p className="my-4 text-indigo text-xs md:text-sm">{heroWay.cta}</p>
+        {/* <p className="my-4 text-indigo text-xs md:text-sm">{hero.cta}</p>
         <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {heroWay.buttons.map((b, index) => (
+          {hero.buttons.map((b, index) => (
             <div key={b.id} className={b.show}>
               <Link
                 href={b.link}

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { heroPresence } from "@/content/data/hero";
+
+import { heroPresence as hero } from "@/content/data/hero";
 import { presenceInfo, presenceMentor } from "@/content/data";
 
 import { presenceInstagram } from "@/public/assets/images";
@@ -9,14 +10,18 @@ import Presence from "@/components/sections/presence/b-1-presence";
 
 import PageContent from "@/components/templates/pageContent";
 
+import PresenceMentor from "@/components/sections/presence/b-2-presence-mentor";
+
 import IconComponent from "@/components/ui/IconComponent";
 
-import PresenceMentor from "@/components/sections/presence/b-2-presence-mentor";
+export const metadata = {
+  title: hero.h1,
+};
 
 export default function Page() {
   return (
     <>
-      <HeroSingle contHero={heroPresence}>
+      <HeroSingle contHero={hero}>
         <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <IconComponent
             className="absolute left-4 top-1/2 -translate-y-1/2 z-1 opacity-40"
@@ -41,22 +46,19 @@ export default function Page() {
           dönüştürebilir. Sessiz ama güçlü bir etkiyle, presence çevreye yayılır
           ve bir dönüşüm alan yaratır.
         </p>
-        <p className="my-4 text-indigo text-xs md:text-sm">
-          {heroPresence.cta}
-        </p>
-        <div className="mx-8 my-4 grid grid-cols-2 gap-2">
-          {heroPresence.buttons.map((b, index) => (
-            <div key={b.icon}>
+        <p className="my-4 text-indigo text-xs md:text-sm">{hero.cta}</p>
+        <div className="mx-8 my-4 grid grid-cols-3 gap-2">
+          {hero.buttons.map((b, index) => (
+            <div key={b.id}>
               <Link
                 href={b.link}
                 title={`${b.title} Linki`}
                 className={` m-auto max-w-48 relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
                 role="button"
-                target="_blank"
+                target={`${b.target == 1 ? "_blank" : "_self"}`}
               >
                 <IconComponent name={b.icon} size={24} color={b.iconColor} />
                 <span className="">{b.title}</span>
-                {/* <span className="hidden md:block">{b.title}</span> */}
               </Link>
             </div>
           ))}

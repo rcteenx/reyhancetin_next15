@@ -1,5 +1,6 @@
 import { rVideo, kendiniGozlem } from "@/public/assets/images";
 
+import smd from "@/content/data/siteMetaData";
 import { barInfo, selfObservation, meditationInfo } from "@/content/data";
 
 import Hero from "@/components/sections/home/1-hero";
@@ -10,6 +11,10 @@ import ReyhanCarousel from "@/components/sections/home/b-1-reyhan-info";
 import Observation from "@/components/sections/home/c-1-observation";
 
 import Meditation from "@/components/sections/home/d-1-meditation";
+
+export const metadata = {
+  title: `Anasayfa | ${smd.title}`,
+};
 
 export default function Page() {
   return (

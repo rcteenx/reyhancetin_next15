@@ -1,4 +1,4 @@
-import { heroPresenceGroup } from "@/content/data/hero";
+import { heroGroup as hero } from "@/content/data/hero";
 import { weeksGroup } from "@/content/data/weeks";
 
 import PageContent from "@/components/templates/pageContent";
@@ -8,6 +8,10 @@ import FAQ from "@/components/templates/faq";
 import ContactMe from "@/components/ui/contact-me";
 
 import AdContent from "@/components/templates/adContent";
+
+export const metadata = {
+  title: hero.h1,
+};
 
 const faqGroup = [
   {
@@ -149,7 +153,7 @@ export default function Page() {
         <FAQ faq={faqGroup} />
       </PageContent>
 
-      <AdContent contAd={heroPresenceGroup}>
+      <AdContent contAd={hero}>
         <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
           <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
             <p>

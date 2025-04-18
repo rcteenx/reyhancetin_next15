@@ -108,37 +108,49 @@ export const StaticPages = [
   {
     id: 1,
     title: "Reyhan",
+    titleLong: "Reyhan Çetin X",
     link: "reyhan",
     pages: [
       { id: 1, title: "Merhaba", link: "merhaba" },
       { id: 2, title: "Kimim ya da Ne?", link: "kimim" },
-      { id: 3, title: "Klasik Tanıtım", link: "ozgecmis" },
-      { id: 4, title: "Bilinç ve Farkındalık Rehberi", link: "rehber" },
+      { id: 3, title: "Klasik Özgeçmiş", link: "ozgecmis" },
+      { id: 4, title: "Rehber ve Öğretmen", link: "rehber" },
     ],
   },
   {
     id: 2,
-    title: "Yol",
-    link: "yol",
+    title: "Presence",
+    titleLong: "Presence - Farkındalık Alanı",
+    link: "presence",
     pages: [
-      // { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },
-      // { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
-      // {
-      //   id: 3,
-      //   title: "Kendini Gözlem",
-      //   link: "kendini-gozlem",
-      // },
-      // {
-      //   id: 4,
-      //   title: "Bilinçli Düşünmek",
-      //   link: "bilincli-dusunmek",
-      // },
+      {
+        id: 1,
+        title: "Yol",
+        link: "yol",
+        pages: [
+          {
+            id: 1,
+            title: "Şimdi ve Burada Olmak",
+            link: "anda-olmak",
+            pages: [
+              { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },
+              { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
+              { id: 3, title: "Kendini Gözlem", link: "kendini-gozlem" },
+              { id: 4, title: "Bilinçli Düşünmek", link: "bilincli-dusunmek" },
+            ],
+          },
+          { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
+          { id: 3, title: "Kendini Gözlem", link: "kendini-gozlem" },
+          { id: 4, title: "Bilinçli Düşünmek", link: "bilincli-dusunmek" },
+        ],
+      },
     ],
   },
   {
     id: 3,
-    title: "Presence",
-    link: "presence",
+    title: "Çalışma",
+    titleLong: "Bilinç ve Farkındalık Çalışmaları",
+    link: "calisma",
     pages: [
       { id: 1, title: "Atölye", link: "atolye" },
       { id: 2, title: "Bireysel Seans", link: "seans" },
@@ -148,6 +160,7 @@ export const StaticPages = [
   {
     id: 9,
     title: "İletişim",
+    titleLong: "İletişim Bilgileri",
     link: "iletisim",
     pages: [
       {
