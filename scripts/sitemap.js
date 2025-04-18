@@ -38,3 +38,5 @@ fs.writeFile("out/sitemap.xml", sitemap, (err) => {
   }
   // file written successfully
 });
+
+// Google analytics kapalı.. Build öncesi açman lazım!
