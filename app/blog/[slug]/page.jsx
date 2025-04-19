@@ -31,7 +31,8 @@ export default async function ExPage({ params }) {
         </div>
       </section>
       <PageContent h2Title={blog.title}>
-        <p>{blog.date}</p>
+        <h4>{blog.description}</h4>
+        {/* <p>{blog.date}</p>
         <h4>{blog.description}</h4>
         <div className="border-t pt-2 text-right">
           <h3 className="inline-block">Etiketler</h3>
@@ -42,8 +43,8 @@ export default async function ExPage({ params }) {
               </li>
             ))}
           </ul>
-        </div>
-        <article dangerouslySetInnerHTML={{ __html: blog.body }} />
+        </div> */}
+        <div dangerouslySetInnerHTML={{ __html: blog.body }} />
       </PageContent>
     </>
   );

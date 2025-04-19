@@ -28,7 +28,7 @@ export default async function BlogsPage() {
             </p>
           </blockquote>
         </div>
-        <p className="px-4 my-4 text-indigo text-xs md:text-sm">
+        <p className="px-4 mt-8 text-indigo text-xs md:text-sm">
           Gurdjieff’in bu basit ama derin ifadesi, içsel yola gönül vermiş
           olanlara yöneliktir. Bu yol, bilinen anlamda bir meslek ya da görev
           değil; kendini dönüştürmeye, farkındalığı arttırmaya ve hakikati

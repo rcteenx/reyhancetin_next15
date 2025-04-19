@@ -371,8 +371,23 @@ export const heroContact = {
 
 export const heroBlog = {
   h1: "Reyhan Çetin X - Blog: Kaptan'ın Seyir Defteri",
-  h3a: "görene",
-  h3b: "BAK",
+  h3a: "seyir",
+  h3b: "defteri",
+  cta: "✨ İlk ziyaretin mi? Aşağıdan başlayabilirsin. ✨",
+  buttons: [
+    {
+      id: "1",
+      title: "Merhaba",
+      link: "/blog/merhaba",
+      gradiant: "gradientSlate",
+    },
+    {
+      id: "2",
+      title: "Seyir Defteri Nedir",
+      link: "/blog/seyir-defteri",
+      gradiant: "gradientPurple",
+    },
+  ],
 };
 
 export const hero404 = {

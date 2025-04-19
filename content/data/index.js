@@ -127,22 +127,16 @@ export const StaticPages = [
         id: 1,
         title: "Yol",
         link: "yol",
-        pages: [
-          {
-            id: 1,
-            title: "Şimdi ve Burada Olmak",
-            link: "anda-olmak",
-            pages: [
-              { id: 1, title: "Şimdi ve Burada Olmak", link: "anda-olmak" },
-              { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
-              { id: 3, title: "Kendini Gözlem", link: "kendini-gozlem" },
-              { id: 4, title: "Bilinçli Düşünmek", link: "bilincli-dusunmek" },
-            ],
-          },
-          { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
-          { id: 3, title: "Kendini Gözlem", link: "kendini-gozlem" },
-          { id: 4, title: "Bilinçli Düşünmek", link: "bilincli-dusunmek" },
-        ],
+        // pages: [
+        //   {
+        //     id: 1,
+        //     title: "Şimdi ve Burada Olmak",
+        //     link: "anda-olmak",
+        //   },
+        //   { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
+        //   { id: 3, title: "Kendini Gözlem", link: "kendini-gozlem" },
+        //   { id: 4, title: "Bilinçli Düşünmek", link: "bilincli-dusunmek" },
+        // ],
       },
     ],
   },

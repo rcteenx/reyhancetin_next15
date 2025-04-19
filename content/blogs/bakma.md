@@ -44,6 +44,6 @@ Diğer bir ifadeyle, çalışmaya önceden bir süre koyalım ve bunu bitirip, d
 
 ---
 
-## Bakma Çalışması Video Anlatımı
+<!-- ## Bakma Çalışması Video Anlatımı
 
-### İlgili sayfalar
+### İlgili sayfalar -->

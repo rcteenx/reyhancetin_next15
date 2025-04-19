@@ -3,7 +3,6 @@ import { heroContact } from "@/content/data/hero";
 import { StaticPages } from "@/content/data";
 
 import HeroSingle from "@/components/templates/hero";
-import PageContent2 from "@/components/templates/pageContent2";
 
 import IconComponent from "@/components/ui/IconComponent";
 
@@ -40,8 +39,9 @@ export default function StaticPage() {
         </div>
       </HeroSingle>
 
-      <PageContent2 h2Title="SİTE HARİTASI" add="text-left">
-        <ul className="my-0 py-0 flex flex-col items-start gap-4 text-left">
+      <div className="mx-auto my-8 p-2 text-center max-w-sm">
+        <h3 className="my-2 border-b">Site Haritası</h3>
+        <ol className="my-0 py-0 flex flex-col items-start gap-4 text-left list-decimal font-semibold">
           {StaticPages.map((category, catIndex) => {
             const borderColor = colorMap[catIndex % colorMap.length];
 
@@ -50,15 +50,12 @@ export default function StaticPage() {
                 key={category.id}
                 className={`my-2 pb-4 w-full border-l-8 shadow-xl ${borderColor}`}
               >
-                <h4 className=" py-0 ">
-                  <a
-                    href={`/${category.link}`}
-                    className={`hover:text-primary pl-2 pb-1 border-b-4 shadow-xl ${borderColor}`}
-                  >
-                    {category.titleLong}
-                  </a>
+                <h4
+                  className={`py-0 hover:text-primary pl-2 pb-1 border-b-4 shadow-xl ${borderColor}`}
+                >
+                  <a href={`/${category.link}`}>{category.titleLong}</a>
                 </h4>
-                <ul className={`ml-4 mt-4 pl-4 list-disc`}>
+                <ul className={`ml-4 mt-4 pl-4 list-disc font-normal`}>
                   {category.pages.map((page) => (
                     <li key={page.id}>
                       <a
@@ -74,7 +71,7 @@ export default function StaticPage() {
 
                       {/* 3. seviye varsa */}
                       {page.pages && (
-                        <ul className="ml-6 mt-1 space-y-1 list-[circle] text-sm text-gray-600">
+                        <ul className="ml-6 mt-1 space-y-1 list-[circle] text-sm text-gray-600 font-light">
                           {page.pages.map((subPage) => (
                             <li key={subPage.id}>
                               <a
@@ -93,8 +90,8 @@ export default function StaticPage() {
               </li>
             );
           })}
-        </ul>
-      </PageContent2>
+        </ol>
+      </div>
     </>
   );
 }
