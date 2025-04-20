@@ -125,7 +125,7 @@ export default async function Page() {
         <FAQ faq={faqWorkshop} />
       </PageContent>
       <AdWorkshop />
-      <BlogList h2Title="Son 10 Blog Yazım" blogs={blogs} />
+      <BlogList h2Title="İlgili Blog Yazılarım" blogs={blogs} />
     </>
   );
 }

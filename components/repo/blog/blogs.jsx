@@ -3,7 +3,8 @@ import PageContent from "@/components/templates/pageContent";
 
 export default async function BlogList({ h2Title, blogs }) {
   return (
-    <PageContent h2Title={h2Title}>
+    <article>
+      <h2>{h2Title}</h2>
       <ol className="px-4 list-decimal text-left">
         {blogs.map((blog) => (
           <li key={blog.slug}>
@@ -16,6 +17,6 @@ export default async function BlogList({ h2Title, blogs }) {
           <a href="/blog">👈 DÖN: Blog Anasayfa - Kaptan'ın Seyir Defteri</a>
         </p>
       </div>
-    </PageContent>
+    </article>
   );
 }

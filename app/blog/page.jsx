@@ -22,9 +22,9 @@ export default async function BlogsPage() {
             <li>Bu blog, Kaptan'ın seyir defteridir.</li>
             <li>Reyhan'ın yolculuğundaki gözlem ve deneyimleri paylaşır.</li>
             <li>
-              Bilinmeze yapılan yolculukta, hazır bir haritası ya da
-              yolumuzu aydınlatacak ışık yok. Bunları her birimiz kendisi için
-              inşa etmek durumunda.
+              Bilinmeze yapılan yolculukta, hazır bir haritası ya da yolumuzu
+              aydınlatacak ışık yok. Bunları her birimiz kendisi için inşa etmek
+              durumunda.
             </li>
             <li>Bireysel yolculuklarınıza eşlik etmesi dileğiyle.</li>
           </ul>
@@ -45,7 +45,7 @@ export default async function BlogsPage() {
           ))}
         </div>
       </HeroSingle>
-      <BlogList h2Title="Son 10 Blog Yazım" blogs={blogs} />
+      <BlogList h2Title="Son Blog Yazılarım" blogs={blogs} />
     </>
   );
 }

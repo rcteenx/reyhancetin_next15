@@ -53,7 +53,7 @@ export default async function ExPage({ params }) {
       </section>
       <article dangerouslySetInnerHTML={{ __html: artiveContent }} />
       <AdWorkshop />
-      <BlogList h2Title="Son 10 Blog Yazım" blogs={blogs} />
+      <BlogList h2Title="İlgili Blog Yazılarım" blogs={blogs} />
     </>
   );
 }
