@@ -9,7 +9,7 @@
   scroll-behavior: smooth;
 }
 
-/* Css Base for this project */
+/* Proje genel ayarları ve reset */
 @layer base {
   body {
     @apply text-sm md:text-base font-base text-indigo;
@@ -34,28 +34,53 @@
   p {
     @apply my-1 text-base;
   }
-  #pgContent h2 {
-    @apply mx-auto py-1 inline-block  border-indigo border-b text-center text-2xl md:text-4xl;
-  }
-  #pgContent h3 {
-    @apply mx-auto mt-4 mb-1 font-semibold text-left text-xl md:text-2xl;
-  }
-  #pgContent ul {
-    @apply list-disc list-inside;
-  }
-
   article h2 {
     @apply text-blue-900;
   }
   article h3 {
     @apply text-blue-800;
   }
-  #hero h1 {
-    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-sm sm:text-lg md:text-lg text-indigo-light-5;
+
+  .svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
+/*Özel stiller:  Buton, kart, modal - çok sayfada kullanım */
 @layer components {
+  #hero h1 {
+    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-sm sm:text-lg md:text-lg text-indigo-light-5;
+  }
+  #pgContent {
+    @apply mx-auto container-p md:my-8;
+  }
+  #pgContent h2 {
+    @apply mx-auto py-1 inline-block  border-indigo border-b text-center text-2xl md:text-4xl;
+  }
+  #pgContent h3 {
+    @apply mx-auto mt-4 mb-1 font-semibold text-left text-xl md:text-2xl;
+  }
+  #pgContent p {
+    @apply text-justify;
+  }
+  #pgContent ul {
+    @apply list-disc list-inside;
+  }
+  #pgContent ul li {
+    @apply text-justify;
+  }
+
+  .week {
+    margin: 0;
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
   .gradientGold {
     @apply bg-gradient-to-t from-[#B78628] via-[#DBA514] to-[#FCC201] text-white;
   }
@@ -77,15 +102,6 @@
   .gradientPurple {
     @apply bg-gradient-to-b from-purple-800 to-purple-900 text-white-400;
   }
-  .gradientWhiteToIndigo {
-    @apply bg-gradient-to-br from-white to-indigo  text-black;
-  }
-  .gradientGreen {
-    @apply bg-gradient-to-br from-[#dcf8c6] via-[#25d366] to-[#128c7e] text-white;
-  }
-  .gradientBilinc {
-    @apply bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white;
-  }
   .gradientTransition {
     @apply hover:scale-105 transition duration-300 ease-out
       cursor-pointer;
@@ -104,9 +120,6 @@
   .btn-hero {
     @apply flex justify-center items-center gap-2 px-4 py-2 leading-none rounded-full;
   }
-  .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-indigo-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-indigo-gray max-sm:rounded-full;
-  }
   .reyhanInfoPosition {
     @apply w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
   }
@@ -115,101 +128,13 @@
   }
 }
 
+/* Tailwind de olmayan, yeni classlar... tek katman! */
 @layer utilities {
   .container-p {
     @apply px-4 md:px-8 lg:px-12;
   }
-
-  .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
-  }
-
-  .info-text {
-    @apply text-indigo-gray text-lg leading-8;
-  }
-  /* #example1 {
-    background: url(img_flwr.gif) right bottom no-repeat,
-      url(paper.gif) left top repeat;
-  } */
-
   .bgStoryReyhan {
     background: url("/assets/images/bg-story-reyhan.png") top left no-repeat,
       url("/assets/images/bg-story-star.png") top right no-repeat #000000;
   }
-}
-
-.box-shadow {
-  @media screen and (min-width: 1024px) {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
-      0 4px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-}
-
-.containerSvg {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 320px;
-  overflow: hidden;
-}
-.svg {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.redWave {
-  stroke: none;
-  fill: red;
-}
-
-.skewed {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #333366;
-  opacity: 0.5;
-  z-index: 0;
-  transform: skewY(-8deg);
-  transform-origin: top left;
-}
-.curved {
-  position: relative;
-  background: #333366;
-  opacity: 0.5;
-  width: 100%;
-  height: 100%;
-  border-bottom-left-radius: 50% 50%;
-  border-bottom-right-radius: 30% 100%;
-}
-
-.curvedR {
-  position: relative;
-  background: #fff;
-  width: 100%;
-  height: 100%;
-}
-
-.curvedR::after {
-  content: "";
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #333366;
-  opacity: 0.5;
-}
-
-.week {
-  margin: 0;
-  padding: 20px;
-  background: #f2f2f2;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }

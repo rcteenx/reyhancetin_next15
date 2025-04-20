@@ -44,7 +44,7 @@ export default async function ExPage({ params }) {
             ))}
           </ul>
         </div> */}
-        <div dangerouslySetInnerHTML={{ __html: blog.body }} />
+        <article dangerouslySetInnerHTML={{ __html: blog.body }} />
       </PageContent>
     </>
   );
