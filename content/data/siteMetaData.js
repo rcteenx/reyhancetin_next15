@@ -1,5 +1,5 @@
-// please update required information
-const siteMetadata = {
+// isim vermiyoruz default olduğu için...
+export default {
   title: "Reyhan Çetin X - Bilinçli Farkındalık Rehberi",
   author: "rcteenx",
   headerTitle: "Reyhan Çetin X - Bilinçli Farkındalık Rehberi",
@@ -12,5 +12,3 @@ const siteMetadata = {
   siteLogo: "/rcteenx-480-400.png",
   email: "rhan.cetinx@gmail.com",
 };
-
-module.exports = siteMetadata;

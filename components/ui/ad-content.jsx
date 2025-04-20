@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { StaticPages } from "@/content/data";
 
-export default function AdWorkshop() {
+export default function AdContent() {
   return (
     <div className="border border-indigo/80 rounded-xl py-4 px-8 text-center">
       <h4 className="">

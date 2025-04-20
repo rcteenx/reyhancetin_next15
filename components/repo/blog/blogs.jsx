@@ -11,6 +11,11 @@ export default async function BlogList({ h2Title, blogs }) {
           </li>
         ))}
       </ol>
+      <div>
+        <p>
+          <a href="/blog">👈 DÖN: Blog Anasayfa - Kaptan'ın Seyir Defteri</a>
+        </p>
+      </div>
     </PageContent>
   );
 }

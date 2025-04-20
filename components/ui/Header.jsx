@@ -7,7 +7,7 @@ import { StaticPages } from "@/content/data";
 export default function Header() {
   const menu = StaticPages.filter((m) => m.id < 4);
   return (
-    <header className="mx-auto px-4 md:px-8 lg:px-12 pt-2 max-w-7xl">
+    <header className="mx-auto px-4 md:px-8 lg:px-12 pt-2 max-w-7xl border-b">
       <div className="flex items-center justify-between">
         <Link
           id="home"

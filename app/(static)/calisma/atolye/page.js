@@ -1,4 +1,6 @@
 import { heroWorkshop as hero } from "@/content/data/hero";
+import { getLastBlogs } from "@/lib/blogs";
+
 import { weeksWorkshop } from "@/content/data/weeks";
 
 import PageContent from "@/components/templates/pageContent";
@@ -6,7 +8,8 @@ import Weeks from "@/components/templates/weeks";
 import FAQ from "@/components/templates/faq";
 import ContactMe from "@/components/ui/contact-me";
 
-import AdContent from "@/components/templates/adContent";
+import AdWorkshop from "@/components/sections/work/adWorkshop";
+import BlogList from "@/components/repo/blog/blogs";
 
 const faqWorkshop = [
   {
@@ -45,15 +48,15 @@ export const metadata = {
   title: hero.h1,
 };
 
-export default function Page() {
+export default async function Page() {
+  const blogs = await getLastBlogs(10);
   return (
     <>
       <section id="hero">
         <div className="gradientIndigo">
-          <h1>Bilinç ve Farkındalık Çalışmalarına Giriş</h1>
+          <h1>{hero.h1}</h1>
         </div>
       </section>
-
       <PageContent h2Title="🌀 Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi">
         <h4 className="my-2 lg:text-xl">
           Dikkatin Gücüyle Uyanışa Bir Yolculuk
@@ -121,27 +124,8 @@ export default function Page() {
         <h3>💬 Sıkça Sorulan Sorular</h3>
         <FAQ faq={faqWorkshop} />
       </PageContent>
-
-      <AdContent contAd={hero}>
-        <div className="relative mt-12 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
-          <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">
-            <p>
-              İnsan, kendisini gözlemlemeye başladığı anda, uykusundan uyanmaya
-              başlar.
-            </p>
-            <p className="mx-4 mb-0 mt-3 font-semibold text-right">
-              <em>G. I. Gurdjieff</em>
-            </p>
-          </blockquote>
-        </div>
-        <p className="my-8 px-4 text-xs md:text-sm">
-          İçsel uyanış bir teori değil, doğrudan deneyimle anlaşılabilen bir
-          gerçektir. Gündelik yaşantımızın otomatik akışı içinde, kendimizi
-          gözlemlemeye başladığımız an, bilinç kıvılcımı yanmaya başlar. Bu
-          atölye, o kıvılcımı büyütmek ve sizi gerçek uyanışın eşiğine getirmek
-          için hazırlandı.
-        </p>
-      </AdContent>
+      <AdWorkshop />
+      <BlogList h2Title="Son 10 Blog Yazım" blogs={blogs} />
     </>
   );
 }
