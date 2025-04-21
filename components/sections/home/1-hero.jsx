@@ -62,7 +62,7 @@ const Hero = ({ rVideo }) => {
           <div className="absolute inset-0 flex items-end justify-center">
             <h4 className="m-6 px-4 py-2 text-white text-center font-normal bg-black opacity-60 rounded-xl hover:opacity-100">
               <Link
-                href="https://www.youtube.com/watch?v=SeHM1y5p7WQ&t=2185s"
+                href="https://www.youtube.com/watch?v=8nXrF0sbywY&list=PLt-ePdgjqE-hOV9ycE0wQq9vl7cHG-Mvl&index=4"
                 target="_blank"
               >
                 Youtube Sohbeti
