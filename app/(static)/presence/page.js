@@ -94,7 +94,7 @@ export default function Page() {
 
       <Presence img={presenceInstagram} content={presenceInfo} />
       <PresenceMentor content={presenceMentor} />
-
+      {/* 
       <PageContent h2Title="PRESENCE MENTOR">
         <h4 className="my-2 lg:text-xl">
           Presence Mentor ve Öğretmeni olarak, mindfulness temelli bilinç
@@ -115,7 +115,7 @@ export default function Page() {
           taşıyabilecek sağlam bir temel geliştirebilirsiniz.
         </p>
         <p>Birebir Mentorlük istiyorsanız, "Merhaba"nızı bekliyoruz.</p>
-      </PageContent>
+      </PageContent> */}
     </>
   );
 }

@@ -1,60 +1,46 @@
 ---
-title: "Merhaba"
+title: "MERHABA"
 slug: "merhaba"
 date: "2025-02-17"
-description: "Bilinç ve farkındalık çalışmalarına adım attığımız bu blog, içsel yolculukta bir seyir defteri gibi sana eşlik etmeyi amaçlıyor."
+description: "Bu blog, bilinç ve farkındalık temelli içsel bir yolculuğun seyir defteridir. Kaptan'ın gözlemleri ve deneyimleri, senin yolculuğuna da eşlik edebilir."
 tags:
   [
+    "seyir defteri",
     "presence",
     "farkındalık",
-    "mindfulness",
-    "öz gözlem",
     "bilinç",
-    "ruh çalışmaları",
+    "öz gözlem",
+    "içsel yolculuk",
   ]
 ---
 
-# Merhaba
+Bu blog, **Kaptan'ın seyir defteri.**
 
-Bu yazıyı, gözlerini yeni aralamaya başlayan bir bilinç hâline hitaben yazıyorum.
+Bir gemi değil belki, ama yönü _bilinç_ olan bir iç yolculuğun rotasını tutan bir alan.  
+Burada paylaşılan her satır, Reyhan'ın kendi yolculuğundaki gözlem ve deneyimlerinden doğdu.
 
-Belki yıllardır içten içe seni çağıran bir sessizliği ilk kez bu kadar yakından duyuyorsun. Belki de bu sayfaya sadece bir tesadüf eseri düştün — ama içten içe biliyorsun ki, bazı tesadüfler rastgele değildir.
+Yolculuğumuz bilinmeze.  
+Hazır bir harita yok.  
+Yolumuzu aydınlatan bir ışık da...  
+Tüm bunları, her birimiz kendimiz için inşa etmek zorundayız.
 
-Bu blog, bir _seyir defteri_ gibi düşünülebilir.  
-Ama bu bir gemi değil — bir **farkındalık gemisi**.  
-Ve yazdıklarımız, okyanusta yol alan bir ruhun günbegün tuttuğu notlar gibi.
+Ama bu, yalnız olduğumuz anlamına gelmiyor.
 
-## Ne İçin Yazıyoruz?
+Zihnin susmaya başladığı, benlik tanımlarının gevşediği, sessizliğin konuşmaya başladığı o ince eşikte belki bir satır, belki tek bir cümle seni durdurur, düşündürür ya da yürümeye cesaretlendirir.
 
-Bilinç çalışmaları, gözlem alıştırmaları, presence pratikleri, mindfulness antrenmanları...  
-Hepsi birer araç. Ama aslolan, bu araçlarla içsel bir derinliğe uyanmak.
+## Neyi Paylaşıyoruz?
 
-Dış dünyanın karmaşasında, bazen zihnin gürültüsüne, bazen duyguların iniş çıkışına, bazen de otomatik yaşam akışına kapılıp gidiyoruz. Bu blog ise tam tersine, durmak ve _görmek_ için.
+- Presence ve bilinç halleri
+- Kendini gözlem pratikleri
+- Mindfulness temelli yaklaşımlar
+- İçsel dönüşümün sessiz işaretleri
 
-Gündelik hayatın sıradan gibi görünen anlarında bile — çay içerken, yürürken, bir pencereye dalarken — içinde uyanabilecek o derin **sessiz tanıklık** var ya… İşte ona daha çok yaklaşabilmek için buradayız.
-
-## Ne Bulacaksınız?
-
-Bu sayfalarda:
-
-- “Presence” nedir, nasıl hissedilir?
-- Kendini gözlemlemek ne demektir?
-- Bilinçli bir yaşam nasıl inşa edilir?
-- Ruhsal yolculukta karşımıza çıkan içsel engellerle nasıl yüzleşiriz?
-
-gibi sorulara _kendi deneyimlerimiz_ ve _içgörülerimizle_ yanıtlar arıyoruz.
-
-Burada kesin cevaplar yok, ezberler yok.  
-Ama samimi sorular, derin bakışlar ve sade pratikler var.  
-Ve her şeyden önce: **birlikte uyanan bir bilinç var.**
+Bu yazılar; öğreti değil, deneyim.  
+Yol göstermeye çalışmaz, ama sana ait olan yolu _hatırlatabilir_.
 
 ---
 
-🌀 Eğer sen de bu yolda yürüyorsan — ya da sadece şöyle bir durup içini dinlemek istiyorsan — hoş geldin.  
-Bu blogda, kendine ait bir sessiz köşe bulacağını umuyorum.
+> Bireysel yolculuğunuza eşlik etmesi dileğiyle...
 
-Hazırsan, şimdi yola çıkabiliriz.  
-Şimdide, sadece bu anın içinde, _hep birlikte_.
-
-> “Zihin geçer… Sessizlik kalır.”  
-> – İçten bir dost
+> Sevgilerle,  
+> **Reyhan Çetin X**

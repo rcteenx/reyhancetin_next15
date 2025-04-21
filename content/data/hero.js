@@ -370,7 +370,7 @@ export const heroContact = {
 };
 
 export const heroBlog = {
-  h1: "Reyhan Çetin X - Blog: Kaptan'ın Seyir Defteri",
+  h1: "Reyhan Çetin X - Blog Anasayfa: Kaptan'ın Seyir Defteri",
   h3a: "seyir",
   h3b: "defteri",
   cta: "✨ İlk ziyaretin mi? Aşağıdan başlayabilirsin. ✨",

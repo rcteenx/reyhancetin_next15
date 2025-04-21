@@ -8,7 +8,7 @@ import BlogList from "@/components/repo/blog/blogs";
 
 export const metadata = {
   title: {
-    absolute: "Reyhan Çetin X - Blog: Kaptan'ın Seyir Defteri",
+    absolute: "Reyhan Çetin X - Blog Anasayfa: Kaptan'ın Seyir Defteri",
   },
 };
 
@@ -45,7 +45,7 @@ export default async function BlogsPage() {
           ))}
         </div>
       </HeroSingle>
-      <BlogList h2Title="Son Blog Yazılarım" blogs={blogs} />
+      <BlogList h2Title="Son Blog Yazılarım" blogs={blogs} blogHome={1} />
     </>
   );
 }

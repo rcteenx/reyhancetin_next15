@@ -2,76 +2,85 @@
 title: "PRESENCE: SAF FARKINDALIĞIN VARLIĞI"
 slug: "presence"
 date: "2025-02-19"
-description: "Zihin Ötesi Bir Bilinç Hâli"
+description: "Presence, anda olmanın ötesinde, benlik sınırlarının dışında açılan saf farkındalık hâlidir. Bu yazıda, Presence'ı nasıl hissedeceğimizi ve hayatımıza nasıl katabileceğimizi paylaşıyoruz."
 tags:
   [
     "presence",
-    "presencementor",
+    "saf farkındalık",
+    "farkındalık",
+    "bilinç",
+    "öz gözlem",
+    "mindfulness",
     "şimdiningücü",
     "eckharttolle",
-    "mindfulness",
-    "bilinçlifarkındalık",
-    "varlıkçalışmaları",
-    "benötesi",
   ]
 ---
 
 ## Presence Nedir?
 
-“Presence” kelimesi Türkçeye tam anlamıyla çevrilemese de, birçok bilinç ve farkındalık çalışmasının özünde yer alan bu kavram, yalnızca “anda olmak”tan çok daha fazlasıdır. Presence, varlığın benlik sınırlarının ötesine geçerek alana yayılması, saf farkındalık olarak açılmasıdır.
+“Presence” kelimesi Türkçeye tam anlamıyla çevrilemese de, birçok bilinç ve farkındalık çalışmasının özünde yer alır. Yalnızca “anda olmak” değil; varlığın benlik sınırlarının ötesine geçerek alana yayılmasıdır. Saf farkındalık olarak, düşüncenin ötesinde açılır.
 
-Bu hâli, zihinle tanımlamaya çalışmak yetersiz kalabilir. Ancak kendi içsel sessizliğinizde, düşünceler arasındaki boşluklarda ya da bir an için bile olsa kendinizi unuttuğunuz deneyimlerde, Presence’ın ne olduğunu sezgisel olarak hissedebilirsiniz.
+Bu hâli zihinle tanımlamak zordur. Ama kendi içsel sessizliğinde, düşünceler arasındaki boşluklarda, ya da bir anlığına kendini tamamen unuttuğun o anlarda Presence’ı sezgisel olarak hissedebilirsin.
 
 ## Presence’ı Nasıl Hissederiz?
 
-Presence, çoğu zaman bir deneyimle tanınır. Ve ilginçtir ki, onu hissedebilmek için bile bir miktar “presence” gerekir.
+Presence, çoğu zaman bir **an** ile tanınır. İlginçtir, onu hissedebilmek için bile belli bir miktar **presence** gerekir.
 
-Hatırlayın:
+Hatırla:
 
-- Düşünceler durduğunda araya giren sessizlik
-- Zamanın yavaşladığı ya da kaybolduğu anlar
-- Kendinizi “Reyhan”, “Elif” ya da “Kaan” gibi adlarla tanımlamadığınız, ama tümüyle var olduğunuz bilinç hâli
+- Düşüncelerin durduğu o derin sessizlik
+- Zamanın aktığı değil, durduğu anlar
+- “Ben” kimliğinin eridiği, ama tüm varoluşun orada olduğu hâller
 
-İşte bu anlarda, “olan” sadece saf farkındalıktır. Ne bir etiket ne de bir düşünce kalır. Kalan tek şey: Saf Varlığın Hissidir.
+Bu anlarda, etiketler ve düşünceler kaybolur.
+Geriye kalan sadece: **Saf Varlığın Kendisi.**
 
 ## Presence’ın Hayatımıza Katkısı
 
-Presence, sadece spiritüel bir kavram değil; aynı zamanda çok somut faydalar sunan bir bilinç hâlidir:
+Presence, yalnızca spiritüel bir ideal değil;  
+aynı zamanda yaşamı dönüştüren somut bir bilinç hâlidir:
 
-- Hayatı otomatik tepkilerle yaşamak yerine, bilinçli seçimler yapmaya başlarsınız.
-- Dünyaya “ben” bilincinin dar penceresinden değil, birlik algısıyla bakarsınız.- Acı, savaş, çatışma ve huzursuzluk gibi düşük frekanslı hâllerle özdeşleşmezsiniz.
-- Gerçek sevgi, içsel sessizlik ve ölümsüz doğanızla tanışırsınız.
+- Tepkiyle değil, **seçimle yaşarsın**
+- “Ben” bilincinden değil, **birlik algısıyla** bakarsın
+- Acı, çatışma ve huzursuzlukla özdeşleşmezsin
+- **Gerçek sevgi**, **içsel sessizlik** ve **ölümsüz doğan** seninle buluşur
 
-Kısacası, Presence bize aradığımız şeyi sunar: Gerçek Varlığımızı.
+Kısacası: Presence, aradığın şeyi sunar — **Gerçek Varlığını.**
 
-### Presence’ı Hayatımıza Nasıl Katarız?
+## Presence’ı Hayatımıza Nasıl Katarız?
 
-Presence, sadece meditasyon salonlarında ya da izole ortamlarda yaşanacak bir deneyim değildir. Tam aksine, hayatın içinde ama biraz da ötesindedir.
+Presence, hayattan çekilerek değil, hayatın tam kalbinde ama biraz da ötesinde yaşanır.
 
-- Düşünceler arasındaki boşluklara dikkat verin.
-- “Benlik” bilincini unutacak kadar bir aktiviteye kendinizi bırakın.
-- Sessizce oturacağınız, hiçbir şey yapmayacağınız anlar yaratın.
+- Düşünceler arasındaki boşlukları fark et
+- “Benlik” bilincini unutturacak kadar bir akışa gir
+- Sessizce oturacağın, hiçbir şey yapmayacağın anlar yarat
 
-Eckhart Tolle’nin _Şimdi’nin Gücü_ kitabı da aslında bu farkındalık hâlini anlatır. Ancak popüler dilde daha anlaşılır olması adına “anda olmak” ifadesiyle öne çıkmıştır. Oysa derinlerde bahsettiği şey tam anlamıyla **Presence**’tır.
+> Eckhart Tolle’nin _Şimdi’nin Gücü_ kitabı da, tam olarak bu hâli anlatır.  
+> Ancak dilde kolaylaşması adına “anda olmak” ifadesiyle sunulmuştur.  
+> Derinlerde anlattığı ise tam anlamıyla: **Presence**’tır.
 
 ## Presence’ı Geliştirmek İçin Uygulamalar
 
-Tıpkı fiziksel kaslarımız gibi, Presence da uygulamalarla güçlenebilir:
+Tıpkı kaslarımız gibi, Presence da düzenli çalışmayla güçlenebilir:
 
-- Dikkat meditasyonları ile zihni yavaşlatmak
-- Objektif dünyaya geçiş ve içsel gözlem
-- Mindfulness çalışmaları ile bedende ve anda kalmak
-- Enerjiyi dağıtmak yerine merkezde tutmak
-- Kendi gerçekliğimizin izini sürmek, dış etkilerden bağımsızlaşmak
+- Dikkat ve sessizlik temelli meditasyonlar
+- Objektif gözlem ile iç dünyaya geçiş
+- Mindfulness çalışmalarıyla bedende kalmak
+- Enerjiyi dağıtmak yerine merkeze toplamak
+- Kendi gerçekliğinin izini sürmek, dıştan bağımsızlaşmak
 
-Tüm bu pratikler, Presence bilincini artırır ve sizi gerçek özünüze daha da yaklaştırır.
+Tüm bu çalışmalar, Presence bilincini besler. Ve seni, **özüne**, o sessiz merkeze biraz daha yaklaştırır.
 
-### Presence: Yolun Hem Sebebi Hem Amacı
+## Presence: Yolun Hem Sebebi Hem Amacı
 
-Tüm bilinç, uyanış ve içsel gelişim çalışmalarının ortak noktası aslında Presence’tır. Kendini gözlemleme, içsel sessizlik, dikkat ve mindfulness çemberlerimizde biz de tam olarak bunu destekliyoruz.
+Tüm bilinç ve içsel gelişim çalışmalarının özünde Presence yatar. Kendini gözlemleme, sessizlikle kalma, mindfulness çemberlerimizde biz de tam olarak bunu destekliyoruz.
 
-Eğer sen de kendi Presence’ını daha derin hissetmek, geliştirmek ve yaşamak istersen, seminer ve meditasyon çalışmalarımız hakkında bilgi almak için DM’den ulaşabilirsin.
+> Eğer sen de Presence’ını daha derin hissetmek istersen, seminer ve meditasyon çalışmalarımız hakkında bilgi almak için **DM’den ulaşabilirsin.**
 
-<!-- ## Bakma Çalışması Video Anlatımı
+---
 
-### İlgili sayfalar -->
+> “Zihnin ötesinde bir yer var...  
+> Orada zaten birlikteyiz!”
+
+> Sevgilerle,  
+> **Reyhan Çetin X**

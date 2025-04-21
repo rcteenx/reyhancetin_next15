@@ -1,7 +1,7 @@
 import Link from "next/link";
 import PageContent from "@/components/templates/pageContent";
 
-export default async function BlogList({ h2Title, blogs }) {
+export default async function BlogList({ h2Title, blogs, blogHome = 0 }) {
   return (
     <article>
       <h2>{h2Title}</h2>
@@ -12,11 +12,15 @@ export default async function BlogList({ h2Title, blogs }) {
           </li>
         ))}
       </ol>
-      <div>
-        <p>
-          <a href="/blog">👈 DÖN: Blog Anasayfa - Kaptan'ın Seyir Defteri</a>
-        </p>
-      </div>
+      {blogHome == 0 ? (
+        <div>
+          <p>
+            <a href="/blog">👈 Blog Anasayfa - Kaptan'ın Seyir Defteri</a>
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
     </article>
   );
 }
