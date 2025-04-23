@@ -49,6 +49,9 @@
   article h4 {
     @apply text-[#5D4037];
   }
+  article hr {
+    @apply mx-auto my-4 w-1/2 border-[#5D4037] border-opacity-20;
+  }
   article p {
     @apply my-0 text-justify text-[#5D4037];
   }

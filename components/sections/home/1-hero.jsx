@@ -22,7 +22,7 @@ const Hero = ({ rVideo }) => {
         <div className="mx-auto max-w-2xl">
           <p className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 ">
             {/* {heroHome.desc} */}
-            <Link href="#" className="border-b">
+            <Link href="/calisma/atolye" className="border-b">
               Bilinç ve farkındalık çalışmalarına giriş atölyemizle,
             </Link>{" "}
             "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz. Ayrıca,
