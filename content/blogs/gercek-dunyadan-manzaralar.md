@@ -71,7 +71,7 @@ Gerçekliğe üç farklı düzeyde temas ederiz: zihinsel algı, bilinçli gözl
 
 ### Gerçek Dünyadan Algısal Fotoğraflar
 
-Kafamıza yüklenmiş bilgilerden ve yarı-otomatik sistemden biraz ayrılıp, “AN”a geri döndüğümüzde, bir fotoğraf makinesine benzetebileceğim içimizdeki algılayıcı benlikler, dışarıdan gelen izlenimleri yakalar ve anlamlandırır. İçimizdeki benlikler diyeceğim bu farklı gözler, dışarıdan beş duyumuz ile gelen izlenimleri yakalar ve kendilerince anlamlandırır. Bu anlamlandırma, olabildiğince kendi kültürel doğrularımız ya da subjektif yargılarımızdan temizlendikçe, objektif gerçekliğe yaklaşık. Tıpkı fotoğraf makinesinin daha kaliteli çekim yapması için, daha iyi lens kullanmak ya da kirlendiğinde temizlemek gibi.
+Kafamıza yüklenmiş bilgilerden ve yarı-otomatik sistemden biraz ayrılıp, “AN”a geri döndüğümüzde, bir fotoğraf makinesine benzetebileceğim içimizdeki algılayıcı benlikler, dışarıdan gelen izlenimleri yakalar ve anlamlandırır. İçimizdeki benlikler diyeceğim bu farklı gözler, dışarıdan beş duyumuz ile gelen izlenimleri yakalar ve kendilerince anlamlandırır. Bu anlamlandırma, olabildiğince kendi kültürel doğrularımız ya da subjektif yargılarımızdan temizlendikçe, objektif gerçekliğe yaklaşır. Tıpkı fotoğraf makinesinin daha kaliteli çekim yapması için, daha iyi lens kullanmak ya da kirlendiğinde temizlemek gibi.
 
 İçimizde, dış dünyanın algısal fotoğraflarını çeken benlikler, gerçekliğe ne kadar yaklaşsa da, hala ayrı olacaktır. İsterseniz en iyi kamerayla bir nesnenin fotoğrafını çekin. Sonrasında fotoğrafa ve nesneye bakın. Hala arada çok fark olduğunu göreceksiniz. Her fotoğraf, her bakış açısı, gerçekliği temsil ettiği kadar, aynı zamanda gerçeklikten bir ayrılma ve kopuşu da gösterir.
 
@@ -85,7 +85,7 @@ Mevcut fotoğraf teknolojisi, çektiğimiz her fotoğrafın meta bilgilerini de 
 
 ### Gerçek Dünyadan Sessiz Tanık Manzaraları
 
-İnsan tam olarak hareketsiz kalması kolay değil. Hiç kıpırdamadığımda bile, mikro düzeyde pek çok kas çalışarak beni hareketsiz tutmak için çaba harcıyor. Bilinçli biçimde, fizik bedene ait tüm kasları ve tamamen gerginlikten uzak, pasif hale getirmek ciddi bir fizik beden çabası ve bilgeliği gerektirir - ki bende bu yok.
+İnsanın tam olarak hareketsiz kalması kolay değil. Hiç kıpırdamadığımda bile, mikro düzeyde pek çok kas çalışarak beni hareketsiz tutmak için çaba harcıyor. Bilinçli biçimde, fizik bedene ait tüm kasları ve tamamen gerginlikten uzak, pasif hale getirmek ciddi bir fizik beden çabası ve bilgeliği gerektirir - ki bende bu yok.
 
 Diğer taraftan, benzer bir durum zihin için de geçerli. Zihnimiz de, tıpkı 7/24 atan kalbimiz gibi, sürekli çalışıyor. Tıpkı fizik bedeni tam pasif hale getirmenin zorluğu kadar ve belki daha büyük zorluk - zihni kısa bir an için bile olsa durdurabilmek. Fizik bedende tahminen 600-700 civarında olan kas sayısına kıyasla, zihinde binlerce - muhtemelen on milyonlarca - farklı algı kapısı var. Tıpkı fizik bedende kasları gererek hareketsiz kalmakla, tam pasif olmak arasındaki fark gibi; zihnin gergin sessizliği ile tam sessizliği arasında da büyük fark var. Orta seviyedeki meditasyon deneyimi zihni gergin biçimde durdururken, ileri seviyede rahat ve sessiz hale getirebilmek mümkün.
 
