@@ -30,11 +30,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang={smd.language}>
       <body className={`${base.variable} antialiased`}>
+        <GoogleTagManager gtmId="GTM-KH9VQ9NG" />
         <Header />
         <main>{children}</main>
         <Footer />
       </body>
-      <GoogleTagManager gaId="GTM-KH9VQ9NG" />
     </html>
   );
 }
