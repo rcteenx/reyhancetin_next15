@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import "./globals.css";
 
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-RJ7GDNGP7Y" />
+      <GoogleTagManager gaId="GTM-KH9VQ9NG" />
     </html>
   );
 }
