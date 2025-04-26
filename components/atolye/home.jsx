@@ -21,23 +21,7 @@ export default function AtolyeHome() {
   }, [searchParams]);
 
   if (!isAuthenticated) {
-    return (
-      <section className="">
-        {" "}
-        1
-        <div className="">
-          <h2>Atölye İçerik</h2>
-          <p>Boş Ekran</p>
-        </div>
-      </section>
-    );
+    return <p>Boş Ekran - Giriş yapılmadı!</p>;
   }
-  return (
-    <section className="">
-      <div className="">
-        <h2>Atölye İçerik</h2>
-        <p>Giriş Yapıldı</p>
-      </div>
-    </section>
-  );
+  return <p>Giriş Yapıldı</p>;
 }
