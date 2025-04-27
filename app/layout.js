@@ -7,7 +7,6 @@ import smd from "@/content/data/siteMetaData";
 
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/footer/0-index";
-import CookieConsentModal from "@/components/ui/CookieConsentModal";
 
 const base = Inter({
   subsets: ["latin"],
@@ -35,7 +34,6 @@ export default function RootLayout({ children }) {
         <Header />
         <main>{children}</main>
         <Footer />
-        <CookieConsentModal />
       </body>
     </html>
   );
