@@ -100,6 +100,13 @@
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   }
+  .lecture {
+    margin: 0;
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
 
   .gradientGold {
     @apply bg-gradient-to-t from-[#B78628] via-[#DBA514] to-[#FCC201] text-white;
