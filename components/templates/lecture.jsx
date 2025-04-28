@@ -7,6 +7,7 @@ export default function Lecture({ lecture }) {
 
   return (
     <div className="">
+      <h2>{lecture.title}</h2>
       {/* Menu  */}
       <div className="flex justify-center space-x-1 ">
         {lecture.content.map((section) => (
@@ -27,7 +28,7 @@ export default function Lecture({ lecture }) {
         {lecture.content.map((s) => (
           <div
             key={s.id}
-            className={`lecture 
+            className={`grayTab 
               ${activeTab === s.id ? "block" : "hidden"}`}
           >
             <h4>{s.section_title}</h4>
@@ -35,12 +36,10 @@ export default function Lecture({ lecture }) {
               {s.content.map((lesson, index) => (
                 <li key={index} className="mb-4">
                   <Link
-                    href={`#lesson-${lesson.lesson_title
-                      .replace(/\s+/g, "-")
-                      .toLowerCase()}`}
+                    href={`/cember/giris/${s.id}-${index + 1}`}
                     className="text-lg text-blue-400 hover:underline"
                   >
-                    {s.id}.{index + 1} {lesson.lesson_title}
+                    {index + 1}.Gün: {lesson.lesson_title}
                   </Link>
                   <p className="text-gray-700 mt-1">{lesson.lesson_desc}</p>
 

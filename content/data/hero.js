@@ -164,7 +164,7 @@ export const heroWork = {
 };
 
 export const heroWorkshop = {
-  h1: "Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi",
+  h1: "Bilinç ve Farkındalık Çemberine Giriş Atölyesi",
   h3a: "uyanmaya",
   h3b: "BAŞLA",
   cta: "✨ → Şimdi kayıt olun ve kendinizi gözlemlemenin dönüştürücü gücüyle tanışın. ✨",

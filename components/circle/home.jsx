@@ -3,10 +3,10 @@
 import { useSearchParams } from "next/navigation";
 import { useMemo, useEffect } from "react";
 
-import { users } from "@/content/users";
+import { users, lectures } from "@/content/users";
 import { setUserCookie } from "@/lib/users"; // Ortak fonksiyonları import ettik
 
-export default function LoginHome() {
+export default function CircleHome() {
   const searchParams = useSearchParams();
 
   const user = useMemo(() => {
@@ -79,13 +79,13 @@ export default function LoginHome() {
       </div>
 
       {/* Dersler Menüsü */}
-      <h3>Online Dersleriniz</h3>
+      <h3>Online Çemberimiz</h3>
       <nav>
-        <ul className="flex flex-wrap gap-4">
-          {user.courses.map((lesson, index) => (
+        <ul className="flex flex-col gap-2">
+          {lectures.map((lesson, index) => (
             <li key={index}>
               <a
-                href={`/login/${lesson.link}`}
+                href={`/${lesson.link}`}
                 className="text-blue-600 hover:underline text-sm"
               >
                 {lesson.title}

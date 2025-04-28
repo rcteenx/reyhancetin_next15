@@ -1,7 +1,7 @@
 export const lecture1 = [
   {
     id: 1,
-    title: "Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi",
+    title: "Bilinç ve Farkındalık Çemberine Giriş Atölyesi",
     subtitle: "Ben Algınızın Kaynağa Yolculuk",
     title_quote:
       "Kendimizi gözlemlemeye başlayınca,  bilinçli farkındalık yolculuğu başlar",

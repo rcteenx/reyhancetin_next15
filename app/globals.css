@@ -61,18 +61,19 @@
   article ul li {
     @apply text-justify;
   }
-  article .blogDate {
+  article .date {
     @apply my-2 text-right;
   }
-  article .blogDesc {
+  article .desc {
     @apply my-2 italic;
   }
 }
 
 /*Özel stiller:  Buton, kart, modal - çok sayfada kullanım */
 @layer components {
-  #hero h1 {
-    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-sm sm:text-lg md:text-lg text-indigo-light-5;
+  #hero h1,
+  h2 {
+    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-sm sm:text-lg md:text-lg text-indigo-light-5 text-left;
   }
   .pgContent {
     @apply mx-auto container-p md:my-8;
@@ -93,14 +94,7 @@
     @apply text-justify;
   }
 
-  .week {
-    margin: 0;
-    padding: 20px;
-    background: #f2f2f2;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  }
-  .lecture {
+  .grayTab {
     margin: 0;
     padding: 20px;
     background: #f2f2f2;

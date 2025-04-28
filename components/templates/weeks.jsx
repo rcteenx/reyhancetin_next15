@@ -22,25 +22,11 @@ export default function Weeks({ weeks }) {
           </button>
         ))}
       </div>
-      {/* Content  */}
-      {/* <div className="mt-0">
-        <div className="week">
-          <h4>
-            {weeks[activeTab - 1].title}: {weeks[activeTab - 1].content.h4}
-          </h4>
-          <ul className="my-4 text-left">
-            {weeks[activeTab - 1].content.items.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      </div> */}
-      {/* Content  2 */}
       <div className="mt-0">
         {weeks.map((w) => (
           <div
             key={w.id}
-            className={`week 
+            className={`grayTab 
               ${activeTab === w.id ? "block" : "hidden"}`}
           >
             <h4>

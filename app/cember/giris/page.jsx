@@ -1,7 +1,8 @@
 import { Suspense } from "react";
-import AtolyeHome from "@/components/login/home";
+import CemberLogin from "@/components/circle/cember_login";
+import CircleIntro from "@/components/circle/intro";
 
-export default async function LoginPage() {
+export default async function Page() {
   return (
     <>
       <section id="hero">
@@ -12,7 +13,14 @@ export default async function LoginPage() {
       <section className="">
         <div className="mx-auto py-8 px-4 md:px-8 max-w-xl shadow-xl">
           <Suspense fallback={null}>
-            <AtolyeHome />
+            <CemberLogin />
+          </Suspense>
+        </div>
+      </section>
+      <section className="">
+        <div className="mx-auto py-8 px-4 md:px-8 max-w-xl shadow-xl">
+          <Suspense fallback={null}>
+            <CircleIntro />
           </Suspense>
         </div>
       </section>

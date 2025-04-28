@@ -25,11 +25,11 @@ export default async function ExPage({ params }) {
   const blog = await getBlog(slug);
   const blogs = await getLastBlogs(10);
   const artiveContent =
-    "<p class='blogDate'>" +
+    "<p class='date'>" +
     blog.date +
-    "</p><h1 class='blogTitle'>" +
+    "</p><h1>" +
     blog.title +
-    "</h1><h4 class='blogDesc'>" +
+    "</h1><h4 class='desc'>" +
     blog.description +
     "</h4>" +
     blog.body;
