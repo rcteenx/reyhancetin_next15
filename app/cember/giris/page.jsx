@@ -1,13 +1,13 @@
 import { Suspense } from "react";
-import CemberLogin from "@/components/circle/cember_login";
-import CircleIntro from "@/components/circle/intro";
+import CemberLogin from "@/components/sections/circle/cember_login";
+import CircleIntro from "@/components/sections/circle/intro";
 
 export default async function Page() {
   return (
     <>
       <section id="hero">
         <div className="gradientIndigo">
-          <h1>Bilinçli Farkındalık Çalışmaları - Online Eğitimler</h1>
+          <h1>Bilinçli Farkındalık Çalışmaları - Giriş Atölyesi</h1>
         </div>
       </section>
       <section className="">

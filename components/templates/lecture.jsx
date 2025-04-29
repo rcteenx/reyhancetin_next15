@@ -20,7 +20,7 @@ export default function Lecture({ lecture }) {
                 : "text-gray-600 hover:text-blue-600"
             }`}
           >
-            {section.id}. Hafta
+            {section.id}. Bölüm
           </button>
         ))}
       </div>

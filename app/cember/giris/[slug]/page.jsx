@@ -6,7 +6,7 @@ import {
   getAllLectureSlugs,
 } from "@/lib/lectures";
 
-import CemberLogin from "@/components/circle/cember_login";
+import CemberLogin from "@/components/sections/circle/cember_login";
 
 // For static export
 export async function generateStaticParams() {
@@ -32,9 +32,9 @@ export default async function ExPage({ params }) {
   const artiveContent =
     "<p class='date'>" +
     lecture.date +
-    "</p><h1>" +
+    "</p><h2>" +
     lecture.title +
-    "</h1><h4 class='desc'>" +
+    "</h2><h4 class='desc'>" +
     lecture.description +
     "</h4>" +
     lecture.body;
@@ -43,7 +43,7 @@ export default async function ExPage({ params }) {
     <>
       <section id="hero">
         <div className="gradientIndigo">
-          <h2>Bilinçli Farkındalık Çalışmaları - Online Eğitimler</h2>
+          <h1>Bilinçli Farkındalık Çalışmaları - Giriş Atölyesi</h1>
         </div>
       </section>
       <section className="">

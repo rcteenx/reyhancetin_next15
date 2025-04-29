@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useEffect, useState } from "react";
-import { getUserFromCookie } from "@/lib/users"; // Ortak fonksiyonları import ettik
-import { useRouter } from "next/navigation"; // useRouter'ı 'next/navigation' ile import ettik
+import { getUserFromCookie } from "@/lib/users";
+import { useRouter } from "next/navigation";
 
 export default function CemberLogin() {
   const [user, setUser] = useState(null);
@@ -41,13 +41,16 @@ export default function CemberLogin() {
   }
 
   return (
-    <div className="bg-gray-100 p-4 rounded-lg shadow">
-      <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-        <div className="text-lg font-semibold ">Merhaba, {user.name}👋</div>
-        <div className="text-sm mt-2 md:mt-0">
+    <div className="mb-4 bg-gray-100 p-4 rounded-lg shadow">
+      <div className="flex flex-row justify-between">
+        <h5 className="font-semibold ">{user.name} 👋</h5>
+        <p className="text-sm">
           Kalan Süre: <span className="font-bold">{daysLeft} gün</span>
-        </div>
+        </p>
       </div>
+      <p>
+        <a href="/cember">Çember Ana sayfa</a>
+      </p>
     </div>
   );
 }
