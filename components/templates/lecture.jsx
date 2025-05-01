@@ -31,7 +31,7 @@ export default function Lecture({ lecture }) {
             className={`grayTab 
               ${activeTab === s.id ? "block" : "hidden"}`}
           >
-            <h4>{s.section_title}</h4>
+            <h3>{s.title}</h3>
             <ol className="ml-6 space-y-2">
               {s.content.map((lesson, index) => (
                 <li key={index} className="mb-4">

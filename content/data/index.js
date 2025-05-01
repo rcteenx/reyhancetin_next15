@@ -119,14 +119,15 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "Presence",
+    title: "Yol",
     titleLong: "Presence - Farkındalık Alanı",
-    link: "presence",
+    link: "yol",
     pages: [
       {
         id: 1,
-        title: "Yol",
-        link: "yol",
+        title: "Presence",
+        titleLong: "Presence - Farkındalık Alanı",
+        link: "presence",
         // pages: [
         //   {
         //     id: 1,
