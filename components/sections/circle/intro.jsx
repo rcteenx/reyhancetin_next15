@@ -5,8 +5,6 @@ export default function CircleIntro() {
   return (
     <>
       <Lecture lecture={lecture1[0]}></Lecture>
-
-      {/* <LecturePage /> */}
     </>
   );
 }

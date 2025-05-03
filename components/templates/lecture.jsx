@@ -7,43 +7,76 @@ export default function Lecture({ lecture }) {
 
   return (
     <div className="">
-      <h2>{lecture.title}</h2>
+      <h2 className="text-2xl">{lecture.title}</h2>
       {/* Menu  */}
       <div className="flex justify-center space-x-1 ">
-        {lecture.content.map((section) => (
+        {lecture.stages.map((stage) => (
           <button
-            key={section.id}
-            onClick={() => setActiveTab(section.id)}
-            className={`px-2 py-1 text-sm font-semibold rounded-t-lg transition-all duration-300 ${
-              activeTab === section.id
+            key={stage.id}
+            onClick={() => setActiveTab(stage.id)}
+            className={`px-4 py-1 text-sm font-semibold rounded-t-lg transition-all duration-300 ${
+              activeTab === stage.id
                 ? "bg-[#f2f2f2] "
                 : "text-gray-600 hover:text-blue-600"
             }`}
           >
-            {section.id}. Bölüm
+            {stage.stage_no}
           </button>
         ))}
       </div>
       <div className="mt-0">
-        {lecture.content.map((s) => (
+        {lecture.stages.map((s) => (
           <div
             key={s.id}
             className={`grayTab 
               ${activeTab === s.id ? "block" : "hidden"}`}
           >
-            <h3>{s.title}</h3>
-            <ol className="ml-6 space-y-2">
-              {s.content.map((lesson, index) => (
-                <li key={index} className="mb-4">
-                  <Link
-                    href={`/cember/giris/${s.id}-${index + 1}`}
-                    className="text-lg text-blue-400 hover:underline"
-                  >
-                    {index + 1}.Gün: {lesson.lesson_title}
-                  </Link>
-                  <p className="text-gray-700 mt-1">{lesson.lesson_desc}</p>
+            <h3 className="text-2xl md:text-4xl">
+              {s.stage_no}: {s.stage_title}
+            </h3>
+            <p>{s.stage_quote}</p>
+            <ol className="my-4 space-y-2">
+              {s.sections.map((section, index) => (
+                <li key={index} className="pb-2">
+                  <h4>
+                    {index + 1}- {section.section_title}
+                  </h4>
+                  <p className="text-gray-700 mt-1">{section.section_aim}</p>
 
-                  {lesson.lesson_title}
+                  {Array.isArray(section.titles) &&
+                    section.titles.length > 0 && (
+                      <ol className="">
+                        {section.titles?.map((title, index) => (
+                          <li
+                            key={index}
+                            className="my-2 p-2 bg-gray-50 rounded-lg hover:bg-white "
+                          >
+                            <h5>
+                              <span className="w-6 inline-block text-center">
+                                {index + 1}
+                              </span>
+                              <span className="w-8 inline-block text-center">
+                                <a
+                                  href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
+                                  target="_blank"
+                                >
+                                  📄
+                                </a>
+                              </span>
+                              <span className="w-8 inline-block text-center">
+                                <a
+                                  href="https://drive.google.com/file/d/1bHE7dbgp1f4hoKMKXiGJYdyuJwtx8lTc/view?usp=drive_link"
+                                  target="_blank"
+                                >
+                                  🎥
+                                </a>
+                              </span>
+                              <span className="ml-2">{title.title}</span>
+                            </h5>
+                          </li>
+                        ))}
+                      </ol>
+                    )}
                 </li>
               ))}
             </ol>

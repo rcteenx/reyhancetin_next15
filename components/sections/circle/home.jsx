@@ -40,11 +40,20 @@ export default function CircleHome() {
 
   const dateInfo = useMemo(() => {
     if (!user?.startDate) {
-      return { isExpired: false, daysLeft: null };
+      return { isExpired: true, daysLeft: null };
+    }
+    if (!user?.isExpire == 0) {
+      return { isExpired: false, daysLeft: "Sürekli" };
     }
     const startDate = new Date(user.startDate);
-    const expiryDate = new Date(startDate);
-    expiryDate.setMonth(expiryDate.getMonth() + 1);
+    var expiryDate = new Date(startDate);
+
+    if (user?.period) {
+      expiryDate.setDate(expiryDate.getDate() + user.period);
+    } else {
+      expiryDate.setMonth(expiryDate.getMonth() + 1);
+    }
+    console.log(expiryDate);
 
     const today = new Date();
     const diffTime = expiryDate.getTime() - today.getTime();
@@ -52,7 +61,7 @@ export default function CircleHome() {
 
     return {
       isExpired: today > expiryDate,
-      daysLeft: diffDays > 0 ? diffDays : 0,
+      daysLeft: diffDays > 0 ? diffDays + " gün" : 0,
     };
   }, [user]);
 
@@ -99,7 +108,7 @@ export default function CircleHome() {
             <div className="flex flex-row justify-between">
               <h5 className="font-semibold">{user.name} 👋</h5>
               <p className="text-sm">
-                Kalan Süre: <span className="font-bold">{daysLeft} gün</span>
+                Kalan Süre: <span className="font-bold">{daysLeft}</span>
               </p>
             </div>
           </div>

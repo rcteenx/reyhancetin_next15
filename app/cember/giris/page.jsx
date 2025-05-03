@@ -18,7 +18,7 @@ export default async function Page() {
         </div>
       </section>
       <section className="">
-        <div className="mx-auto py-8 px-4 md:px-8 max-w-xl shadow-xl">
+        <div className="mx-auto py-8 px-4 md:px-8 max-w-2xl shadow-xl">
           <Suspense fallback={null}>
             <CircleIntro />
           </Suspense>

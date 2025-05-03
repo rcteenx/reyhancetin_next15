@@ -4,119 +4,228 @@ export const lecture1 = [
     title: "Bilinç ve Farkındalık Çemberine Giriş Atölyesi",
     subtitle: "Ben Algınızın Kaynağa Yolculuk",
     title_quote:
-      "Kendimizi gözlemlemeye başlayınca,  bilinçli farkındalık yolculuğu başlar",
-    content: [
+      "Kendimizi gözlemlemeye başlayınca, bilinçli farkındalık yolculuğu başlar",
+    stages: [
       {
         id: 1,
-        title: "Şimdi ve Burada Olmak",
-        quote: "An, üst bilinç hallerinin giriş kapısıdır.",
-        content: [
+        stage_no: 0,
+        stage_title: "Şimdi ve Burada Olmak",
+        stage_quote: "An, doğuştan gelen hakkımız",
+        sections: [
           {
-            lesson_title: "İçimizdeki Çocuğa Dönmek",
-            lesson_desc:
-              "İçsel çocuğumuza dönmek, kendimizi saf bir şekilde ifade etmemize olanak sağlar.",
+            id: 1,
+            section_title: "YENİ BİLGİ",
+            section_aim: "Ortak terminoloji oluşturmaya başlıyoruz.",
+            titles: [
+              {
+                id: 1,
+                title: "Anda Kalmak Nedir?",
+              },
+              {
+                id: 2,
+                title: "Doğumdan Gelen Hakkımız",
+              },
+              {
+                id: 3,
+                title: "Anda Kalamama Deneyimlerimiz",
+              },
+              {
+                id: 4,
+                title: "Yanlış Kullanımlar",
+              },
+              {
+                id: 5,
+                title: "Doğru Ölçek",
+              },
+            ],
           },
           {
-            lesson_title: "Andaki İzlenimleri Almak",
-            lesson_desc:
-              "Anı tam olarak gözlemlemek, zihnimizin ve bedenimizin şimdiye olan tepkilerini fark etmemizi sağlar.",
+            id: 2,
+            section_title: "KEŞİF",
+            section_aim: "Pratik örneklerle, konuyu her açıdan genişletiyoruz.",
+            titles: [
+              {
+                id: 1,
+                title: "Beden: Her Zaman Anda Olan Öğretmen",
+              },
+              {
+                id: 2,
+                title: "Duyular: Gerçekliğe Açılan Kapılar",
+              },
+              {
+                id: 3,
+                title: "Zihinsel Dalgalarla Başa Çıkmak",
+              },
+              {
+                id: 4,
+                title: "Çocuklar Gibi Olmak",
+              },
+              {
+                id: 5,
+                title: "Anda Kalarak Ustalaşmak",
+              },
+              {
+                id: 6,
+                title: "Kendi kendimize, kafamızın içinde anda kalmak.",
+              },
+            ],
           },
           {
-            lesson_title: "Fizik Bedene Çıpalamak",
-            lesson_desc:
-              "Fiziksel bedene odaklanarak, şu anı hissetmek ve zihinsel dağılmaları engellemek mümkün olur.",
+            id: 3,
+            section_title: "HATIRLAMA",
+            section_aim:
+              "Yeni bilgiler, kişisel deneyimlerimizle anlayışa dönüşüyor.",
+            titles: [
+              {
+                id: 1,
+                title: "Anda Kalmak İçin Kendi Yöntemini Bul",
+              },
+              {
+                id: 2,
+                title: "An, Bilinçli Yaşamın Giriş Kapısıdır",
+              },
+              {
+                id: 3,
+                title: "Anda olmanın sınırları",
+              },
+            ],
           },
           {
-            lesson_title: "Objektif Dünyaya Dönüş",
-            lesson_desc:
-              "Dış dünyaya yeniden bağlanarak, çevremizdeki gerçekliği objektif bir şekilde gözlemleyebiliriz.",
-          },
-          {
-            lesson_title: "Enerji Kaçaklarını Fark Etmek",
-            lesson_desc:
-              "Enerji kaçaklarını fark etmek, kendi içsel dengenizi korumanıza yardımcı olur.",
+            id: 4,
+            section_title: "PRATİKLER",
+            section_aim:
+              "Kazanılan anlayışların varlığımıza katılmasını sağlıyoruz.",
+            titles: [
+              {
+                id: 1,
+                title: "Küçük Çalışmalar, Büyük Açılmalar",
+              },
+              {
+                id: 2,
+                title: "Meditasyon (Sessiz Oturma)",
+              },
+              {
+                id: 3,
+                title: "Love your life",
+              },
+              {
+                id: 4,
+                title: "Çabanın Tükendiği Yerde Ne Yapmalı?",
+              },
+            ],
           },
         ],
       },
       {
         id: 2,
-        title: "Bölünmüş Dikkat",
-        quote: "Dikkat, dünyevi bilincimizin tohumudur.",
-        content: [
+        stage_no: -1,
+        stage_title: "Engeller",
+        stage_quote: "Neden Anda Kalamıyoruz?",
+        sections: [
           {
-            lesson_title: "Tercihen Biri İçerde, Diğeri Dışarda",
-            lesson_desc:
+            section_title: "Tercihen Biri İçerde, Diğeri Dışarda",
+            section_aim:
               "Dikkati içe ve dışa yönlendirmek, dengeyi bulmamıza yardımcı olabilir.",
           },
           {
-            lesson_title: "Yarı-Otomatik Tepkilerin Azalması",
-            lesson_desc:
+            section_title: "Yarı-Otomatik Tepkilerin Azalması",
+            section_aim:
               "Otomatik tepkileri fark ederek, bilinçli seçimler yapmayı öğrenebiliriz.",
           },
           {
-            lesson_title: "Çıpalanan Dikkat ile Anda Kalmayı Uzatmak",
-            lesson_desc:
+            section_title: "Çıpalanan Dikkat ile Anda Kalmayı Uzatmak",
+            section_aim:
               "Bölünmüş dikkatle, anda kalmayı ve çevremizi daha derinlemesine fark etmeyi uzatabiliriz.",
           },
           {
-            lesson_title: "Kendimizi Tanıma Yolculuğuna Başlamak",
-            lesson_desc:
+            section_title: "Kendimizi Tanıma Yolculuğuna Başlamak",
+            section_aim:
               "Kendini tanıma yolculuğuna başlamak, kişisel gelişim için kritik bir adımdır.",
           },
         ],
       },
       {
         id: 3,
-        title: "Kendini Gözlemlemek",
-        quote: "Bilinçli farkındalık, gözlem ile başlar.",
-        content: [
+        stage_no: 1,
+        stage_title: "Dikkat",
+        stage_quote: "Dikkat, dünyevi bilincimizin tohumu",
+        sections: [
           {
-            lesson_title: "Ben Algımızın Bedenden Ayrılması",
-            lesson_desc:
-              "Benlik algımızı bedenimizden ayırmak, daha derin bir farkındalık yaratır.",
+            section_title: "Tercihen Biri İçerde, Diğeri Dışarda",
+            section_aim:
+              "Dikkati içe ve dışa yönlendirmek, dengeyi bulmamıza yardımcı olabilir.",
           },
           {
-            lesson_title:
-              "Kendimizi Objektif Tanımaya ve Değiştirmeye Başlamak",
-            lesson_desc:
-              "Kendimizi objektif bir şekilde gözlemlemek, değişim sürecinin başlangıcıdır.",
+            section_title: "Yarı-Otomatik Tepkilerin Azalması",
+            section_aim:
+              "Otomatik tepkileri fark ederek, bilinçli seçimler yapmayı öğrenebiliriz.",
           },
           {
-            lesson_title: "Gerçekliği Kabul Edemeyen Yapılar",
-            lesson_desc:
-              "Gerçekliği kabul edemeyen yapılar, zihnimizin savunma mekanizmalarıdır ve bunları fark etmek önemlidir.",
+            section_title: "Çıpalanan Dikkat ile Anda Kalmayı Uzatmak",
+            section_aim:
+              "Bölünmüş dikkatle, anda kalmayı ve çevremizi daha derinlemesine fark etmeyi uzatabiliriz.",
           },
           {
-            lesson_title: "Gözlem Sonuçlarını Değerlendirmek",
-            lesson_desc:
-              "Gözlem sonuçlarını değerlendirmek, neyi değiştirmemiz gerektiğini anlamamıza yardımcı olur.",
+            section_title: "Kendimizi Tanıma Yolculuğuna Başlamak",
+            section_aim:
+              "Kendini tanıma yolculuğuna başlamak, kişisel gelişim için kritik bir adımdır.",
           },
         ],
       },
       {
         id: 4,
-        title: "Bilinçli Düşünmek",
-        quote: "Bilinçli düşünme ile çalışmaya başlarız.",
-        content: [
+        stage_no: 2,
+        stage_title: "Kendini Gözlemlemek",
+        stage_quote: "Bilinçli farkındalık, gözlem ile başlar.",
+        sections: [
           {
-            lesson_title: "Otomatik Düşünceleri Fark Etmek",
-            lesson_desc:
+            section_title: "Ben Algımızın Bedenden Ayrılması",
+            section_aim:
+              "Benlik algımızı bedenimizden ayırmak, daha derin bir farkındalık yaratır.",
+          },
+          {
+            section_title:
+              "Kendimizi Objektif Tanımaya ve Değiştirmeye Başlamak",
+            section_aim:
+              "Kendimizi objektif bir şekilde gözlemlemek, değişim sürecinin başlangıcıdır.",
+          },
+          {
+            section_title: "Gerçekliği Kabul Edemeyen Yapılar",
+            section_aim:
+              "Gerçekliği kabul edemeyen yapılar, zihnimizin savunma mekanizmalarıdır ve bunları fark etmek önemlidir.",
+          },
+          {
+            section_title: "Gözlem Sonuçlarını Değerlendirmek",
+            section_aim:
+              "Gözlem sonuçlarını değerlendirmek, neyi değiştirmemiz gerektiğini anlamamıza yardımcı olur.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        stage_no: 3,
+        stage_title: "Bilinç",
+        stage_quote: "Kendimizi yeniden yaratmaya başlıyoruz.",
+        sections: [
+          {
+            section_title: "Otomatik Düşünceleri Fark Etmek",
+            section_aim:
               "Otomatik düşünceleri fark etmek, onları yönetmeye başlamanın ilk adımıdır.",
           },
           {
-            lesson_title: "Gözlemciyi Yönlendirmek",
-            lesson_desc:
+            section_title: "Gözlemciyi Yönlendirmek",
+            section_aim:
               "İçsel gözlemcimizi yönlendirmek, bilinçli düşünme pratiği için gereklidir.",
           },
           {
-            lesson_title:
+            section_title:
               "Düşünceleri Kontrol Etmek ve İstenilen Yönde Geliştirmek",
-            lesson_desc:
+            section_aim:
               "Düşüncelerimizi istediğimiz yönde şekillendirmek, hedeflerimize odaklanmamızı sağlar.",
           },
           {
-            lesson_title: "Alternatif Bakış Açılarını Görmek",
-            lesson_desc:
+            section_title: "Alternatif Bakış Açılarını Görmek",
+            section_aim:
               "Alternatif bakış açılarını görmek, daha geniş bir anlayış geliştirmemize olanak tanır.",
           },
         ],

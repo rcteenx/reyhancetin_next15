@@ -4,39 +4,23 @@ export const users = [
     password: "1234",
     name: "Ahmet",
     startDate: "2025-04-10",
-    courses: [
-      {
-        id: 1,
-        title: "Bilinç ve Farkındalık Çemberine Giriş",
-        link: "giris",
-      },
-    ],
+    period: 30,
+    isExpire: 0,
   },
   {
     username: "test",
     password: "5678",
     name: "Test Kişisi",
     startDate: "2025-03-01",
-    courses: [
-      {
-        id: 1,
-        title: "Bilinç ve Farkındalık Çemberine Giriş",
-        link: "giris",
-      },
-    ],
+    period: 30,
+    isExpire: 0,
   },
   {
     username: "reyhan",
     password: "abcd",
     name: "Reyhan Çetin",
-    startDate: "2025-04-01",
-    courses: [
-      {
-        id: 1,
-        title: "Bilinç ve Farkındalık Çemberine Giriş",
-        link: "giris",
-      },
-    ],
+    startDate: "2025-05-01",
+    isExpire: 0,
   },
 ];
 
