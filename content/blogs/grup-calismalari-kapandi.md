@@ -37,7 +37,7 @@ Ancak Gurdjieff'in bir metninde okuduğum şu ifade algımı tam anlamıyla değ
 
 **Gemiyi Limana Çekmek**
 
-Gurdjieff, kurduğu okul ve grupları kurumsallaştırmamış, öğrencilerini "aydınlanmış" gibi tanımlarla taçlandırmamış. Hatta zamanı geldiğinde çoğunu kendi yanından göndermiş. Sonradan ve dışarıdan baktığımda, aynı durumun benim için de geçerli olduğunu fark ettim: Bilinçli irade ve çabayla kurduğum ve yönettiğim tüm grupları zamanı geldiğinde kapantı.
+Gurdjieff, kurduğu okul ve grupları kurumsallaştırmamış, öğrencilerini "aydınlanmış" gibi tanımlarla taçlandırmamış. Hatta zamanı geldiğinde çoğunu kendi yanından göndermiş. Sonradan ve dışarıdan baktığımda, aynı durumun benim için de geçerli olduğunu fark ettim: Bilinçli irade ve çabayla kurduğum ve yönettiğim tüm grupları zamanı geldiğinde kapandı.
 
 Bir dönem tüm yapıyı bırakıp, herkesle bağımı kopardım. Başta yalnızca bir değişim gibi görünüyordu; oysa zamanla, bu bitirişlerin aslında gelişim sürecime büyük katkı sağladığını anladım. Bazen gemiyi yüzdürmek değil, bırakabilmek ve limana çekmek, bir sonraki aşamaya geçişi sağlıyor.
 

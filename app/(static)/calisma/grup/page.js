@@ -13,39 +13,39 @@ export const metadata = {
   title: hero.h1,
 };
 
-const faqGroup = [
-  {
-    id: 1,
-    title:
-      "Daha önce bireysel çalışmalara katılmamış olsam da gelebilir miyim?",
-    content:
-      "Hayır, grup çalışmaları, temel atölyemize katılmış ve çalışma için uygun olan arkadaşlara açıktır. Ortak bir dil ve anlayış oluşturmak için, herkesin giriş aşamasını tamamlamış olması gerekiyor.",
-  },
-  {
-    id: 2,
-    title: "Katılım için belli bir yaş ya da mesleki koşul var mı?",
-    content:
-      "Hayır. Önemli olan, içsel olarak bu yola çağrılıyor olmanızdır. Bununla beraber, ezoterik bir yolculuğa başlamak için, genel olarak, 30 ve hatta 40'lı yaşların daha uygun olduğunu belirtmek isterim.",
-  },
-  {
-    id: 3,
-    title: "Grup çalışmaları ne kadar sürecek?",
-    content:
-      "Belirli aralıklarla, ortalama 3 aylık döngüler planlanıyor. Sonrasında devam grupları oluşturulabilir.",
-  },
-  {
-    id: 4,
-    title: "Katılamadığım oturumlar olursa ne olacak?",
-    content:
-      "Grubun bütünlüğünü gözetmek için düzenli katılım önemlidir. Ancak zorunlu durumlarda kayıt ya da telafi imkanı sağlanabilir.",
-  },
-  {
-    id: 5,
-    title: "Bu çalışmalar neye dayanıyor?",
-    content:
-      "Gurdjieff’in Dördüncü Yol öğretisi temelinde; fakat modern psikoloji, mindfulness, somatik farkındalık gibi alanlarla da temas halinde bir çerçeveyle yürütülür.",
-  },
-];
+// const faqGroup = [
+//   {
+//     id: 1,
+//     title:
+//       "Daha önce bireysel çalışmalara katılmamış olsam da gelebilir miyim?",
+//     content:
+//       "Hayır, grup çalışmaları, temel atölyemize katılmış ve çalışma için uygun olan arkadaşlara açıktır. Ortak bir dil ve anlayış oluşturmak için, herkesin giriş aşamasını tamamlamış olması gerekiyor.",
+//   },
+//   {
+//     id: 2,
+//     title: "Katılım için belli bir yaş ya da mesleki koşul var mı?",
+//     content:
+//       "Hayır. Önemli olan, içsel olarak bu yola çağrılıyor olmanızdır. Bununla beraber, ezoterik bir yolculuğa başlamak için, genel olarak, 30 ve hatta 40'lı yaşların daha uygun olduğunu belirtmek isterim.",
+//   },
+//   {
+//     id: 3,
+//     title: "Grup çalışmaları ne kadar sürecek?",
+//     content:
+//       "Belirli aralıklarla, ortalama 3 aylık döngüler planlanıyor. Sonrasında devam grupları oluşturulabilir.",
+//   },
+//   {
+//     id: 4,
+//     title: "Katılamadığım oturumlar olursa ne olacak?",
+//     content:
+//       "Grubun bütünlüğünü gözetmek için düzenli katılım önemlidir. Ancak zorunlu durumlarda kayıt ya da telafi imkanı sağlanabilir.",
+//   },
+//   {
+//     id: 5,
+//     title: "Bu çalışmalar neye dayanıyor?",
+//     content:
+//       "Gurdjieff’in Dördüncü Yol öğretisi temelinde; fakat modern psikoloji, mindfulness, somatik farkındalık gibi alanlarla da temas halinde bir çerçeveyle yürütülür.",
+//   },
+// ];
 
 export default function Page() {
   return (
@@ -55,7 +55,52 @@ export default function Page() {
           <h1>Bilinçli Farkındalık Gözlem Grup Çalışmaları</h1>
         </div>
       </section>
+      <PageContent h2Title="🌀 Bilinçli Farkındalık Gözlem Grup Çalışmaları">
+        <h3>Grup Çalışmalarım Sona Erdi</h3>
+        <p>
+          Yaklaşık 15 yıl süren, aktif grup oluşturma ve yönetme serüvenim sona
+          ermiş. 2025'in başından itibaren yeni gruplar oluşturma ve bunları
+          yönetme çabamın tükendiğini fark ettim. Bu konuyla ilgili kendi
+          gerçekliğimi paylaştığım blog yazısı aşağıda.
+        </p>
+        <h4>
+          <a href="/blog/grup-calismalari-kapandi">
+            BİLİNÇLİ FARKINDALIK GRUP ÇALIŞMALARI DÖNEMİM SONA ERDİ
+          </a>
+        </h4>
+        <hr />
+        <h3>Gruplar: Hem Değerli Hem Gerekli</h3>
+        <p>
+          Grup çalışmalarının gücüne ve gerekliliğine hâlâ derinden inanıyorum.
+          Bu çalışmalar, bir anlamda "kaz"ı kazana atmaya benzer. Ateşi yakar,
+          sabırla kaynatırız. Kimileri birkaç saatte pişer, kimileri ise kırk
+          yıl kaynasa yine de yumuşamaz. İşte bu kazları tanımak, doğru zamanda
+          kazana atmak ve kazanı taşırmadan ateşi dengede tutmak, grup
+          yöneticilerinin en önemli sorumluluklarından biridir.
+        </p>
+        <h4>Birbirini Cilalayan Taşlar: Grubun Dönüştürücü Gücü</h4>
+        <p>
+          Grup ortamı, adeta tambura atılan taşları andırır. Her birey, kendi
+          keskin köşeleriyle gelir; başlangıçta sürtüşmeler, anlaşmazlıklar ve
+          kırılganlıklar kaçınılmazdır. Ancak zamanla, taşların birbirini
+          cilaladığı gibi, bireyler de birbirlerine ayna olarak kendi yönlerini
+          görme fırsatı bulur. Bazen farkında olmadan, bazen bilinçli bir
+          destekle, herkes birbirinin dönüşümüne katkı sağlar. Bu süreçte
+          yargının yerini gözlem, savunmanın yerini anlayış alır. Sonunda ise
+          içsel pürüzlerin törpülendiği, daha yumuşak, daha farkında ve daha
+          sahici bir benlik ortaya çıkar.
+        </p>
 
+        <hr />
+        <p>
+          Bu yükü anladıysanız ve taşımaya niyetliyseniz, bilgi, deneyim,
+          danışmanlık ya da rehberlik olarak destek verebilirim.
+        </p>
+        <p>Bir "Merhaba" ile bana ulaşabilirsiniz.</p>
+
+        <ContactMe />
+      </PageContent>
+      {/* 
       <PageContent h2Title="🌀 Bilinçli Farkındalık Gözlem Grup Çalışmaları">
         <h4 className="my-2 lg:text-xl">Gözlemci Geliştirmek</h4>
         <p>
@@ -150,8 +195,9 @@ export default function Page() {
         <ContactMe />
 
         <h3>💬 Sıkça Sorulan Sorular</h3>
-        <FAQ faq={faqGroup} />
-      </PageContent>
+        <FAQ faq={faqGroup} /> 
+      </PageContent> 
+      */}
 
       <AdContent contAd={hero}>
         <div className="relative mt-8 p-4 bg-slate-50 sm:rounded-xl shodow-2xl sm:border-4 sm:border-indigo-50">
