@@ -5,6 +5,8 @@ import Link from "next/link";
 export default function Lecture({ lecture }) {
   const [activeTab, setActiveTab] = useState(1);
 
+  let counter = 1;
+
   return (
     <div className="">
       <h2 className="text-2xl">{lecture.title}</h2>
@@ -49,12 +51,16 @@ export default function Lecture({ lecture }) {
                         {section.titles?.map((title, index) => (
                           <li
                             key={index}
-                            className="my-2 p-2 bg-gray-50 rounded-lg hover:bg-white "
+                            className="my-2 px-2 py-1 bg-gray-50 rounded-lg hover:bg-white flex flow-row justify-between items-center flex-nowrap"
                           >
                             <h5>
-                              <span className="w-6 inline-block text-center">
-                                {index + 1}
+                              <span className=" w-12 inline-block text-center bg-gray-200 rounded-full mr-2 flex-1">
+                                {/* {index + 1} */}
+                                {counter++}
                               </span>
+                              {title.title}
+                            </h5>
+                            <div className="flex ">
                               <span className="w-8 inline-block text-center">
                                 <a
                                   href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
@@ -71,8 +77,7 @@ export default function Lecture({ lecture }) {
                                   🎥
                                 </a>
                               </span>
-                              <span className="ml-2">{title.title}</span>
-                            </h5>
+                            </div>
                           </li>
                         ))}
                       </ol>

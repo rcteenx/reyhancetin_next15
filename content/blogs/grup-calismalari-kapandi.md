@@ -20,9 +20,9 @@ tags:
   ]
 ---
 
-**Gözlemle Başlar, Grupla Derinleşir**
+**Kendimizi Başkalarının Işığında Görüyoruz**
 
-Kendini gözlemlemeyi, içsel çalışmayı anlayan biri için bir sonraki aşama çoğu zaman bir grupla birlikte yola devam etmektir. Farkındalık çalışması, başka insanlarla birlikte yapıldığında derinleşir, çok boyutlu hale gelir.
+Kendini gözlemlemeyi, içsel çalışmayı anlayan biri için bir sonraki aşama çoğu zaman bir grupla birlikte yola devam etmektir. Farkındalık çalışması, farklı kişilerden oluşan bir grup içinde yapıldığında, kişinin kendisini görmesi ve çalışması mümkün hale gelir.
 
 > "İnsan, ancak diğerleriyle birlikte çalışarak kendini tanıyabilir."  
 > \- G. I. Gurdjieff
@@ -37,7 +37,7 @@ Ancak Gurdjieff'in bir metninde okuduğum şu ifade algımı tam anlamıyla değ
 
 **Gemiyi Limana Çekmek**
 
-Gurdjieff, kurduğu okul ve grupları kurumsallaştırmamış, öğrencilerini "aydınlanmış" gibi tanımlarla taçlandırmamış. Hatta zamanı geldiğinde çoğunu kendi yanından göndermiş. Sonradan ve dışarıdan baktığımda, aynı durumun benim için de geçerli olduğunu fark ettim: Bilinçli irade ve çabayla kurduğum ve yönettiğim tüm grupları zamanı geldiğinde sona erdirdim.
+Gurdjieff, kurduğu okul ve grupları kurumsallaştırmamış, öğrencilerini "aydınlanmış" gibi tanımlarla taçlandırmamış. Hatta zamanı geldiğinde çoğunu kendi yanından göndermiş. Sonradan ve dışarıdan baktığımda, aynı durumun benim için de geçerli olduğunu fark ettim: Bilinçli irade ve çabayla kurduğum ve yönettiğim tüm grupları zamanı geldiğinde kapantı.
 
 Bir dönem tüm yapıyı bırakıp, herkesle bağımı kopardım. Başta yalnızca bir değişim gibi görünüyordu; oysa zamanla, bu bitirişlerin aslında gelişim sürecime büyük katkı sağladığını anladım. Bazen gemiyi yüzdürmek değil, bırakabilmek ve limana çekmek, bir sonraki aşamaya geçişi sağlıyor.
 
@@ -47,7 +47,7 @@ Yaklaşık 15 yıl süren kaptanlık sürecinde, irili, ufaklı pek çok gemiyi 
 
 Sokullu Mehmet Paşa'nın ünlü sözü vardı: "Kesilen sakal geri çıkar, ama kesilen kol bir daha yerine gelmez." Benim de yıllarca yeni gruplar kurma becerim vardı; sürekli yeni gemiler inşa edebilecek bir tersane gibiydi.
 
-Ama artık bu tersaneyi de kapatıyorum. Aktif grup yönetimini birkaç yıl önce sonlandırmıştım; artık yeni gruplar kurmak ve yön vermek de gündemimde olmayacak. Sadece bir yorgunluk değil bu; bir doygunluk ve doğru zamanda bırakabilmenin huzuru.
+Ama artık bu tersaneyi de kapatıyorum. Aktif grup yönetimini birkaç yıl önce sonlandırmıştım; bundan sonra yeni gruplar kurmak ve yön vermek de gündemimde olmayacak. Sadece bir yorgunluk değil bu; bir doygunluk ve doğru zamanda bırakabilmenin huzuru.
 
 Çalışma grupları konusu, mezun olmamı engelleyen ve bütünlemeye kalmama sebep olan birkaç konudan biri. Birkaç gün önce bu durumu fark ettim. Biraz geç ve düşük notla bile olsa, dersi vermiş olacağım.
 
@@ -65,11 +65,11 @@ Benzer şekilde, daha Gurdjieff öğretisiyle bile karşılaşmadan önce, bu yo
 
 Ancak artık “ev”deyim. Yeni bir yolculuk—en azından yakın bir zamanda—görünmüyor. Hatta böyle bir yolculuk olursa bile, orada kaptan ya da gemi sahibi değil, sadece bir misafir ve sessiz tanık olarak yer almak bana daha cazip geliyor. Çöpsüz üzüm ya da kılçıksız balık gibi…
 
-Diğer bir ifadeyle, şu an geldiğim noktada, bir grubu kurmak, bir arada tutmak ve belirli bir hedefe doğru yönlendirmek için gerekli istek ve enerjim yok. Gerçi bu tam doğru değil; hâlâ isteğim var. Ama bu istek için bilinçli çaba gösterecek, maliyetlerine katlanacak bir “Reyhan” yok artık. Parasını ödemeden fırından ekmek almak gibi: Bedelini ödemeye hazır olmadığınız istekler, gerçek değildir.
+Diğer bir ifadeyle, şu an geldiğim noktada, bir grubu kurmak, bir arada tutmak ve belirli bir hedefe doğru yönlendirmek için gerekli istek ve enerjim yok. Gerçi bu tam doğru değil; hâlâ isteğim var. Ama bu istek için bilinçli çaba gösterecek, maliyetlerine katlanacak bir “Reyhan” ortada yok. Parasını ödemeden fırından ekmek almak gibi: Bedelini ödemeye hazır olmadığınız istekler, gerçek değildir.
 
 **Alternatif Olarak Neler Yapacağım**
 
-Grup çalışmalarıyla ilgili dönem kapanmış olsa da, çalışmalar tamamen bitmiş değil. YouTube sohbetleri, blog yazıları gibi dolaylı yollarla ve birebir danışmanlık ve rehberlik seansları aracılığıyla etkileşimimiz devam edecek. Ancak bu yeni dönemde, aktif olarak yönlendiren bir bilinçten ziyade, süreci akışında izleyen, gözlemleyen ve sessizce tanıklık eden bir konumda kalmayı tercih ediyorum.
+Grup çalışmalarıyla ilgili dönem kapanmış olsa da, çalışmalar tamamen bitmiş değil. YouTube sohbetleri, blog yazıları gibi dolaylı yollarla ve birebir danışmanlık ve rehberlik seansları aracılığıyla etkileşimimiz devam edecek. Ancak bu yeni dönemde, aktif olarak yönlendiren bir bilinçten ziyade, süreci akışında izleyen, gözlemleyen ve sessizce tanıklık eden bir konumda olabileceğim. Bu bir bilinçli tercihten ziyade, bulunan hali kabul etmek gibi.
 
 Grup çalışmalarının hâlâ çok değerli ve gerekli olduğuna inanan biri olarak, bu yola kaptan ya da kaptan adayı olarak çıkanlar için bilgi, danışmanlık, gözlem ve sessiz tanıklık gibi her türlü pasif (üçüncü güç) katkıyı sunmak isterim. Eğer seyir defterinizde böyle bir rota belirirse, bana mesaj atın; birlikte neler mümkün, bakarız.
 
