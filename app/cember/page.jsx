@@ -6,7 +6,7 @@ export default async function Page() {
     <>
       <section id="hero">
         <div className="gradientIndigo">
-          <h1>Bilinçli Farkındalık Çemberi - Üye Girişi</h1>
+          <h1>Bilinçli Farkındalık Çalışmaları - Üye Girişi</h1>
         </div>
       </section>
       <Suspense fallback={null}>

@@ -1,23 +1,20 @@
 import { Suspense } from "react";
 
-import {
-  getLastLectures,
-  getLecture,
-  getAllLectureSlugs,
-} from "@/lib/lectures";
-
+import { getLecture, getAllLectureSlugs } from "@/lib/lectures";
 import CemberLogin from "@/components/sections/circle/cember_login";
+
+const lectureSlug = "intro";
 
 // For static export
 export async function generateStaticParams() {
-  const slugs = await getAllLectureSlugs();
+  const slugs = await getAllLectureSlugs(lectureSlug);
   return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
   const serviceParams = await params;
   const { slug } = serviceParams;
-  const lecture = await getLecture(slug);
+  const lecture = await getLecture(lectureSlug, slug);
   return {
     title: lecture.title,
     description: lecture.description + ". " + lecture.title,
@@ -27,8 +24,8 @@ export async function generateMetadata({ params }) {
 export default async function ExPage({ params }) {
   const serviceParams = await params;
   const { slug } = serviceParams;
-  const lecture = await getLecture(slug);
-  const lectures = await getLastLectures(10);
+  const lecture = await getLecture(lectureSlug, slug);
+  // const lectures = await getLastLectures(10);
   const artiveContent =
     "<p class='date'>" +
     lecture.date +

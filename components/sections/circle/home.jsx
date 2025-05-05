@@ -3,7 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState, useMemo } from "react";
 
-import { users, lectures } from "@/content/users";
+import { users, lectures } from "@/content/data/circle/users";
 import { setUserCookie, getUserFromCookie } from "@/lib/users";
 
 export default function CircleHome() {

@@ -1,10 +1,10 @@
-import Lecture from "@/components/templates/lecture";
-import { lecture1 } from "@/content/lecture";
+import LectureContent from "@/components/templates/lectureContent";
+import { introJson } from "@/content/data/circle/intro";
 
 export default function CircleIntro() {
   return (
     <>
-      <Lecture lecture={lecture1[0]}></Lecture>
+      <LectureContent lecture={introJson}></LectureContent>
     </>
   );
 }
