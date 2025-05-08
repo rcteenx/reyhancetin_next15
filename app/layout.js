@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 
+const isProduction = process.env.NODE_ENV == "production" ? "true" : "false";
+const gtmId = process.env.NODE_ENV == "production" ? "GTM-KH9VQ9NG" : "";
+
 import "./globals.css";
 
 import smd from "@/content/data/siteMetaData";
@@ -30,6 +33,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang={smd.language}>
       <body className={`${base.variable} antialiased`}>
+        {isProduction && gtmId && <GoogleTagManager gtmId={gtmId} />}
         {/* <GoogleTagManager gtmId="GTM-KH9VQ9NG" /> */}
         <Header />
         <main>{children}</main>
