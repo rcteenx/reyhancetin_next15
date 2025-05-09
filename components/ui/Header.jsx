@@ -8,7 +8,7 @@ export default function Header() {
   const menu = StaticPages.filter((m) => m.id < 4);
   return (
     <header className="mx-auto px-4 md:px-8 lg:px-12 pt-2 max-w-7xl border-b">
-      <div className="flex items-center justify-between">
+      <div className="relative flex items-center justify-between">
         <Link
           id="home"
           href="/"
@@ -29,7 +29,8 @@ export default function Header() {
             </p>
           </div>
         </Link>
-        <nav className="fixed py-1 my-1 md:my-4 px-6 border border-solid border-dark rounded-full font-extralight text-sm md:text-base bg-white bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50">
+        {/* fixed:takip ediyor;  absolute: sadece üstte kalıyor*/}
+        <nav className="absolute py-1 my-1 md:my-4 px-6 border border-solid border-dark rounded-full font-extralight text-sm md:text-base bg-white bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50">
           <ul className="flex justify-center items-center space-x-4">
             {menu.map((p) => (
               <li

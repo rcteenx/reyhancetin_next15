@@ -18,11 +18,14 @@ export const introJson = {
           titles: [
             {
               id: 1,
-              title: "Yeni Bilgi - Bardağı Boşaltmak",
+              title: "Yeni Bilgiyle Tanışmak",
+              mov: "https://drive.google.com/file/d/1bHE7dbgp1f4hoKMKXiGJYdyuJwtx8lTc/view?usp=drive_link",
+              gpt: 1,
             },
             {
               id: 2,
               title: "Ezoterik Bilgilerle Nasıl Çalışılır?",
+              gpt: 1,
               info: [
                 "- Teori olarak alın: Gözlemle ve deneyimle doğrulamaya çalışın / Olursa olur, olmazsa bırakın gitsin!",
               ],
@@ -83,18 +86,10 @@ export const introJson = {
             },
             {
               id: 4,
-              title: "İnsan Fabrikası: İzlenimleri Almak ve Dönüştürmek",
-              info: [
-                "Dışardan 3 tür besin alıyoruz. İşimiz bunları almak ve dönüştürmek.",
-                "Bir anlamda da veri işleyen bilgisayarlarız. Anda kalarak, daha verimli biçimde veri işliyoruz.",
-              ],
-            },
-            {
-              id: 5,
               title: "Yanlış Kullanımlar",
             },
             {
-              id: 6,
+              id: 5,
               title: "Doğru Ölçek",
               info: [
                 "Andayım ama iplere bakıyorum: O anın önceliğini - kendi gerçekliğimize uygun biçimde fark etmek.",
@@ -105,6 +100,49 @@ export const introJson = {
         },
         {
           id: 3,
+          section_title: "EKSTRA BİLGİ",
+          section_aim: "Yan bilgilerle beslenmek için.",
+          titles: [
+            {
+              id: 1,
+              title: "İnsan Fabrikası: Üç Tür Besin",
+              info: [
+                "Dışardan 3 tür besin alıyoruz. İşimiz bunları almak ve dönüştürmek.",
+                "Bir anlamda da veri işleyen bilgisayarlarız. Anda kalarak, daha verimli biçimde veri işliyoruz.",
+              ],
+            },
+            {
+              id: 2,
+              title: "İnsan Fabrikası: İzlenim Almak ve Dönüştürmek",
+              info: [
+                "Dışardan 3 tür besin alıyoruz. İşimiz bunları almak ve dönüştürmek.",
+                "Bir anlamda da veri işleyen bilgisayarlarız. Anda kalarak, daha verimli biçimde veri işliyoruz.",
+              ],
+            },
+            {
+              id: 3,
+              title: "Makine İnsan",
+              info: [],
+            },
+            {
+              id: 4,
+              title: "Üç Kanunu",
+              info: [],
+            },
+            {
+              id: 5,
+              title: "Yedi Kanunu ve Enneagram",
+              info: [],
+            },
+            {
+              id: 6,
+              title: "Yaratılış Işını",
+              info: [],
+            },
+          ],
+        },
+        {
+          id: 4,
           section_title: "KEŞİF",
           section_aim: "Pratik örneklerle, konuyu her açıdan genişletiyoruz.",
           titles: [
@@ -121,11 +159,11 @@ export const introJson = {
             },
             {
               id: 2,
-              title: "Duyular: Gerçekliğe Açılan Kapılar",
+              title: "Duyular: Geçmişin Kalıntıları",
             },
             {
               id: 3,
-              title: "Zihinsel Dalgalarla Başa Çıkmak",
+              title: "Zihin: Düşünceleri Fark Etmek",
             },
             {
               id: 4,
@@ -170,7 +208,7 @@ export const introJson = {
           ],
         },
         {
-          id: 4,
+          id: 5,
           section_title: "HATIRLAMA",
           section_aim:
             "Yeni bilgiler, kişisel deneyimlerimizle anlayışa dönüşüyor.",
@@ -190,7 +228,7 @@ export const introJson = {
           ],
         },
         {
-          id: 5,
+          id: 6,
           section_title: "PRATİKLER",
           section_aim:
             "Kazanılan anlayışların varlığımıza katılmasını sağlıyoruz.",
@@ -222,7 +260,7 @@ export const introJson = {
           ],
         },
         {
-          id: 6,
+          id: 7,
           section_title: "ANDA KALMA UYGULAMALARI",
           section_aim:
             "Gündelik hayatın içinde kullanabileceğimiz uygulamalar.",
@@ -311,7 +349,7 @@ export const introJson = {
           ],
         },
         {
-          id: 7,
+          id: 9,
           section_title: "İTİRAFLAR",
           section_aim: "Ne yazık ki bunları bilen ve öğretenler de yapmıyor!",
           titles: [

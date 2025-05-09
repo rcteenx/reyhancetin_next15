@@ -9,7 +9,7 @@ export default function LectureContent({ lecture }) {
 
   return (
     <div className="">
-      <h2 className="text-2xl">{lecture.title}</h2>
+      <h2 className="px-10 text-2xl">{lecture.title}</h2>
       {/* Menu  */}
       <div className="flex justify-center space-x-1 ">
         {lecture.stages.map((stage) => (
@@ -30,7 +30,7 @@ export default function LectureContent({ lecture }) {
         {lecture.stages.map((s) => (
           <div
             key={s.id}
-            className={`grayTab 
+            className={`grayTab text-center 
               ${activeTab === s.id ? "block" : "hidden"}`}
           >
             <h3 className="text-2xl md:text-4xl">
@@ -39,8 +39,8 @@ export default function LectureContent({ lecture }) {
             <p>{s.stage_quote}</p>
             <ol className="my-4 space-y-2">
               {s.sections.map((section, index) => (
-                <li key={index} className="pb-2">
-                  <h4>
+                <li key={index} className="pb-2 text-center">
+                  <h4 className="text-base md:text-2xl ">
                     {index + 1}- {section.section_title}
                   </h4>
                   <p className="">{section.section_aim}</p>
@@ -51,7 +51,7 @@ export default function LectureContent({ lecture }) {
                         {section.titles?.map((title, index) => (
                           <li
                             key={index}
-                            className="my-2 px-2 py-1 bg-gray-50 rounded-lg hover:bg-white flex flow-row items-center flex-nowrap"
+                            className="my-2 px-2 py-1 bg-gray-50 rounded-lg hover:bg-white flex flow-row items-center flex-nowrap text-left"
                           >
                             <div className="mr-2 flex justify-center items-center ">
                               <span className="w-12 px-2 inline-block text-center bg-gray-200 rounded-full ">
@@ -59,36 +59,25 @@ export default function LectureContent({ lecture }) {
                                 {counter++}
                               </span>
                               <span className="w-8 inline-block text-center ">
-                                <a
-                                  href="https://drive.google.com/file/d/1bHE7dbgp1f4hoKMKXiGJYdyuJwtx8lTc/view?usp=drive_link"
-                                  target="_blank"
-                                >
-                                  🎥
-                                </a>
+                                {title.mov != undefined && (
+                                  <a href={title.mov} target="_blank">
+                                    🎥
+                                  </a>
+                                )}
                               </span>
-                              {/* <span
-                                className="w-8 inline-block text-center"
-                                title="Hazırlanıyor"
-                              >
-                                📄
-                              </span> */}
                               <span className="w-8 inline-block text-center">
-                                <a
-                                  href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
-                                  target="_blank"
-                                >
-                                  {/* <IconComponent
-                                    className="mx-auto w-6"
-                                    name="ai"
-                                    size={24}
-                                    color="black"
-                                  /> */}
-                                  <img
-                                    className="mx-auto w-5"
-                                    src="/assets/icons/chatgpt.png"
-                                    title="ChatpGpt ile hazırlanmış"
-                                  />
-                                </a>
+                                {title.gpt == 1 && (
+                                  <a
+                                    href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
+                                    target="_blank"
+                                  >
+                                    <img
+                                      className="mx-auto w-5"
+                                      src="/assets/icons/chatgpt.png"
+                                      title="ChatpGpt ile hazırlanmış"
+                                    />
+                                  </a>
+                                )}
                               </span>
                             </div>
                             <h5 className="">{title.title}</h5>
