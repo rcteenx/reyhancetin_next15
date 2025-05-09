@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import IconComponent from "@/components/ui/IconComponent";
 
 export default function LectureContent({ lecture }) {
   const [activeTab, setActiveTab] = useState(1);
@@ -52,12 +53,12 @@ export default function LectureContent({ lecture }) {
                             key={index}
                             className="my-2 px-2 py-1 bg-gray-50 rounded-lg hover:bg-white flex flow-row items-center flex-nowrap"
                           >
-                            <div className="mr-2 flex">
+                            <div className="mr-2 flex justify-center items-center ">
                               <span className="w-12 px-2 inline-block text-center bg-gray-200 rounded-full ">
                                 {/* {index + 1} */}
                                 {counter++}
                               </span>
-                              <span className="w-8 inline-block text-center">
+                              <span className="w-8 inline-block text-center ">
                                 <a
                                   href="https://drive.google.com/file/d/1bHE7dbgp1f4hoKMKXiGJYdyuJwtx8lTc/view?usp=drive_link"
                                   target="_blank"
@@ -65,12 +66,28 @@ export default function LectureContent({ lecture }) {
                                   🎥
                                 </a>
                               </span>
+                              {/* <span
+                                className="w-8 inline-block text-center"
+                                title="Hazırlanıyor"
+                              >
+                                📄
+                              </span> */}
                               <span className="w-8 inline-block text-center">
                                 <a
                                   href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
                                   target="_blank"
                                 >
-                                  📄
+                                  {/* <IconComponent
+                                    className="mx-auto w-6"
+                                    name="ai"
+                                    size={24}
+                                    color="black"
+                                  /> */}
+                                  <img
+                                    className="mx-auto w-5"
+                                    src="/assets/icons/chatgpt.png"
+                                    title="ChatpGpt ile hazırlanmış"
+                                  />
                                 </a>
                               </span>
                             </div>

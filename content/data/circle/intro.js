@@ -14,7 +14,7 @@ export const introJson = {
         {
           id: 1,
           section_title: "BAŞLAMADAN ÖNCE",
-          section_aim: "Çalışmaya başlamadan önce mutlaka okuyunuz!",
+          section_aim: "Sürece başlamadan önce okumanız iyi olur.",
           titles: [
             {
               id: 1,
@@ -22,7 +22,7 @@ export const introJson = {
             },
             {
               id: 2,
-              title: "Temel Yaklaşım: İnanmayın ve Reddetmeyin",
+              title: "Ezoterik Bilgilerle Nasıl Çalışılır?",
               info: [
                 "- Teori olarak alın: Gözlemle ve deneyimle doğrulamaya çalışın / Olursa olur, olmazsa bırakın gitsin!",
               ],

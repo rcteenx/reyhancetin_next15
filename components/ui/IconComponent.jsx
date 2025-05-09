@@ -30,10 +30,15 @@ import { BsPersonWorkspace } from "react-icons/bs";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { ImSpinner9 } from "react-icons/im";
-import { GiInterstellarPath, GiAwareness } from "react-icons/gi";
+import {
+  GiArtificialHive,
+  GiInterstellarPath,
+  GiAwareness,
+} from "react-icons/gi";
 import { BiSolidContact } from "react-icons/bi";
 
 const iconTypes = {
+  ai: GiArtificialHive,
   path: GiInterstellarPath,
   work: BsPersonWorkspace,
   blog: FaBlog,
