@@ -1,10 +1,10 @@
 export const users = [
   {
-    username: "admin",
+    username: "seminer",
     password: "1234",
-    name: "Ahmet",
-    startDate: "2025-04-10",
-    period: 30,
+    name: "Seminer Grubu",
+    startDate: "2025-05-13",
+    period: 300,
     isExpire: 0,
   },
   {
@@ -20,6 +20,7 @@ export const users = [
     password: "abcd",
     name: "Reyhan Çetin",
     startDate: "2025-05-01",
+    period: 300,
     isExpire: 0,
   },
 ];

@@ -33,7 +33,7 @@ export default async function ExPage({ params }) {
     lecture.title +
     "</h2><h4 class='desc'>" +
     lecture.description +
-    "</h4>" +
+    "</h4><hr />" +
     lecture.body;
 
   return (

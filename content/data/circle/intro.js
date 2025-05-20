@@ -53,7 +53,7 @@ export const introJson = {
               title: "Ezoterik Çalışma - İnisiyasyon",
               info: [
                 "Eskiden özel insanlar içindi - ama okumak da öyleydi.",
-                "- Artık ortaokul seviyesinde öğrenilmesi gereken bir bilgi hatta uygulanması gereken bir beceri.Resim, müzik, matematik ve spor dersi gibi müfredata eklenmeli!",
+                "Artık ortaokul seviyesinde öğrenilmesi gereken bir bilgi hatta uygulanması gereken bir beceri.Resim, müzik, matematik ve spor dersi gibi müfredata eklenmeli!",
               ],
             },
             {
@@ -482,10 +482,6 @@ export const introJson = {
               id: 3,
               title: "Özdeşleşme",
             },
-            {
-              id: 4,
-              title: "Yalan Söylemek",
-            },
           ],
         },
         {
@@ -534,6 +530,7 @@ export const introJson = {
               info: [
                 "Pek çok sorunlu durumun sıkıntılarını idrak etmiş olmak.",
                 "Ancak bu anlayış, daha fazla çaba ve çalışma için fırsat sunabilir.",
+                "İnsanların büyük bölümü, ortak gerçeklik ile gri sınırların farkında değil.",
               ],
             },
             {
@@ -598,20 +595,39 @@ export const introJson = {
         {
           id: 1,
           section_title: "DİKKAT",
-          section_aim:
-            "Dikkati içe ve dışa yönlendirmek, dengeyi bulmamıza yardımcı olabilir.",
+          section_aim: "Duyular radyo kanalları, dikkat kanalı seçen kumanda.",
           titles: [
             {
               id: 1,
               title: "Dikat Nedir?",
+              info: [
+                "Duyularımız dışardan pek çok uyarıcı alıyor, ama çoğuna dikkat etmiyoruz.",
+                "Hangi verileri işleyeceğimizi dikkat seçiyor. Dikkat verdiğim veriler 'ram'e giriyor ve işlenme sırasında ekleniyor.",
+                "Serbest ve Çekilen Dikkat: Ben mi yönetiyorum, dış dünya mı?",
+                "Dış Dikkat ve İç Dikkat: Dikkatin içe ya da dışa yönelmesi",
+                "İç ve dış uyarıcılar, bir bakıma aynı. Her birinin içerde kaynakları var. İç kaynaklarını fark etmek önemli",
+              ],
             },
             {
               id: 2,
-              title: "Dış Dikkat ve İç Dikkat",
+              title: "3 Dikkat Türü: Az/Yok, Özdeş, Kontrollü",
             },
             {
               id: 3,
               title: "Dikkatiniz Özgür mü?",
+              info: [
+                "Dikkatinizi siz mi yönetiyorsunuz, dış uyarıcılar mı; yoksa kendi kendine mi çalışıyor?",
+                "Dikkat ekonomisi, Çalınan dikkat, Dikkat kitapları",
+                "Pay attention: Dikkat bir ödeme şekli - hem de oldukça değerli bir ödeme.",
+              ],
+            },
+            {
+              id: 4,
+              title: "Ben Dikkat Miyim?",
+              info: [
+                "Benliği, Dikkat olarak fark etmek kaynağa yolculukta önemli bir aşama - Ben algısı dikkate kayacak. Soyut bir alana geçi.",
+                "Biz dikkat de değiliz, bu da bir araç: Dikkat, önce gözlemci olacak, sonrasında sessiz tanık ve saf farkındalık",
+              ],
             },
           ],
         },
@@ -619,7 +635,7 @@ export const introJson = {
           id: 2,
           section_title: "BÖLÜNMÜŞ DİKKAT",
           section_aim:
-            "Otomatik tepkileri fark ederek, bilinçli seçimler yapmayı öğrenebiliriz.",
+            "Dikkati bölmek, atomu parçalamak gibi. Kuantum dünyanın kapıları açılıyor.",
           titles: [
             {
               id: 1,
@@ -633,6 +649,9 @@ export const introJson = {
             {
               id: 3,
               title: "Bölünmüş Dikkat Egzersizleri",
+              info: [
+                "Otomatik tepkileri fark ederek, bilinçli seçimler yapmayı öğrenebiliriz.",
+              ],
             },
           ],
         },
@@ -716,6 +735,10 @@ export const introJson = {
             {
               id: 2,
               title: "Gözlem Temel Çalışma Aracıdır",
+              info: [
+                "Asıl çalışma burada başlıyor. Öncesi, genel varoluş seviyesinden, çalışma yapılabili hale gelme çabasıydı",
+                "Altın üretimi yaptığım dönemlerde, bu seviyenin altında anlatım yapmıyordum. Daha çok hazır olanları biçerek ilerlemiştik. Şimdi serbest anlatımda, başlangıcı biraz daha aşağıya almış oldum - temelleri de daha sağlam olsun diye.",
+              ],
             },
             {
               id: 3,
@@ -907,7 +930,6 @@ export const introJson = {
             {
               id: 5,
               title: "Gözlemleri Yargılayan Yapılar",
-              info: ["...r."],
             },
             {
               id: 6,
@@ -991,6 +1013,7 @@ export const introJson = {
                 "Çalışmanın fikri, Kişiliğin ötesinde bulunan ve Kişilik'teki bütün 'Ben'lerin fotoğrafını çeken tek ve büyük bir Gözlemleyen 'Ben' oluşturmaktır. Maurice Nicoll",
                 "İlk başta bizim görevimiz, kendimizin kişisel ve eleştirel olmayan gözlemini oluşturmaktır. Maurice Nicoll",
                 "Bu gelişince, gözlemleri her yerde ve ortamda, kişisel bir kaygı olmadan anlatabiliriz. Çünkü sahiplenmeden, arada mesafe koyarak yaparız gözlemi.",
+                "Gözlemci dünyaya bilgi/düşünce ile bakar. Sessiz tanık filtreler olmadan bakar. Saf farkındalık ise dünyaya bakmaz!",
               ],
             },
             {
@@ -1110,6 +1133,18 @@ export const introJson = {
             {
               id: 3,
               title: "Duygu ve Düşünce Gözlem Meditasyonu",
+            },
+            {
+              id: 4,
+              title: "Grup çalışmalarına giriş - anlatım.",
+            },
+            {
+              id: 5,
+              title: "Neden 4 Haftada bitiyor",
+              info: [
+                "Şimdi pratik aşama. Bireysel çalışmalar ve grup çalışmalarıyla bu bilgilerin anlayışa va varlığı katılması; biraz arınma ve kalibrasyon gerekiyor.",
+                "Bunlar tamamlandığında, orta aşamada enerji dönüştürme ve kendini-hatırlama konularına giriş yapılabilir.",
+              ],
             },
           ],
         },

@@ -51,36 +51,47 @@ export default function LectureContent({ lecture }) {
                         {section.titles?.map((title, index) => (
                           <li
                             key={index}
-                            className="my-2 px-2 py-1 bg-gray-50 rounded-lg hover:bg-white flex flow-row items-center flex-nowrap text-left"
+                            className="my-2 px-2 py-1 bg-gray-50 rounded-lg hover:bg-white  text-left"
                           >
-                            <div className="mr-2 flex justify-center items-center ">
-                              <span className="w-12 px-2 inline-block text-center bg-gray-200 rounded-full ">
-                                {/* {index + 1} */}
-                                {counter++}
-                              </span>
-                              <span className="w-8 inline-block text-center ">
-                                {title.mov != undefined && (
-                                  <a href={title.mov} target="_blank">
-                                    🎥
-                                  </a>
-                                )}
-                              </span>
-                              <span className="w-8 inline-block text-center">
-                                {title.gpt == 1 && (
-                                  <a
-                                    href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
-                                    target="_blank"
-                                  >
-                                    <img
-                                      className="mx-auto w-5"
-                                      src="/assets/icons/chatgpt.png"
-                                      title="ChatpGpt ile hazırlanmış"
-                                    />
-                                  </a>
-                                )}
-                              </span>
+                            <div className="flex flow-row items-center flex-nowrap">
+                              <div className="mr-2 flex justify-center items-center ">
+                                <span className="w-12 px-2 inline-block text-center bg-gray-200 rounded-full ">
+                                  {/* {index + 1} */}
+                                  {counter++}
+                                </span>
+                                <span className="w-8 inline-block text-center ">
+                                  {title.mov != undefined && (
+                                    <a href={title.mov} target="_blank">
+                                      🎥
+                                    </a>
+                                  )}
+                                </span>
+                                <span className="w-8 inline-block text-center">
+                                  {title.gpt == 1 && (
+                                    <a
+                                      href={`/cember/giris/${s.id}-${section.id}-${title.id}`}
+                                      target="_blank"
+                                    >
+                                      <img
+                                        className="mx-auto w-5"
+                                        src="/assets/icons/chatgpt.png"
+                                        title="ChatpGpt ile hazırlanmış"
+                                      />
+                                    </a>
+                                  )}
+                                </span>
+                              </div>
+                              <h5 className="">{title.title}</h5>
                             </div>
-                            <h5 className="">{title.title}</h5>
+
+                            {Array.isArray(title.info) &&
+                              title.info.length > 0 && (
+                                <ul className="block ml-24 my-4 p-8 text-sm list-decimal text-gray-600 bg-slate-200 rounded-xl">
+                                  {title.info?.map((info, index) => (
+                                    <li>{info}</li>
+                                  ))}
+                                </ul>
+                              )}
                           </li>
                         ))}
                       </ol>
