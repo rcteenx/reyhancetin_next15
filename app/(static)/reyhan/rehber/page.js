@@ -1,16 +1,12 @@
-import ReyhanRehber from "@/components/sections/reyhan/info/rehber";
+import ReyhanRehber from "@/components/sections/reyhan/info/atolye";
 import ReyhanInfoContainer from "@/components/sections/reyhan/info/container";
 
 import PageContent from "@/components/templates/pageContent";
 import ContactMe from "@/components/ui/contact-me";
 
-export async function generateMetadata() {
-  return {
-    title: {
-      absolute: "Bilinç ve Farkındalık Rehberi ve Öğretmen - Reyhan Çetin X",
-    },
-  };
-}
+export const metadata = {
+  title: "Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi",
+};
 
 export default function Page() {
   return (

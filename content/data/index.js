@@ -1,6 +1,6 @@
 export const barInfo = {
   h2: "BİLİNÇLİ FARKINDALIK ÇALIŞMALARI",
-  desc: "Hayatın içinde gözlem ile kendini tanıma",
+  desc: "Günlük Yaşamda Gözlemle Kendini Keşfetme",
   items: [
     {
       title: "Çalışma",
@@ -112,8 +112,8 @@ export const StaticPages = [
     link: "reyhan",
     pages: [
       { id: 1, title: "Merhaba", link: "merhaba" },
-      { id: 2, title: "Kimim ya da Ne?", link: "kimim" },
-      { id: 3, title: "Klasik Özgeçmiş", link: "ozgecmis" },
+      { id: 2, title: "Kimim ya da Ne?", link: "kim" },
+      { id: 3, title: "Genel Tanıtım", link: "genel" },
       { id: 4, title: "Rehber ve Öğretmen", link: "rehber" },
     ],
   },
@@ -229,7 +229,7 @@ export const whatwegain = {
 
 export const whyweneed = {
   h2: "KENDİNİ TANIMA",
-  h4: "Neden Kendimizi Yolculuğuna ve Kendimizi Çalışmaya İhtiyacımız var?",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
-  p2: 'Bu topluluk daveti, halen kendisine doğru bir yolculuğa başlamış olanlar için. Henüz, "yolculuğa başlatma" çalışmamız bulunmuyor.',
+  h4: "Neden Kendimize Doğru Bir Yolculuğa ve İçsel Çalışmaya İhtiyaç Duyarız?",
+  p: "Çoğu insan böyle bir ihtiyaç hissetmez. Ancak az sayıda kişi, farklı sebeplerle ve doğal bir yönelişle kendi üzerinde çalışmaya başlar.",
+  p2: "Bu topluluk daveti, halihazırda kendine doğru bir yolculuğa çıkmış olanlar için. Şimdilik “yolculuğa başlatma” niteliğinde bir çalışmamız bulunmamaktadır.",
 };

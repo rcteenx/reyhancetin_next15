@@ -21,13 +21,12 @@ const Hero = ({ rVideo }) => {
         </h1>
         <div className="mx-auto max-w-2xl">
           <p className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 ">
-            {/* {heroHome.desc} */}
             <Link href="/calisma/atolye" className="border-b">
-              Bilinç ve farkındalık çalışmalarına giriş atölyemizle,
-            </Link>{" "}
-            "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz. Ayrıca,
-            Instagram paylaşımları ve YouTube sohbetleriyle bilinç ve
-            farkındalık yolculuğuna açık kaynak desteğimizi sunuyoruz.
+              Bilinç ve farkındalık çalışmalarına giriş atölyemiz
+            </Link>
+            , "ben" algınızın kaynağa olan yolculuğuna rehberlik ediyor. Ayrıca
+            YouTube sohbetleri ve Instagram paylaşımlarımızla, bu içsel
+            yolculuğa açık kaynaklardan destek sunuyoruz.
           </p>
           <p className="my-2 block text-indigo text-center text-xs md:text-sm">
             {heroHome.cta}
@@ -62,12 +61,12 @@ const Hero = ({ rVideo }) => {
           <div className="absolute inset-0 flex items-end justify-center">
             <h4 className="m-6 px-4 py-2 text-white text-center font-normal bg-black opacity-60 rounded-xl hover:opacity-100">
               <Link
-                href="https://www.youtube.com/watch?v=8nXrF0sbywY&list=PLt-ePdgjqE-hOV9ycE0wQq9vl7cHG-Mvl&index=4"
+                href="https://www.youtube.com/watch?v=TdtlDSiL6mk&t=1144s"
                 target="_blank"
               >
-                Youtube Sohbeti
+                İnanç Kaya ile Youtube Sohbeti:
                 <br />
-                Bilinçli Farkındalığa Nasıl Ulaşılır?
+                En Yüksek Zeka, Yargısız Gözleme Yetisi
               </Link>
             </h4>
           </div>

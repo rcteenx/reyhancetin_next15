@@ -1,13 +1,18 @@
 "use client";
 import { useState, useEffect } from "react";
 
-import ReyhanKimim from "../reyhan/info/kimim";
 import ReyhanMerhaba from "../reyhan/info/merhaba";
-import ReyhanOzgecmis from "../reyhan/info/ozgecmis";
-import ReyhanRehber from "../reyhan/info/rehber";
+import ReyhanKimim from "../reyhan/info/kim";
+import ReyhanGenelTanitim from "../reyhan/info/genel";
+
+import ReyhanCember from "../reyhan/info/cember";
+import ReyhanYol from "../reyhan/info/yol";
+import ReyhanAtolye from "../reyhan/info/atolye";
+import ReyhanGrup from "../reyhan/info/grup";
+import Reyhan from "../reyhan/info/reyhan";
 
 export default function ReyhanInfo({ autoplayInterval = 10000 }) {
-  var items = [1, 2, 3, 4];
+  var items = [1, 2, 3, 4, 5, 6, 7, 8];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -40,8 +45,13 @@ export default function ReyhanInfo({ autoplayInterval = 10000 }) {
         >
           <ReyhanMerhaba />
           <ReyhanKimim />
-          <ReyhanOzgecmis />
-          <ReyhanRehber />
+          <ReyhanGenelTanitim />
+          <ReyhanYol />
+          <ReyhanCember />
+          {/* Buraya açılımı yazalım.. */}
+          <ReyhanAtolye />
+          <ReyhanGrup />
+          <Reyhan />
         </div>
       </div>
       <button

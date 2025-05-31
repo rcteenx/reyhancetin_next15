@@ -9,7 +9,7 @@ export default function ReyhanInfoContainer({ ReyhanInfo, id = 1 }) {
       >
         <div className="mx-auto sm:p-4 sm:container">
           <h2 className="text-2xl lg:text-3xl text-center text-yellow-500">
-            Reyhan Çetin X: Kim ya da Ne?
+            Reyhan X: Kimdir ya da Nedir?
           </h2>
           <div className="mx-auto sm:max-w-md p-1 sm:p-2 bgStoryReyhan sm:border-2 border-yellow-500 ">
             <div className="relative">

@@ -21,11 +21,11 @@ export default function Header() {
             <IconComponent name="home" size={18} color="#333366" />
           </h3>
           <div className="py-0 sm:py-1 hidden sm:block ">
-            <h3 className="my-1 sm:my-2 font-semibold text-left text-base md:text-3xl leading-6  ">
+            <h3 className="my-1 sm:my-2 font-semibold text-left text-base md:text-2xl leading-6  ">
               Reyhan Çetin X
             </h3>
-            <p className="mt-1 font-light text-2xs sm:text-lg tracking-tight sm:border-t border-indigo">
-              Bilinç ve Farkındalık Rehberi
+            <p className="mt-1 font-light text-2xs sm:text-base tracking-tight sm:border-t border-indigo">
+              Bilinç ve Farkındalık Alanı
             </p>
           </div>
         </Link>

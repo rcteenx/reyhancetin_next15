@@ -1,4 +1,4 @@
-import ReyhanKimim from "@/components/sections/reyhan/info/kimim";
+import ReyhanKim from "@/components/sections/reyhan/info/kim";
 import ReyhanInfoContainer from "@/components/sections/reyhan/info/container";
 
 import PageContent from "@/components/templates/pageContent";
@@ -7,7 +7,7 @@ import ContactMe from "@/components/ui/contact-me";
 export async function generateMetadata() {
   return {
     title: {
-      absolute: "Reyhan Çetin X: Kim ya da Ne?",
+      absolute: "Reyhan Çetin X: Kimdir ya da Nedir?",
     },
   };
 }
@@ -15,7 +15,7 @@ export async function generateMetadata() {
 export default function Page() {
   return (
     <>
-      <ReyhanInfoContainer ReyhanInfo={ReyhanKimim} id="2" />
+      <ReyhanInfoContainer ReyhanInfo={ReyhanKim} id="2" />
 
       <PageContent h2Title="Sessiz Tanık">
         <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">

@@ -88,7 +88,7 @@ export default function LectureContent({ lecture }) {
                               title.info.length > 0 && (
                                 <ul className="block ml-24 my-4 p-8 text-sm list-decimal text-gray-600 bg-slate-200 rounded-xl">
                                   {title.info?.map((info, index) => (
-                                    <li>{info}</li>
+                                    <li key={index}>{info}</li>
                                   ))}
                                 </ul>
                               )}

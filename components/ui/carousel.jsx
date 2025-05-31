@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function Carousel({ images, autoplayInterval = 3000 }) {
+export default function Carousel({ images, autoplayInterval = 10000 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

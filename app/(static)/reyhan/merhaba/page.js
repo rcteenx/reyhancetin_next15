@@ -6,7 +6,9 @@ import ContactMe from "@/components/ui/contact-me";
 
 export async function generateMetadata() {
   return {
-    title: "Merhaba",
+    title: {
+      absolute: "Reyhan Çetin X: Merhaba",
+    },
   };
 }
 

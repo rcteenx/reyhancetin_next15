@@ -1,9 +1,6 @@
 export const heroHome = {
-  h2a: "Reyhan Çetin X",
-  h2b: "Bilinç ve Farkındalık Rehberi",
   h1a: "BİLİNÇLİ YOLCULUĞA",
-  h1b: "hazır mısınız?",
-  desc: 'Youtube sohbetleri, Bilinç ve Farkındalık Çalışmalarına Giriş Atölyesi, "Ben" algınızın kaynağa yolculuğuna rehberlik ediyoruz.',
+  h1b: "HAZIR MISINIZ?",
   cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
   buttons: [
     {
@@ -32,7 +29,7 @@ export const heroHome = {
 };
 
 export const heroReyhan = {
-  h1: "Reyhan Çetin X - Bilinç ve Farkındalık Rehberi",
+  h1: "Reyhan Çetin X - Bilinç ve Farkındalık Alanı",
   h3a: "içine",
   h3b: "BAK",
   cta: "✨ Reyhan'ı tanımaya hangi başlıktan devam edelim? ✨",
@@ -46,13 +43,13 @@ export const heroReyhan = {
     {
       id: "2",
       title: "Kimim ya da Ne?",
-      link: "/reyhan/kimim",
+      link: "/reyhan/kim",
       gradiant: "gradientPurple",
     },
     {
       id: "3",
-      title: "Klasik Özgeçmiş",
-      link: "/reyhan/ozgecmis",
+      title: "Genel Tanıtım",
+      link: "/reyhan/genel",
       gradiant: "gradientSlate",
     },
     {
@@ -104,7 +101,8 @@ export const heroPresence = {
 };
 
 export const heroWay = {
-  h1: "Bilinçli Kendini Tanıma Yolculuğu",
+  h1x: "Bilinçli Kendini Tanıma Yolculuğu",
+  h1: "Bilincin Kaynağa Yolculuğu",
   h3a: "hangi",
   h3b: "YOL",
   cta: "✨ Bu hatırlatmadan sonra, hangi yoldan ilerlemek istersiniz? ✨",

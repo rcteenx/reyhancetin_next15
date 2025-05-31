@@ -1,4 +1,4 @@
-import ReyhanOzgecmis from "@/components/sections/reyhan/info/ozgecmis";
+import ReyhanGenelTanitim from "@/components/sections/reyhan/info/genel";
 import ReyhanInfoContainer from "@/components/sections/reyhan/info/container";
 
 import PageContent from "@/components/templates/pageContent";
@@ -6,14 +6,16 @@ import ContactMe from "@/components/ui/contact-me";
 
 export async function generateMetadata() {
   return {
-    title: "Klasik Özgeçmiş",
+    title: {
+      absolute: "Reyhan Çetin X: Genel Tanıtım",
+    },
   };
 }
 
 export default function Page() {
   return (
     <>
-      <ReyhanInfoContainer ReyhanInfo={ReyhanOzgecmis} id="3" />
+      <ReyhanInfoContainer ReyhanInfo={ReyhanGenelTanitim} id="3" />
 
       <PageContent h2Title="Akmak Ne Hoş">
         <blockquote className="[&>p]:text-xs sm:[&>p]:text-sm text-primary z-10">

@@ -390,7 +390,7 @@ export const introJson = {
           id: 1,
           section_title: "UYARI",
           section_aim:
-            "Dikkati içe ve dışa yönlendirmek, dengeyi bulmamıza yardımcı olabilir.",
+            "Dikkati çalışmak, kendimizi bulmamıza yardımcı olabilir.",
           titles: [
             {
               id: 1,
@@ -439,22 +439,31 @@ export const introJson = {
           titles: [
             {
               id: 1,
-              title: "Zombiler: Yarı-Otomatik Robotlar",
+              title: "Çaba ve Enerji Dengesi",
+              info: [
+                "Çaba motor, enerji yakıt",
+                "Çaba, niyet, irade ve bilinç çalışmalarından geliyor",
+                "Enerji zaten var, öncelikle kaçakları engellemek gerekiyor.",
+              ],
             },
             {
               id: 2,
-              title: "Aynı Günü Tekrar Tekrar Yaşamak",
+              title: "Zombiler: Yarı-Otomatik Robotlar",
             },
             {
               id: 3,
-              title: "Yeni İzlenim Almadan Yaşamak",
+              title: "Aynı Günü Tekrar Tekrar Yaşamak",
             },
             {
               id: 4,
-              title: "Zihinde ya da Geçmiş Duygularda Yaşamak",
+              title: "Yeni İzlenim Almadan Yaşamak",
             },
             {
               id: 5,
+              title: "Zihinde ya da Geçmiş Duygularda Yaşamak",
+            },
+            {
+              id: 6,
               title: "Film Önerisi ve Yorumu: Süper Kumanda",
               info: [
                 "En basiti, mekanik, yarı-otomatik yaşam. Pek çok şey yapılıyor, ama siz orada yoksunuz.",

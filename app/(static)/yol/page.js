@@ -51,8 +51,8 @@ export default function Page() {
         <p className="my-4 text-xs md:text-sm">
           Önce kendimizi ve objektif gerçekliği anlamalıyız.
           <br />
-          Bilinçli yolculuk, ancak nereye gideceğimizin farkına vardığımızda
-          başlar.
+          Çünkü bilinçli bir yolculuk, ancak nereye gittiğimizi fark ettiğimizde
+          başlayabilir.
         </p>
         {/* <p className="my-4 text-indigo text-xs md:text-sm">{hero.cta}</p>
         <div className="m-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -75,21 +75,21 @@ export default function Page() {
 
       <PageContent h2Title="UZUN İNCE BİR YOL">
         <p>
-          Aşık Veysel'in sözleriyle, 'Uzun ince bir yolda' ilerliyoruz. Ancak,
-          yol tek değil, birçok farklı yollar var. Üstelik, bir yol seçmeseniz
-          bile, zaman akıyor ve olduğumuz yerde bile gidiyoruz gündüz gece!
+          Aşık Veysel’in sözleriyle, "Uzun ince bir yolda" ilerliyoruz. Ama yol
+          tek değil; birçok farklı yol var. Üstelik bir yol seçmeseniz bile,
+          zaman akıyor—ve olduğumuz yerde duruyor gibi görünsek de, gidiyoruz
+          gündüz gece!
         </p>
         <p>
-          Bazı yollar, mekanik bir şekilde sürünün, karanlığın ve hiçliğin
-          ortasında ilerlerken, bazıları ise kendimizi keşfetmeye, bilinçli ve
-          farkında bir yaşam sürmeye hatta ötesine doğru ilerliyor.
+          Bazı yollar, sürünün içinde, mekanik bir karanlığa doğru ilerler;
+          bazılarıysa kendini keşfetmeye, bilinçli ve farkında bir yaşam
+          sürmeye, hatta ötesine uzanır.
         </p>
         <h3>Kendini Tanıma</h3>
         <p>
-          Kendini tanıma yolculuğuna başlayan yolcular, çeşitli zorluklarla
-          karşılaşıyorlar. Sahte bile olsa, eski ve tanıdık dünyaya ve sürüye
-          dönmek için birçok sebep ortaya çıkıyor. sürüye dönmek için pek çok
-          sebep ortaya çıkıyor.
+          Birlikte yürüttüğümüz çalışmalar sayesinde hem yolda birbirimize
+          destek oluruz hem de bu yolculuk, dostlukla daha anlamlı ve keyifli
+          hale gelir.
         </p>
         <p>
           Birlikte yürüttüğümüz çalışmalarla, hem yolda ilerlemek için
@@ -100,28 +100,30 @@ export default function Page() {
         <p>
           Yıllar önce, bir yıldan uzun süre birlikte çalıştığımız bir arkadaş,
           “Reyhan, sanki hiç ilerlemedim gibi hissediyorum,” demişti. Düşününce
-          hak verdim. Gerçekten de bir arpa boyu yol almamıştık.
+          hak verdim; gerçekten de bir arpa boyu yol almamıştık.
         </p>
         <p>
-          Sonra fark ettik ki yol, mekanik bir ilerleme değil; her zaman ve her
-          yerde kendimizde, bilinçli farkındalıkla kalabilmek. Tıpkı bir yoga
-          duruşu gibi... Dışarıdan hareketsiz görünür, ama içeride ince bir
-          çaba, sürekli bir uyanıklık ister. Kasların titrer, zihin kaçmak
-          ister, ama sen orada kalırsın. Yol, işte tam da bu: Olduğun yerde,
+          Sonra fark ettik ki yol, mekanik bir ilerleme değilmiş; her zaman ve
+          her yerde, kendimizde bilinçli farkındalıkla kalabilmekmiş. Tıpkı bir
+          yoga duruşu gibi... Dışarıdan hareketsiz görünür, ama içeride ince bir
+          çaba, sürekli bir uyanıklık vardır. Kasların titrer, zihin kaçmak
+          ister; ama sen orada kalırsın. Yol, işte tam da bu: Olduğun yerde,
           merkezinde ve farkında durabilmek.
         </p>
         <hr className="mb-4" />
-        <h3>Düzenli Çalışmalar</h3>
+        <h3>Düzenli Grup Çalışmaları</h3>
         <p>
-          Çalışmalarımız haftada 2-3 akşam Zoom ortamında yapılıyor. Her biri
-          farklı formatta olan bu toplantılar, yaklaşık 2 saat sürüyor.
+          Kendi üzerimizde çalışmaya başladıktan kısa bir süre sonra, bize
+          kendimizi gösterecek ve birlikte yol alabileceğimiz bir arkadaş
+          grubuna ihtiyaç duymaya başlarız. Bu noktada, ya var olan bir gruba
+          katılmamız ya da kendi grubumuzu kurmamız gerekir.
         </p>
-        {/* <p>
-          Giriş atölyemizi başarıyla tamamlayan arkadaşları, haftalık
-          çalışmalarda aramızda görmeyi bekliyoruz.
-        </p> */}
-        <p>Çalışmalarla ilgileniyorsanız, "Merhaba"nızı bekliyoruz.</p>
-        <ContactMe />
+        <p>
+          Haftada bir kez, ister yüz yüze ister çevrim içi olarak yapılacak grup
+          çalışmaları, hem çalışma motivasyonunun canlı kalmasına hem de farklı
+          kişilerin "fotoğraflarıyla" kendimizi daha net görmemize yardımcı
+          olur.
+        </p>
       </PageContent>
     </>
   );
