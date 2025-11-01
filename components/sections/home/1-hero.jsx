@@ -13,6 +13,7 @@ const Hero = ({ rVideo }) => {
         <h1 className="mt-4 mb-0 text-3xl md:text-5xl lg:text-7xl font-bold text-indigo">
           <span className="px-4 xl:pr-8 xl:-ml-4 xl:bg-white xl:whitespace-nowrap relative z-10 rounded-full  xl:rounded-l-none shadow-lg ">
             {heroHome.h1a}
+            <sup>*</sup>
           </span>
           <br />
           <span className="text-primary inline-block mt-2 sm:mt-4 font-thin tracking-tighter">
@@ -20,14 +21,18 @@ const Hero = ({ rVideo }) => {
           </span>
         </h1>
         <div className="mx-auto max-w-2xl">
-          <p className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 ">
-            <Link href="/calisma/atolye" className="border-b">
-              Bilinç ve farkındalık çalışmalarına giriş atölyemiz
-            </Link>
-            , "ben" algınızın kaynağa olan yolculuğuna rehberlik ediyor. Ayrıca
-            YouTube sohbetleri ve Instagram paylaşımlarımızla, bu içsel
-            yolculuğa açık kaynaklardan destek sunuyoruz.
-          </p>
+          <ul className="my-4 px-6 md:px-0 text-primary text-xs md:text-sm leading-6 list-decimal list-inside">
+            <li>
+              Otomatik duygu ve düşünce tepkilerini gözlemleyerek bilinç
+              yolculuğunu başlat.
+            </li>
+            <li>
+              Objektif gerçeklikte bilincini kalibre et ve hayatı aydınlat.
+            </li>
+            <li>
+              Evreni bilincinin yarattığını fark et ve saf farkındalığa uyan.
+            </li>
+          </ul>
           <p className="my-2 block text-indigo text-center text-xs md:text-sm">
             {heroHome.cta}
           </p>
@@ -37,10 +42,9 @@ const Hero = ({ rVideo }) => {
             <div key={b.icon} className={b.show}>
               <Link
                 href={b.link}
-                title={`${b.title} Linki`}
+                title={`${b.hover}`}
                 className={` relative transition-all duration-200 gradientTransition btn-hero ${b.gradiant}`}
                 role="button"
-                target="_blank"
               >
                 <IconComponent name={b.icon} size={24} color={b.iconColor} />
                 <span className="hidden md:block">{b.title}</span>

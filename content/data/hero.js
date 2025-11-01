@@ -1,29 +1,23 @@
 export const heroHome = {
   h1a: "BİLİNÇLİ YOLCULUĞA",
   h1b: "HAZIR MISINIZ?",
-  cta: "✨ Kendini Tanıma Yolculuğuna Bilinçli Bir Adım At! ✨",
+  cta: "✨ * Kendini gözlem yoluyla bilincin doğuşu ve saf farkındalığa uyanış yolu. ✨",
   buttons: [
     {
-      title: "Instagram",
-      icon: "instagram",
-      link: "https://www.instagram.com/reyhancetinx/",
+      title: "Yolculuğa Başla",
+      hover: "Seminer ve atölye çalışmalarımıza katıl",
+      icon: "pointing",
+      link: "/yol",
       gradiant: "gradientInstagram",
       iconColor: "white",
     },
     {
-      title: "Youtube",
-      icon: "youtube",
-      link: "https://www.youtube.com/@reyhancetinx",
+      title: "Alanı Tanı",
+      hover: "Ücretsiz içeriklerle alan hakkında bilgi al",
+      icon: "infocircle",
+      link: "/presence",
       gradiant: "bgWhite",
-      iconColor: "#CD201F",
-    },
-    {
-      title: "WhatsApp",
-      icon: "whatsapp",
-      link: "https://wa.me/905443087402?text=Yolculuk",
-      gradiant: "gradientWhatsapp",
-      // show: "hidden md:block",
-      iconColor: "white",
+      iconColor: "#666666",
     },
   ],
 };
@@ -101,8 +95,9 @@ export const heroPresence = {
 };
 
 export const heroWay = {
-  h1x: "Bilinçli Kendini Tanıma Yolculuğu",
-  h1: "Bilincin Kaynağa Yolculuğu",
+  h1x: "BİLİNÇLİ KENDİNİ TANIMA YOLCULUĞUBilinçli Kendini Tanıma Yolculuğu",
+  h1: "BİLİNCİN KAYNAĞA YOLCULUĞU",
+  p: "Bilinci keşfetmek, kendini gözlemlemek ve daha uyanık bir yaşam sürmek isteyenler için bir çalışma alanı sunuyoruz.",
   h3a: "hangi",
   h3b: "YOL",
   cta: "✨ Bu hatırlatmadan sonra, hangi yoldan ilerlemek istersiniz? ✨",
@@ -134,8 +129,8 @@ export const heroWay = {
   ],
 };
 
-export const heroWork = {
-  h1: "Bilinç ve Farkındalık Çalışmaları",
+export const heroSpace = {
+  h1: "Saf Farkındalık Alanı",
   h3a: "çalışmayı",
   h3b: "SEV",
   cta: "✨ Çalışma Seni Çağırıyor! ✨",

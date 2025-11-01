@@ -1,12 +1,15 @@
 import {
+  FaArrowCircleRight, 
   FaBlog,
   FaPhoneSquareAlt,
   FaCat,
+  FaCompass,
   FaGlobeAfrica,
   FaFacebook,
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaMagnifyingGlass,
   FaYoutube,
   FaWhatsapp,
   FaArrowRight,
@@ -37,7 +40,12 @@ import {
 } from "react-icons/gi";
 import { BiSolidContact } from "react-icons/bi";
 
+import { MdLocationSearching } from "react-icons/md";
+
 const iconTypes = {
+  pointing: FaArrowCircleRight,
+  compass: FaCompass,
+  search: MdLocationSearching,
   ai: GiArtificialHive,
   path: GiInterstellarPath,
   work: BsPersonWorkspace,

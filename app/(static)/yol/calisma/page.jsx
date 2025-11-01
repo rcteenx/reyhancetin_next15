@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { heroWork as hero } from "@/content/data/hero";
+import { heroSpace as hero } from "@/content/data/hero";
 
 import HeroSingle from "@/components/templates/hero";
 

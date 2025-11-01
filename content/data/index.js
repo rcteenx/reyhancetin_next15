@@ -108,6 +108,7 @@ export const StaticPages = [
   {
     id: 1,
     title: "Reyhan",
+    hover: "Gözlemci . Reyhber . Araştırmacı",
     titleLong: "Reyhan Çetin X",
     link: "reyhan",
     pages: [
@@ -119,33 +120,22 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "Yol",
-    titleLong: "Presence - Farkındalık Alanı",
+    title: "yol",
+    hover: "Seminer ve Atölyelerle Birlikte Yolculuk",
+    titleLong: "Seminer ve Atölyelerle Birlikte Yolculuk",
     link: "yol",
     pages: [
-      {
-        id: 1,
-        title: "Presence",
-        titleLong: "Presence - Farkındalık Alanı",
-        link: "presence",
-        // pages: [
-        //   {
-        //     id: 1,
-        //     title: "Şimdi ve Burada Olmak",
-        //     link: "anda-olmak",
-        //   },
-        //   { id: 2, title: "Bölünmüş Dikkat", link: "bolunmus-dikkat" },
-        //   { id: 3, title: "Kendini Gözlem", link: "kendini-gozlem" },
-        //   { id: 4, title: "Bilinçli Düşünmek", link: "bilincli-dusunmek" },
-        // ],
-      },
+      { id: 1, title: "Seminer", link: "seminer" },
+      { id: 2, title: "Atölye", link: "atolye" },
+      { id: 3, title: "Grup Çalışmaları", link: "grup" },
     ],
   },
   {
     id: 3,
-    title: "Çalışma",
-    titleLong: "Bilinç ve Farkındalık Çalışmaları",
-    link: "calisma",
+    title: "presence",
+    hover: "Saf Farkındalık ve Varlık Alanı",
+    titleLong: "Saf Farkındalık ve Varlık Alanı",
+    link: "presence",
     pages: [
       { id: 1, title: "Atölye", link: "atolye" },
       { id: 2, title: "Bireysel Seans", link: "seans" },
@@ -228,8 +218,7 @@ export const whatwegain = {
 };
 
 export const whyweneed = {
-  h2: "KENDİNİ TANIMA",
-  h4: "Neden Kendimize Doğru Bir Yolculuğa ve İçsel Çalışmaya İhtiyaç Duyarız?",
-  p: "Çoğu insan böyle bir ihtiyaç hissetmez. Ancak az sayıda kişi, farklı sebeplerle ve doğal bir yönelişle kendi üzerinde çalışmaya başlar.",
-  p2: "Bu topluluk daveti, halihazırda kendine doğru bir yolculuğa çıkmış olanlar için. Şimdilik “yolculuğa başlatma” niteliğinde bir çalışmamız bulunmamaktadır.",
+  h2: "BİLİNÇ YOLCULUĞU",
+  h4: "Sürüden Ayrıl ve Kendini Aramaya Başla",
+  p: "Çoğu insan yaşamı sorgulamadan, olduğu gibi kabul eder; olağan hayatın akışında sürüklenir ve kendi varlığının gizli kaynağını aramaz. Ancak bazıları bir eksiklik hisseder — adı konulmamış bir yokluğun rahatsızlığı gibi. Bu his, çoğu zaman bir arayış ve yolculuğun başlangıcına işaret eder. Çalışmalarımız, bilincini keşfetme yolculuğuna çıkanlar için bilgi, pratik ve ortak deneyim alanı sunar.",
 };
