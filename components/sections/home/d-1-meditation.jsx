@@ -3,7 +3,7 @@ import MeditationCTA from "@/components/sections/home/d-12-meditation-cta";
 
 export default function Meditation({ info }) {
   return (
-    <section className="gradientPurple mt-16 lg:mt-24 py-16 lg:py-24 text-white-400">
+    <section className="gradientPurple py-8 lg:py-16 text-white-400">
       <div className="container mx-auto text-center text-purple-200 ">
         <h2 className="my-0 py-1 md:py-2 lg:py-4 text-5xl sm:text-7xl lg:text-8xl border-b border-purple-400 inline-block ">
           {info.h2}

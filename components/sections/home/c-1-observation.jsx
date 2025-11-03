@@ -5,7 +5,10 @@ import ObservationCTA from "@/components/sections/home/c-12-observation-cta";
 
 export default function Observation({ img, content }) {
   return (
-    <div id="observation" className="bg-white pt-8 md:pt-16 mt-8 lg:my-16">
+    <section
+      id="observation"
+      className="bg-gradient-to-b from-white to-purple-800 py-8 md:py-16"
+    >
       <div className="container mx-auto">
         <div className="p-4 lg:p-0 text-center">
           <h2 className="my-0 lg:my-4 text-4xl sm:text-6xl lg:text-8xl border-b inline-block">
@@ -53,6 +56,6 @@ export default function Observation({ img, content }) {
 
         {/* <ObservationCTA /> */}
       </div>
-    </div>
+    </section>
   );
 }

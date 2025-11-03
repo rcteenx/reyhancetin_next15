@@ -3,37 +3,34 @@ export default function ReyhanInfo({}) {
     <div className="carousel-item relative flex-shrink-0 w-full ">
       <div className="reyhanInfoPosition">
         <div className="reyhanInfoContent">
-          <h3>Kim ya da Ne?</h3>
+          <h3>Kim ya da Neyim?</h3>
           <p>
-            Belki de en doğru soru şu: <strong>Ne değilim?</strong>
+            Daha doğru bir soru şu olabilir: <strong>Ne değilim?</strong>
             <br />
             Bir etiket ya da isim değilim. "<em>Reyhan Çetin</em>" beni işaret
             ediyor, ama tanımlamıyor.
           </p>
           <p>
             Mesleğim değilim. Ne yazılımcı, ne de rehber... Bunlar hayat içinde
-            oynanan roller. Tıpkı baba, partner, arkadaş gibi.
+            oynanan roller. Tıpkı baba, partner, arkadaş...
           </p>
           <p>
             Duygularım değilim. Düşüncelerim de...
             <br />
-            Onlar gelip geçiyor; ben ise kalan bir şeyim.
+            Onlar gelip geçiyor; ben ise onları gözlemleyen kalan bir şeyim.
           </p>
           <p>
-            Uzun süre kendimi “bilinç” sanmıştım. Ama pandemi döneminde fark
-            ettim:
+            Belki de hakikate en çok yaklaştığım hal:
             <br />
-            <strong>Ben bilinç de değilmişim</strong>.
+            <strong>🌟 Sessiz Tanık 🌟</strong>.
           </p>
           <p>
-            Belki de gerçeğe en çok yaklaşan cevap şu:
-            <br />
-            İçerideki <strong>Sessiz Tanık</strong>.
-          </p>
-          <p>
-            Ama henüz onu kelimelerle tarif edecek kadar iyi tanımıyorum.
-            <br />
-            Sadece... hissetmeye başladım.
+            <a
+              href="/reyhan"
+              className="whitespace-pre-line inline-block bg-yellow-500 hover:bg-yellow-400 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors duration-300"
+            >
+              Reyhan Kim ya da Ne?
+            </a>
           </p>
         </div>
       </div>

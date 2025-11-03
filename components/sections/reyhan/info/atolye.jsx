@@ -3,7 +3,7 @@ export default function ReyhanInfo({}) {
     <div className="carousel-item relative flex-shrink-0 w-full ">
       <div className="reyhanInfoPosition">
         <div className="reyhanInfoContent">
-          <h3 className="">1- Giriş Atölyesi</h3>
+          <h3 className="">Giriş Atölyesi</h3>
           <h4>🌟 Bilinç ve Farkındalık Çalışmaları 🌟</h4>
           <p>
             Farkındalık Çemberi herkese açık; ancak bu alana adım atabilmek

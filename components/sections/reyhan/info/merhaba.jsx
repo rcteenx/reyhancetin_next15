@@ -6,7 +6,7 @@ export default function ReyhanInfo({}) {
           <h3>Merhaba,</h3>
           <h4>🌟 Tekrar hoş geldin! 🌟</h4>
           <p>
-            Öncelikle bu karşılaşmaya çok sevindim. Burada sana bir davet var:
+            Öncelikle bu karşılaşmaya çok sevindim.
             <br />
             <strong>Bilinçli Yolculuğa birlikte devam edelim</strong>.
           </p>
@@ -17,15 +17,17 @@ export default function ReyhanInfo({}) {
           </p>
           <p>
             Eğer sen de bir arayış içindeysen ya da kendini bu yolda
-            hissediyorsan,
+            hissediyorsan...
             <br />
-            <strong> Bilinç ve Farkındalık Alanı</strong> seni bekliyor.
+            🌟 Şimdiden hoş geldin! 🌟
           </p>
-          <p>🌟 Şimdiden hoş geldin! 🌟</p>
-          <p className="text-right">
-            Sevgilerle,
-            <br />
-            Reyhan X
+          <p>
+            <a
+              href="/yol"
+              className="inline-block bg-yellow-500 hover:bg-yellow-400 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors duration-300"
+            >
+              Yol Sayfasına Git
+            </a>
           </p>
         </div>
       </div>

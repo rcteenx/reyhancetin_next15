@@ -25,15 +25,15 @@ export const selfObservation = {
   h2: "KENDİNİ GÖZLEM",
   h3: "Hayatı Objektif Bilinçle İzlemek",
   subTitle: "Kendini-Gözlem Nedir?",
-  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek için uygulanan bilinçli bir farkındalık pratiğidir.",
+  p3: "Hayatın içinde kendimizi tanımak ve dönüştürmek için uygulanan bilinçli bir farkındalık pratiğidir. Kendini gözlem, yaşamın otomatik akışını fark etmemizi ve seçimlerimizin bilincinde olmayı sağlar.",
   items: [
     {
       title: "O Şimdi Ne Yapıyor?",
-      info: 'Gerçek gözlem, kişinin kendisini ikiye ayırmasıyla başlar: "Ben" (Gözlemci) ve Makine (Beden, zihin ve duygular). Bu ayrımı yapmadan tarafsız gözlem mümkün değildir. Kendimizi dışarıdan izlemeye başladığımızda, alışkanlıklarımızı, otomatik tepkilerimizi ve bilinçsiz davranışlarımızı fark ederiz.',
+      info: 'Gerçek gözlem, kişinin kendisini ikiye ayırmasıyla başlar: "Ben" (Gözlemci) ve Makine (Beden, zihin ve duygular). Bu ayrımı yapmadan tarafsız bir gözlem mümkün değildir. Kendimizi dışarıdan izlemeye başladığımızda, otomatik tepkilerimizi ve bilinçsiz davranışlarımızı fark ederiz.',
     },
     {
-      title: "Kendini Tanıma ve Değiştirme",
-      info: "Kendimizi çoğunlukla başkalarının bize yansıttığı kimliklerle tanırız — ailemiz, çevremiz ve toplumun beklentileriyle şekilleniriz. Tarafsız bir gözlemle, bu maskeleri fark eder ve kim olduğumuza dair daha derin bir anlayışa ulaşırız. Objektif gözlem başladığında, dönüşüm de kendiliğinden başlar.",
+      title: "Kendini Tanıma ve Dönüştürme",
+      info: "Çoğu zaman kendimizi başkalarının yansıttığı kimliklerle tanırız: ailemiz, çevremiz, toplumun beklentileri bu kimlikleri şekillendirir.Tarafsız gözlem sayesinde, bu maskeleri fark eder ve kim olduğumuza dair daha derin bir anlayışa ulaşırız. Objektif gözlem başladığında, dönüşüm kendiliğinden başlar.",
     },
     {
       title: "Kaynağa Dönüş",
@@ -50,25 +50,25 @@ export const meditationInfo = {
       title: "İmajinasyon Meditasyonu",
       icon: "medImagination",
       iconColor: "#ba68c8",
-      info: "Zihnin yaratıcı gücüyle, hayali yolculuklara çıkmanı mümkün kılar.",
+      info: "Zihnin yaratıcı gücüyle hayali yolculuklara çıkmanı sağlar; çoğu zaman uykuya neden olur.",
     },
     {
       title: "Bedende Kalma Meditasyonu",
       icon: "medBody",
       iconColor: "#ab47bc",
-      info: "Beden duyumlarına odaklanarak anda kalmayı destekler.",
+      info: "Beden duyumlarına odaklanarak anda kalmanı destekler; duygu ve düşünce salınımını azaltır.",
     },
     {
       title: "Gözlemci Meditasyonu",
       icon: "medObserve",
       iconColor: "#8e24aa",
-      info: "İç dünyanı yargılamadan gözlemleme farkındalığını derinleştirir.",
+      info: "İç dünyanı yargılamadan gözlemleme pratiğiyle farkındalığını derinleştirir.",
     },
     {
       title: "Presence Meditasyonu",
       icon: "medSilence",
       iconColor: "#6a1b9a",
-      info: "Gerçek varlığınla buluşarak, bir olma halini deneyimlemeni sağlar.",
+      info: "Gerçek varlığınla buluşmanı sağlar; bir olma ve akışta olma halini deneyimletir.",
     },
   ],
 };

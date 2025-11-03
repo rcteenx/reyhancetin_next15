@@ -1,6 +1,6 @@
 export default function InfoBar({ info }) {
   return (
-    <section className="gradientIndigo mt-8 lg:mt-16 py-8 lg:py-16 text-white-400">
+    <section className="gradientIndigo py-8 lg:py-16 text-white-400">
       <div className="container mx-auto text-center">
         <h2 className="my-0 py-1 md:py-2 lg:py-4 text-base sm:text-3xl lg:text-5xl border-b inline-block">
           {info.h2}

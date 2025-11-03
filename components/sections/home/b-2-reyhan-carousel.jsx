@@ -2,17 +2,20 @@
 import { useState, useEffect } from "react";
 
 import ReyhanMerhaba from "../reyhan/info/merhaba";
+
 import ReyhanKimim from "../reyhan/info/kim";
-import ReyhanGenelTanitim from "../reyhan/info/genel";
+// import ReyhanGenelTanitim from "../reyhan/info/genel";
+// import ReyhanYol from "../reyhan/info/yol";
 
 import ReyhanCember from "../reyhan/info/cember";
-import ReyhanYol from "../reyhan/info/yol";
-import ReyhanAtolye from "../reyhan/info/atolye";
-import ReyhanGrup from "../reyhan/info/grup";
-import Reyhan from "../reyhan/info/reyhan";
+
+// import ReyhanAtolye from "../reyhan/info/atolye";
+
+// import ReyhanGrup from "../reyhan/info/grup";
+// import Reyhan from "../reyhan/info/reyhan";
 
 export default function ReyhanInfo({ autoplayInterval = 10000 }) {
-  var items = [1, 2, 3, 4, 5, 6, 7, 8];
+  var items = [1, 2, 3];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -45,13 +48,13 @@ export default function ReyhanInfo({ autoplayInterval = 10000 }) {
         >
           <ReyhanMerhaba />
           <ReyhanKimim />
+          <ReyhanCember />
+          {/* 
+          <ReyhanAtolye /> 
           <ReyhanGenelTanitim />
           <ReyhanYol />
-          <ReyhanCember />
-          {/* Buraya açılımı yazalım.. */}
           <ReyhanAtolye />
-          <ReyhanGrup />
-          <Reyhan />
+          <Reyhan /> */}
         </div>
       </div>
       <button
