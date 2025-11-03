@@ -74,7 +74,7 @@
     @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-xl  text-indigo-light-5 text-left;
   }
   #hero p#h1p {
-    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-2xs sm:text-xs md:text-sm
+    @apply mx-auto my-0 px-4 sm:px-8 lg:px-12 py-2 max-w-7xl text-xs md:text-sm
      text-indigo-light-5 text-left;
   }
   .pgContent {
@@ -84,13 +84,13 @@
     @apply mx-auto py-1 inline-block border-indigo border-b text-center text-2xl md:text-4xl;
   }
   .pgContent h3 {
-    @apply mx-auto my-2 pb-0 font-semibold text-xl md:text-2xl;
+    @apply my-2 pb-0 font-semibold text-xl md:text-3xl;
   }
   .pgContent h4 {
-    @apply mx-auto mt-6 mb-2 font-light text-xl md:text-3xl italic;
+    @apply my-2 font-base text-xl md:text-2xl italic;
   }
   .pgContent p {
-    @apply text-justify;
+    @apply text-left;
   }
   .pgContent ul {
     @apply list-disc list-inside;

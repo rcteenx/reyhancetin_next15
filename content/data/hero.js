@@ -129,6 +129,11 @@ export const heroWay = {
   ],
 };
 
+export const heroWayContract = {
+  h1: "Yol Arkadaşlığı Bilgilendirme ve Sözleşmesi",
+  p: "Bilinci keşfetmek, kendini gözlemlemek ve daha uyanık bir yaşam sürmek isteyenler için bir çalışma alanı sunuyoruz.",
+};
+
 export const heroSpace = {
   h1: "Saf Farkındalık Alanı",
   h3a: "çalışmayı",

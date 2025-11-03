@@ -216,9 +216,3 @@ export const whatwegain = {
     },
   ],
 };
-
-export const whyweneed = {
-  h2: "BİLİNÇ YOLCULUĞU",
-  h4: "Sürüden Ayrıl ve Kendini Aramaya Başla",
-  p: "Çoğu insan yaşamı sorgulamadan, olduğu gibi kabul eder; olağan hayatın akışında sürüklenir ve kendi varlığının gizli kaynağını aramaz. Ancak bazıları bir eksiklik hisseder — adı konulmamış bir yokluğun rahatsızlığı gibi. Bu his, çoğu zaman bir arayış ve yolculuğun başlangıcına işaret eder. Çalışmalarımız, bilincini keşfetme yolculuğuna çıkanlar için bilgi, pratik ve ortak deneyim alanı sunar.",
-};
