@@ -5,7 +5,7 @@ export default function Meditation({ info }) {
   return (
     <section className="gradientPurple py-8 lg:py-16 text-white-400">
       <div className="container mx-auto text-center text-purple-200 ">
-        <h2 className="my-0 py-1 md:py-2 lg:py-4 text-5xl sm:text-7xl lg:text-8xl border-b border-purple-400 inline-block ">
+        <h2 className="my-0 py-1 md:py-2 text-5xl sm:text-7xl lg:text-8xl border-b border-purple-400 inline-block ">
           {info.h2}
         </h2>
         <h3 className="my-2 text-base sm:text-2xl lg:text-3xl">{info.desc}</h3>

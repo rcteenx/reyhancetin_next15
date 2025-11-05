@@ -1,20 +1,53 @@
 "use client";
 
-import PresenceHero from "@/components/sections/presence/1-hero";
-import ChakraPresenceTabs from "@/components/sections/presence/2-chakras";
+import React from "react";
 
 export default function PresencePage() {
   return (
-    <main className=" antialiased flex items-center justify-center px-6">
+    <main className="min-h-screen bg-cream-50 text-gray-900 antialiased flex items-center justify-center p-6">
       <div className="w-full max-w-3xl">
-        <PresenceHero />
+        {/* Hero */}
+        <section className="relative w-full">
+          {/* --- Background Texture (extremely subtle) --- */}
 
-        <div className="my-8 md:my-16">
-          <ChakraPresenceTabs />
-        </div>
+          {/* --- Hero Content --- */}
+          <div className="relative w-full pt-32 pb-20 px-6 md:px-10 bg-gradient-to-b from-[#fdfcf9] to-[#f4f1eb] border-b border-gray-300">
+            {/* Title */}
+            <h1 className="text-6xl md:text-7xl font-serif tracking-tight text-center">
+              PRESENCE
+            </h1>
+
+            {/* Alt Başlık — daha güçlü, daha büyük, serif uyumlu */}
+            <p className="mt-5 text-2xl md:text-3xl font-serif text-gray-700 text-center leading-snug">
+              Saf Varlığın Sessiz Alanı
+            </p>
+
+            {/* Subtle Divider */}
+            <div className="w-14 h-[2px] bg-gray-500/40 mx-auto mt-6"></div>
+
+            {/* Quote Placeholder (yenisini istediğinde değiştiririz) */}
+            <p className="mt-8 text-lg md:text-xl font-serif italic text-gray-700 text-center max-w-2xl mx-auto leading-relaxed">
+              “….. burada yeni söz olacak …..”
+            </p>
+          </div>
+
+          {/* --- Description block (Kutunun altındaki açıklama) --- */}
+          <div className="relative max-w-3xl mx-auto text-center mt-10 px-6">
+            <p className="text-lg text-gray-700 leading-relaxed font-sans">
+              Presence, anda olmak değildir. Benlik sınırlarının ötesinde,
+              sessiz bir alana açılmak; düşüncelerin ve kimliğin gevşediği yerde
+              beliren, doğal bir farkındalık halidir.
+            </p>
+
+            <p className="mt-4 text-gray-600 leading-relaxed">
+              Kelimelerden çok, aradaki boşluklarda ve sessizliğin derinliğinde
+              kendini gösteren bir varoluş hâlidir.
+            </p>
+          </div>
+        </section>
 
         <div className="space-y-10">
-          <section className="rounded-xl p-8 bg-charas-7 border border-purple-100">
+          <section className="rounded-xl p-8 bg-purple-50 border border-purple-100">
             <h2 className="text-2xl font-serif mb-4">Presence Nedir?</h2>
             <p>
               Presence, bilincin anda olması değil, varlığın benlik sınırlarının
@@ -25,7 +58,7 @@ export default function PresencePage() {
             </p>
           </section>
 
-          <section className="rounded-xl p-8 bg-charas-6 border border-purple-100">
+          <section className="rounded-xl p-8 bg-green-50 border border-green-100">
             <h2 className="text-2xl font-serif mb-4">Presence Nedir?</h2>
             <p>
               İlk aşamada “Presence” kavramı bazı kişiler için net olmayabilir;
@@ -44,7 +77,7 @@ export default function PresencePage() {
             </p>
           </section>
 
-          <section className="rounded-xl p-8 bg-charas-5 border border-blue-100">
+          <section className="rounded-xl p-8 bg-blue-50 border border-blue-100">
             <h2 className="text-2xl font-serif mb-4">
               PRESENCE'ı Hissedebilirsiniz
             </h2>
@@ -63,7 +96,7 @@ export default function PresencePage() {
             </p>
           </section>
 
-          <section className="rounded-xl p-8 bg-charas-4 border border-green-100">
+          <section className="rounded-xl p-8 bg-yellow-50 border border-yellow-100">
             <h2 className="text-2xl font-serif mb-4">
               PRESENCE'ın Pratik Yararı Nedir?
             </h2>
@@ -84,7 +117,7 @@ export default function PresencePage() {
             </p>
           </section>
 
-          <section className="rounded-xl p-8 bg-charas-3 border border-yellow-100">
+          <section className="rounded-xl p-8 bg-rose-50 border border-rose-100">
             <h2 className="text-2xl font-serif mb-4">
               PRESENCE'ı Hayatıma Nasıl Katarım?
             </h2>
@@ -101,12 +134,6 @@ export default function PresencePage() {
               Eckhart Tolle’nin Şimdi’nin Gücü kitabı, aslında presence’ı
               anlatır; ama “anda olma”ya indirgenmiştir.
             </p>
-          </section>
-          <section className="rounded-xl p-8 bg-charas-2 border border-rose-100">
-            <h2 className="text-2xl font-serif mb-4">xxx</h2>
-          </section>
-          <section className="rounded-xl p-8 bg-charas-1 border border-red-100">
-            <h2 className="text-2xl font-serif mb-4">xxx</h2>
           </section>
 
           {/* 2 - Bütünlük / Kişisiz Topluluk */}

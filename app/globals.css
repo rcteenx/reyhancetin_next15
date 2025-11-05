@@ -34,7 +34,7 @@
     @apply my-1 text-base;
   }
   article {
-    @apply mx-auto px-4 py-8 md:px-8 md:pb-16 max-w-xl flex flex-col gap-4 text-center shadow-xl bg-[#FAF3E0] leading-6 font-['Georgia'];
+    @apply mx-auto px-4 py-8 md:px-8 md:pb-16 max-w-xl flex flex-col gap-4 text-center shadow-xl bg-purple-100 leading-6 font-['Georgia'];
   }
   article h1 {
     @apply mx-auto my-2 py-1 inline-block leading-10 border-indigo border-b text-center text-3xl md:text-4xl text-[#4E342E];

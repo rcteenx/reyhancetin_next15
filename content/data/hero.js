@@ -76,7 +76,7 @@ export const heroPresence = {
       id: "2",
       title: "Yol",
       icon: "path",
-      link: "/presence/yol",
+      link: "/yol",
       gradiant: "bgWhite",
       iconColor: "#0000ff",
       target: "0",

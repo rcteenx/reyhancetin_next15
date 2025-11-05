@@ -4,7 +4,7 @@ import IconComponent from "@/components/ui/IconComponent";
 
 export default function AdContent({ contAd, children }) {
   return (
-    <section className="my-8 md:my-24 py-16 bg-slate-200 ">
+    <section className="mt-8 mt:my-24 py-16 bg-slate-200 ">
       <div className="mx-auto max-w-xl text-center ">
         <h3 className="m-0 text-3xl md:text-5xl lg:text-8xl font-bold">
           <span className="p-0 m-0 font-semibold">{contAd.h3a}</span>

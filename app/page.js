@@ -14,8 +14,8 @@ import ReyhanCarousel from "@/components/sections/home/b-1-reyhan-info";
 import Observation from "@/components/sections/home/c-1-observation";
 
 import Meditation from "@/components/sections/home/d-1-meditation";
-import BlogSection from "@/components/sections/home/e-2-blog";
 import YoutubeGrid from "@/components/sections/home/e-1-youtube";
+import BlogSection from "@/components/sections/home/e-2-blog";
 
 export const metadata = {
   title: `Anasayfa | ${smd.title}`,
